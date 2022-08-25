@@ -1,0 +1,16 @@
+@media all and (min-width: $width-extra-wide) {
+  .support {
+    .avatar {
+      width: 82px;
+      height: 82px;
+    }
+
+    .text {
+      @include font(24px, 32px, 400);
+    }
+
+    .contact {
+      @include font(24px, 32px, 400);
+    }
+  }
+}

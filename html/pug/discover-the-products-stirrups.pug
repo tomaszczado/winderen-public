@@ -1,0 +1,31 @@
+extends layouts/_layout
+
+block vars
+  //- set the page title
+  - var pageTitle = "www.winderen.com | Discover The Products | Stirrups";
+  
+block head
+  //- put any <head> content specific to this page here
+
+block content
+  //- put any page content specific to this page here
+  
+  section(id='banner')
+    div(class='background')
+      div(class='inner-background')
+        picture(class='rwd-background rwd-background-overlay lazy-picture')
+          source(srcset='images/1px.gif' data-srcset='images/banner-discover-the-products-stirrups-desktop.jpg' media='(min-width: 1200px)')
+          source(srcset='images/1px.gif' data-srcset='images/banner-discover-the-products-stirrups-tablet.jpg' media='(min-width: 768px)')
+          img(src='images/1px.gif' data-src='images/banner-discover-the-products-stirrups-mobile.jpg' alt='TODO')
+    div(class='content logo-icon-with-label')
+      div(class='logo') 
+        img(src='images/1px.gif' data-src='images/logo-only-icon.svg' alt='TODO' width='34' height='48' class='lazy-image')
+      h1 Knee Protect Solution
+      h2 Stirrups
+    //- div(class='scroll-down')
+      div(class='text') Scroll To Discover More
+      div(class='icon') 
+        img(src='images/1px.gif' data-src='images/icons-scroll-down.svg' alt='TODO' width='20' height='20' class='lazy-image')
+
+  include ./includes/components/stirrups/advantages.pug
+  include ./includes/components/stirrups/video.pug

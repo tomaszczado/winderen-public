@@ -1,0 +1,31 @@
+extends layouts/_layout
+
+block vars
+  //- set the page title
+  - var pageTitle = "www.winderen.com";
+  
+block head
+  //- put any <head> content specific to this page here
+
+block content
+  //- put any page content specific to this page here
+  
+  section(id='banner')
+    div(class='background')
+      div(class='inner-background')
+        picture(class='rwd-background rwd-background-overlay lazy-picture')
+          source(srcset='images/1px.gif' data-srcset='images/banner-homepage-1-desktop.jpg' media='(min-width: 1200px)')
+          source(srcset='images/1px.gif' data-srcset='images/banner-homepage-1-tablet.jpg' media='(min-width: 768px)')
+          img(src='images/1px.gif' data-src='images/banner-homepage-1-mobile.jpg' alt='TODO')
+    div(class='scroll-down')
+      div(class='text') Scroll To Discover More
+      div(class='icon') 
+        img(src='images/1px.gif' data-src='images/icons-scroll-down.svg' alt='TODO' width='20' height='20' class='lazy-image')
+  
+  include ./includes/components/content-discover-innovative-products-homepage.pug
+  include ./includes/components/content-quick-shopping-directly.pug
+  include ./includes/components/content-our-mission-and-goals.pug
+  include ./includes/components/content-our-friends.pug
+  include ./includes/components/content-our-videos.pug
+  include ./includes/components/content-knowledge-zone.pug
+  include ./includes/components/content-our-reviews.pug
