@@ -513,6 +513,66 @@
       }
     }
 
+    #dimensions {
+      padding: 60px 0px 70px 0px;
+      
+      .inner-container {
+        padding: 0px 115px 0px 115px;
+      }
+    }
+
+    #technology-opinion {
+      + .content-simple-banner {
+        margin: -400px 0px 0px 0px;
+      }
+
+      .inner-container {
+        padding: 0px 115px 0px 115px;
+      }
+      
+      .opinions {
+        padding: 50px 140px 50px 100px;
+        width: calc(((100% / 4) * 3) - 10px);
+      }
+
+      .image {
+        width: 245px;
+      }
+
+      .inner-image {
+        width: 185px;
+        height: 185px;
+      }
+
+      .details {
+        width: calc(100% - 245px);
+        /* width: calc(100% - 245px); */
+      }
+  
+      .name {
+        @include font(20px, 32px, 400);
+      }
+  
+      .position {
+        @include font(18px, 32px, 400);
+      }
+  
+      /* .stars {
+        img {
+          width: 24px;
+          height: 24px;
+        }
+      } */
+  
+      .quotation {
+        @include font(20px, 28px, 400);
+      }
+      
+      .support {
+        width: calc((100% / 4) - 10px);
+      }
+    }
+
     .video-with-description {
       padding: 60px 0px 70px 0px;
 
@@ -624,6 +684,28 @@
 
       .wrapper {
         padding: 60px 80px 120px 80px;
+      }
+    }
+
+    .highlighted-content-with-image {
+      .inner-container {
+        padding: 0px 115px 0px 115px;
+      }
+
+      .content {
+        @include font(36px, 48px, 400);
+      }
+    }
+    
+    .header-with-images-two-columns {
+      padding: 60px 0px 70px 0px;
+
+      .inner-container {
+        padding: 0px 115px 0px 115px;
+      }
+
+      .info {
+        padding: 0px 150px 0px 150px;
       }
     }
   }

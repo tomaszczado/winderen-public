@@ -5181,6 +5181,213 @@ main {
         max-width: 796px; }
     main #product-advantages-with-video .scroll-down {
       margin: 75px 0px 0px 0px; }
+  main #dimensions {
+    padding: 30px 0px 30px 0px; }
+    main #dimensions .items {
+      margin: 85px 0px 0px 0px; }
+    main #dimensions .item + .item {
+      margin: 60px 0px 0px 0px; }
+    main #dimensions h3 {
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 400;
+      font-family: "GT-America-Extended-Regular-Trial"; }
+    main #dimensions .inner-image {
+      position: relative;
+      padding: 38.47059% 0px 0px 0px; }
+      main #dimensions .inner-image img {
+        -o-object-fit: contain;
+        object-fit: contain;
+        -o-object-position: left center;
+        object-position: left center; }
+    main #dimensions .table {
+      margin: 50px 0px 0px 0px;
+      border-bottom: 1px solid #4E4E4E; }
+    main #dimensions .row {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      padding: 18px 0px 18px 0px;
+      border-top: 1px solid #4E4E4E; }
+    main #dimensions .icon-wrapper {
+      width: 100px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+      main #dimensions .icon-wrapper span {
+        width: 48px;
+        height: 48px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        border-radius: 50%;
+        color: #FFFFFF;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin: 0px 10px 0px 20px;
+        letter-spacing: 0.05em;
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 400;
+        border: 1px solid #FFFFFF;
+        font-family: "GT-America-Extended-Regular-Trial"; }
+    main #dimensions .spec {
+      width: calc(100% - 100px); }
+    main #dimensions .spec-row {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+    main #dimensions .symbol {
+      width: 30px;
+      letter-spacing: 0.055em;
+      font-size: 14px;
+      line-height: 18px;
+      font-weight: 400;
+      font-family: "GT-America-Extended-Regular-Trial"; }
+    main #dimensions .description {
+      width: calc(100% - 30px);
+      letter-spacing: 0.055em;
+      font-size: 14px;
+      line-height: 18px;
+      font-weight: 400;
+      font-family: "GT-America-Extended-Regular-Trial"; }
+    main #dimensions .scroll-down {
+      margin: 75px 0px 0px 0px; }
+  main #technology-opinion {
+    /* background: linear-gradient($color-mine-shaft 0px, $color-mine-shaft 80px, $color-black 80px, $color-cod-gray 100%); */
+    /* background: linear-gradient($color-mine-shaft 0px, $color-mine-shaft 80px, $color-black 80px, $color-cod-gray 100%); */
+    /* &.show-all-reviews {
+      .hidden {
+        display: block;
+      }
+
+      .buttons {
+        display: none;
+      }
+    } */
+    /* .review {
+      +.review {
+        margin: 35px 0px 0px 0px;
+        padding: 40px 0px 0px 0px;
+        border-top: 1px solid $color-concrete;
+      }
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .author-and-stars {
+      display: flex;
+    }
+
+    .author {
+      display: flex;
+      padding: 0px 35px 0px 0px;
+    }
+
+    .flag {
+      width: 24px;
+      height: 24px;
+      display: block;
+      overflow: hidden;
+      position: relative;
+      border-radius: 50%;
+      margin: 0px 10px 0px 0px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+
+    .name {
+      @include letterSpacing(55);
+      @include font(16px, 22px, 400);
+      font-family: $font-gt-america-extended-regular;
+    }
+
+    .stars {
+      margin: 0px 0px 0px auto;
+
+      img {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+
+        +img {
+          margin: 0px 0px 0px 10px;
+        }
+      }
+    }
+
+    .quotation {
+      margin: 8px 0px 0px 0px;
+      @include letterSpacing(5);
+      @include font(18px, 24px, 400);
+      font-family: $font-gt-america-regular;
+    } */
+    /* .buttons {
+      display: flex;
+      justify-content: center;
+      margin: 40px 0px 0px 0px;
+    } */ }
+    main #technology-opinion + .content-simple-banner {
+      z-index: -1;
+      position: relative;
+      margin: -150px 0px 0px 0px; }
+    main #technology-opinion .opinions {
+      background: #174A34;
+      padding: 30px 20px 50px 20px;
+      border-bottom: 8px solid rgba(0, 0, 0, 0.2); }
+    main #technology-opinion .inner-image {
+      width: 98px;
+      height: 98px;
+      overflow: hidden;
+      border-radius: 50%;
+      position: relative;
+      border: 8px solid rgba(242, 242, 242, 0.2); }
+    main #technology-opinion .name {
+      margin: 18px 0px 0px 0px;
+      text-transform: uppercase;
+      letter-spacing: 0.075em;
+      font-size: 16px;
+      line-height: 18px;
+      font-weight: 400;
+      font-family: "GT-America-Standard-Regular-Trial"; }
+    main #technology-opinion .position {
+      margin: 5px 0px 0px 0px;
+      letter-spacing: 0.055em;
+      font-size: 12px;
+      line-height: 16px;
+      font-weight: 400;
+      font-family: "GT-America-Standard-Regular-Trial"; }
+    main #technology-opinion .quotation {
+      margin: 18px 0px 0px 0px;
+      letter-spacing: 0.005em;
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: 400;
+      font-family: "GT-America-Standard-Regular-Trial"; }
+    main #technology-opinion .support {
+      margin: 10px 0px 0px 0px;
+      border-bottom: 8px solid rgba(0, 0, 0, 0.2); }
+      main #technology-opinion .support .content {
+        height: 100%; }
   main .video-with-description {
     padding: 30px 0px 30px 0px;
     background: #1E1E1E; }
@@ -5327,14 +5534,7 @@ main {
       font-family: "GT-America-Standard-Regular-Trial"; }
   main .highlighted-list-with-image {
     padding: 0px 0px 50px 0px;
-    /* padding: 0px 0px 100px 0px; */
-    /* .description {
-      max-width: 800px;
-      text-align: center;
-      @include letterSpacing(25);
-      @include font(14px, 22px, 400);
-      font-family: $font-gt-america-regular;
-    } */ }
+    /* padding: 0px 0px 100px 0px; */ }
     main .highlighted-list-with-image + #technology-list-quotations {
       margin: -100px 0px 0px 0px; }
     main .highlighted-list-with-image.inverted .image {
@@ -5422,9 +5622,7 @@ main {
       font-weight: 400;
       font-family: "GT-America-Standard-Regular-Trial"; }
   main .highlighted-content-with-image {
-    /* .columns {
-      margin: 85px 0px 0px 0px;
-    } */ }
+    background: linear-gradient(to bottom, #1E1E1E 0px, #1E1E1E 80px, #000000 80px, #1E1E1E 100%); }
     main .highlighted-content-with-image .wrapper {
       background: #083950;
       padding: 30px 25px 50px 25px;
@@ -5434,27 +5632,10 @@ main {
     main .highlighted-content-with-image .column + .column {
       margin: 20px 0px 0px 0px; }
     main .highlighted-content-with-image .image {
-      /* position: relative;
-      padding: 0px 50px 0px 50px;
-
-      &.circular {
-        width: 100%;
-        max-width: 388px;
-        padding: 0px 50px 0px 50px;
-
-        .inner-image {
-          position: relative;
-          @include imageRatio(500, 500);
-
-          picture {
-            overflow: hidden;
-            border-radius: 50%;
-            border: 8px solid rgba($color-malibu, 0.2);
-          }
-        }
-      } */ }
+      text-align: center; }
       main .highlighted-content-with-image .image img {
-        width: 100%; }
+        width: 100%;
+        max-width: 75%; }
     main .highlighted-content-with-image .icon-wrapper {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -5473,17 +5654,24 @@ main {
       font-weight: 400;
       font-family: "GT-America-Standard-Regular-Trial"; }
   main .header-with-images-two-columns {
-    padding: 30px 0px 30px 0px;
-    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#1E1E1E));
-    background: linear-gradient(#000000, #1E1E1E); }
+    padding: 30px 0px 60px 0px;
+    /* background: linear-gradient($color-black, $color-cod-gray); */
+    /* .image {
+      img {
+        width: 100%;
+      }
+    } */ }
     main .header-with-images-two-columns .items {
       margin: 10px 0px 0px 0px; }
     main .header-with-images-two-columns .item + .item {
       margin: 20px 0px 0px 0px;
       padding: 20px 0px 0px 0px;
       border-top: 1px solid #4E4E4E; }
-    main .header-with-images-two-columns .image img {
-      width: 100%; }
+    main .header-with-images-two-columns .image {
+      text-align: center; }
+      main .header-with-images-two-columns .image img {
+        width: 100%;
+        max-width: 75%; }
     main .header-with-images-two-columns .name {
       text-align: center;
       margin: 27px 0px 0px 0px;
@@ -5882,6 +6070,48 @@ footer {
         border-top: 1px solid #4E4E4E; }
       main #technology-description .table-size .column:nth-child(2n + 2) {
         margin: 0px 0px 0px 20px; }
+  main #technology-opinion {
+    /* .testimonial {
+        display: flex;
+      }
+  
+      .image {
+        width: 200px;
+        padding: 20px 20px 20px 20px;
+      }
+  
+      .details {
+        border-top: none;
+        width: calc(100% - 200px);
+        border-left: 1px solid $color-cod-gray;
+      }
+  
+      .name-and-link {
+        display: flex;
+        align-items: center;
+      }
+  
+      .name {
+        @include font(18px, 18px, 400);
+      }
+  
+      .link {
+        margin: 0px 0px 0px 50px;
+        border-left: 1px solid $color-white;
+        
+        a {
+          padding: 0px 0px 0px 20px;
+          @include font(14px, 14px, 400);
+        }
+  
+        img {
+          height: 24px;
+        }
+      }
+  
+      .quotation {
+        @include font(18px, 24px, 400);
+      } */ }
   main #friends .friends {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -7172,6 +7402,78 @@ footer {
       margin: 20px 0px 0px 0px; }
     main #product-advantages-with-video .video {
       margin: 50px 0px 0px 0px; }
+  main #dimensions {
+    padding: 45px 0px 30px 0px; }
+    main #dimensions .items {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+    main #dimensions .item {
+      width: calc((100% - (2 * 60px)) / 3); }
+      main #dimensions .item + .item {
+        margin: 0px 0px 0px 60px; }
+  main #technology-opinion {
+    /* .inner-image {
+        width: 150px;
+        height: 150px;
+      } */
+    /* .review {
+        +.review {
+          border: none;
+          padding: 0px 0px 0px 0px;  
+        }
+      }
+  
+      .author {
+        padding: 0px 35px 0px 0px;
+        border-right: 1px solid $color-white;
+      }
+  
+      .stars {
+        margin: 0px 0px 0px 23px;
+      }
+  
+      .quotation {
+        margin: 20px 0px 0px 0px;
+      } */
+    /* .buttons {
+        justify-content: flex-start;
+      } */ }
+    main #technology-opinion + .content-simple-banner {
+      margin: -250px 0px 0px 0px; }
+    main #technology-opinion .inner-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+      align-items: stretch; }
+    main #technology-opinion .opinions {
+      min-height: 500px;
+      margin: 0px 10px 0px 0px;
+      padding: 40px 50px 50px 50px;
+      width: calc(((100% / 3) * 2) - 10px); }
+    main #technology-opinion .opinion {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      main #technology-opinion .opinion + .opinion {
+        margin: 50px 0px 0px 0px; }
+    main #technology-opinion .image {
+      width: 150px;
+      /* width: 200px;
+        width: 245px; */ }
+    main #technology-opinion .details {
+      width: calc(100% - 150px);
+      /* width: calc(100% - 245px); */ }
+    main #technology-opinion .position {
+      margin: 0px 0px 0px 0px; }
+    main #technology-opinion .support {
+      height: 500px;
+      margin: 0px 0px 0px 10px;
+      width: calc((100% / 3) - 10px); }
   main .video-with-description {
     padding: 45px 0px 30px 0px; }
     main .video-with-description .header + .content {
@@ -7293,6 +7595,67 @@ footer {
       font-size: 14px;
       line-height: 22px;
       font-weight: 400; }
+  main .highlighted-content-with-image .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0px 0px 0px 0px;
+    padding: 45px 40px 45px 40px; }
+  main .highlighted-content-with-image .column {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    main .highlighted-content-with-image .column + .column {
+      margin: 0px 0px 0px 0px; }
+  main .highlighted-content-with-image .content {
+    padding: 0px 50px 0px 50px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400; }
+  main .header-with-images-two-columns .items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 60px 0px 0px 0px;
+    /* margin: 0px 0px 0px 0px;
+        padding: 45px 40px 45px 40px; */ }
+  main .header-with-images-two-columns .item {
+    width: 50%;
+    /* position: relative;
+  
+        +.column {
+          margin: 50px 0px 0px 0px;
+        } */ }
+    main .header-with-images-two-columns .item + .item {
+      border: none;
+      margin: 0px 0px 0px 0px; }
+  main .header-with-images-two-columns .name {
+    margin: 65px 0px 0px 0px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    /* @include font(20px, 27px, 400); */ }
+  main .header-with-images-two-columns .info {
+    padding: 0px 50px 0px 50px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    /* @include font(18px, 24px, 400); */ }
   footer {
     padding: 45px 0px 0px 0px; }
     footer .row {
@@ -8395,6 +8758,26 @@ footer {
     font-weight: 400; }
   main #product-advantages-with-video .video {
     margin: 70px 0px 0px 0px; }
+  main #dimensions {
+    padding: 45px 0px 50px 0px; }
+    main #dimensions .inner-container {
+      padding: 0px 50px 0px 50px; }
+    main #dimensions h3 {
+      font-size: 20px;
+      line-height: 24px;
+      font-weight: 400; }
+  main #technology-opinion + .content-simple-banner {
+    margin: -325px 0px 0px 0px; }
+  main #technology-opinion .inner-container {
+    padding: 0px 50px 0px 50px; }
+  main #technology-opinion .image {
+    width: 200px; }
+  main #technology-opinion .inner-image {
+    width: 150px;
+    height: 150px; }
+  main #technology-opinion .details {
+    width: calc(100% - 200px);
+    /* width: calc(100% - 245px); */ }
   main .video-with-description {
     padding: 45px 0px 50px 0px;
     /* .content {
@@ -8465,6 +8848,29 @@ footer {
       padding: 0px 80px 20px 20px;
       font-size: 20px;
       line-height: 28px;
+      font-weight: 400; }
+  main .highlighted-content-with-image .inner-container {
+    padding: 0px 50px 0px 50px; }
+  main .highlighted-content-with-image .image img {
+    max-width: 60%; }
+  main .highlighted-content-with-image .content {
+    font-size: 26px;
+    line-height: 38px;
+    font-weight: 400; }
+  main .header-with-images-two-columns {
+    padding: 45px 0px 60px 0px; }
+    main .header-with-images-two-columns .inner-container {
+      padding: 0px 50px 0px 50px; }
+    main .header-with-images-two-columns .image img {
+      max-width: 60%; }
+    main .header-with-images-two-columns .name {
+      font-size: 20px;
+      line-height: 27px;
+      font-weight: 400; }
+    main .header-with-images-two-columns .info {
+      padding: 0px 100px 0px 100px;
+      font-size: 18px;
+      line-height: 24px;
       font-weight: 400; }
   footer {
     padding: 60px 0px 0px 0px; }
@@ -8911,6 +9317,46 @@ footer {
       font-size: 20px;
       line-height: 28px;
       font-weight: 400; }
+  main #dimensions {
+    padding: 60px 0px 70px 0px; }
+    main #dimensions .inner-container {
+      padding: 0px 115px 0px 115px; }
+  main #technology-opinion {
+    /* .stars {
+        img {
+          width: 24px;
+          height: 24px;
+        }
+      } */ }
+    main #technology-opinion + .content-simple-banner {
+      margin: -400px 0px 0px 0px; }
+    main #technology-opinion .inner-container {
+      padding: 0px 115px 0px 115px; }
+    main #technology-opinion .opinions {
+      padding: 50px 140px 50px 100px;
+      width: calc(((100% / 4) * 3) - 10px); }
+    main #technology-opinion .image {
+      width: 245px; }
+    main #technology-opinion .inner-image {
+      width: 185px;
+      height: 185px; }
+    main #technology-opinion .details {
+      width: calc(100% - 245px);
+      /* width: calc(100% - 245px); */ }
+    main #technology-opinion .name {
+      font-size: 20px;
+      line-height: 32px;
+      font-weight: 400; }
+    main #technology-opinion .position {
+      font-size: 18px;
+      line-height: 32px;
+      font-weight: 400; }
+    main #technology-opinion .quotation {
+      font-size: 20px;
+      line-height: 28px;
+      font-weight: 400; }
+    main #technology-opinion .support {
+      width: calc((100% / 4) - 10px); }
   main .video-with-description {
     padding: 60px 0px 70px 0px;
     /* .header {
@@ -8980,6 +9426,18 @@ footer {
     padding: 0px 115px 0px 115px; }
   main .highlighted-list-with-image .wrapper {
     padding: 60px 80px 120px 80px; }
+  main .highlighted-content-with-image .inner-container {
+    padding: 0px 115px 0px 115px; }
+  main .highlighted-content-with-image .content {
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 400; }
+  main .header-with-images-two-columns {
+    padding: 60px 0px 70px 0px; }
+    main .header-with-images-two-columns .inner-container {
+      padding: 0px 115px 0px 115px; }
+    main .header-with-images-two-columns .info {
+      padding: 0px 150px 0px 150px; }
   footer .row:nth-child(2) .info {
     font-size: 28px;
     line-height: 36px;
