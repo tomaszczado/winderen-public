@@ -645,6 +645,7 @@ var App = {
 
       let updateGallery = (gallery, images) => {
         let _wrapper = gallery.querySelector('.images-inner');
+            _wrapper.removeAttribute('style');
 
         gallery.setAttribute('data-current-index', 0);
 

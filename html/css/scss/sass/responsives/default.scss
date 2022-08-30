@@ -4481,6 +4481,54 @@ main {
       align-items: center;
     }
 
+    
+
+    .circular-image-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+
+    .circular-image {
+      width: 154px;
+      height: 154px;
+      overflow: hidden;
+      border-radius: 50%;
+      position: relative;
+      border: 8px solid rgba($color-concrete, 0.2);
+    }
+    
+    /* .icon-wrapper {
+      display: flex;
+      justify-content: center;
+
+      + .name {
+        margin: 25px 0px 0px 0px;
+      }
+
+      + .content {
+        margin: 25px 0px 0px 0px;
+      }
+    } */
+    
+    .name {
+      text-align: center;
+      text-transform: uppercase;
+      @include letterSpacing(50);
+      @include font(16px, 22px, 400);
+      font-family: $font-gt-america-regular;
+
+      + .info {
+        margin: 15px 0px 0px 0px;
+      }
+    }
+    
+    .info {
+      text-align: center;
+      @include letterSpacing(50);
+      @include font(14px, 22px, 400);
+      font-family: $font-gt-america-regular;
+    }
+
 
 
     

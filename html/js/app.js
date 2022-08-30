@@ -943,6 +943,8 @@ var App = {
       var updateGallery = function updateGallery(gallery, images) {
         var _wrapper = gallery.querySelector('.images-inner');
 
+        _wrapper.removeAttribute('style');
+
         gallery.setAttribute('data-current-index', 0);
 
         var _calculateWidths = calculateWidths(images),

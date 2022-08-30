@@ -5784,6 +5784,18 @@ main {
       font-weight: 400;
       font-family: "GT-America-Standard-Regular-Trial"; }
   main .content-gallery {
+    /* .icon-wrapper {
+      display: flex;
+      justify-content: center;
+
+      + .name {
+        margin: 25px 0px 0px 0px;
+      }
+
+      + .content {
+        margin: 25px 0px 0px 0px;
+      }
+    } */
     /* &.show-navigation {
       .navigation {
         display: block;
@@ -5913,6 +5925,37 @@ main {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; }
+    main .content-gallery .circular-image-wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+    main .content-gallery .circular-image {
+      width: 154px;
+      height: 154px;
+      overflow: hidden;
+      border-radius: 50%;
+      position: relative;
+      border: 8px solid rgba(242, 242, 242, 0.2); }
+    main .content-gallery .name {
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 400;
+      font-family: "GT-America-Standard-Regular-Trial"; }
+      main .content-gallery .name + .info {
+        margin: 15px 0px 0px 0px; }
+    main .content-gallery .info {
+      text-align: center;
+      letter-spacing: 0.05em;
+      font-size: 14px;
+      line-height: 22px;
+      font-weight: 400;
+      font-family: "GT-America-Standard-Regular-Trial"; }
 
 footer {
   z-index: 999;
