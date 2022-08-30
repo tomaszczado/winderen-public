@@ -65,7 +65,6 @@ var App = {
 
         let _isMobileOrTablet = window.isExtraSize() || window.isSmallSize() || window.isMediumSize();
         let _showSubmenuOnClick = _isMobileOrTablet && links.tagName === 'LI' && links.classList.contains('menu-item-has-children');
-        /* console.log(_showSubmenuOnClick); */
         if(!_showSubmenuOnClick) {
           return;
         }
@@ -74,20 +73,16 @@ var App = {
             _actives.forEach((item, idx) => item.classList.remove('active'));
         
         if(!links.classList.contains('menu-item-has-children')) {
-          /* console.log(1111); */
           return;
         }
 
         if(links.classList.contains('opened')) {
-          /* console.log(222); */
           links.classList.remove('opened');
           return;
         }
 
-        /* console.log(3333); */
         links.classList.add('opened');
         event.preventDefault();
-        /* return false; */
       };
 
       items.forEach((item, idx) => item.addEventListener('click', handleLinkClick, false));
@@ -561,6 +556,147 @@ var App = {
       _button.addEventListener('click', handleClick, false);
     }
   },
+  gallery: () => {
+    let galleries = document.querySelectorAll('.content-gallery');
+    if (!!galleries.length) {
+      let moveItems = (gallery) => {
+        let _wrapper = gallery.querySelector('.images-inner');
+
+        let _currentIndex = parseInt(gallery.getAttribute('data-current-index'), 10) || 0;
+        let _currentWidth = parseFloat(gallery.getAttribute('data-current-width')) || 0;
+        
+        _wrapper.style.transform = 'translateX(-' + ( _currentIndex * _currentWidth ) + 'px)';
+      };
+
+      let setPage = (gallery) => {
+        let _pages = gallery.querySelectorAll('.pages div');
+            _pages.forEach((page) => page.classList.remove('active'));
+
+        let _currentIndex = parseInt(gallery.getAttribute('data-current-index'), 10) || 0;
+        let _currentPage = gallery.querySelector('.pages div[data-index="' + _currentIndex + '"]');
+            _currentPage.classList.add('active');
+      };
+      
+      let handlePageClick = (event) => {
+        event = event || window.event;
+        let node = /* event.currentTarget ||  */event.target;
+        let gallery = node.closest('.content-gallery');
+        let clickedIndex = parseInt(node.getAttribute('data-index'), 10) || 0;
+
+        gallery.setAttribute('data-current-index', clickedIndex);
+
+        moveItems(gallery);
+        setPage(gallery);
+      };
+      
+      let handlePreviousClick = (event) => {
+        event = event || window.event;
+        let node = /* event.currentTarget ||  */event.target;
+        let gallery = node.closest('.content-gallery');
+        let images = gallery.querySelectorAll('.image');
+
+        let _currentIndex = parseInt(gallery.getAttribute('data-current-index'), 10) || 0;
+
+        --_currentIndex;
+        if(_currentIndex < 0) {
+          _currentIndex = images.length - 1;
+        }
+
+        gallery.setAttribute('data-current-index', _currentIndex);
+
+        moveItems(gallery);
+        setPage(gallery);
+      };
+      
+      let handleNextClick = (event) => {
+        event = event || window.event;
+        let node = /* event.currentTarget ||  */event.target;
+        let gallery = node.closest('.content-gallery');
+        let images = gallery.querySelectorAll('.image');
+
+        let _currentIndex = parseInt(gallery.getAttribute('data-current-index'), 10) || 0;
+
+        ++_currentIndex;
+        if(_currentIndex > images.length - 1) {
+          _currentIndex = 0;
+        }
+
+        gallery.setAttribute('data-current-index', _currentIndex);
+
+        moveItems(gallery);
+        setPage(gallery);
+      };
+
+      let calculateWidths = (pictures) => {
+        if(!pictures.length) {
+          return;
+        }
+
+        let picturesParams = pictures[0].getBoundingClientRect();
+
+        let _singleItemWidth = picturesParams.width;
+        let _totalWrapperWidth = picturesParams.width * pictures.length;
+
+        return {
+          width: _singleItemWidth,
+          total: _totalWrapperWidth
+        }
+      };
+
+      let updateGallery = (gallery, images) => {
+        let _wrapper = gallery.querySelector('.images-inner');
+
+        gallery.setAttribute('data-current-index', 0);
+
+        let { width, total } = calculateWidths(images);
+
+        gallery.setAttribute('data-current-width', width);
+        gallery.setAttribute('data-current-total', total);
+
+        _wrapper.style.width = total + 'px';
+        _wrapper.style.transform = 'translateX(0px)';
+      };
+
+      let resizeGallery = (gallery) => {
+        let _images = gallery.querySelectorAll('.image');
+
+        updateGallery(gallery, _images);
+        setPage(gallery);
+      };
+
+      let initializeGallery = (gallery) => {
+        let _images = gallery.querySelectorAll('.image');
+        let _pages = gallery.querySelectorAll('.pages div');
+
+        if(!!_images.length) {
+          gallery.classList.add('show-navigation');
+          
+          let _next = gallery.querySelector('.next');
+              _next.addEventListener('click', handleNextClick, false);
+          
+          let _previous = gallery.querySelector('.previous');
+              _previous.addEventListener('click', handlePreviousClick, false);
+          
+          console.log(_pages);
+          _pages.forEach((page) => page.addEventListener('click', handlePageClick, false));
+        }
+
+        _images.forEach((image, index) => image.setAttribute('data-index', index));
+        _pages.forEach((page, index) => page.setAttribute('data-index', index));
+
+        updateGallery(gallery, _images);
+        setPage(gallery);
+      };
+
+      let resizeHandle = () => {
+        galleries.forEach((gallery) => resizeGallery(gallery));
+      };
+
+      galleries.forEach((gallery) => initializeGallery(gallery));
+      
+      window.addEventListener('resize', resizeHandle, false);
+    }
+  },
   highlightedListWithImage: () => {
     let section = document.querySelectorAll('.highlighted-list-with-image');
     if (!!section.length) {
@@ -725,6 +861,7 @@ window.onload = () => {
   App.shopProductGallery();
   App.shopProductsShipTo();
   App.shopProductReviews();
+  App.gallery();
   App.highlightedListWithImage();
   App.reviewsFilters();
   App.reviews();
