@@ -5723,6 +5723,28 @@ main {
       line-height: 22px;
       font-weight: 400;
       font-family: "GT-America-Standard-Regular-Trial"; }
+  main .highlighted-list-with-content-and-image {
+    padding: 0px 0px 30px 0px;
+    background: linear-gradient(to bottom, #1E1E1E 0px, #1E1E1E 80px, #000000 80px, #1E1E1E 100%); }
+    main .highlighted-list-with-content-and-image .item {
+      background: #083950;
+      padding: 40px 20px 50px 20px; }
+      main .highlighted-list-with-content-and-image .item + .item {
+        margin: 10px 0px 0px 0px; }
+    main .highlighted-list-with-content-and-image .columns {
+      margin: 60px 0px 0px 0px; }
+    main .highlighted-list-with-content-and-image .image img {
+      width: 100%; }
+    main .highlighted-list-with-content-and-image .content {
+      text-align: center;
+      margin: 40px 0px 0px 0px;
+      letter-spacing: 0.05em;
+      font-size: 14px;
+      line-height: 22px;
+      font-weight: 400;
+      font-family: "GT-America-Standard-Regular-Trial"; }
+    main .highlighted-list-with-content-and-image .scroll-down {
+      margin: 75px 0px 0px 0px; }
   main .header-with-images-two-columns {
     padding: 30px 0px 60px 0px;
     /* background: linear-gradient($color-black, $color-cod-gray); */
@@ -7778,22 +7800,56 @@ footer {
     font-size: 20px;
     line-height: 28px;
     font-weight: 400; }
+  main .highlighted-list-with-content-and-image {
+    padding: 0px 0px 30px 0px; }
+    main .highlighted-list-with-content-and-image .item {
+      padding: 60px 20px 75px 20px; }
+    main .highlighted-list-with-content-and-image .columns {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    main .highlighted-list-with-content-and-image .column {
+      -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+      order: 2;
+      width: 50%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding: 0px 50px 0px 50px;
+      border-left: 1px solid #FFFFFF; }
+      main .highlighted-list-with-content-and-image .column + .column {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        border-left: none;
+        margin: 0px 0px 0px 0px; }
+    main .highlighted-list-with-content-and-image .content {
+      margin: 0px 0px 0px 0px;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400; }
+    main .highlighted-list-with-content-and-image .scroll-down {
+      margin: 100px 0px 0px 0px; }
   main .header-with-images-two-columns .items {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin: 60px 0px 0px 0px;
-    /* margin: 0px 0px 0px 0px;
-        padding: 45px 40px 45px 40px; */ }
+    margin: 60px 0px 0px 0px; }
   main .header-with-images-two-columns .item {
-    width: 50%;
-    /* position: relative;
-  
-        +.column {
-          margin: 50px 0px 0px 0px;
-        } */ }
+    width: 50%; }
     main .header-with-images-two-columns .item + .item {
       border: none;
       margin: 0px 0px 0px 0px; }
@@ -7801,14 +7857,12 @@ footer {
     margin: 65px 0px 0px 0px;
     font-size: 18px;
     line-height: 24px;
-    font-weight: 400;
-    /* @include font(20px, 27px, 400); */ }
+    font-weight: 400; }
   main .header-with-images-two-columns .info {
     padding: 0px 50px 0px 50px;
     font-size: 16px;
     line-height: 22px;
-    font-weight: 400;
-    /* @include font(18px, 24px, 400); */ }
+    font-weight: 400; }
   footer {
     padding: 45px 0px 0px 0px; }
     footer .row {
@@ -9045,6 +9099,20 @@ footer {
     font-size: 26px;
     line-height: 38px;
     font-weight: 400; }
+  main .highlighted-list-with-content-and-image {
+    padding: 0px 0px 50px 0px; }
+    main .highlighted-list-with-content-and-image .inner-container {
+      padding: 0px 50px 0px 50px; }
+    main .highlighted-list-with-content-and-image .item {
+      padding: 80px 20px 100px 20px; }
+    main .highlighted-list-with-content-and-image .column {
+      padding: 0px 100px 0px 100px; }
+    main .highlighted-list-with-content-and-image .content {
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: 400; }
+    main .highlighted-list-with-content-and-image .scroll-down {
+      margin: 135px 0px 0px 0px; }
   main .header-with-images-two-columns {
     padding: 45px 0px 60px 0px; }
     main .header-with-images-two-columns .inner-container {
@@ -9552,38 +9620,7 @@ footer {
     main .content-header-with-content-and-image .inner-container {
       padding: 0px 115px 0px 115px; }
   main .video-with-description {
-    padding: 60px 0px 70px 0px;
-    /* .header {
-        + .content-header {
-          margin: 100px 0px 0px 0px;
-        }
-
-        + .content {
-          margin: 100px 0px 0px 0px;
-        }
-  
-        + .video {
-          margin: 100px 0px 0px 0px;
-        }
-      } */
-    /* .content {
-        /* @include font(20px, 28px, 400); * /
-
-        /* + .video {
-          margin: 100px 0px 0px 0px;
-        } * /
-      } */
-    /* .video {
-        /* margin: 70px 0px 0px 0px; * /
-
-        + .content-header {
-          margin: 100px 0px 0px 0px;
-        }
-
-        + .content {
-          margin: 100px 0px 0px 0px;
-        }
-      } */ }
+    padding: 60px 0px 70px 0px; }
     main .video-with-description .inner-container {
       padding: 0px 115px 0px 115px; }
     main .video-with-description .scroll-down {
@@ -9626,6 +9663,12 @@ footer {
     font-size: 36px;
     line-height: 48px;
     font-weight: 400; }
+  main .highlighted-list-with-content-and-image {
+    padding: 0px 0px 70px 0px; }
+    main .highlighted-list-with-content-and-image .inner-container {
+      padding: 0px 115px 0px 115px; }
+    main .highlighted-list-with-content-and-image .scroll-down {
+      margin: 170px 0px 0px 0px; }
   main .header-with-images-two-columns {
     padding: 60px 0px 70px 0px; }
     main .header-with-images-two-columns .inner-container {

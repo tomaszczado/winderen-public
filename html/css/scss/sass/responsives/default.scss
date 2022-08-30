@@ -4315,6 +4315,42 @@ main {
     }
   }
 
+  .highlighted-list-with-content-and-image {
+    padding: 0px 0px 30px 0px;
+    background: linear-gradient(to bottom, $color-cod-gray 0px, $color-cod-gray 80px, $color-black 80px, $color-cod-gray 100%);
+
+    .item {
+      background: $color-tarawera;
+      padding: 40px 20px 50px 20px;
+
+      + .item {
+        margin: 10px 0px 0px 0px;
+      }
+    }
+
+    .columns {
+      margin: 60px 0px 0px 0px;
+    }
+
+    .image {
+      img {
+        width: 100%;
+      }
+    }
+    
+    .content {
+      text-align: center;
+      margin: 40px 0px 0px 0px;
+      @include letterSpacing(50);
+      @include font(14px, 22px, 400);
+      font-family: $font-gt-america-regular;
+    }
+
+    .scroll-down {
+      margin: 75px 0px 0px 0px;
+    }
+  }
+
   .header-with-images-two-columns {
     padding: 30px 0px 60px 0px;
     /* background: linear-gradient($color-black, $color-cod-gray); */

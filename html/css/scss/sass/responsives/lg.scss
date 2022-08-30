@@ -1543,6 +1543,30 @@
         @include font(26px, 38px, 400);
       }
     }
+
+    .highlighted-list-with-content-and-image {
+      padding: 0px 0px 50px 0px;
+
+      .inner-container {
+        padding: 0px 50px 0px 50px;
+      }
+
+      .item {
+        padding: 80px 20px 100px 20px;
+      }
+  
+      .column {
+        padding: 0px 100px 0px 100px;
+      }
+      
+      .content {
+        @include font(18px, 24px, 400);
+      }
+
+      .scroll-down {
+        margin: 135px 0px 0px 0px;
+      }
+    }
     
     .header-with-images-two-columns {
       padding: 45px 0px 60px 0px;
