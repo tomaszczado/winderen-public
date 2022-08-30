@@ -65,6 +65,7 @@ var App = {
 
         let _isMobileOrTablet = window.isExtraSize() || window.isSmallSize() || window.isMediumSize();
         let _showSubmenuOnClick = _isMobileOrTablet && links.tagName === 'LI' && links.classList.contains('menu-item-has-children');
+        /* console.log(_showSubmenuOnClick); */
         if(!_showSubmenuOnClick) {
           return;
         }
@@ -73,15 +74,20 @@ var App = {
             _actives.forEach((item, idx) => item.classList.remove('active'));
         
         if(!links.classList.contains('menu-item-has-children')) {
+          /* console.log(1111); */
           return;
         }
 
         if(links.classList.contains('opened')) {
+          /* console.log(222); */
           links.classList.remove('opened');
           return;
         }
 
+        /* console.log(3333); */
         links.classList.add('opened');
+        event.preventDefault();
+        /* return false; */
       };
 
       items.forEach((item, idx) => item.addEventListener('click', handleLinkClick, false));
