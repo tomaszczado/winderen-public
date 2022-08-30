@@ -3962,6 +3962,96 @@ main {
     }
   }
 
+  .content-header-with-content {
+    padding: 30px 0px 150px 0px;
+    background: linear-gradient($color-black 0px, transparent 100%);
+
+    .content {
+      display: flex;
+      justify-content: center;
+      margin: 38px 0px 0px 0px;
+      /* max-width: 1000px;
+      text-align: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 38px 0px 0px 0px;
+      @include letterSpacing(50);
+      @include font(14px, 22px, 400);
+      font-family: $font-gt-america-regular; */
+    }
+
+    .inner-content {
+      max-width: 1000px;
+      text-align: center;
+      /* align-items: center;
+      flex-direction: column;
+      margin: 38px 0px 0px 0px; */
+      @include letterSpacing(50);
+      @include font(14px, 22px, 400);
+      font-family: $font-gt-america-regular;
+    }
+  }
+
+  .content-header-with-content-and-image {
+    padding: 30px 0px 95px 0px;
+
+    .items {
+      margin: 60px 0px 0px 0px;
+    }
+
+    .item {
+      + .item {
+        margin: 40px 0px 0px 0px;
+        padding: 40px 0px 0px 0px;
+        border-top: 1px solid $color-tundora;
+      }
+    }
+
+    .column {
+      + .column {
+        margin: 40px 0px 0px 0px;
+      }
+    }
+
+    .image {
+      img {
+        width: 100%;
+      }
+    }
+    
+    .icon-wrapper {
+      display: flex;
+      justify-content: center;
+
+      + .name {
+        margin: 25px 0px 0px 0px;
+      }
+
+      + .content {
+        margin: 25px 0px 0px 0px;
+      }
+    }
+    
+    .name {
+      text-align: center;
+      text-transform: uppercase;
+      @include letterSpacing(50);
+      @include font(16px, 22px, 400);
+      font-family: $font-gt-america-regular;
+
+      + .content {
+        margin: 15px 0px 0px 0px;
+      }
+    }
+    
+    .content {
+      text-align: center;
+      @include letterSpacing(50);
+      @include font(14px, 22px, 400);
+      font-family: $font-gt-america-regular;
+    }
+  }
+
   .list-info-with-image {
     padding: 30px 0px 30px 0px;
 

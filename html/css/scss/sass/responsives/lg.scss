@@ -1391,6 +1391,61 @@
         @include imageRatio(1920, 600);
       }
     }
+
+    .content-header-with-content {
+      padding: 45px 0px 175px 0px;
+
+      .inner-content {
+        @include font(20px, 28px, 400);
+      }
+    }
+
+    .content-header-with-content-and-image {
+      padding: 45px 0px 175px 0px;
+
+      .inner-container {
+        padding: 0px 50px 0px 50px;
+      }
+
+      .items {
+        margin: 110px 0px 0px 0px;
+      }
+  
+      .item {
+        display: flex;
+  
+        + .item {
+          margin: 60px 0px 0px 0px;
+          padding: 60px 0px 0px 0px;
+        }
+      }
+  
+      .column {
+        padding: 0px 115px 0px 115px;
+      }
+      
+      .icon-wrapper {
+        + .name {
+          margin: 45px 0px 0px 0px;
+        }
+  
+        + .content {
+          margin: 45px 0px 0px 0px;
+        }
+      }
+      
+      .name {
+        @include font(20px, 24px, 400);
+  
+        + .content {
+          margin: 20px 0px 0px 0px;
+        }
+      }
+      
+      .content {
+        @include font(18px, 24px, 400);
+      }
+    }
     
     .list-info-with-image {
       .inner-container {

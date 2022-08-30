@@ -1468,6 +1468,75 @@
       } */
     }
 
+    .content-header-with-content {
+      padding: 45px 0px 150px 0px;
+
+      .inner-content {
+        @include font(18px, 24px, 400);
+        /* @include font(20px, 28px, 400); */
+      }
+    }
+
+    .content-header-with-content-and-image {
+      padding: 45px 0px 150px 0px;
+
+      .items {
+        margin: 60px 0px 0px 0px;
+      }
+  
+      .item {
+        display: flex;
+  
+        + .item {
+          margin: 40px 0px 0px 0px;
+          padding: 40px 0px 0px 0px;
+        }
+  
+        &:nth-child(2n + 2) {
+          .column {
+            order: 1;
+            border-left: none;
+    
+            + .column {
+              order: 2;
+              border-left: 1px solid $color-tundora;
+            }
+          }
+        }
+  
+        .column {
+          order: 2;
+          border-left: 1px solid $color-tundora;
+  
+          + .column {
+            order: 1;
+            border-left: none;
+          }
+        }
+      }
+  
+      .column {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 50px 0px 50px;
+  
+        + .column {
+          margin: 0px 0px 0px 0px;
+        }
+      }
+      
+      .name {
+        @include font(18px, 24px, 400);
+      }
+      
+      .content {
+        @include font(16px, 24px, 400);
+      }
+    }
+
     .video-with-description {
       padding: 45px 0px 30px 0px;
 
@@ -1575,9 +1644,15 @@
     .highlighted-list-with-image {
       /* padding: 0px 0px 200px 0px; */
 
-      +#technology-list-quotations {
+      + #technology-list-quotations {
         margin: -250px 0px 0px 0px;
         padding: 125px 0px 95px 0px;
+      }
+
+      + .content-simple-banner {
+        z-index: -1;
+        position: relative;
+        margin: -150px 0px 0px 0px;
       }
 
       &.inverted {
@@ -1610,7 +1685,10 @@
   
       .column {
         width: 50%;
+        display: flex;
         position: relative;
+        align-self: center;
+        flex-direction: column;
   
         +.column {
           margin: 0px 0px 0px 0px;
