@@ -1590,6 +1590,35 @@
         @include font(18px, 24px, 400);
       }
     }
+
+    .content-gallery {
+      padding: 45px 0px 60px 0px;
+
+      .inner-container {
+        padding: 0px 50px 0px 50px;
+      }
+  
+      .image {
+        width: calc(100vw - (2 * #{$space-large}) - (2 * 50px));
+      }
+  
+      .inner-gallery-content {
+        @include font(18px, 24px, 400);
+      }
+  
+      .circular-image {
+        width: 200px;
+        height: 200px;
+      }
+      
+      .name {
+        @include font(20px, 24px, 400);
+      }
+      
+      .info {
+        @include font(18px, 24px, 400); 
+      }
+    }
   }
   
   footer {

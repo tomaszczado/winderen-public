@@ -4387,7 +4387,6 @@ main {
       margin: 27px 0px 0px 0px;
       text-transform: uppercase;
       @include letterSpacing(100);
-      /* padding: 0px 20px 15px 20px; */
       @include font(16px, 22px, 400);
       font-family: $font-gt-america-regular;
     }
@@ -4396,27 +4395,24 @@ main {
       text-align: center;
       margin: 10px 0px 0px 0px;
       @include letterSpacing(50);
-      /* padding: 0px 20px 15px 20px; */
       @include font(14px, 22px, 400);
       font-family: $font-gt-america-regular;
     }
   }
 
   .content-gallery {
+    padding: 30px 0px 60px 0px;
+    background: linear-gradient($color-black 0px, transparent 100%);
+    
     &.show-navigation {
       .navigation {
         display: block;
       }
     }
 
-    .buttons {
-      display: flex;
-      justify-content: center;
-    }
-
     .images-outer {
       position: relative;
-      /* margin: 30px 0px 0px 0px; */
+      margin: 30px 0px 0px 0px;
     }
 
     .images-inner {
@@ -4426,12 +4422,13 @@ main {
     }
 
     .image {
+      padding: 0px 50px 0px 50px;
       width: calc(100vw - (2 * #{$space-extra}));
     }
 
     .image-inner {
       position: relative;
-      @include imageRatio(339, 196);
+      @include imageRatio(300, 150);
     }
 
     .navigation {
@@ -4441,6 +4438,7 @@ main {
     .pages {
       display: flex;
       justify-content: center;
+      margin: 10px 0px 0px 0px;
 
       div {
         width: 14px;
@@ -4468,6 +4466,7 @@ main {
       cursor: pointer;
       position: absolute;
       align-items: center;
+      justify-content: center;
     }
 
     .next {
@@ -4479,13 +4478,51 @@ main {
       cursor: pointer;
       position: absolute;
       align-items: center;
+      justify-content: center;
     }
 
-    
+    .buttons {
+      display: flex;
+      justify-content: center;
+      margin: 40px 0px 0px 0px;
+
+      + .content {
+        margin: 40px 0px 0px 0px;
+      }
+
+      + .gallery-content {
+        margin: 40px 0px 0px 0px;
+      }
+    }
+
+    .gallery-content {
+      + .content {
+        margin: 40px 0px 0px 0px;
+      }
+    }
+
+    .inner-gallery-content {
+      text-align: center;
+      @include letterSpacing(50);
+      @include font(14px, 22px, 400);
+      font-family: $font-gt-america-regular;
+    }
+
+    .item {
+      + .item {
+        margin: 40px 0px 0px 0px;
+        padding: 30px 0px 0px 0px;
+        border-top: 1px solid $color-tundora;
+      }
+    }
 
     .circular-image-wrapper {
       display: flex;
       justify-content: center;
+
+      + .name {
+        margin: 30px 0px 0px 0px;
+      }
     }
 
     .circular-image {
@@ -4496,19 +4533,6 @@ main {
       position: relative;
       border: 8px solid rgba($color-concrete, 0.2);
     }
-    
-    /* .icon-wrapper {
-      display: flex;
-      justify-content: center;
-
-      + .name {
-        margin: 25px 0px 0px 0px;
-      }
-
-      + .content {
-        margin: 25px 0px 0px 0px;
-      }
-    } */
     
     .name {
       text-align: center;
@@ -4529,62 +4553,20 @@ main {
       font-family: $font-gt-america-regular;
     }
 
+    .gallery-video-conetnt {
+      margin: 40px 0px 0px 0px;
+    }
 
+    .video {
+      display: flex;
+      justify-content: center;
+      margin: 40px 0px 0px 0px;
 
-    
-
-    /* &.show-navigation {
-      .navigation {
-        display: block;
+      .iframe {
+        width: 100%;
+        max-width: 796px;
       }
     }
-
-    .reviews-outer {
-      position: relative;
-      margin: 30px 0px 0px 0px;
-    }
-
-    .reviews {
-      overflow: hidden;
-      position: relative;
-    }
-
-    .navigation {
-      display: none;
-    }
-
-    .previous {
-      top: 0px;
-      left: 0px;
-      width: 50px;
-      height: 100%;
-      display: flex;
-      cursor: pointer;
-      position: absolute;
-      align-items: center;
-    }
-
-    .next {
-      top: 0px;
-      right: 0px;
-      width: 50px;
-      height: 100%;
-      display: flex;
-      cursor: pointer;
-      position: absolute;
-      align-items: center;
-    }
-
-    .reviews-inner {
-      display: flex;
-      flex-wrap: wrap;
-      @include transitionAdvanced('transform', 0.5s, 0s);
-    }
-
-    .review {
-      position: relative;
-      padding: 0px 75px 0px 75px;
-    } */
   }
 }
 

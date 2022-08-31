@@ -5769,7 +5769,6 @@ main {
       margin: 27px 0px 0px 0px;
       text-transform: uppercase;
       letter-spacing: 0.1em;
-      /* padding: 0px 20px 15px 20px; */
       font-size: 16px;
       line-height: 22px;
       font-weight: 400;
@@ -5778,88 +5777,18 @@ main {
       text-align: center;
       margin: 10px 0px 0px 0px;
       letter-spacing: 0.05em;
-      /* padding: 0px 20px 15px 20px; */
       font-size: 14px;
       line-height: 22px;
       font-weight: 400;
       font-family: "GT-America-Standard-Regular-Trial"; }
   main .content-gallery {
-    /* .icon-wrapper {
-      display: flex;
-      justify-content: center;
-
-      + .name {
-        margin: 25px 0px 0px 0px;
-      }
-
-      + .content {
-        margin: 25px 0px 0px 0px;
-      }
-    } */
-    /* &.show-navigation {
-      .navigation {
-        display: block;
-      }
-    }
-
-    .reviews-outer {
-      position: relative;
-      margin: 30px 0px 0px 0px;
-    }
-
-    .reviews {
-      overflow: hidden;
-      position: relative;
-    }
-
-    .navigation {
-      display: none;
-    }
-
-    .previous {
-      top: 0px;
-      left: 0px;
-      width: 50px;
-      height: 100%;
-      display: flex;
-      cursor: pointer;
-      position: absolute;
-      align-items: center;
-    }
-
-    .next {
-      top: 0px;
-      right: 0px;
-      width: 50px;
-      height: 100%;
-      display: flex;
-      cursor: pointer;
-      position: absolute;
-      align-items: center;
-    }
-
-    .reviews-inner {
-      display: flex;
-      flex-wrap: wrap;
-      @include transitionAdvanced('transform', 0.5s, 0s);
-    }
-
-    .review {
-      position: relative;
-      padding: 0px 75px 0px 75px;
-    } */ }
+    padding: 30px 0px 60px 0px;
+    background: linear-gradient(#000000 0px, transparent 100%); }
     main .content-gallery.show-navigation .navigation {
       display: block; }
-    main .content-gallery .buttons {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center; }
     main .content-gallery .images-outer {
       position: relative;
-      /* margin: 30px 0px 0px 0px; */ }
+      margin: 30px 0px 0px 0px; }
     main .content-gallery .images-inner {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -5876,10 +5805,11 @@ main {
       -webkit-transition-timing-function: Cubic-bezier(0.3, 0, 0.3, 1);
       transition-timing-function: Cubic-bezier(0.3, 0, 0.3, 1); }
     main .content-gallery .image {
+      padding: 0px 50px 0px 50px;
       width: calc(100vw - (2 * 25px)); }
     main .content-gallery .image-inner {
       position: relative;
-      padding: 57.81711% 0px 0px 0px; }
+      padding: 50% 0px 0px 0px; }
     main .content-gallery .navigation {
       display: none; }
     main .content-gallery .pages {
@@ -5888,7 +5818,8 @@ main {
       display: flex;
       -webkit-box-pack: center;
       -ms-flex-pack: center;
-      justify-content: center; }
+      justify-content: center;
+      margin: 10px 0px 0px 0px; }
       main .content-gallery .pages div {
         width: 14px;
         height: 14px;
@@ -5911,7 +5842,10 @@ main {
       position: absolute;
       -webkit-box-align: center;
       -ms-flex-align: center;
-      align-items: center; }
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
     main .content-gallery .next {
       top: 0px;
       right: 0px;
@@ -5924,7 +5858,35 @@ main {
       position: absolute;
       -webkit-box-align: center;
       -ms-flex-align: center;
-      align-items: center; }
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+    main .content-gallery .buttons {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin: 40px 0px 0px 0px; }
+      main .content-gallery .buttons + .content {
+        margin: 40px 0px 0px 0px; }
+      main .content-gallery .buttons + .gallery-content {
+        margin: 40px 0px 0px 0px; }
+    main .content-gallery .gallery-content + .content {
+      margin: 40px 0px 0px 0px; }
+    main .content-gallery .inner-gallery-content {
+      text-align: center;
+      letter-spacing: 0.05em;
+      font-size: 14px;
+      line-height: 22px;
+      font-weight: 400;
+      font-family: "GT-America-Standard-Regular-Trial"; }
+    main .content-gallery .item + .item {
+      margin: 40px 0px 0px 0px;
+      padding: 30px 0px 0px 0px;
+      border-top: 1px solid #4E4E4E; }
     main .content-gallery .circular-image-wrapper {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -5932,6 +5894,8 @@ main {
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center; }
+      main .content-gallery .circular-image-wrapper + .name {
+        margin: 30px 0px 0px 0px; }
     main .content-gallery .circular-image {
       width: 154px;
       height: 154px;
@@ -5956,6 +5920,19 @@ main {
       line-height: 22px;
       font-weight: 400;
       font-family: "GT-America-Standard-Regular-Trial"; }
+    main .content-gallery .gallery-video-conetnt {
+      margin: 40px 0px 0px 0px; }
+    main .content-gallery .video {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin: 40px 0px 0px 0px; }
+      main .content-gallery .video .iframe {
+        width: 100%;
+        max-width: 796px; }
 
 footer {
   z-index: 999;
@@ -8036,6 +8013,70 @@ footer {
     font-size: 16px;
     line-height: 22px;
     font-weight: 400; }
+  main .content-gallery .images-outer {
+    margin: 75px 0px 0px 0px; }
+  main .content-gallery .image {
+    padding: 0px 150px 0px 150px;
+    width: calc(100vw - (2 * 30px)); }
+  main .content-gallery .pages {
+    margin: 30px 0px 0px 0px; }
+  main .content-gallery .previous {
+    width: 150px; }
+  main .content-gallery .next {
+    width: 150px; }
+  main .content-gallery .buttons {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 65px 0px 0px 0px; }
+    main .content-gallery .buttons + .content {
+      margin: 90px 0px 0px 0px; }
+    main .content-gallery .buttons + .gallery-content {
+      margin: 90px 0px 0px 0px; }
+    main .content-gallery .buttons a + a {
+      margin: 20px 0px 0px 0px; }
+  main .content-gallery .gallery-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    main .content-gallery .gallery-content + .content {
+      margin: 90px 0px 0px 0px; }
+  main .content-gallery .inner-gallery-content {
+    max-width: 800px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400; }
+  main .content-gallery .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  main .content-gallery .item {
+    width: calc(100% / 3);
+    padding: 0px 35px 0px 35px; }
+    main .content-gallery .item + .item {
+      border-top: none;
+      margin: 0px 0px 0px 0px;
+      padding: 0px 35px 0px 35px;
+      border-left: 1px solid #4E4E4E; }
+  main .content-gallery .circular-image-wrapper + .name {
+    margin: 65px 0px 0px 0px; }
+  main .content-gallery .name {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400; }
+    main .content-gallery .name + .info {
+      margin: 35px 0px 0px 0px; }
+  main .content-gallery .gallery-video-conetnt {
+    margin: 90px 0px 0px 0px; }
+  main .content-gallery .video {
+    margin: 90px 0px 0px 0px; }
   footer {
     padding: 45px 0px 0px 0px; }
     footer .row {
@@ -9301,6 +9342,27 @@ footer {
       font-size: 18px;
       line-height: 24px;
       font-weight: 400; }
+  main .content-gallery {
+    padding: 45px 0px 60px 0px; }
+    main .content-gallery .inner-container {
+      padding: 0px 50px 0px 50px; }
+    main .content-gallery .image {
+      width: calc(100vw - (2 * 40px) - (2 * 50px)); }
+    main .content-gallery .inner-gallery-content {
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: 400; }
+    main .content-gallery .circular-image {
+      width: 200px;
+      height: 200px; }
+    main .content-gallery .name {
+      font-size: 20px;
+      line-height: 24px;
+      font-weight: 400; }
+    main .content-gallery .info {
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: 400; }
   footer {
     padding: 60px 0px 0px 0px; }
     footer .row:nth-child(1) .logo img {
@@ -9848,6 +9910,15 @@ footer {
       padding: 0px 115px 0px 115px; }
     main .header-with-images-two-columns .info {
       padding: 0px 150px 0px 150px; }
+  main .content-gallery {
+    padding: 60px 0px 70px 0px; }
+    main .content-gallery .inner-container {
+      padding: 0px 115px 0px 115px; }
+    main .content-gallery .image {
+      width: calc(100vw - (2 * 40px) - (2 * 115px)); }
+    main .content-gallery .circular-image {
+      width: 295px;
+      height: 295px; }
   footer .row:nth-child(2) .info {
     font-size: 28px;
     line-height: 36px;

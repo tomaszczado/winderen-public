@@ -698,6 +698,23 @@
         padding: 0px 150px 0px 150px;
       }
     }
+    
+    .content-gallery {
+      padding: 60px 0px 70px 0px;
+
+      .inner-container {
+        padding: 0px 115px 0px 115px;
+      }
+  
+      .image {
+        width: calc(100vw - (2 * #{$space-wide}) - (2 * 115px));
+      }
+  
+      .circular-image {
+        width: 295px;
+        height: 295px;
+      }
+    }
   }
 
   footer {
