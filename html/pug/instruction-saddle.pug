@@ -1,0 +1,63 @@
+extends layouts/_layout
+
+block vars
+  //- set the page title
+  - var pageTitle = "www.winderen.com | Discover The Products";
+  
+block head
+  //- put any <head> content specific to this page here
+
+block content
+  //- put any page content specific to this page here
+
+  section(id='banner' class='simple instruction')
+    div(class='background')
+      div(class='inner-background')
+        picture(class='rwd-background rwd-background-overlay lazy-picture')
+          source(srcset='images/1px.gif' data-srcset='images/instruction-saddlepads-banner-desktop.jpg' media='(min-width: 1200px)')
+          source(srcset='images/1px.gif' data-srcset='images/instruction-saddlepads-banner-desktop.jpg' media='(min-width: 768px)')
+          img(class='left' src='images/1px.gif' data-src='images/instruction-saddlepads-banner-mobile.jpg' alt='TODO')
+    div(class='content logo-icon-with-label')
+        div(class='hero')
+          div(class='icon')
+            span(class='icon circular-icon') 
+              img(src='images/1px.gif' data-src='images/icons-book-white.svg' alt='TODO' width='48' height='48' class='lazy-image')
+          h1 Anatomic Top Line
+          h2 SADDLE PADS
+          div(class='name') Instruction
+
+
+  section(class='description-instruction')
+    div(class='container')
+      div(class='inner-xl-container')
+        div(class='header logo-icon-with-label')
+          div(class='icon')
+            div(class='circular-icon')
+              img(src='images/1px.gif' data-src='images/icons-setting-white.svg' alt='TODO' width='48' height='48' class='lazy-image')
+          h2 WASHING & CLEANING
+          p
+            |Fasten the Velcro on the wraps before washing to prevent them from sticking to other materials. Wash both bandages and wraps in a washing machine at 30°C.
+            br
+            br
+            |It is best to use a mild detergent, as powder may cause allergic reactions in horses and also leave unsightly stains. 
+            span DO NOT USE FABRIC SOFTENER/RINSE AID 
+            | – use of fabric softener/rinse aid will cause irreversible damage to wraps.
+            br
+            br
+            |Do not dry in a tumble dryer. High temperatures may cause irreparable damage to the product.
+          div(class='icons-clean')
+            img(src='images/1px.gif' data-src='images/icons-clean-1.svg' alt='TODO' class='lazy-image')
+            img(src='images/1px.gif' data-src='images/icons-clean-2.svg' alt='TODO' class='lazy-image')
+            img(src='images/1px.gif' data-src='images/icons-clean-3.svg' alt='TODO' class='lazy-image')
+            img(src='images/1px.gif' data-src='images/icons-clean-4.svg' alt='TODO' class='lazy-image')
+            img(src='images/1px.gif' data-src='images/icons-clean-5.svg' alt='TODO' class='lazy-image')
+
+  include ./includes/components/instruction/faq.pug
+
+  section(class='content-simple-banner')
+    div(class='background')
+      div(class='inner-background')
+        picture(class='rwd-background rwd-background-overlay lazy-picture')
+          //-source(srcset='images/1px.gif' data-srcset='images/banner-homepage-1-desktop.jpg' media='(min-width: 1200px)')
+          source(srcset='images/1px.gif' data-srcset='images/instruction-saddle-above-footer-desktop.jpg' media='(min-width: 768px)')
+          img(src='images/1px.gif' data-src='images/instruction-saddle-above-footer-mobile.jpg' alt='TODO')

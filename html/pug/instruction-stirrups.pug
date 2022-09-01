@@ -1,0 +1,61 @@
+extends layouts/_layout
+
+block vars
+  //- set the page title
+  - var pageTitle = "www.winderen.com | Discover The Products";
+  
+block head
+  //- put any <head> content specific to this page here
+
+block content
+  //- put any page content specific to this page here
+
+  section(id='banner' class='simple instruction')
+    div(class='background')
+      div(class='inner-background')
+        picture(class='rwd-background rwd-background-overlay lazy-picture')
+          source(srcset='images/1px.gif' data-srcset='images/instruction-stirrups-banner-desktop.jpg' media='(min-width: 1200px)')
+          source(srcset='images/1px.gif' data-srcset='images/instruction-stirrups-banner-desktop.jpg' media='(min-width: 768px)')
+          img(class='left' src='images/1px.gif' data-src='images/instruction-stirrups-banner-mobile.jpg' alt='TODO')
+    div(class='content logo-icon-with-label')
+        div(class='hero')
+          div(class='icon')
+            span(class='icon circular-icon') 
+              img(src='images/1px.gif' data-src='images/icons-book-white.svg' alt='TODO' width='48' height='48' class='lazy-image')
+          h1 KNEE PROTECT SOLUTION
+          h2 Stirrups
+          div(class='name') Instruction
+
+
+  section(id='videos' class='videos-instruction')
+    div(class='container')
+      div(class='inner-container')
+        div(class='header logo-icon-with-label')
+          div(class='icon')
+            div(class='circular-icon')
+              img(src='images/1px.gif' data-src='images/icons-setting-white.svg' alt='TODO' width='48' height='48' class='lazy-image')
+          //- div(class='label') 
+          h2
+            | ADJUSTMENT TILT OF
+            br
+            | THE FOOT PAD
+          p(class="caption") Watch the video
+        div(class='videos')
+          div(class='video')
+            div(class='iframe')
+              div(class='outer-iframe')
+                div(class='inner-iframe')
+                  iframe(width='560' height='315' src='https://www.youtube.com/embed/GJCBlkSg0P4' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='true')
+
+
+  include ./includes/components/instruction/faq.pug
+
+
+
+  section(class='content-simple-banner')
+    div(class='background')
+      div(class='inner-background')
+        picture(class='rwd-background rwd-background-overlay lazy-picture')
+          source(srcset='images/1px.gif' data-srcset='images/instruction-stirrups-above-footer-desktop.jpg' media='(min-width: 1200px)')
+          source(srcset='images/1px.gif' data-srcset='images/instruction-stirrups-above-footer-desktop.jpg' media='(min-width: 768px)')
+          img(src='images/1px.gif' data-src='images/instruction-stirrups-above-footer-mobile.jpg' alt='TODO')

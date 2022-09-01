@@ -10237,5 +10237,561 @@ footer {
     }
   }
 } */
+#banner.instruction .scroll-down {
+  position: unset; }
+  @media screen and (max-width: 768px) {
+    #banner.instruction .scroll-down {
+      display: none; } }
+
+@media screen and (max-width: 768px) {
+  #banner.instruction .background .inner-background picture {
+    padding: 10px 10px 0 10px; } }
+
+@media screen and (min-width: 768px) {
+  #banner.instruction .background .inner-background picture img.left {
+    -o-object-position: top left;
+    object-position: top left; } }
+
+#banner.instruction .content {
+  bottom: 0px; }
+  @media screen and (max-width: 768px) {
+    #banner.instruction .content {
+      top: 0px;
+      padding: 0; } }
+  #banner.instruction .content .hero {
+    font-family: "GT-America-Standard-Regular-Trial"; }
+    #banner.instruction .content .hero .circular-icon {
+      margin-bottom: 10px; }
+    #banner.instruction .content .hero .name {
+      text-align: center;
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 400; }
+      @media screen and (min-width: 768px) {
+        #banner.instruction .content .hero .name {
+          margin-bottom: 10px;
+          text-align: center;
+          font-size: 36px;
+          line-height: 48px;
+          font-weight: 400;
+          letter-spacing: 0.036em; } }
+    #banner.instruction .content .hero h1 {
+      font-size: 36px;
+      line-height: 34px;
+      font-weight: 400;
+      letter-spacing: 0.1em; }
+      @media screen and (min-width: 768px) {
+        #banner.instruction .content .hero h1 {
+          font-size: 60px;
+          line-height: 54px;
+          font-weight: 400;
+          margin-bottom: 20px; } }
+    #banner.instruction .content .hero h2 {
+      margin-bottom: 40px;
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 400;
+      letter-spacing: 0.1em; }
+      @media screen and (min-width: 768px) {
+        #banner.instruction .content .hero h2 {
+          margin-top: -10px;
+          font-size: 36px;
+          line-height: 48px;
+          font-weight: 400;
+          letter-spacing: 0.1em; } }
+
+.all-instructions {
+  overflow-x: hidden;
+  padding: 40px 0; }
+  @media screen and (min-width: 768px) {
+    .all-instructions {
+      padding: 100px 0;
+      background: linear-gradient(to top, black, transparent 400px); } }
+  .all-instructions .boxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    @media screen and (max-width: 768px) {
+      .all-instructions .boxes {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; } }
+    .all-instructions .boxes .box {
+      width: 100%;
+      margin-bottom: 40px;
+      font-family: "GT-America-Standard-Regular-Trial";
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      @media screen and (max-width: 768px) {
+        .all-instructions .boxes .box:first-of-type {
+          padding: 0 20px 160px;
+          margin-bottom: 0px;
+          position: relative; }
+          .all-instructions .boxes .box:first-of-type::after {
+            content: '';
+            position: absolute;
+            background: linear-gradient(to top, black, transparent 150px);
+            height: 100%;
+            width: 120%;
+            left: -10%;
+            bottom: 0px; } }
+      @media screen and (max-width: 768px) {
+        .all-instructions .boxes .box:nth-child(2) {
+          margin-top: -60px; } }
+      .all-instructions .boxes .box:nth-child(n + 2) .box-ratio {
+        border-bottom: 8px solid #191919; }
+      @media screen and (min-width: 768px) {
+        .all-instructions .boxes .box {
+          width: 33.333%;
+          padding: 0 10px;
+          margin-bottom: 30px; } }
+      @media screen and (min-width: 992px) {
+        .all-instructions .boxes .box {
+          width: 25%; } }
+      .all-instructions .boxes .box .box-ratio {
+        aspect-ratio: 1.27;
+        position: relative;
+        margin-bottom: 20px; }
+        @media screen and (min-width: 768px) {
+          .all-instructions .boxes .box .box-ratio {
+            aspect-ratio: 1.12; } }
+        .all-instructions .boxes .box .box-ratio .img {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          -o-object-fit: cover;
+          object-fit: cover; }
+      .all-instructions .boxes .box .icon:not(.circular-icon) {
+        padding: 20px 0 0 15px;
+        margin-bottom: 20px; }
+        @media screen and (min-width: 1200px) {
+          .all-instructions .boxes .box .icon:not(.circular-icon) {
+            padding: 30px 0 0 20px; } }
+      .all-instructions .boxes .box .icon.left {
+        padding-left: 0px; }
+        @media screen and (max-width: 768px) {
+          .all-instructions .boxes .box .icon.left {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center; } }
+      .all-instructions .boxes .box h2 {
+        text-align: center;
+        margin-bottom: 10px;
+        text-transform: uppercase; }
+      @media screen and (min-width: 1500px) {
+        .all-instructions .boxes .box p.left {
+          padding-right: 38%; } }
+      .all-instructions .boxes .box p {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 400; }
+        @media screen and (min-width: 768px) {
+          .all-instructions .boxes .box p {
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 400; } }
+        @media screen and (max-width: 768px) {
+          .all-instructions .boxes .box p {
+            text-align: center; } }
+      .all-instructions .boxes .box p:not(.left) {
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400; }
+        @media screen and (min-width: 768px) {
+          .all-instructions .boxes .box p:not(.left) {
+            font-size: 20px;
+            line-height: 32px;
+            font-weight: 400;
+            margin-bottom: 20px; } }
+      .all-instructions .boxes .box a {
+        display: table;
+        margin: auto auto 0; }
+
+.faq {
+  padding: 0 !important; }
+  @media screen and (max-width: 768px) {
+    .faq {
+      margin-bottom: -70px;
+      background: linear-gradient(to bottom, black, transparent 200px); } }
+
+@media screen and (min-width: 768px) {
+  .highlighted-list-with-image.faq + .content-simple-banner {
+    margin: 0px !important; } }
+
+.faq-instruction {
+  padding-top: 40px !important; }
+  @media screen and (min-width: 768px) {
+    .faq-instruction {
+      padding-top: 120px !important;
+      padding-bottom: 120px !important; } }
+  .faq-instruction h2 {
+    font-size: 36px;
+    font-family: "GT-America-Standard-Regular-Trial";
+    line-height: calc(48 / 36);
+    margin-bottom: 25px; }
+  .faq-instruction .items h3 {
+    text-transform: unset; }
+  .faq-instruction .item.active h3 {
+    color: #60BEF2;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s; }
+    .faq-instruction .item.active h3::after {
+      background: url(../images/icons-faq-close-white.svg) no-repeat center center !important;
+      -webkit-transform: unset !important;
+      transform: unset !important; }
+  .faq-instruction .columns {
+    margin: 0 !important; }
+    @media screen and (min-width: 768px) {
+      .faq-instruction .columns {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        .faq-instruction .columns .column:first-of-type {
+          width: 65%;
+          padding-right: 40px; }
+        .faq-instruction .columns .column:last-of-type {
+          width: 35%;
+          -ms-flex-item-align: start;
+          align-self: flex-start;
+          margin-top: 0; } }
+    @media screen and (min-width: 1200px) {
+      .faq-instruction .columns .column:first-of-type {
+        width: 75%;
+        padding-right: 120px; }
+      .faq-instruction .columns .column:last-of-type {
+        width: 25%; }
+        .faq-instruction .columns .column:last-of-type h2 {
+          -webkit-transform: translateX(-30px);
+          transform: translateX(-30px); } }
+    .faq-instruction .columns .column:first-of-type .items h3 {
+      letter-spacing: 0.025em; }
+    .faq-instruction .columns .column:last-of-type .support {
+      border-bottom: 8px solid rgba(255, 255, 255, 0.1);
+      position: relative;
+      z-index: 1; }
+    @media screen and (max-width: 768px) {
+      .faq-instruction .columns .column:last-of-type {
+        margin-top: 60px; } }
+  .faq-instruction .contacts p {
+    font-size: 14px;
+    text-align: center;
+    font-family: "GT-America-Standard-Regular-Trial";
+    margin-bottom: 10px; }
+    @media screen and (min-width: 768px) {
+      .faq-instruction .contacts p {
+        font-size: 16px;
+        margin-bottom: 20px; } }
+
+.section-halfpads {
+  overflow-x: hidden; }
+  @media screen and (min-width: 768px) {
+    .section-halfpads {
+      background: linear-gradient(to top, black, transparent 400px); } }
+  @media screen and (min-width: 768px) {
+    .section-halfpads .wrapper:not(:last-of-type) {
+      border-bottom: 1px solid #434343; }
+    .section-halfpads .wrapper:last-of-type {
+      padding-bottom: 180px; } }
+  .section-halfpads .wrapper {
+    padding: 80px 0;
+    position: relative; }
+    @media screen and (max-width: 768px) {
+      .section-halfpads .wrapper {
+        padding: 40px 0; }
+        .section-halfpads .wrapper:not(:first-of-type)::after {
+          content: '';
+          position: absolute;
+          width: 120%;
+          top: 0;
+          left: -10%;
+          height: 200px;
+          background: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
+          background: linear-gradient(to bottom, black, transparent 100%);
+          z-index: -1; } }
+    .section-halfpads .wrapper h2 {
+      max-width: 515px;
+      margin-left: auto;
+      margin-right: auto; }
+    .section-halfpads .wrapper .header {
+      margin-bottom: 60px; }
+      @media screen and (max-width: 768px) {
+        .section-halfpads .wrapper .header {
+          margin-bottom: 25px; } }
+    .section-halfpads .wrapper .boxes {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      @media screen and (max-width: 768px) {
+        .section-halfpads .wrapper .boxes {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column; } }
+      @media screen and (min-width: 768px) {
+        .section-halfpads .wrapper .boxes .box:not(:last-of-type) .box-img:not(:last-of-type) {
+          border-right: 1px solid #434343; } }
+      @media screen and (max-width: 768px) {
+        .section-halfpads .wrapper .boxes .box:not(:last-of-type) {
+          border-bottom: 1px solid #434343; } }
+      .section-halfpads .wrapper .boxes .box {
+        font-family: "GT-America-Standard-Regular-Trial";
+        position: relative; }
+        @media screen and (min-width: 768px) {
+          .section-halfpads .wrapper .boxes .box {
+            width: 33.333%; } }
+        @media screen and (max-width: 768px) {
+          .section-halfpads .wrapper .boxes .box {
+            padding: 20px 0; } }
+        .section-halfpads .wrapper .boxes .box .image {
+          position: relative;
+          border-radius: 50%;
+          aspect-ratio: 1;
+          border: 8px solid rgba(255, 255, 255, 0.1);
+          margin: 0 auto 20px;
+          width: calc(100% - 160px);
+          min-width: 180px;
+          overflow: hidden; }
+          @media screen and (max-width: 768px) {
+            .section-halfpads .wrapper .boxes .box .image {
+              width: calc(100% - 130px);
+              border-width: 6px; } }
+        .section-halfpads .wrapper .boxes .box .number {
+          width: 48px;
+          height: 48px;
+          border-radius: 50%;
+          border: 1px solid white;
+          margin-left: auto;
+          margin-right: auto;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          font-size: 20px;
+          margin-bottom: 35px; }
+          @media screen and (max-width: 768px) {
+            .section-halfpads .wrapper .boxes .box .number {
+              position: absolute;
+              top: 26px;
+              width: 40px;
+              height: 40px;
+              font-size: 28px; } }
+        .section-halfpads .wrapper .boxes .box p {
+          text-align: center;
+          font-size: 20px;
+          padding: 0 30px; }
+          @media screen and (min-width: 1200px) {
+            .section-halfpads .wrapper .boxes .box p {
+              padding: 0 60px; } }
+          @media screen and (max-width: 768px) {
+            .section-halfpads .wrapper .boxes .box p {
+              font-size: 14px; } }
+
+@media screen and (max-width: 768px) {
+  #additional-information {
+    background: -webkit-gradient(linear, left bottom, left top, from(black), to(transparent));
+    background: linear-gradient(to top, black, transparent 100%); } }
+
+#additional-information .wrapper {
+  background-color: #083950; }
+  @media screen and (min-width: 768px) {
+    #additional-information .wrapper {
+      padding: 80px 0;
+      border-bottom: 8px solid #191919;
+      margin-top: -80px; } }
+  #additional-information .wrapper h2 {
+    font-family: "GT-America-Standard-Regular-Trial";
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 400;
+    margin-bottom: 50px; }
+  #additional-information .wrapper .boxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    @media screen and (max-width: 768px) {
+      #additional-information .wrapper .boxes {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding: 0 15px; } }
+    #additional-information .wrapper .boxes .box {
+      padding: 0 15px; }
+      @media screen and (max-width: 768px) {
+        #additional-information .wrapper .boxes .box {
+          padding: 40px 0; }
+          #additional-information .wrapper .boxes .box:not(:last-of-type) {
+            border-bottom: 1px solid #fff; } }
+      @media screen and (min-width: 768px) {
+        #additional-information .wrapper .boxes .box {
+          padding: 0 60px;
+          width: 33.333%; }
+          #additional-information .wrapper .boxes .box:not(:last-of-type) {
+            border-right: 1px solid #fff; } }
+      #additional-information .wrapper .boxes .box .icon {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin: 0 0 40px 0; }
+      #additional-information .wrapper .boxes .box p {
+        text-align: center;
+        font-family: "GT-America-Standard-Regular-Trial";
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 400; }
+        @media screen and (max-width: 768px) {
+          #additional-information .wrapper .boxes .box p {
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: 400; } }
+
+#videos.videos-instruction {
+  padding: 40px 0; }
+  @media screen and (min-width: 768px) {
+    #videos.videos-instruction {
+      padding: 80px 0 240px 0;
+      background: linear-gradient(to top, black, transparent 400px); } }
+  @media screen and (min-width: 768px) {
+    #videos.videos-instruction.bits {
+      padding: 80px 0 140px 0; } }
+  #videos.videos-instruction.bits .header .scroll-down {
+    margin-bottom: 60px; }
+  #videos.videos-instruction.bits .all-videos-bits {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    #videos.videos-instruction.bits .all-videos-bits .box {
+      border-bottom: 1px solid #434343;
+      margin-bottom: 40px;
+      width: 100%;
+      padding: 0 10px; }
+      @media screen and (min-width: 768px) {
+        #videos.videos-instruction.bits .all-videos-bits .box {
+          width: 33.333%;
+          border-right: 1px solid #434343; } }
+      @media screen and (min-width: 768px) and (max-width: 1200px) {
+        #videos.videos-instruction.bits .all-videos-bits .box:nth-child(3n) {
+          border-right: unset; } }
+      @media screen and (min-width: 1200px) {
+        #videos.videos-instruction.bits .all-videos-bits .box {
+          width: 25%; }
+          #videos.videos-instruction.bits .all-videos-bits .box:nth-child(4n) {
+            border-right: unset; } }
+      #videos.videos-instruction.bits .all-videos-bits .box .videos {
+        width: 100%;
+        margin-top: 0; }
+  #videos.videos-instruction h2 {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    margin-bottom: 10px; }
+    @media screen and (min-width: 768px) {
+      #videos.videos-instruction h2 {
+        font-size: 36px;
+        line-height: 48px;
+        font-weight: 400;
+        margin-bottom: 30px; } }
+  #videos.videos-instruction .caption {
+    font-family: "GT-America-Standard-Regular-Trial";
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.055em;
+    text-align: center;
+    margin-bottom: 30px; }
+    @media screen and (min-width: 768px) {
+      #videos.videos-instruction .caption {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 400;
+        margin-bottom: 70px; } }
+  #videos.videos-instruction .iframe {
+    max-width: 796px; }
+
+.description-instruction {
+  font-family: "GT-America-Standard-Regular-Trial";
+  padding: 40px 0; }
+  @media screen and (min-width: 768px) {
+    .description-instruction {
+      padding: 80px 0 120px;
+      background: linear-gradient(to top, black, transparent 400px); } }
+  .description-instruction .header {
+    max-width: 796px;
+    margin: 0 auto; }
+    .description-instruction .header h2 {
+      margin-bottom: 30px; }
+      @media screen and (min-width: 768px) {
+        .description-instruction .header h2 {
+          margin-bottom: 70px; } }
+    .description-instruction .header p {
+      margin: 0 auto;
+      margin-bottom: 50px;
+      font-size: 14px;
+      line-height: 22px;
+      font-weight: 400;
+      text-align: center; }
+      @media screen and (min-width: 768px) {
+        .description-instruction .header p {
+          font-size: 20px;
+          line-height: 28px;
+          font-weight: 400; } }
+      .description-instruction .header p span {
+        color: #da242f; }
+    .description-instruction .header .icons-clean {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+      justify-content: space-evenly;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      @media screen and (max-width: 768px) {
+        .description-instruction .header .icons-clean img {
+          width: 36px; } }
+
+@media screen and (min-width: 1200px) {
+  .inner-xl-container {
+    padding: 0px 50px 0px 50px; } }
+
+@media screen and (min-width: 1500px) {
+  .inner-xl-container {
+    padding: 0px 115px 0px 115px; } }
+
+@media screen and (max-width: 768px) {
+  .container-10px-lg {
+    padding: 0px 10px; }
+  .d-none-lg {
+    display: none; } }
 
 /*# sourceMappingURL=app.css.map */

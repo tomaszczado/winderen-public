@@ -1,0 +1,144 @@
+extends layouts/_layout
+
+block vars
+  //- set the page title
+  - var pageTitle = "www.winderen.com | Discover The Products";
+  
+block head
+  //- put any <head> content specific to this page here
+
+block content
+  //- put any page content specific to this page here
+
+  section(id='banner' class='simple instruction')
+    div(class='background')
+      div(class='inner-background')
+        picture(class='rwd-background rwd-background-overlay lazy-picture')
+          source(srcset='images/1px.gif' data-srcset='images/instruction-halfpads-banner-desktop.jpg' media='(min-width: 1200px)')
+          source(srcset='images/1px.gif' data-srcset='images/instruction-halfpads-banner-desktop.jpg' media='(min-width: 768px)')
+          img(class='left' src='images/1px.gif' data-src='images/instruction-halfpads-banner-mobile.jpg' alt='TODO')
+    div(class='content logo-icon-with-label')
+        div(class='hero')
+          div(class='icon')
+            span(class='icon circular-icon') 
+              img(src='images/1px.gif' data-src='images/icons-book-white.svg' alt='TODO' width='48' height='48' class='lazy-image')
+          h1 BACK PROTECT SOLUTION
+          h2 SADDLE HALF PADS
+          div(class='name') Instruction
+
+  section(class='section-halfpads')
+    div(class='container')
+      div(class='inner-xl-container')
+        div(class='wrapper')
+          div(class='header logo-icon-with-label')
+            div(class='icon')
+              span(class='icon circular-icon') 
+                img(src='images/1px.gif' data-src='images/icons-setting-white.svg' alt='TODO' width='48' height='48' class='lazy-image')
+            h2 saddling
+          div(class='boxes')
+            div(class='box')
+              div(class='box-img')
+                div(class='image')
+                  picture(class='rwd-background lazy-picture')
+                    img(src='images/1px.gif' data-src='images/instruction-saddling-rounded-1.jpg' alt='TODO')
+              div(class='number') 1
+              p Put the half pad on the saddle pad. Half pad has to lie evenly on both sides.
+            div(class='box')
+              div(class='box-img')
+                div(class='image')
+                  picture(class='rwd-background lazy-picture')
+                    img(src='images/1px.gif' data-src='images/instruction-saddling-rounded-2.jpg' alt='TODO')
+              div(class='number') 2
+              p When you put on the saddle on the horse, pull up the top  of the half pad together with  the saddle pad to make characteristic „spike” to leave  the space for the withers.
+            div(class='box')
+              div(class='box-img')
+                div(class='image')
+                  picture(class='rwd-background lazy-picture')
+                    img(src='images/1px.gif' data-src='images/instruction-saddling-rounded-3.jpg' alt='TODO')
+              div(class='number') 3
+              p Align the half pad evenly under the panels. The Winderen Back Protect Solution half pad can work properly only when the entire surface of the saddle panels adheres to it.
+        div(class='wrapper')
+          div(class='header logo-icon-with-label')
+            div(class='icon')
+              span(class='icon circular-icon') 
+                img(src='images/1px.gif' data-src='images/icons-setting-white.svg' alt='TODO' width='48' height='48' class='lazy-image')
+            h2 Replacement of inserts
+          div(class='boxes')
+            div(class='box')
+              div(class='box-img')
+                div(class='image')
+                  picture(class='rwd-background lazy-picture')
+                    img(src='images/1px.gif' data-src='images/instruction-replacment-rounded-1.jpg' alt='TODO')
+              div(class='number') 1
+              p Fully unzip the zippers along the entire length of the half pad. Hold the front of the half pad with your hand and gently pull out the inserts.
+            div(class='box')
+              div(class='box-img')
+                div(class='image')
+                  picture(class='rwd-background lazy-picture')
+                    img(src='images/1px.gif' data-src='images/instruction-replacment-rounded-2.jpg' alt='TODO')
+              div(class='number') 2
+              p Remember that Winderen Back Protect Solution has 3 technological foams that need to be inserted in the right direction. When you replace the cover, be careful to put inserts back in the cover properly.
+            div(class='box')
+              div(class='box-img')
+                div(class='image')
+                  picture(class='rwd-background lazy-picture')
+                    img(src='images/1px.gif' data-src='images/instruction-replacment-rounded-3.jpg' alt='TODO')
+              div(class='number') 3
+              p Bend the insert into the roll for easier exchange. After placing them inside, align half pad with hand and make sure that inserts lie smoothly inside.
+        div(class='wrapper')
+          div(class='header logo-icon-with-label')
+            div(class='icon')
+              span(class='icon circular-icon') 
+                img(src='images/1px.gif' data-src='images/icons-setting-white.svg' alt='TODO' width='48' height='48' class='lazy-image')
+            h2 Replacement of felt correction panels.
+          div(class='boxes')
+            div(class='box')
+              div(class='box-img')
+                div(class='image')
+                  picture(class='rwd-background lazy-picture')
+                    img(src='images/1px.gif' data-src='images/instruction-replacment-rounded-4.jpg' alt='TODO')
+              div(class='number') 1
+              p Correction half pad set includes two special insert covers with three pockets for felt correction panels and 18 correction panels (3 for each pocket with a unique shape for each one).
+            div(class='box')
+              div(class='box-img')
+                div(class='image')
+                  picture(class='rwd-background lazy-picture')
+                    img(src='images/1px.gif' data-src='images/instruction-replacment-rounded-6.jpg' alt='TODO')
+              div(class='number') 2
+              p To facilitate the the placement of the panels, bend the felt correction panels gently and straighten them when they are in the correct position.
+            div(class='box')
+              div(class='box-img')
+                div(class='image')
+                  picture(class='rwd-background lazy-picture')
+                    img(src='images/1px.gif' data-src='images/instruction-replacment-rounded-6.jpg' alt='TODO')
+              div(class='number') 3
+              p When you want to insert more than one felt correction panel in a pocket, put them together before putting them in the pocket.
+
+  section(id='additional-information')
+    div(class='container container-10px-lg')
+      div(class='inner-xl-container')
+        div(class='wrapper')
+          h2(class='d-none-lg') Additional <br>Information
+          div(class='boxes')
+            div(class='box')
+              div(class='icon')
+                img(src='images/1px.gif' data-src='images/icons-temperature-white.svg' alt='TODO' height='120px' class='lazy-image')
+              p Half pad stiffens in the cold temperature, but it does not change its properties. After putting on the horse, it warms up in a few moments.
+            div(class='box')
+              div(class='icon')
+                img(src='images/1px.gif' data-src='images/icons-clean-white.svg' alt='TODO' height='120px' class='lazy-image')
+              p Clean the half pad cover with a damp sponge when it’s necessary, or wash it (after removing the inside layers) at a temperature of 30˚C.
+            div(class='box')
+              div(class='icon')
+                img(src='images/1px.gif' data-src='images/icons-horse-white.svg' alt='TODO' height='120px' class='lazy-image')
+              p The pad returns up to the original shape after 1 minute, so it can be used on many horses and with many saddles.
+
+  include ./includes/components/instruction/faq.pug
+
+  section(class='content-simple-banner')
+    div(class='background')
+      div(class='inner-background')
+        picture(class='rwd-background rwd-background-overlay lazy-picture')
+          //-source(srcset='images/1px.gif' data-srcset='images/banner-homepage-1-desktop.jpg' media='(min-width: 1200px)')
+          source(srcset='images/1px.gif' data-srcset='images/instruction-halfpads-above-footer-desktop.jpg' media='(min-width: 768px)')
+          img(src='images/1px.gif' data-src='images/instruction-halfpads-above-footer-mobile.jpg' alt='TODO')
