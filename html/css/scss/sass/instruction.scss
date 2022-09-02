@@ -1,13 +1,5 @@
 #banner.instruction {
-    .scroll-down {
-        position: unset;
-        @media screen and (max-width: $width-small) {
-            display: none;
-        }
-    }
-}
-
-#banner.instruction {
+    background-color: #000000;
     .background {
         .inner-background {
             picture {
@@ -29,10 +21,63 @@
             top: 0px;
             padding: 0;
         }
+        &.bits {
+            .hero {
+                .name {
+                    @media screen and (min-width: $width-small) {
+                        @include font(20px, 28px, 400);
+                        &.first {
+                            display: none!important;
+                        }
+                        &.second {
+                            margin: 30px 0 0;
+                        }
+                    }
+                    @media screen and (max-width: $width-small) {
+                        &.second {
+                            display: none!important;
+                        }
+                    }
+                }
+                h1 {
+                    color:#FF9439;
+                    @media screen and (min-width: $width-small) {
+                        margin: 20px 0 10px;
+                    }
+                }
+                @media screen and (min-width: $width-small) {
+                    .logo-icon-with-label {
+                        img {
+                            width: 60px;
+                            height: 60px;
+                        }
+                    }
+                }
+                @media screen and (max-width: $width-small){
+                    .logo-icon-with-label {
+                            display: none;
+                        }
+                    h1 {
+                        margin: 0 0 130px;
+                    }
+                }
+            }
+        }
         .hero {
             font-family: $font-gt-america-regular;
             .circular-icon {
                 margin-bottom: 10px;
+                img {
+                    @media screen and (max-width: $width-small) {
+                        &:nth-child(1){
+                            display: none;
+                        }
+                        +img {
+                            opacity: 1;
+                        }
+                    }
+                    
+                }
             }
             .name {
                 text-align: center;
@@ -43,6 +88,7 @@
                     @include font(36px, 48px, 400 );
                     @include letterSpacing(36);
                 }
+                
             }
             h1 {
                 @include font(36px, 34px, 400 );
@@ -63,6 +109,28 @@
                 }
             }
         }
+    }
+}
+
+
+.all-gel {
+    @media screen and (max-width: $width-small){
+        .inner-xl-container {
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding:40px 0;
+            .name {
+                text-align: center;
+                @include font(14px, 22px, 400 );
+                font-family: $font-gt-america-regular;
+                margin: 10px 0 0;
+            }
+        }
+    }
+    @media screen and (min-width: $width-small) {
+        display: none;
     }
 }
 
@@ -473,10 +541,33 @@
     &.bits {
         @media screen and (min-width: $width-small){
             padding: 80px 0 140px 0;
+            .wrapper {
+                overflow: hidden;
+            }
+            .all-videos-bits {
+                margin: 0 -10px;
+            }
+        }
+        @media screen and (max-width: $width-small){
+            background: linear-gradient(to bottom, rgba(0,0,0,1), transparent 300px);
         }
         .header {
             .scroll-down {
                 margin-bottom: 60px;
+                @media screen and (max-width: $width-small){
+                    .icon {
+                        display: none;
+                    }
+                    margin-bottom: 30px;
+                }
+                .text {
+                    text-transform: none;
+                }
+            }
+            h2 {
+                @media screen and (max-width: $width-small){
+                    margin:20px 0 15px;
+                }
             }
         }
         .all-videos-bits {
@@ -484,10 +575,16 @@
             flex-wrap: wrap;
             .box {
                 border-bottom: 1px solid rgba(67, 67, 67,1);
-                margin-bottom: 40px;
+                margin: 0 0 40px;
                 width: 100%;
-                padding: 0 10px;
+                &:last-child{
+                    border-right: unset;
+                    @media screen and (max-width: $width-small){
+                        margin-bottom: 20px;
+                    }
+                }
                 @media screen and (min-width: $width-small){
+                    padding: 0 10px;
                     width: 33.333%;
                     border-right: 1px solid rgba(67, 67, 67,1);
                 }
@@ -502,9 +599,47 @@
                         border-right: unset;
                     }
                 }
-                .videos {
-                    width: 100%;
-                    margin-top: 0;
+                .video-box {
+                    border-bottom: 8px solid #000;
+                    .video {
+                        position: relative;
+                        aspect-ratio: 1.45;
+                        .play.circular-icon {
+                            position: absolute;
+                            left: 50%;
+                            top: 50%;
+                            transform: translate(-50%, -50%);
+                            @media screen and (max-width: $width-small){
+                                img {
+                                    width: 14px;
+                                    height: 10px;
+                                    left: 50%;
+                                    top: 50%;
+                                    transform: translate(-50%, -50%);
+                                }
+                            }
+                        }
+                    }
+                }
+                .description {
+                    padding:0 0 0 10px;
+                    font-family: $font-gt-america-regular;
+                    h3 {
+                        background: unset;
+                        padding: unset;
+                        @include font(24px, 22px, 400)
+                        @media screen and (max-width: $width-small){
+                            margin: 10px 0 0;
+                        }
+                    }
+                    p {
+                        text-transform: uppercase;
+                        margin: 5px 0 30px;
+                        @include font(16px, 22px, 400)
+                        @media screen and (min-width: $width-small) {
+                            @include font(22px, 28px, 400)
+                        }
+                    }
                 }
             }
         }
@@ -530,6 +665,36 @@
     }
     .iframe {
         max-width: 796px;
+    }
+    .video-stirrups {
+        aspect-ratio: 1.78;
+        max-width: 796px;
+        margin: 0 auto;
+        position: relative;
+        border-bottom: 8px solid rgba(0,0,0,1);
+        .play.circular-icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 38px;
+            height: 38px;
+            img {
+                width: 14px;
+                height: 10px;
+                transform: translate(-50%,-50%);
+                top: 50%;
+                left: 50%;
+            }
+            @media screen and (min-width: $width-small){
+                width: 84px;
+                height: 84px;
+                img {
+                    width: 30px;
+                    height: 24px;
+                }
+            }
+        }
     }
 }
 

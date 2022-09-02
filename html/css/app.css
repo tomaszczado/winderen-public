@@ -10237,68 +10237,121 @@ footer {
     }
   }
 } */
-#banner.instruction .scroll-down {
-  position: unset; }
+#banner.instruction {
+  background-color: #000000; }
   @media screen and (max-width: 768px) {
-    #banner.instruction .scroll-down {
-      display: none; } }
+    #banner.instruction .background .inner-background picture {
+      padding: 10px 10px 0 10px; } }
+  @media screen and (min-width: 768px) {
+    #banner.instruction .background .inner-background picture img.left {
+      -o-object-position: top left;
+      object-position: top left; } }
+  #banner.instruction .content {
+    bottom: 0px; }
+    @media screen and (max-width: 768px) {
+      #banner.instruction .content {
+        top: 0px;
+        padding: 0; } }
+    @media screen and (min-width: 768px) {
+      #banner.instruction .content.bits .hero .name {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 400; }
+        #banner.instruction .content.bits .hero .name.first {
+          display: none !important; }
+        #banner.instruction .content.bits .hero .name.second {
+          margin: 30px 0 0; } }
+    @media screen and (max-width: 768px) {
+      #banner.instruction .content.bits .hero .name.second {
+        display: none !important; } }
+    #banner.instruction .content.bits .hero h1 {
+      color: #FF9439; }
+      @media screen and (min-width: 768px) {
+        #banner.instruction .content.bits .hero h1 {
+          margin: 20px 0 10px; } }
+    @media screen and (min-width: 768px) {
+      #banner.instruction .content.bits .hero .logo-icon-with-label img {
+        width: 60px;
+        height: 60px; } }
+    @media screen and (max-width: 768px) {
+      #banner.instruction .content.bits .hero .logo-icon-with-label {
+        display: none; }
+      #banner.instruction .content.bits .hero h1 {
+        margin: 0 0 130px; } }
+    #banner.instruction .content .hero {
+      font-family: "GT-America-Standard-Regular-Trial"; }
+      #banner.instruction .content .hero .circular-icon {
+        margin-bottom: 10px; }
+        @media screen and (max-width: 768px) {
+          #banner.instruction .content .hero .circular-icon img:nth-child(1) {
+            display: none; }
+          #banner.instruction .content .hero .circular-icon img + img {
+            opacity: 1; } }
+      #banner.instruction .content .hero .name {
+        text-align: center;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 400; }
+        @media screen and (min-width: 768px) {
+          #banner.instruction .content .hero .name {
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 36px;
+            line-height: 48px;
+            font-weight: 400;
+            letter-spacing: 0.036em; } }
+      #banner.instruction .content .hero h1 {
+        font-size: 36px;
+        line-height: 34px;
+        font-weight: 400;
+        letter-spacing: 0.1em; }
+        @media screen and (min-width: 768px) {
+          #banner.instruction .content .hero h1 {
+            font-size: 60px;
+            line-height: 54px;
+            font-weight: 400;
+            margin-bottom: 20px; } }
+      #banner.instruction .content .hero h2 {
+        margin-bottom: 40px;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 400;
+        letter-spacing: 0.1em; }
+        @media screen and (min-width: 768px) {
+          #banner.instruction .content .hero h2 {
+            margin-top: -10px;
+            font-size: 36px;
+            line-height: 48px;
+            font-weight: 400;
+            letter-spacing: 0.1em; } }
 
 @media screen and (max-width: 768px) {
-  #banner.instruction .background .inner-background picture {
-    padding: 10px 10px 0 10px; } }
+  .all-gel .inner-xl-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 40px 0; }
+    .all-gel .inner-xl-container .name {
+      text-align: center;
+      font-size: 14px;
+      line-height: 22px;
+      font-weight: 400;
+      font-family: "GT-America-Standard-Regular-Trial";
+      margin: 10px 0 0; } }
 
 @media screen and (min-width: 768px) {
-  #banner.instruction .background .inner-background picture img.left {
-    -o-object-position: top left;
-    object-position: top left; } }
-
-#banner.instruction .content {
-  bottom: 0px; }
-  @media screen and (max-width: 768px) {
-    #banner.instruction .content {
-      top: 0px;
-      padding: 0; } }
-  #banner.instruction .content .hero {
-    font-family: "GT-America-Standard-Regular-Trial"; }
-    #banner.instruction .content .hero .circular-icon {
-      margin-bottom: 10px; }
-    #banner.instruction .content .hero .name {
-      text-align: center;
-      font-size: 16px;
-      line-height: 22px;
-      font-weight: 400; }
-      @media screen and (min-width: 768px) {
-        #banner.instruction .content .hero .name {
-          margin-bottom: 10px;
-          text-align: center;
-          font-size: 36px;
-          line-height: 48px;
-          font-weight: 400;
-          letter-spacing: 0.036em; } }
-    #banner.instruction .content .hero h1 {
-      font-size: 36px;
-      line-height: 34px;
-      font-weight: 400;
-      letter-spacing: 0.1em; }
-      @media screen and (min-width: 768px) {
-        #banner.instruction .content .hero h1 {
-          font-size: 60px;
-          line-height: 54px;
-          font-weight: 400;
-          margin-bottom: 20px; } }
-    #banner.instruction .content .hero h2 {
-      margin-bottom: 40px;
-      font-size: 16px;
-      line-height: 22px;
-      font-weight: 400;
-      letter-spacing: 0.1em; }
-      @media screen and (min-width: 768px) {
-        #banner.instruction .content .hero h2 {
-          margin-top: -10px;
-          font-size: 36px;
-          line-height: 48px;
-          font-weight: 400;
-          letter-spacing: 0.1em; } }
+  .all-gel {
+    display: none; } }
 
 .all-instructions {
   overflow-x: hidden;
@@ -10680,9 +10733,26 @@ footer {
       background: linear-gradient(to top, black, transparent 400px); } }
   @media screen and (min-width: 768px) {
     #videos.videos-instruction.bits {
-      padding: 80px 0 140px 0; } }
+      padding: 80px 0 140px 0; }
+      #videos.videos-instruction.bits .wrapper {
+        overflow: hidden; }
+      #videos.videos-instruction.bits .all-videos-bits {
+        margin: 0 -10px; } }
+  @media screen and (max-width: 768px) {
+    #videos.videos-instruction.bits {
+      background: linear-gradient(to bottom, black, transparent 300px); } }
   #videos.videos-instruction.bits .header .scroll-down {
     margin-bottom: 60px; }
+    @media screen and (max-width: 768px) {
+      #videos.videos-instruction.bits .header .scroll-down {
+        margin-bottom: 30px; }
+        #videos.videos-instruction.bits .header .scroll-down .icon {
+          display: none; } }
+    #videos.videos-instruction.bits .header .scroll-down .text {
+      text-transform: none; }
+  @media screen and (max-width: 768px) {
+    #videos.videos-instruction.bits .header h2 {
+      margin: 20px 0 15px; } }
   #videos.videos-instruction.bits .all-videos-bits {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -10691,11 +10761,16 @@ footer {
     flex-wrap: wrap; }
     #videos.videos-instruction.bits .all-videos-bits .box {
       border-bottom: 1px solid #434343;
-      margin-bottom: 40px;
-      width: 100%;
-      padding: 0 10px; }
+      margin: 0 0 40px;
+      width: 100%; }
+      #videos.videos-instruction.bits .all-videos-bits .box:last-child {
+        border-right: unset; }
+        @media screen and (max-width: 768px) {
+          #videos.videos-instruction.bits .all-videos-bits .box:last-child {
+            margin-bottom: 20px; } }
       @media screen and (min-width: 768px) {
         #videos.videos-instruction.bits .all-videos-bits .box {
+          padding: 0 10px;
           width: 33.333%;
           border-right: 1px solid #434343; } }
       @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -10706,9 +10781,48 @@ footer {
           width: 25%; }
           #videos.videos-instruction.bits .all-videos-bits .box:nth-child(4n) {
             border-right: unset; } }
-      #videos.videos-instruction.bits .all-videos-bits .box .videos {
-        width: 100%;
-        margin-top: 0; }
+      #videos.videos-instruction.bits .all-videos-bits .box .video-box {
+        border-bottom: 8px solid #000; }
+        #videos.videos-instruction.bits .all-videos-bits .box .video-box .video {
+          position: relative;
+          aspect-ratio: 1.45; }
+          #videos.videos-instruction.bits .all-videos-bits .box .video-box .video .play.circular-icon {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+            @media screen and (max-width: 768px) {
+              #videos.videos-instruction.bits .all-videos-bits .box .video-box .video .play.circular-icon img {
+                width: 14px;
+                height: 10px;
+                left: 50%;
+                top: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%); } }
+      #videos.videos-instruction.bits .all-videos-bits .box .description {
+        padding: 0 0 0 10px;
+        font-family: "GT-America-Standard-Regular-Trial"; }
+        #videos.videos-instruction.bits .all-videos-bits .box .description h3 {
+          background: unset;
+          padding: unset;
+          font-size: 24px;
+          line-height: 22px;
+          font-weight: 400; }
+          @media screen and (max-width: 768px) {
+            #videos.videos-instruction.bits .all-videos-bits .box .description h3 {
+              margin: 10px 0 0; } }
+        #videos.videos-instruction.bits .all-videos-bits .box .description p {
+          text-transform: uppercase;
+          margin: 5px 0 30px;
+          font-size: 16px;
+          line-height: 22px;
+          font-weight: 400; }
+          @media screen and (min-width: 768px) {
+            #videos.videos-instruction.bits .all-videos-bits .box .description p {
+              font-size: 22px;
+              line-height: 28px;
+              font-weight: 400; } }
   #videos.videos-instruction h2 {
     font-size: 16px;
     line-height: 22px;
@@ -10736,6 +10850,34 @@ footer {
         margin-bottom: 70px; } }
   #videos.videos-instruction .iframe {
     max-width: 796px; }
+  #videos.videos-instruction .video-stirrups {
+    aspect-ratio: 1.78;
+    max-width: 796px;
+    margin: 0 auto;
+    position: relative;
+    border-bottom: 8px solid black; }
+    #videos.videos-instruction .video-stirrups .play.circular-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      width: 38px;
+      height: 38px; }
+      #videos.videos-instruction .video-stirrups .play.circular-icon img {
+        width: 14px;
+        height: 10px;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%; }
+      @media screen and (min-width: 768px) {
+        #videos.videos-instruction .video-stirrups .play.circular-icon {
+          width: 84px;
+          height: 84px; }
+          #videos.videos-instruction .video-stirrups .play.circular-icon img {
+            width: 30px;
+            height: 24px; } }
 
 .description-instruction {
   font-family: "GT-America-Standard-Regular-Trial";

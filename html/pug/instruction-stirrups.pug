@@ -22,6 +22,7 @@ block content
           div(class='icon')
             span(class='icon circular-icon') 
               img(src='images/1px.gif' data-src='images/icons-book-white.svg' alt='TODO' width='48' height='48' class='lazy-image')
+              img(src='images/1px.gif' data-src='images/icons-setting-white.svg' alt='TODO' width='48' height='48' class='lazy-image')
           h1 KNEE PROTECT SOLUTION
           h2 Stirrups
           div(class='name') Instruction
@@ -40,13 +41,16 @@ block content
             br
             | THE FOOT PAD
           p(class="caption") Watch the video
-        div(class='videos')
-          div(class='video')
-            div(class='iframe')
-              div(class='outer-iframe')
-                div(class='inner-iframe')
-                  iframe(width='560' height='315' src='https://www.youtube.com/embed/GJCBlkSg0P4' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='true')
-
+        div(class='video-stirrups')
+              a(href='https://www.youtube.com/watch?v=QyD-IK90Iss' title='TODO' target='_blank')
+                div(class='image')
+                  picture(class='rwd-background rwd-background-overlay lazy-picture')
+                    //- source(srcset='images/1px.gif' data-srcset='images/video-stirrups-overlay-desktop.jpg' media='(min-width: 1200px)')
+                    //- source(srcset='images/1px.gif' data-srcset='images/video-stirrups-overlay-tablet.jpg' media='(min-width: 768px)')
+                    img(src='images/1px.gif' data-src='images/video-stirrups-overlay.jpg' alt='TODO')
+                  span(class='play circular-icon')
+                    img(src='images/1px.gif' data-src='images/icons-play.svg' alt='TODO' width='1' height='1' class='lazy-image')
+          
 
   include ./includes/components/instruction/faq.pug
 
