@@ -599,6 +599,10 @@ a {
       @include font(16px, 24px, 400);
       font-family: $font-gt-america-extended-regular;
     }
+
+    +.quotation {
+      margin: 12px 0px 0px 0px;
+    }
   }
 
   h2 {
@@ -612,6 +616,10 @@ a {
       margin: 5px 0px 0px 0px;
       @include font(16px, 24px, 400);
     }
+
+    +.quotation {
+      margin: 12px 0px 0px 0px;
+    }
   }
 
   h3 {
@@ -620,6 +628,10 @@ a {
     @include letterSpacing(25);
     @include font(20px, 24px, 400);
     font-family: $font-gt-america-extended-regular;
+
+    +.quotation {
+      margin: 12px 0px 0px 0px;
+    }
   }
 
   .quotation {

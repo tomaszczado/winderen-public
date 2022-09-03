@@ -652,6 +652,8 @@ a {
     line-height: 24px;
     font-weight: 400;
     font-family: "GT-America-Extended-Regular-Trial"; }
+  .logo-icon-with-label h1 + .quotation {
+    margin: 12px 0px 0px 0px; }
 
 .logo-icon-with-label h2 {
   text-align: center;
@@ -666,6 +668,8 @@ a {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400; }
+  .logo-icon-with-label h2 + .quotation {
+    margin: 12px 0px 0px 0px; }
 
 .logo-icon-with-label h3 {
   text-align: center;
@@ -675,6 +679,8 @@ a {
   line-height: 24px;
   font-weight: 400;
   font-family: "GT-America-Extended-Regular-Trial"; }
+  .logo-icon-with-label h3 + .quotation {
+    margin: 12px 0px 0px 0px; }
 
 .logo-icon-with-label .quotation {
   text-align: center;
@@ -1257,6 +1263,8 @@ a {
       font-size: 20px;
       line-height: 30px;
       font-weight: 400; }
+    .logo-icon-with-label h1 + .quotation {
+      margin: 20px 0px 0px 0px; }
   .logo-icon-with-label h2 {
     font-size: 26px;
     line-height: 30px;
@@ -1266,10 +1274,14 @@ a {
       font-size: 20px;
       line-height: 30px;
       font-weight: 400; }
+    .logo-icon-with-label h2 + .quotation {
+      margin: 20px 0px 0px 0px; }
   .logo-icon-with-label h3 {
     font-size: 26px;
     line-height: 30px;
     font-weight: 400; }
+    .logo-icon-with-label h3 + .quotation {
+      margin: 20px 0px 0px 0px; }
   .logo-icon-with-label .quotation {
     font-size: 18px;
     line-height: 24px;
@@ -1577,8 +1589,18 @@ a {
     transition-timing-function: Cubic-bezier(0.3, 0, 0.3, 1); }
     .support .contact a:hover {
       color: #4E4E4E; }
+  .logo-icon-with-label .logo + .quotation {
+    margin: 40px 0px 0px 0px; }
   .logo-icon-with-label .logo img {
-    width: 34px; } }
+    width: 34px; }
+  .logo-icon-with-label .icon + .quotation {
+    margin: 40px 0px 0px 0px; }
+  .logo-icon-with-label h1 + .quotation {
+    margin: 40px 0px 0px 0px; }
+  .logo-icon-with-label h2 + .quotation {
+    margin: 40px 0px 0px 0px; }
+  .logo-icon-with-label h3 + .quotation {
+    margin: 40px 0px 0px 0px; } }
 
 @media all and (min-width: 1500px) {
   .button {
@@ -5458,6 +5480,8 @@ main {
   main .content-header-with-content {
     padding: 30px 0px 150px 0px;
     background: linear-gradient(#000000 0px, transparent 100%); }
+    main .content-header-with-content.background-reverted {
+      background: linear-gradient(transparent 0px, #000000 100%); }
     main .content-header-with-content .content {
       display: -webkit-box;
       display: -ms-flexbox;

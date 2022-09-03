@@ -459,8 +459,36 @@
 
   .logo-icon-with-label {
     .logo {
+      +.quotation {
+        margin: 40px 0px 0px 0px;
+      }
+
       img {
         width: 34px;
+      }
+    }
+
+    .icon {
+      +.quotation {
+        margin: 40px 0px 0px 0px;
+      }
+    }
+
+    h1 {
+      +.quotation {
+        margin: 40px 0px 0px 0px;
+      }
+    }
+
+    h2 {
+      +.quotation {
+        margin: 40px 0px 0px 0px;
+      }
+    }
+
+    h3 {
+      +.quotation {
+        margin: 40px 0px 0px 0px;
       }
     }
   }
