@@ -3966,6 +3966,10 @@ main {
     padding: 30px 0px 150px 0px;
     background: linear-gradient($color-black 0px, transparent 100%);
 
+    &.background-reverted {
+      background: linear-gradient(transparent 0px, $color-black 100%);
+    }
+
     .content {
       display: flex;
       justify-content: center;

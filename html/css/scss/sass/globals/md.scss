@@ -82,6 +82,10 @@
         margin: 10px 0px 0px 0px;
         @include font(20px, 30px, 400);
       }
+
+      +.quotation {
+        margin: 20px 0px 0px 0px;
+      }
     }
 
     h2 {
@@ -91,10 +95,18 @@
         margin: 10px 0px 0px 0px;
         @include font(20px, 30px, 400);
       }
+
+      +.quotation {
+        margin: 20px 0px 0px 0px;
+      }
     }
 
     h3 {
       @include font(26px, 30px, 400);
+
+      +.quotation {
+        margin: 20px 0px 0px 0px;
+      }
     }
 
     .quotation {
