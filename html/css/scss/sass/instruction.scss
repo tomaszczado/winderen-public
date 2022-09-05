@@ -18,8 +18,13 @@
     .content {
         bottom: 0px;
         @media screen and (max-width: $width-small) {
-            top: 0px;
             padding: 0;
+            .scroll-down {
+                display: none;
+            }
+        }
+        .scroll-down {
+            position: unset;
         }
         &.bits {
             .hero {
@@ -147,6 +152,9 @@
         @media screen and (max-width: $width-small){
             flex-direction: column;
         }
+        @media screen and (min-width: $width-small){
+            margin: 0 -10px;
+        }
         .box {
             width: 100%;
             margin-bottom: 40px;
@@ -199,6 +207,17 @@
                     width: 100%;
                     height: 100%;
                     object-fit: cover;
+                }
+
+                &::before {
+                    content:'';
+                    position: absolute;
+                    width: 100%;
+                    top: 0px;
+                    left: 0px;
+                    height: 8px;
+                    background-color: rgba(31, 77, 100,1);
+                    z-index: 1;
                 }
             }
             .icon:not(.circular-icon) {
@@ -562,6 +581,7 @@
                 }
                 .text {
                     text-transform: none;
+                    margin-bottom: 10px;
                 }
             }
             h2 {
@@ -627,17 +647,18 @@
                     h3 {
                         background: unset;
                         padding: unset;
-                        @include font(24px, 22px, 400)
+                        @include font(24px, 22px, 400);
                         @media screen and (max-width: $width-small){
                             margin: 10px 0 0;
                         }
                     }
                     p {
                         text-transform: uppercase;
-                        margin: 5px 0 30px;
-                        @include font(16px, 22px, 400)
+                        margin: 5px 0 10px;
+                        @include font(16px, 22px, 400);
                         @media screen and (min-width: $width-small) {
-                            @include font(22px, 28px, 400)
+                            @include font(22px, 28px, 400);
+                            margin: 5px 0 30px;
                         }
                     }
                 }
@@ -667,11 +688,14 @@
         max-width: 796px;
     }
     .video-stirrups {
-        aspect-ratio: 1.78;
+        aspect-ratio: 1.61;
         max-width: 796px;
         margin: 0 auto;
         position: relative;
         border-bottom: 8px solid rgba(0,0,0,1);
+        @media screen and (min-width: $width-small){
+            aspect-ratio: 1.78;
+        }
         .play.circular-icon {
             position: absolute;
             top: 50%;

@@ -10250,8 +10250,11 @@ footer {
     bottom: 0px; }
     @media screen and (max-width: 768px) {
       #banner.instruction .content {
-        top: 0px;
-        padding: 0; } }
+        padding: 0; }
+        #banner.instruction .content .scroll-down {
+          display: none; } }
+    #banner.instruction .content .scroll-down {
+      position: unset; }
     @media screen and (min-width: 768px) {
       #banner.instruction .content.bits .hero .name {
         font-size: 20px;
@@ -10372,6 +10375,9 @@ footer {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column; } }
+    @media screen and (min-width: 768px) {
+      .all-instructions .boxes {
+        margin: 0 -10px; } }
     .all-instructions .boxes .box {
       width: 100%;
       margin-bottom: 40px;
@@ -10422,6 +10428,15 @@ footer {
           height: 100%;
           -o-object-fit: cover;
           object-fit: cover; }
+        .all-instructions .boxes .box .box-ratio::before {
+          content: '';
+          position: absolute;
+          width: 100%;
+          top: 0px;
+          left: 0px;
+          height: 8px;
+          background-color: #1f4d64;
+          z-index: 1; }
       .all-instructions .boxes .box .icon:not(.circular-icon) {
         padding: 20px 0 0 15px;
         margin-bottom: 20px; }
@@ -10749,7 +10764,8 @@ footer {
         #videos.videos-instruction.bits .header .scroll-down .icon {
           display: none; } }
     #videos.videos-instruction.bits .header .scroll-down .text {
-      text-transform: none; }
+      text-transform: none;
+      margin-bottom: 10px; }
   @media screen and (max-width: 768px) {
     #videos.videos-instruction.bits .header h2 {
       margin: 20px 0 15px; } }
@@ -10814,7 +10830,7 @@ footer {
               margin: 10px 0 0; } }
         #videos.videos-instruction.bits .all-videos-bits .box .description p {
           text-transform: uppercase;
-          margin: 5px 0 30px;
+          margin: 5px 0 10px;
           font-size: 16px;
           line-height: 22px;
           font-weight: 400; }
@@ -10822,7 +10838,8 @@ footer {
             #videos.videos-instruction.bits .all-videos-bits .box .description p {
               font-size: 22px;
               line-height: 28px;
-              font-weight: 400; } }
+              font-weight: 400;
+              margin: 5px 0 30px; } }
   #videos.videos-instruction h2 {
     font-size: 16px;
     line-height: 22px;
@@ -10851,11 +10868,14 @@ footer {
   #videos.videos-instruction .iframe {
     max-width: 796px; }
   #videos.videos-instruction .video-stirrups {
-    aspect-ratio: 1.78;
+    aspect-ratio: 1.61;
     max-width: 796px;
     margin: 0 auto;
     position: relative;
     border-bottom: 8px solid black; }
+    @media screen and (min-width: 768px) {
+      #videos.videos-instruction .video-stirrups {
+        aspect-ratio: 1.78; } }
     #videos.videos-instruction .video-stirrups .play.circular-icon {
       position: absolute;
       top: 50%;
