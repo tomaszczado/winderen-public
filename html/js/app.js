@@ -980,8 +980,6 @@ var App = {
 
           _previous.addEventListener('click', handlePreviousClick, false);
 
-          console.log(_pages);
-
           _pages.forEach(function (page) {
             return page.addEventListener('click', handlePageClick, false);
           });
@@ -1025,8 +1023,6 @@ var App = {
         /* event.currentTarget ||  */
         event.target;
         var parent = node.parentElement;
-        console.log(node);
-        console.log(parent);
 
         if (parent.classList.contains('active')) {
           parent.classList.remove('active');
@@ -1043,6 +1039,177 @@ var App = {
       _headers.forEach(function (item) {
         return item.addEventListener('click', handleClick, false);
       });
+    }
+  },
+  highlightedContentWithGallery: function highlightedContentWithGallery() {
+    var galleries = document.querySelectorAll('.highlighted-header-with-content-and-gallery');
+
+    if (!!galleries.length) {
+      var moveItems = function moveItems(gallery) {
+        var _wrapper = gallery.querySelector('.images-inner');
+
+        var _currentIndex = parseInt(gallery.getAttribute('data-current-index'), 10) || 0;
+
+        var _currentWidth = parseFloat(gallery.getAttribute('data-current-width')) || 0;
+
+        _wrapper.style.transform = 'translateX(-' + _currentIndex * _currentWidth + 'px)';
+      };
+
+      var setPage = function setPage(gallery) {
+        var _pages = gallery.querySelectorAll('.pages div');
+
+        _pages.forEach(function (page) {
+          return page.classList.remove('active');
+        });
+
+        var _currentIndex = parseInt(gallery.getAttribute('data-current-index'), 10) || 0;
+
+        var _currentPage = gallery.querySelector('.pages div[data-index="' + _currentIndex + '"]');
+
+        _currentPage.classList.add('active');
+      };
+
+      var handlePageClick = function handlePageClick(event) {
+        event = event || window.event;
+        var node =
+        /* event.currentTarget ||  */
+        event.target;
+        var gallery = node.closest('.highlighted-header-with-content-and-gallery');
+        var clickedIndex = parseInt(node.getAttribute('data-index'), 10) || 0;
+        gallery.setAttribute('data-current-index', clickedIndex);
+        moveItems(gallery);
+        setPage(gallery);
+      };
+
+      var handlePreviousClick = function handlePreviousClick(event) {
+        event = event || window.event;
+        var node =
+        /* event.currentTarget ||  */
+        event.target;
+        var gallery = node.closest('.highlighted-header-with-content-and-gallery');
+        var images = gallery.querySelectorAll('.image');
+
+        var _currentIndex = parseInt(gallery.getAttribute('data-current-index'), 10) || 0;
+
+        --_currentIndex;
+
+        if (_currentIndex < 0) {
+          _currentIndex = images.length - 1;
+        }
+
+        gallery.setAttribute('data-current-index', _currentIndex);
+        moveItems(gallery);
+        setPage(gallery);
+      };
+
+      var handleNextClick = function handleNextClick(event) {
+        event = event || window.event;
+        var node =
+        /* event.currentTarget ||  */
+        event.target;
+        var gallery = node.closest('.highlighted-header-with-content-and-gallery');
+        var images = gallery.querySelectorAll('.image');
+
+        var _currentIndex = parseInt(gallery.getAttribute('data-current-index'), 10) || 0;
+
+        ++_currentIndex;
+
+        if (_currentIndex > images.length - 1) {
+          _currentIndex = 0;
+        }
+
+        gallery.setAttribute('data-current-index', _currentIndex);
+        moveItems(gallery);
+        setPage(gallery);
+      };
+
+      var calculateWidths = function calculateWidths(gallery, pictures) {
+        if (!pictures.length) {
+          return;
+        }
+
+        var wrapper = gallery.querySelector('.images-outer');
+        var wrapperParams = wrapper.getBoundingClientRect();
+        var _singleItemWidth = wrapperParams.width;
+
+        var _totalWrapperWidth = wrapperParams.width * pictures.length;
+
+        return {
+          width: _singleItemWidth,
+          total: _totalWrapperWidth
+        };
+      };
+
+      var updateGallery = function updateGallery(gallery, images) {
+        var _wrapper = gallery.querySelector('.images-inner');
+
+        _wrapper.removeAttribute('style');
+
+        gallery.setAttribute('data-current-index', 0);
+
+        var _calculateWidths2 = calculateWidths(gallery, images),
+            width = _calculateWidths2.width,
+            total = _calculateWidths2.total;
+
+        gallery.setAttribute('data-current-width', width);
+        gallery.setAttribute('data-current-total', total);
+        _wrapper.style.width = total + 'px';
+        _wrapper.style.transform = 'translateX(0px)';
+        images.forEach(function (image) {
+          return image.style.width = width + 'px';
+        });
+      };
+
+      var resizeGallery = function resizeGallery(gallery) {
+        var _images = gallery.querySelectorAll('.image');
+
+        updateGallery(gallery, _images);
+        setPage(gallery);
+      };
+
+      var initializeGallery = function initializeGallery(gallery) {
+        var _images = gallery.querySelectorAll('.image');
+
+        var _pages = gallery.querySelectorAll('.pages div');
+
+        if (!!_images.length) {
+          gallery.classList.add('show-navigation');
+
+          var _next = gallery.querySelector('.next');
+
+          _next.addEventListener('click', handleNextClick, false);
+
+          var _previous = gallery.querySelector('.previous');
+
+          _previous.addEventListener('click', handlePreviousClick, false);
+
+          _pages.forEach(function (page) {
+            return page.addEventListener('click', handlePageClick, false);
+          });
+        }
+
+        _images.forEach(function (image, index) {
+          return image.setAttribute('data-index', index);
+        });
+
+        _pages.forEach(function (page, index) {
+          return page.setAttribute('data-index', index);
+        });
+
+        updateGallery(gallery, _images);
+        setPage(gallery);
+      };
+
+      var resizeHandle = function resizeHandle() {
+        galleries.forEach(function (gallery) {
+          return resizeGallery(gallery);
+        });
+      };
+
+      galleries.forEach(function (gallery) {
+        return initializeGallery(gallery);
+      });
+      window.addEventListener('resize', resizeHandle, false);
     }
   },
   reviewsFilters: function reviewsFilters() {
@@ -1199,6 +1366,7 @@ window.onload = function () {
   App.shopProductReviews();
   App.gallery();
   App.highlightedListWithImage();
+  App.highlightedContentWithGallery();
   App.reviewsFilters();
   App.reviews();
 };

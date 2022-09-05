@@ -678,7 +678,6 @@ var App = {
           let _previous = gallery.querySelector('.previous');
               _previous.addEventListener('click', handlePreviousClick, false);
           
-          console.log(_pages);
           _pages.forEach((page) => page.addEventListener('click', handlePageClick, false));
         }
 
@@ -708,8 +707,6 @@ var App = {
         event = event || window.event;
         let node = /* event.currentTarget ||  */event.target;
         let parent = node.parentElement;
-        console.log(node);
-        console.log(parent);
 
         if(parent.classList.contains('active')) {
           parent.classList.remove('active');
@@ -722,6 +719,150 @@ var App = {
       };
 
       _headers.forEach((item) => item.addEventListener('click', handleClick, false));
+    }
+  },
+  highlightedContentWithGallery: () => {
+    let galleries = document.querySelectorAll('.highlighted-header-with-content-and-gallery');
+    if (!!galleries.length) {
+      let moveItems = (gallery) => {
+        let _wrapper = gallery.querySelector('.images-inner');
+
+        let _currentIndex = parseInt(gallery.getAttribute('data-current-index'), 10) || 0;
+        let _currentWidth = parseFloat(gallery.getAttribute('data-current-width')) || 0;
+        
+        _wrapper.style.transform = 'translateX(-' + ( _currentIndex * _currentWidth ) + 'px)';
+      };
+
+      let setPage = (gallery) => {
+        let _pages = gallery.querySelectorAll('.pages div');
+            _pages.forEach((page) => page.classList.remove('active'));
+
+        let _currentIndex = parseInt(gallery.getAttribute('data-current-index'), 10) || 0;
+        let _currentPage = gallery.querySelector('.pages div[data-index="' + _currentIndex + '"]');
+            _currentPage.classList.add('active');
+      };
+      
+      let handlePageClick = (event) => {
+        event = event || window.event;
+        let node = /* event.currentTarget ||  */event.target;
+        let gallery = node.closest('.highlighted-header-with-content-and-gallery');
+        let clickedIndex = parseInt(node.getAttribute('data-index'), 10) || 0;
+
+        gallery.setAttribute('data-current-index', clickedIndex);
+
+        moveItems(gallery);
+        setPage(gallery);
+      };
+      
+      let handlePreviousClick = (event) => {
+        event = event || window.event;
+        let node = /* event.currentTarget ||  */event.target;
+        let gallery = node.closest('.highlighted-header-with-content-and-gallery');
+        let images = gallery.querySelectorAll('.image');
+
+        let _currentIndex = parseInt(gallery.getAttribute('data-current-index'), 10) || 0;
+
+        --_currentIndex;
+        if(_currentIndex < 0) {
+          _currentIndex = images.length - 1;
+        }
+
+        gallery.setAttribute('data-current-index', _currentIndex);
+
+        moveItems(gallery);
+        setPage(gallery);
+      };
+      
+      let handleNextClick = (event) => {
+        event = event || window.event;
+        let node = /* event.currentTarget ||  */event.target;
+        let gallery = node.closest('.highlighted-header-with-content-and-gallery');
+        let images = gallery.querySelectorAll('.image');
+
+        let _currentIndex = parseInt(gallery.getAttribute('data-current-index'), 10) || 0;
+
+        ++_currentIndex;
+        if(_currentIndex > images.length - 1) {
+          _currentIndex = 0;
+        }
+
+        gallery.setAttribute('data-current-index', _currentIndex);
+
+        moveItems(gallery);
+        setPage(gallery);
+      };
+
+      let calculateWidths = (gallery, pictures) => {
+        if(!pictures.length) {
+          return;
+        }
+
+        let wrapper = gallery.querySelector('.images-outer');
+        let wrapperParams = wrapper.getBoundingClientRect();
+
+        let _singleItemWidth = wrapperParams.width;
+        let _totalWrapperWidth = wrapperParams.width * pictures.length;
+
+        return {
+          width: _singleItemWidth,
+          total: _totalWrapperWidth
+        }
+      };
+
+      let updateGallery = (gallery, images) => {
+        let _wrapper = gallery.querySelector('.images-inner');
+            _wrapper.removeAttribute('style');
+
+        gallery.setAttribute('data-current-index', 0);
+
+        let { width, total } = calculateWidths(gallery, images);
+
+        gallery.setAttribute('data-current-width', width);
+        gallery.setAttribute('data-current-total', total);
+
+        _wrapper.style.width = total + 'px';
+        _wrapper.style.transform = 'translateX(0px)';
+
+        images.forEach((image) => image.style.width = width + 'px');
+      };
+
+      let resizeGallery = (gallery) => {
+        let _images = gallery.querySelectorAll('.image');
+
+        updateGallery(gallery, _images);
+        setPage(gallery);
+      };
+
+      let initializeGallery = (gallery) => {
+        let _images = gallery.querySelectorAll('.image');
+        let _pages = gallery.querySelectorAll('.pages div');
+
+        if(!!_images.length) {
+          gallery.classList.add('show-navigation');
+          
+          let _next = gallery.querySelector('.next');
+              _next.addEventListener('click', handleNextClick, false);
+          
+          let _previous = gallery.querySelector('.previous');
+              _previous.addEventListener('click', handlePreviousClick, false);
+          
+          _pages.forEach((page) => page.addEventListener('click', handlePageClick, false));
+        }
+
+        _images.forEach((image, index) => image.setAttribute('data-index', index));
+        _pages.forEach((page, index) => page.setAttribute('data-index', index));
+
+        updateGallery(gallery, _images);
+        setPage(gallery);
+      };
+
+      let resizeHandle = () => {
+        galleries.forEach((gallery) => resizeGallery(gallery));
+      };
+
+      galleries.forEach((gallery) => initializeGallery(gallery));
+      
+      window.addEventListener('resize', resizeHandle, false);
     }
   },
   reviewsFilters: () => {
@@ -864,6 +1005,7 @@ window.onload = () => {
   App.shopProductReviews();
   App.gallery();
   App.highlightedListWithImage();
+  App.highlightedContentWithGallery();
   App.reviewsFilters();
   App.reviews();
 };

@@ -3970,6 +3970,10 @@ main {
       background: linear-gradient(transparent 0px, $color-black 100%);
     }
 
+    &.background-transparent {
+      background: none;
+    }
+
     .content {
       display: flex;
       justify-content: center;
@@ -4352,6 +4356,118 @@ main {
 
     .scroll-down {
       margin: 75px 0px 0px 0px;
+    }
+  }
+
+  .highlighted-header-with-content-and-gallery {
+    background: linear-gradient($color-black 0px, $color-black 80px, transparent 80px, transparent 100%);
+    /* background: linear-gradient($color-cod-gray 0px, $color-cod-gray 80px, $color-black 80px, $color-cod-gray 265px, $color-cod-gray 100%); */
+
+    &.show-navigation {
+      .navigation {
+        display: block;
+      }
+
+      .images-inner {
+        display: flex;
+      }
+
+      .image {
+        padding: 0px 50px 0px 50px;
+      }
+    }
+
+    .wrapper {
+      background: $color-tarawera;
+      padding: 30px $space-extra 30px $space-extra;
+      border-bottom: 8px solid rgba($color-black, 0.2);
+      margin: 0px -1 * $space-extra 0px -1 * $space-extra;
+    }
+
+    .columns {
+      margin: 60px 0px 0px 0px;
+    }
+
+    .images-outer {
+      position: relative;
+      margin: 30px 0px 0px 0px;
+    }
+
+    .images-inner {
+      /* display: flex;
+      width: 50000em; */
+      @include transitionAdvanced('transform', 0.5s, 0s);
+    }
+
+    .image {
+      width: calc(100vw - (2 * #{$space-extra}));
+    }
+
+    .image-inner {
+      position: relative;
+      @include imageRatio(300, 150);
+
+      img {
+        object-fit: contain;
+      }
+    }
+
+    .navigation {
+      display: none;
+    }
+
+    .pages {
+      display: flex;
+      justify-content: center;
+      margin: 10px 0px 0px 0px;
+
+      div {
+        width: 14px;
+        height: 14px;
+        cursor: pointer;
+        border-radius: 50%;
+        border: 1px solid $color-white;
+
+        &.active {
+          background: $color-white;
+        }
+
+        + div {
+          margin: 0px 0px 0px 5px;
+        }
+      }
+    }
+
+    .previous {
+      top: 0px;
+      left: 0px;
+      width: 50px;
+      height: 100%;
+      display: flex;
+      cursor: pointer;
+      position: absolute;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .next {
+      top: 0px;
+      right: 0px;
+      width: 50px;
+      height: 100%;
+      display: flex;
+      cursor: pointer;
+      position: absolute;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .content {
+      text-align: center;
+      margin: 40px 0px 0px 0px;
+      @include letterSpacing(50);
+      @include font(14px, 22px, 400);
+      font-family: $font-gt-america-regular;
     }
   }
 
