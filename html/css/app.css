@@ -8240,7 +8240,10 @@ footer {
   main .content-gallery .content {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
   main .content-gallery .item {
     width: calc(100% / 3);
     padding: 0px 35px 0px 35px; }
