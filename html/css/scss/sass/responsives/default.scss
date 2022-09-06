@@ -3898,6 +3898,22 @@ main {
       @include font(14px, 22px, 400);
       font-family: $font-gt-america-regular;
     }
+
+    .additional-content {
+      display: flex;
+      justify-content: center;
+      margin: 38px 0px 0px 0px;
+      /* margin: 100px 0px 0px 0px; */
+    }
+
+    .additional-inner-content {
+      max-width: 1000px;
+      text-align: center;
+      color: $color-neon-carrot;
+      @include letterSpacing(50);
+      @include font(10px, 14px, 400);
+      font-family: $font-gt-america-regular;
+    }
   }
 
   .content-header-with-content-and-image {

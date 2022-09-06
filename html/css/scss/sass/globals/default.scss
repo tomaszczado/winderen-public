@@ -442,6 +442,17 @@ a {
   border: 1px solid $color-white;
   @include transitionAdvanced('border', 0.5s, 0s);
 
+  &.no-border {
+    border: none;
+
+    img {
+      top: 0px;
+      left: 0px;
+      width: 40px;
+      height: 40px;
+    }
+  }
+
   span {
     top: -2px;
     width: 20px;

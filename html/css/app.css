@@ -493,6 +493,13 @@ a {
   transition-property: border;
   -webkit-transition-timing-function: Cubic-bezier(0.3, 0, 0.3, 1);
   transition-timing-function: Cubic-bezier(0.3, 0, 0.3, 1); }
+  .circular-icon.no-border {
+    border: none; }
+    .circular-icon.no-border img {
+      top: 0px;
+      left: 0px;
+      width: 40px;
+      height: 40px; }
   .circular-icon span {
     top: -2px;
     width: 20px;
@@ -5414,6 +5421,24 @@ main {
       line-height: 22px;
       font-weight: 400;
       font-family: "GT-America-Standard-Regular-Trial"; }
+    main .content-header-with-content .additional-content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin: 38px 0px 0px 0px;
+      /* margin: 100px 0px 0px 0px; */ }
+    main .content-header-with-content .additional-inner-content {
+      max-width: 1000px;
+      text-align: center;
+      color: #FC9439;
+      letter-spacing: 0.05em;
+      font-size: 10px;
+      line-height: 14px;
+      font-weight: 400;
+      font-family: "GT-America-Standard-Regular-Trial"; }
   main .content-header-with-content-and-image {
     padding: 30px 0px 95px 0px; }
     main .content-header-with-content-and-image .items {
@@ -7744,6 +7769,13 @@ footer {
       font-size: 18px;
       line-height: 24px;
       font-weight: 400; }
+    main .content-header-with-content .additional-content {
+      margin: 75px 0px 0px 0px;
+      /* margin: 100px 0px 0px 0px; */ }
+    main .content-header-with-content .additional-inner-content {
+      font-size: 16px;
+      line-height: 16px;
+      font-weight: 400; }
   main .content-header-with-content-and-image {
     padding: 45px 0px 150px 0px; }
     main .content-header-with-content-and-image .items {
@@ -9262,6 +9294,12 @@ footer {
     main .content-header-with-content .inner-content {
       font-size: 20px;
       line-height: 28px;
+      font-weight: 400; }
+    main .content-header-with-content .additional-content {
+      margin: 100px 0px 0px 0px; }
+    main .content-header-with-content .additional-inner-content {
+      font-size: 14px;
+      line-height: 18px;
       font-weight: 400; }
   main .content-header-with-content-and-image {
     padding: 45px 0px 175px 0px; }
