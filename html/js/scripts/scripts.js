@@ -669,7 +669,7 @@ var App = {
         let _images = gallery.querySelectorAll('.image');
         let _pages = gallery.querySelectorAll('.pages div');
 
-        if(!!_images.length) {
+        if(_images.length > 1) {
           gallery.classList.add('show-navigation');
           
           let _next = gallery.querySelector('.next');
@@ -837,7 +837,7 @@ var App = {
         let _images = gallery.querySelectorAll('.image');
         let _pages = gallery.querySelectorAll('.pages div');
 
-        if(!!_images.length) {
+        if(_images.length > 1) {
           gallery.classList.add('show-navigation');
           
           let _next = gallery.querySelector('.next');
