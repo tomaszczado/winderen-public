@@ -1269,7 +1269,6 @@ main {
   #technology-list-quotations {
     padding: 30px 0px 30px 0px;
     background: linear-gradient($color-black 0px, transparent 700px, transparent 700px, transparent 100%);
-    /* background: linear-gradient($color-black 0px, $color-cod-gray 700px, $color-cod-gray 700px, $color-cod-gray 100%); */
     
     +#technology-banner-2 {
       z-index: -1;
@@ -1629,8 +1628,6 @@ main {
       @include font(14px, 19px, 400);
       padding: 17px $space-extra 17px $space-extra;
       font-family: $font-gt-america-extended-regular;
-      /* background: linear-gradient(#1D573D, #246747); */
-      /* background: linear-gradient(rgba($color-black, 0.2), transparent); */
 
       &:after {
         right: 10px;
@@ -3739,24 +3736,11 @@ main {
   }
 
   #technology-opinion {
-    /* background: linear-gradient($color-mine-shaft 0px, $color-mine-shaft 80px, $color-black 80px, $color-cod-gray 100%); */
-    /* background: linear-gradient($color-mine-shaft 0px, $color-mine-shaft 80px, $color-black 80px, $color-cod-gray 100%); */
-
     + .content-simple-banner {
       z-index: -1;
       position: relative;
       margin: -150px 0px 0px 0px;
     }
-
-    /* &.show-all-reviews {
-      .hidden {
-        display: block;
-      }
-
-      .buttons {
-        display: none;
-      }
-    } */
     
     .opinions {
       background: $color-green-pea;
@@ -3794,71 +3778,6 @@ main {
       @include font(18px, 24px, 400);
       font-family: $font-gt-america-regular;
     }
-
-    /* .review {
-      +.review {
-        margin: 35px 0px 0px 0px;
-        padding: 40px 0px 0px 0px;
-        border-top: 1px solid $color-concrete;
-      }
-    }
-
-    .hidden {
-      display: none;
-    }
-
-    .author-and-stars {
-      display: flex;
-    }
-
-    .author {
-      display: flex;
-      padding: 0px 35px 0px 0px;
-    }
-
-    .flag {
-      width: 24px;
-      height: 24px;
-      display: block;
-      overflow: hidden;
-      position: relative;
-      border-radius: 50%;
-      margin: 0px 10px 0px 0px;
-
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
-      }
-    }
-
-    .name {
-      @include letterSpacing(55);
-      @include font(16px, 22px, 400);
-      font-family: $font-gt-america-extended-regular;
-    }
-
-    .stars {
-      margin: 0px 0px 0px auto;
-
-      img {
-        width: 20px;
-        height: 20px;
-        display: inline-block;
-
-        +img {
-          margin: 0px 0px 0px 10px;
-        }
-      }
-    }
-
-    .quotation {
-      margin: 8px 0px 0px 0px;
-      @include letterSpacing(5);
-      @include font(18px, 24px, 400);
-      font-family: $font-gt-america-regular;
-    } */
     
     .support {
       margin: 10px 0px 0px 0px;
@@ -3868,12 +3787,6 @@ main {
         height: 100%;
       }
     }
-
-    /* .buttons {
-      display: flex;
-      justify-content: center;
-      margin: 40px 0px 0px 0px;
-    } */
   }
 
   .video-with-description {
@@ -3899,7 +3812,6 @@ main {
       text-align: center;
       justify-content: center;
       text-transform: uppercase;
-      /* margin: 25px 0px 0px 0px; */
       @include letterSpacing(25);
       @include font(14px, 18px, 400);
       font-family: $font-gt-america-regular;
@@ -3913,7 +3825,6 @@ main {
       display: flex;
       text-align: center;
       justify-content: center;
-      /* margin: 25px 0px 0px 0px; */
       @include letterSpacing(25);
       @include font(16px, 22px, 400);
       font-family: $font-gt-america-regular;
@@ -3978,22 +3889,11 @@ main {
       display: flex;
       justify-content: center;
       margin: 38px 0px 0px 0px;
-      /* max-width: 1000px;
-      text-align: center;
-      align-items: center;
-      flex-direction: column;
-      margin: 38px 0px 0px 0px;
-      @include letterSpacing(50);
-      @include font(14px, 22px, 400);
-      font-family: $font-gt-america-regular; */
     }
 
     .inner-content {
       max-width: 1000px;
       text-align: center;
-      /* align-items: center;
-      flex-direction: column;
-      margin: 38px 0px 0px 0px; */
       @include letterSpacing(50);
       @include font(14px, 22px, 400);
       font-family: $font-gt-america-regular;
@@ -4162,7 +4062,6 @@ main {
 
   .highlighted-list-with-image {
     padding: 0px 0px 50px 0px;
-    /* padding: 0px 0px 100px 0px; */
 
     +#technology-list-quotations {
       margin: -100px 0px 0px 0px;
@@ -4282,10 +4181,19 @@ main {
   .highlighted-content-with-image {
     background: linear-gradient(to bottom, $color-cod-gray 0px, $color-cod-gray 80px, $color-black 80px, $color-cod-gray 100%);
 
+    &.with-separator {
+      padding: 30px 0px 30px 0px;
+    }
+
+    &.background-green {
+      .wrapper {
+        background: $color-bottle-green;
+      }
+    }
+
     .wrapper {
       background: $color-tarawera;
       padding: 30px $space-extra 50px $space-extra;
-      /* padding: 30px $space-extra 30px $space-extra; */
       border-bottom: 8px solid rgba($color-black, 0.2);
       margin: 0px -1 * $space-extra 0px -1 * $space-extra;
     }
@@ -4312,14 +4220,45 @@ main {
       + .content {
         margin: 15px 0px 0px 0px;
       }
+
+      + .additional-content {
+        margin: 15px 0px 0px 0px;
+      }
+
+      + .buttons {
+        margin: 35px 0px 0px 0px;
+      }
     }
 
     .content {
       text-align: center;
       @include letterSpacing(55);
-      /* padding: 0px 20px 15px 20px; */
       @include font(16px, 22px, 400);
       font-family: $font-gt-america-regular;
+
+      + .additional-content {
+        margin: 20px 0px 0px 0px;
+      }
+
+      + .buttons {
+        margin: 35px 0px 0px 0px;
+      }
+    }
+
+    .additional-content {
+      text-align: center;
+      @include letterSpacing(50);
+      @include font(14px, 22px, 400);
+      font-family: $font-gt-america-regular;
+
+      + .buttons {
+        margin: 35px 0px 0px 0px;
+      }
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
     }
   }
 
@@ -4361,7 +4300,6 @@ main {
 
   .highlighted-header-with-content-and-gallery {
     background: linear-gradient($color-black 0px, $color-black 80px, transparent 80px, transparent 100%);
-    /* background: linear-gradient($color-cod-gray 0px, $color-cod-gray 80px, $color-black 80px, $color-cod-gray 265px, $color-cod-gray 100%); */
 
     &.show-navigation {
       .navigation {
@@ -4394,8 +4332,6 @@ main {
     }
 
     .images-inner {
-      /* display: flex;
-      width: 50000em; */
       @include transitionAdvanced('transform', 0.5s, 0s);
     }
 
@@ -4473,7 +4409,6 @@ main {
 
   .header-with-images-two-columns {
     padding: 30px 0px 60px 0px;
-    /* background: linear-gradient($color-black, $color-cod-gray); */
 
     .items {
       margin: 10px 0px 0px 0px;
@@ -4486,12 +4421,6 @@ main {
         border-top: 1px solid $color-tundora;
       }
     }
-    
-    /* .image {
-      img {
-        width: 100%;
-      }
-    } */
     
     .image {
       text-align: center;
@@ -4521,6 +4450,7 @@ main {
   }
 
   .content-gallery {
+    overflow: hidden;
     padding: 30px 0px 60px 0px;
     background: linear-gradient($color-black 0px, transparent 100%);
     

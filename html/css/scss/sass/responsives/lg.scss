@@ -386,7 +386,6 @@
 
       .content {
         padding: 40px 0px 65px 0px;
-        /* padding: 10px 0px 77px 0px; */
       }
     }
 
@@ -1358,7 +1357,6 @@
 
       .details {
         width: calc(100% - 200px);
-        /* width: calc(100% - 245px); */
       }
     }
 
@@ -1368,18 +1366,6 @@
       .inner-container {
         padding: 0px 50px 0px 50px;
       }
-
-      /* .content {
-        margin: 70px 0px 0px 0px;
-      } */
-  
-      /* .video {
-        margin: 55px 0px 0px 0px;
-
-        + .content {
-          margin: 110px 0px 0px 0px;
-        }
-      } */
 
       .scroll-down {
         margin: 135px 0px 0px 0px;
@@ -1521,11 +1507,6 @@
         padding: 0px 80px 20px 20px;
         @include font(20px, 28px, 400);
       }
-
-      /* .description {
-        padding: 0px 80px 20px 20px;
-        @include font(22px, 28px, 400);
-      } */
     }
 
     .highlighted-content-with-image {
@@ -1539,8 +1520,23 @@
         }
       }
 
+      .icon-wrapper {
+        + .additional-content {
+          margin: 75px 0px 0px 0px;
+        }
+      }
+
       .content {
         @include font(26px, 38px, 400);
+        
+        + .additional-content {
+          margin: 75px 0px 0px 0px;
+        }
+      }
+
+      .additional-content {
+        padding: 0px 100px 0px 100px;
+        @include font(16px, 22px, 400);
       }
     }
 
@@ -1569,8 +1565,6 @@
     }
 
     .highlighted-header-with-content-and-gallery {
-      /* padding: 0px 0px 50px 0px; */
-
       .inner-container {
         padding: 0px 50px 0px 50px;
       }
@@ -1578,10 +1572,6 @@
       .wrapper {
         padding: 80px 20px 100px 20px;
       }
-
-      /* .item {
-        padding: 80px 20px 100px 20px;
-      } */
   
       .column {
         padding: 0px 100px 0px 100px;
@@ -1590,10 +1580,6 @@
       .content {
         @include font(18px, 24px, 400);
       }
-
-      /* .scroll-down {
-        margin: 135px 0px 0px 0px;
-      } */
     }
     
     .header-with-images-two-columns {

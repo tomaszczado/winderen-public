@@ -3083,8 +3083,7 @@ main {
     margin: -80px 0px 0px 0px; }
   main #technology-list-quotations {
     padding: 30px 0px 30px 0px;
-    background: linear-gradient(#000000 0px, transparent 700px, transparent 700px, transparent 100%);
-    /* background: linear-gradient($color-black 0px, $color-cod-gray 700px, $color-cod-gray 700px, $color-cod-gray 100%); */ }
+    background: linear-gradient(#000000 0px, transparent 700px, transparent 700px, transparent 100%); }
     main #technology-list-quotations + #technology-banner-2 {
       z-index: -1;
       position: relative;
@@ -3370,9 +3369,7 @@ main {
     line-height: 19px;
     font-weight: 400;
     padding: 17px 25px 17px 25px;
-    font-family: "GT-America-Extended-Regular-Trial";
-    /* background: linear-gradient(#1D573D, #246747); */
-    /* background: linear-gradient(rgba($color-black, 0.2), transparent); */ }
+    font-family: "GT-America-Extended-Regular-Trial"; }
     main #reviews-filters .selection:after {
       right: 10px;
       width: 13px;
@@ -5287,129 +5284,48 @@ main {
       font-family: "GT-America-Extended-Regular-Trial"; }
     main #dimensions .scroll-down {
       margin: 75px 0px 0px 0px; }
-  main #technology-opinion {
-    /* background: linear-gradient($color-mine-shaft 0px, $color-mine-shaft 80px, $color-black 80px, $color-cod-gray 100%); */
-    /* background: linear-gradient($color-mine-shaft 0px, $color-mine-shaft 80px, $color-black 80px, $color-cod-gray 100%); */
-    /* &.show-all-reviews {
-      .hidden {
-        display: block;
-      }
-
-      .buttons {
-        display: none;
-      }
-    } */
-    /* .review {
-      +.review {
-        margin: 35px 0px 0px 0px;
-        padding: 40px 0px 0px 0px;
-        border-top: 1px solid $color-concrete;
-      }
-    }
-
-    .hidden {
-      display: none;
-    }
-
-    .author-and-stars {
-      display: flex;
-    }
-
-    .author {
-      display: flex;
-      padding: 0px 35px 0px 0px;
-    }
-
-    .flag {
-      width: 24px;
-      height: 24px;
-      display: block;
-      overflow: hidden;
-      position: relative;
-      border-radius: 50%;
-      margin: 0px 10px 0px 0px;
-
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
-      }
-    }
-
-    .name {
-      @include letterSpacing(55);
-      @include font(16px, 22px, 400);
-      font-family: $font-gt-america-extended-regular;
-    }
-
-    .stars {
-      margin: 0px 0px 0px auto;
-
-      img {
-        width: 20px;
-        height: 20px;
-        display: inline-block;
-
-        +img {
-          margin: 0px 0px 0px 10px;
-        }
-      }
-    }
-
-    .quotation {
-      margin: 8px 0px 0px 0px;
-      @include letterSpacing(5);
-      @include font(18px, 24px, 400);
-      font-family: $font-gt-america-regular;
-    } */
-    /* .buttons {
-      display: flex;
-      justify-content: center;
-      margin: 40px 0px 0px 0px;
-    } */ }
-    main #technology-opinion + .content-simple-banner {
-      z-index: -1;
-      position: relative;
-      margin: -150px 0px 0px 0px; }
-    main #technology-opinion .opinions {
-      background: #174A34;
-      padding: 30px 20px 50px 20px;
-      border-bottom: 8px solid rgba(0, 0, 0, 0.2); }
-    main #technology-opinion .inner-image {
-      width: 98px;
-      height: 98px;
-      overflow: hidden;
-      border-radius: 50%;
-      position: relative;
-      border: 8px solid rgba(242, 242, 242, 0.2); }
-    main #technology-opinion .name {
-      margin: 18px 0px 0px 0px;
-      text-transform: uppercase;
-      letter-spacing: 0.075em;
-      font-size: 16px;
-      line-height: 18px;
-      font-weight: 400;
-      font-family: "GT-America-Standard-Regular-Trial"; }
-    main #technology-opinion .position {
-      margin: 5px 0px 0px 0px;
-      letter-spacing: 0.055em;
-      font-size: 12px;
-      line-height: 16px;
-      font-weight: 400;
-      font-family: "GT-America-Standard-Regular-Trial"; }
-    main #technology-opinion .quotation {
-      margin: 18px 0px 0px 0px;
-      letter-spacing: 0.005em;
-      font-size: 18px;
-      line-height: 24px;
-      font-weight: 400;
-      font-family: "GT-America-Standard-Regular-Trial"; }
-    main #technology-opinion .support {
-      margin: 10px 0px 0px 0px;
-      border-bottom: 8px solid rgba(0, 0, 0, 0.2); }
-      main #technology-opinion .support .content {
-        height: 100%; }
+  main #technology-opinion + .content-simple-banner {
+    z-index: -1;
+    position: relative;
+    margin: -150px 0px 0px 0px; }
+  main #technology-opinion .opinions {
+    background: #174A34;
+    padding: 30px 20px 50px 20px;
+    border-bottom: 8px solid rgba(0, 0, 0, 0.2); }
+  main #technology-opinion .inner-image {
+    width: 98px;
+    height: 98px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    border: 8px solid rgba(242, 242, 242, 0.2); }
+  main #technology-opinion .name {
+    margin: 18px 0px 0px 0px;
+    text-transform: uppercase;
+    letter-spacing: 0.075em;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    font-family: "GT-America-Standard-Regular-Trial"; }
+  main #technology-opinion .position {
+    margin: 5px 0px 0px 0px;
+    letter-spacing: 0.055em;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: "GT-America-Standard-Regular-Trial"; }
+  main #technology-opinion .quotation {
+    margin: 18px 0px 0px 0px;
+    letter-spacing: 0.005em;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "GT-America-Standard-Regular-Trial"; }
+  main #technology-opinion .support {
+    margin: 10px 0px 0px 0px;
+    border-bottom: 8px solid rgba(0, 0, 0, 0.2); }
+    main #technology-opinion .support .content {
+      height: 100%; }
   main .video-with-description {
     padding: 30px 0px 30px 0px;
     background: #1E1E1E; }
@@ -5428,7 +5344,6 @@ main {
       -ms-flex-pack: center;
       justify-content: center;
       text-transform: uppercase;
-      /* margin: 25px 0px 0px 0px; */
       letter-spacing: 0.025em;
       font-size: 14px;
       line-height: 18px;
@@ -5444,7 +5359,6 @@ main {
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center;
-      /* margin: 25px 0px 0px 0px; */
       letter-spacing: 0.025em;
       font-size: 16px;
       line-height: 22px;
@@ -5491,21 +5405,10 @@ main {
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center;
-      margin: 38px 0px 0px 0px;
-      /* max-width: 1000px;
-      text-align: center;
-      align-items: center;
-      flex-direction: column;
-      margin: 38px 0px 0px 0px;
-      @include letterSpacing(50);
-      @include font(14px, 22px, 400);
-      font-family: $font-gt-america-regular; */ }
+      margin: 38px 0px 0px 0px; }
     main .content-header-with-content .inner-content {
       max-width: 1000px;
       text-align: center;
-      /* align-items: center;
-      flex-direction: column;
-      margin: 38px 0px 0px 0px; */
       letter-spacing: 0.05em;
       font-size: 14px;
       line-height: 22px;
@@ -5629,8 +5532,7 @@ main {
       font-weight: 400;
       font-family: "GT-America-Standard-Regular-Trial"; }
   main .highlighted-list-with-image {
-    padding: 0px 0px 50px 0px;
-    /* padding: 0px 0px 100px 0px; */ }
+    padding: 0px 0px 50px 0px; }
     main .highlighted-list-with-image + #technology-list-quotations {
       margin: -100px 0px 0px 0px; }
     main .highlighted-list-with-image.inverted .image {
@@ -5719,10 +5621,13 @@ main {
       font-family: "GT-America-Standard-Regular-Trial"; }
   main .highlighted-content-with-image {
     background: linear-gradient(to bottom, #1E1E1E 0px, #1E1E1E 80px, #000000 80px, #1E1E1E 100%); }
+    main .highlighted-content-with-image.with-separator {
+      padding: 30px 0px 30px 0px; }
+    main .highlighted-content-with-image.background-green .wrapper {
+      background: #0B4A34; }
     main .highlighted-content-with-image .wrapper {
       background: #083950;
       padding: 30px 25px 50px 25px;
-      /* padding: 30px $space-extra 30px $space-extra; */
       border-bottom: 8px solid rgba(0, 0, 0, 0.2);
       margin: 0px -25px 0px -25px; }
     main .highlighted-content-with-image .column + .column {
@@ -5741,14 +5646,37 @@ main {
       justify-content: center; }
       main .highlighted-content-with-image .icon-wrapper + .content {
         margin: 15px 0px 0px 0px; }
+      main .highlighted-content-with-image .icon-wrapper + .additional-content {
+        margin: 15px 0px 0px 0px; }
+      main .highlighted-content-with-image .icon-wrapper + .buttons {
+        margin: 35px 0px 0px 0px; }
     main .highlighted-content-with-image .content {
       text-align: center;
       letter-spacing: 0.055em;
-      /* padding: 0px 20px 15px 20px; */
       font-size: 16px;
       line-height: 22px;
       font-weight: 400;
       font-family: "GT-America-Standard-Regular-Trial"; }
+      main .highlighted-content-with-image .content + .additional-content {
+        margin: 20px 0px 0px 0px; }
+      main .highlighted-content-with-image .content + .buttons {
+        margin: 35px 0px 0px 0px; }
+    main .highlighted-content-with-image .additional-content {
+      text-align: center;
+      letter-spacing: 0.05em;
+      font-size: 14px;
+      line-height: 22px;
+      font-weight: 400;
+      font-family: "GT-America-Standard-Regular-Trial"; }
+      main .highlighted-content-with-image .additional-content + .buttons {
+        margin: 35px 0px 0px 0px; }
+    main .highlighted-content-with-image .buttons {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
   main .highlighted-list-with-content-and-image {
     padding: 0px 0px 30px 0px;
     background: linear-gradient(to bottom, #1E1E1E 0px, #1E1E1E 80px, #000000 80px, #1E1E1E 100%); }
@@ -5772,8 +5700,7 @@ main {
     main .highlighted-list-with-content-and-image .scroll-down {
       margin: 75px 0px 0px 0px; }
   main .highlighted-header-with-content-and-gallery {
-    background: linear-gradient(#000000 0px, #000000 80px, transparent 80px, transparent 100%);
-    /* background: linear-gradient($color-cod-gray 0px, $color-cod-gray 80px, $color-black 80px, $color-cod-gray 265px, $color-cod-gray 100%); */ }
+    background: linear-gradient(#000000 0px, #000000 80px, transparent 80px, transparent 100%); }
     main .highlighted-header-with-content-and-gallery.show-navigation .navigation {
       display: block; }
     main .highlighted-header-with-content-and-gallery.show-navigation .images-inner {
@@ -5793,8 +5720,6 @@ main {
       position: relative;
       margin: 30px 0px 0px 0px; }
     main .highlighted-header-with-content-and-gallery .images-inner {
-      /* display: flex;
-      width: 50000em; */
       -webkit-transition-delay: 0s;
       transition-delay: 0s;
       -webkit-transition-duration: 0.5s;
@@ -5874,13 +5799,7 @@ main {
       font-weight: 400;
       font-family: "GT-America-Standard-Regular-Trial"; }
   main .header-with-images-two-columns {
-    padding: 30px 0px 60px 0px;
-    /* background: linear-gradient($color-black, $color-cod-gray); */
-    /* .image {
-      img {
-        width: 100%;
-      }
-    } */ }
+    padding: 30px 0px 60px 0px; }
     main .header-with-images-two-columns .items {
       margin: 10px 0px 0px 0px; }
     main .header-with-images-two-columns .item + .item {
@@ -5910,6 +5829,7 @@ main {
       font-weight: 400;
       font-family: "GT-America-Standard-Regular-Trial"; }
   main .content-gallery {
+    overflow: hidden;
     padding: 30px 0px 60px 0px;
     background: linear-gradient(#000000 0px, transparent 100%); }
     main .content-gallery.show-navigation .navigation {
@@ -7135,7 +7055,6 @@ footer {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    /* margin: 25px 0px 0px 0px; */
     padding: 0px 25px 0px 25px; }
     main #technology-advantages .item + .item {
       border: none; }
@@ -7789,73 +7708,42 @@ footer {
       width: calc((100% - (2 * 60px)) / 3); }
       main #dimensions .item + .item {
         margin: 0px 0px 0px 60px; }
-  main #technology-opinion {
-    /* .inner-image {
-        width: 150px;
-        height: 150px;
-      } */
-    /* .review {
-        +.review {
-          border: none;
-          padding: 0px 0px 0px 0px;  
-        }
-      }
-  
-      .author {
-        padding: 0px 35px 0px 0px;
-        border-right: 1px solid $color-white;
-      }
-  
-      .stars {
-        margin: 0px 0px 0px 23px;
-      }
-  
-      .quotation {
-        margin: 20px 0px 0px 0px;
-      } */
-    /* .buttons {
-        justify-content: flex-start;
-      } */ }
-    main #technology-opinion + .content-simple-banner {
-      margin: -250px 0px 0px 0px; }
-    main #technology-opinion .inner-container {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-      align-items: stretch; }
-    main #technology-opinion .opinions {
-      min-height: 500px;
-      margin: 0px 10px 0px 0px;
-      padding: 40px 50px 50px 50px;
-      width: calc(((100% / 3) * 2) - 10px); }
-    main #technology-opinion .opinion {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex; }
-      main #technology-opinion .opinion + .opinion {
-        margin: 50px 0px 0px 0px; }
-    main #technology-opinion .image {
-      width: 150px;
-      /* width: 200px;
-        width: 245px; */ }
-    main #technology-opinion .details {
-      width: calc(100% - 150px);
-      /* width: calc(100% - 245px); */ }
-    main #technology-opinion .position {
-      margin: 0px 0px 0px 0px; }
-    main #technology-opinion .support {
-      height: 500px;
-      margin: 0px 0px 0px 10px;
-      width: calc((100% / 3) - 10px); }
+  main #technology-opinion + .content-simple-banner {
+    margin: -250px 0px 0px 0px; }
+  main #technology-opinion .inner-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch; }
+  main #technology-opinion .opinions {
+    min-height: 500px;
+    margin: 0px 10px 0px 0px;
+    padding: 40px 50px 50px 50px;
+    width: calc(((100% / 3) * 2) - 10px); }
+  main #technology-opinion .opinion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    main #technology-opinion .opinion + .opinion {
+      margin: 50px 0px 0px 0px; }
+  main #technology-opinion .image {
+    width: 150px; }
+  main #technology-opinion .details {
+    width: calc(100% - 150px); }
+  main #technology-opinion .position {
+    margin: 0px 0px 0px 0px; }
+  main #technology-opinion .support {
+    height: 500px;
+    margin: 0px 0px 0px 10px;
+    width: calc((100% / 3) - 10px); }
   main .content-header-with-content {
     padding: 45px 0px 150px 0px; }
     main .content-header-with-content .inner-content {
       font-size: 18px;
       line-height: 24px;
-      font-weight: 400;
-      /* @include font(20px, 28px, 400); */ }
+      font-weight: 400; }
   main .content-header-with-content-and-image {
     padding: 45px 0px 150px 0px; }
     main .content-header-with-content-and-image .items {
@@ -7922,23 +7810,19 @@ footer {
     main .video-with-description .header + .video {
       margin: 75px 0px 0px 0px; }
     main .video-with-description .content-header {
-      /* margin: 50px 0px 0px 0px; */
       font-size: 20px;
       line-height: 28px;
       font-weight: 400; }
     main .video-with-description .content {
-      /* margin: 50px 0px 0px 0px; */
       font-size: 18px;
       line-height: 24px;
       font-weight: 400; }
       main .video-with-description .content + .video {
         margin: 75px 0px 0px 0px; }
-    main .video-with-description .video {
-      /* margin: 45px 0px 0px 0px; */ }
-      main .video-with-description .video + .content-header {
-        margin: 75px 0px 0px 0px; }
-      main .video-with-description .video + .content {
-        margin: 75px 0px 0px 0px; }
+    main .video-with-description .video + .content-header {
+      margin: 75px 0px 0px 0px; }
+    main .video-with-description .video + .content {
+      margin: 75px 0px 0px 0px; }
     main .video-with-description .scroll-down {
       margin: 100px 0px 0px 0px; }
   main .list-info-with-image {
@@ -7971,83 +7855,65 @@ footer {
       font-weight: 400; }
   main .benefits-list-with-image {
     padding: 45px 0px 95px 0px; }
-  main .highlighted-list-with-image {
-    /* padding: 0px 0px 200px 0px; */
-    /* .description {
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        padding: 0px 20px 15px 20px;
-        @include font(14px, 22px, 400);
-
-        &:after {
-          top: 0px;
-          right: 0px;
-          width: 1px;
-          content: '';
-          height: 100%;
-          position: absolute;
-          background: $color-white;
-        }
-      } */ }
-    main .highlighted-list-with-image + #technology-list-quotations {
-      margin: -250px 0px 0px 0px;
-      padding: 125px 0px 95px 0px; }
-    main .highlighted-list-with-image + .content-simple-banner {
-      z-index: -1;
-      position: relative;
-      margin: -150px 0px 0px 0px; }
-    main .highlighted-list-with-image.inverted .column {
-      -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-      order: 2; }
-      main .highlighted-list-with-image.inverted .column + .column {
-        -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-        order: 1; }
-    main .highlighted-list-with-image.inverted .image {
-      padding: 0px 0px 0px 50px; }
-      main .highlighted-list-with-image.inverted .image.circular {
-        padding: 0px 0px 0px 0px; }
-    main .highlighted-list-with-image .wrapper {
-      margin: 0px 0px 0px 0px;
-      padding: 45px 40px 45px 40px; }
-    main .highlighted-list-with-image .columns {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
-    main .highlighted-list-with-image .column {
-      width: 50%;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      position: relative;
-      -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column; }
-      main .highlighted-list-with-image .column + .column {
-        margin: 0px 0px 0px 0px; }
-    main .highlighted-list-with-image .image {
-      padding: 0px 50px 0px 0px; }
-      main .highlighted-list-with-image .image.circular {
-        padding: 0px 0px 0px 0px; }
-    main .highlighted-list-with-image h3 {
-      padding: 15px 80px 15px 20px;
-      font-size: 16px;
-      line-height: 24px;
-      font-weight: 400; }
-    main .highlighted-list-with-image .inner-info {
-      padding: 0px 20px 15px 20px;
-      font-size: 14px;
-      line-height: 22px;
-      font-weight: 400; }
+  main .highlighted-list-with-image + #technology-list-quotations {
+    margin: -250px 0px 0px 0px;
+    padding: 125px 0px 95px 0px; }
+  main .highlighted-list-with-image + .content-simple-banner {
+    z-index: -1;
+    position: relative;
+    margin: -150px 0px 0px 0px; }
+  main .highlighted-list-with-image.inverted .column {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2; }
+    main .highlighted-list-with-image.inverted .column + .column {
+      -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+      order: 1; }
+  main .highlighted-list-with-image.inverted .image {
+    padding: 0px 0px 0px 50px; }
+    main .highlighted-list-with-image.inverted .image.circular {
+      padding: 0px 0px 0px 0px; }
+  main .highlighted-list-with-image .wrapper {
+    margin: 0px 0px 0px 0px;
+    padding: 45px 40px 45px 40px; }
+  main .highlighted-list-with-image .columns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  main .highlighted-list-with-image .column {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    main .highlighted-list-with-image .column + .column {
+      margin: 0px 0px 0px 0px; }
+  main .highlighted-list-with-image .image {
+    padding: 0px 50px 0px 0px; }
+    main .highlighted-list-with-image .image.circular {
+      padding: 0px 0px 0px 0px; }
+  main .highlighted-list-with-image h3 {
+    padding: 15px 80px 15px 20px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400; }
+  main .highlighted-list-with-image .inner-info {
+    padding: 0px 20px 15px 20px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400; }
+  main .highlighted-content-with-image.with-separator {
+    padding: 0px 0px 95px 0px; }
   main .highlighted-content-with-image .wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -8073,10 +7939,19 @@ footer {
     flex-direction: column; }
     main .highlighted-content-with-image .column + .column {
       margin: 0px 0px 0px 0px; }
+  main .highlighted-content-with-image .icon-wrapper + .additional-content {
+    margin: 40px 0px 0px 0px; }
   main .highlighted-content-with-image .content {
     padding: 0px 50px 0px 50px;
     font-size: 20px;
     line-height: 28px;
+    font-weight: 400; }
+    main .highlighted-content-with-image .content + .additional-content {
+      margin: 40px 0px 0px 0px; }
+  main .highlighted-content-with-image .additional-content {
+    padding: 0px 50px 0px 50px;
+    font-size: 18px;
+    line-height: 24px;
     font-weight: 400; }
   main .highlighted-list-with-content-and-image {
     padding: 0px 0px 30px 0px; }
@@ -8119,62 +7994,52 @@ footer {
       font-weight: 400; }
     main .highlighted-list-with-content-and-image .scroll-down {
       margin: 100px 0px 0px 0px; }
-  main .highlighted-header-with-content-and-gallery {
-    /* padding: 0px 0px 30px 0px; */
-    /* .item {
-        padding: 60px 20px 75px 20px;
-      } */
-    /* .scroll-down {
-        margin: 100px 0px 0px 0px;
-      } */ }
-    main .highlighted-header-with-content-and-gallery .wrapper {
-      /* border-bottom: none; */
-      margin: 0px 0px 0px 0px;
-      padding: 60px 20px 75px 20px;
-      /* padding: 45px 40px 45px 40px; */ }
-    main .highlighted-header-with-content-and-gallery .columns {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex; }
-    main .highlighted-header-with-content-and-gallery .column {
-      -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-      order: 2;
-      width: 50%;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      padding: 0px 50px 0px 50px;
-      border-left: 1px solid #FFFFFF; }
-      main .highlighted-header-with-content-and-gallery .column + .column {
-        -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-        order: 1;
-        border-left: none;
-        margin: 0px 0px 0px 0px; }
-    main .highlighted-header-with-content-and-gallery .images-outer {
-      width: 100%;
-      overflow: hidden;
+  main .highlighted-header-with-content-and-gallery .wrapper {
+    margin: 0px 0px 0px 0px;
+    padding: 60px 20px 75px 20px; }
+  main .highlighted-header-with-content-and-gallery .columns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  main .highlighted-header-with-content-and-gallery .column {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0px 50px 0px 50px;
+    border-left: 1px solid #FFFFFF; }
+    main .highlighted-header-with-content-and-gallery .column + .column {
+      -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+      order: 1;
+      border-left: none;
       margin: 0px 0px 0px 0px; }
-    main .highlighted-header-with-content-and-gallery .image {
-      width: 100%; }
-    main .highlighted-header-with-content-and-gallery .image-inner {
-      padding: 66.66667% 0px 0px 0px; }
-    main .highlighted-header-with-content-and-gallery .content {
-      margin: 0px 0px 0px 0px;
-      font-size: 16px;
-      line-height: 24px;
-      font-weight: 400; }
+  main .highlighted-header-with-content-and-gallery .images-outer {
+    width: 100%;
+    overflow: hidden;
+    margin: 0px 0px 0px 0px; }
+  main .highlighted-header-with-content-and-gallery .image {
+    width: 100%; }
+  main .highlighted-header-with-content-and-gallery .image-inner {
+    padding: 66.66667% 0px 0px 0px; }
+  main .highlighted-header-with-content-and-gallery .content {
+    margin: 0px 0px 0px 0px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400; }
   main .header-with-images-two-columns .items {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -8750,8 +8615,7 @@ footer {
   main #technology-advantages .inner-container {
     padding: 0px 50px 0px 50px; }
   main #technology-advantages .content {
-    padding: 40px 0px 65px 0px;
-    /* padding: 10px 0px 77px 0px; */ }
+    padding: 40px 0px 65px 0px; }
   main #technology-list-quotations .inner-container {
     padding: 0px 50px 0px 50px; }
   main #technology-list-quotations .item {
@@ -9384,20 +9248,9 @@ footer {
     width: 150px;
     height: 150px; }
   main #technology-opinion .details {
-    width: calc(100% - 200px);
-    /* width: calc(100% - 245px); */ }
+    width: calc(100% - 200px); }
   main .video-with-description {
-    padding: 45px 0px 50px 0px;
-    /* .content {
-        margin: 70px 0px 0px 0px;
-      } */
-    /* .video {
-        margin: 55px 0px 0px 0px;
-
-        + .content {
-          margin: 110px 0px 0px 0px;
-        }
-      } */ }
+    padding: 45px 0px 50px 0px; }
     main .video-with-description .inner-container {
       padding: 0px 50px 0px 50px; }
     main .video-with-description .scroll-down {
@@ -9463,42 +9316,46 @@ footer {
     font-size: 20px;
     line-height: 28px;
     font-weight: 400; }
-  main .highlighted-list-with-image {
-    /* .description {
-        padding: 0px 80px 20px 20px;
-        @include font(22px, 28px, 400);
-      } */ }
-    main .highlighted-list-with-image.inverted .column {
-      -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-      order: 2; }
-      main .highlighted-list-with-image.inverted .column + .column {
-        -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-        order: 1; }
-    main .highlighted-list-with-image.inverted .image {
-      padding: 0px 0px 0px 100px; }
-    main .highlighted-list-with-image .inner-container {
-      padding: 0px 50px 0px 50px; }
-    main .highlighted-list-with-image .image {
-      padding: 0px 100px 0px 0px; }
-    main .highlighted-list-with-image h3 {
-      padding: 20px 80px 20px 20px;
-      font-size: 18px;
-      line-height: 24px;
-      font-weight: 400; }
-    main .highlighted-list-with-image .inner-info {
-      padding: 0px 80px 20px 20px;
-      font-size: 20px;
-      line-height: 28px;
-      font-weight: 400; }
+  main .highlighted-list-with-image.inverted .column {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2; }
+    main .highlighted-list-with-image.inverted .column + .column {
+      -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+      order: 1; }
+  main .highlighted-list-with-image.inverted .image {
+    padding: 0px 0px 0px 100px; }
+  main .highlighted-list-with-image .inner-container {
+    padding: 0px 50px 0px 50px; }
+  main .highlighted-list-with-image .image {
+    padding: 0px 100px 0px 0px; }
+  main .highlighted-list-with-image h3 {
+    padding: 20px 80px 20px 20px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400; }
+  main .highlighted-list-with-image .inner-info {
+    padding: 0px 80px 20px 20px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400; }
   main .highlighted-content-with-image .inner-container {
     padding: 0px 50px 0px 50px; }
   main .highlighted-content-with-image .image img {
     max-width: 60%; }
+  main .highlighted-content-with-image .icon-wrapper + .additional-content {
+    margin: 75px 0px 0px 0px; }
   main .highlighted-content-with-image .content {
     font-size: 26px;
     line-height: 38px;
+    font-weight: 400; }
+    main .highlighted-content-with-image .content + .additional-content {
+      margin: 75px 0px 0px 0px; }
+  main .highlighted-content-with-image .additional-content {
+    padding: 0px 100px 0px 100px;
+    font-size: 16px;
+    line-height: 22px;
     font-weight: 400; }
   main .highlighted-list-with-content-and-image {
     padding: 0px 0px 50px 0px; }
@@ -9514,24 +9371,16 @@ footer {
       font-weight: 400; }
     main .highlighted-list-with-content-and-image .scroll-down {
       margin: 135px 0px 0px 0px; }
-  main .highlighted-header-with-content-and-gallery {
-    /* padding: 0px 0px 50px 0px; */
-    /* .item {
-        padding: 80px 20px 100px 20px;
-      } */
-    /* .scroll-down {
-        margin: 135px 0px 0px 0px;
-      } */ }
-    main .highlighted-header-with-content-and-gallery .inner-container {
-      padding: 0px 50px 0px 50px; }
-    main .highlighted-header-with-content-and-gallery .wrapper {
-      padding: 80px 20px 100px 20px; }
-    main .highlighted-header-with-content-and-gallery .column {
-      padding: 0px 100px 0px 100px; }
-    main .highlighted-header-with-content-and-gallery .content {
-      font-size: 18px;
-      line-height: 24px;
-      font-weight: 400; }
+  main .highlighted-header-with-content-and-gallery .inner-container {
+    padding: 0px 50px 0px 50px; }
+  main .highlighted-header-with-content-and-gallery .wrapper {
+    padding: 80px 20px 100px 20px; }
+  main .highlighted-header-with-content-and-gallery .column {
+    padding: 0px 100px 0px 100px; }
+  main .highlighted-header-with-content-and-gallery .content {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400; }
   main .header-with-images-two-columns {
     padding: 45px 0px 60px 0px; }
     main .header-with-images-two-columns .inner-container {
@@ -10017,42 +9866,34 @@ footer {
     padding: 60px 0px 70px 0px; }
     main #dimensions .inner-container {
       padding: 0px 115px 0px 115px; }
-  main #technology-opinion {
-    /* .stars {
-        img {
-          width: 24px;
-          height: 24px;
-        }
-      } */ }
-    main #technology-opinion + .content-simple-banner {
-      margin: -400px 0px 0px 0px; }
-    main #technology-opinion .inner-container {
-      padding: 0px 115px 0px 115px; }
-    main #technology-opinion .opinions {
-      padding: 50px 140px 50px 100px;
-      width: calc(((100% / 4) * 3) - 10px); }
-    main #technology-opinion .image {
-      width: 245px; }
-    main #technology-opinion .inner-image {
-      width: 185px;
-      height: 185px; }
-    main #technology-opinion .details {
-      width: calc(100% - 245px);
-      /* width: calc(100% - 245px); */ }
-    main #technology-opinion .name {
-      font-size: 20px;
-      line-height: 32px;
-      font-weight: 400; }
-    main #technology-opinion .position {
-      font-size: 18px;
-      line-height: 32px;
-      font-weight: 400; }
-    main #technology-opinion .quotation {
-      font-size: 20px;
-      line-height: 28px;
-      font-weight: 400; }
-    main #technology-opinion .support {
-      width: calc((100% / 4) - 10px); }
+  main #technology-opinion + .content-simple-banner {
+    margin: -400px 0px 0px 0px; }
+  main #technology-opinion .inner-container {
+    padding: 0px 115px 0px 115px; }
+  main #technology-opinion .opinions {
+    padding: 50px 140px 50px 100px;
+    width: calc(((100% / 4) * 3) - 10px); }
+  main #technology-opinion .image {
+    width: 245px; }
+  main #technology-opinion .inner-image {
+    width: 185px;
+    height: 185px; }
+  main #technology-opinion .details {
+    width: calc(100% - 245px); }
+  main #technology-opinion .name {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400; }
+  main #technology-opinion .position {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400; }
+  main #technology-opinion .quotation {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400; }
+  main #technology-opinion .support {
+    width: calc((100% / 4) - 10px); }
   main .content-header-with-content {
     padding: 60px 0px 175px 0px; }
   main .content-header-with-content-and-image {
@@ -10097,28 +9938,24 @@ footer {
     padding: 0px 115px 0px 115px; }
   main .highlighted-list-with-image .wrapper {
     padding: 60px 80px 120px 80px; }
+  main .highlighted-content-with-image.with-separator {
+    padding: 0px 0px 120px 0px; }
   main .highlighted-content-with-image .inner-container {
     padding: 0px 115px 0px 115px; }
   main .highlighted-content-with-image .content {
     font-size: 36px;
     line-height: 48px;
     font-weight: 400; }
+  main .highlighted-content-with-image .additional-content {
+    padding: 0px 150px 0px 150px; }
   main .highlighted-list-with-content-and-image {
     padding: 0px 0px 70px 0px; }
     main .highlighted-list-with-content-and-image .inner-container {
       padding: 0px 115px 0px 115px; }
     main .highlighted-list-with-content-and-image .scroll-down {
       margin: 170px 0px 0px 0px; }
-  main .highlighted-header-with-content-and-gallery {
-    /* padding: 0px 0px 70px 0px; */
-    /* .wrapper {
-        padding: 60px 80px 120px 80px;
-      } */
-    /* .scroll-down {
-        margin: 170px 0px 0px 0px;
-      } */ }
-    main .highlighted-header-with-content-and-gallery .inner-container {
-      padding: 0px 115px 0px 115px; }
+  main .highlighted-header-with-content-and-gallery .inner-container {
+    padding: 0px 115px 0px 115px; }
   main .header-with-images-two-columns {
     padding: 60px 0px 70px 0px; }
     main .header-with-images-two-columns .inner-container {
