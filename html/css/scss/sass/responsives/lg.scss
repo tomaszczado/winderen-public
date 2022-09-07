@@ -1420,14 +1420,6 @@
       .item {
         @include font(20px, 32px, 400);
       }
-
-      /* .additional-content {
-        margin: 100px 0px 0px 0px;
-      }
-
-      .additional-inner-content {
-        @include font(14px, 18px, 400);
-      } */
     }
 
     .content-header-with-content-and-image {
@@ -1675,6 +1667,24 @@
       
       .info {
         @include font(18px, 24px, 400); 
+      }
+    }
+
+    .content-image-with-content {
+      padding: 80px 0px 115px 0px;
+
+      .inner-container {
+        padding: 0px 50px 0px 50px;
+      }
+
+      .image {
+        img {
+          max-width: 325px;
+        }
+      }
+
+      .text {
+        @include font(18px, 26px, 400);
       }
     }
   }

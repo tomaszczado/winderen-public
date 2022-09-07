@@ -89,50 +89,6 @@
       }
     }
 
-    #technology-opinion {
-      /* .testimonial {
-        display: flex;
-      }
-  
-      .image {
-        width: 200px;
-        padding: 20px 20px 20px 20px;
-      }
-  
-      .details {
-        border-top: none;
-        width: calc(100% - 200px);
-        border-left: 1px solid $color-cod-gray;
-      }
-  
-      .name-and-link {
-        display: flex;
-        align-items: center;
-      }
-  
-      .name {
-        @include font(18px, 18px, 400);
-      }
-  
-      .link {
-        margin: 0px 0px 0px 50px;
-        border-left: 1px solid $color-white;
-        
-        a {
-          padding: 0px 0px 0px 20px;
-          @include font(14px, 14px, 400);
-        }
-  
-        img {
-          height: 24px;
-        }
-      }
-  
-      .quotation {
-        @include font(18px, 24px, 400);
-      } */
-    }
-
     #friends {
       .friends {
         display: flex;
@@ -484,12 +440,6 @@
         @include imageRatio(1275, 500);
       }
     }
-
-    /* .content-header-with-content {
-    } */
-
-    /* .content-header-with-content-and-image {
-    } */
 
     .list-info-with-image {
       &.irregular {

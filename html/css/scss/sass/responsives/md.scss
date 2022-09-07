@@ -516,6 +516,10 @@
         margin: -175px 0px 0px 0px;
       }
 
+      + .content-simple-banner {
+        margin: -225px 0px 0px 0px;
+      }
+
       .quotations {
         margin: 50px 0px 0px 0px;
       }
@@ -1444,7 +1448,6 @@
 
       .additional-content {
         margin: 75px 0px 0px 0px;
-        /* margin: 100px 0px 0px 0px; */
       }
 
       .additional-inner-content {
@@ -1475,21 +1478,12 @@
       .item {
         margin: 0px 0px 0px 0px;
         @include font(16px, 24px, 400);
-        /* @include font(20px, 32px, 400); */
         padding: 19px calc(25% + 20px) 19px 20px;
   
         &:nth-child(1) {
           border-top: 1px solid $color-tundora;
         }
       }
-
-      /* .additional-content {
-        margin: 75px 0px 0px 0px;
-      }
-
-      .additional-inner-content {
-        @include font(16px, 16px, 400);
-      } */
     }
 
     .content-header-with-content-and-image {
@@ -1976,6 +1970,41 @@
   
       .video {
         margin: 90px 0px 0px 0px;
+      }
+    }
+
+    .content-image-with-content {
+      padding: 60px 0px 95px 0px;
+
+      .content {
+        display: flex;
+        justify-content: center;
+      }
+
+      .content-inner {
+        display: flex;
+        max-width: 1000px;
+      }
+
+      .column {
+        order: 2;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 30px;
+
+        +.column {
+          order: 1;
+          border: 0px;
+          margin: 0px 0px 0px 0px;
+          padding: 0px 30px 0px 0px;
+        }
+      }
+
+      .text {
+        @include font(16px, 24px, 400);
       }
     }
   }

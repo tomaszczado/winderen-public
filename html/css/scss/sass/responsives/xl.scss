@@ -729,6 +729,22 @@
         height: 295px;
       }
     }
+
+    .content-image-with-content {
+      .inner-container {
+        padding: 0px 115px 0px 115px;
+      }
+
+      .image {
+        img {
+          max-width: 400px;
+        }
+      }
+
+      .text {
+        @include font(20px, 28px, 400);
+      }
+    }
   }
 
   footer {
