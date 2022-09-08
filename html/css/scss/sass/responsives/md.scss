@@ -2007,6 +2007,97 @@
         @include font(16px, 24px, 400);
       }
     }
+
+    .content-definition-list {
+      .inner-content {
+        @include font(18px, 24px, 400);
+      }
+  
+      .buttons {
+        top: 0px;
+        right: 0px;
+        position: absolute;
+        flex-direction: column;
+        margin: 65px 0px 0px 0px;
+  
+        + .content {
+          margin: 90px 0px 0px 0px;
+        }
+  
+        + .gallery-content {
+          margin: 90px 0px 0px 0px;
+        }
+
+        a {
+          + a {
+            margin: 20px 0px 0px 0px;
+          }
+        }
+      }
+
+      .items {
+        margin: 75px 0px 0px 0px;
+      }
+
+      .item {
+        display: flex;
+      }
+  
+      .column {
+        order: 2;
+        width: calc((100% - 70px) / 2);
+  
+        + .column {
+          order: 1;
+          margin: 0px 70px 0px 0px;
+        }
+      }
+
+      .image {
+        margin: 60px 0px 0px 0px;
+  
+        img {
+          max-width: 325px;
+        }
+      }
+
+      .item {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+
+        + .item {
+          margin: 70px 0px 0px 0px;
+          padding: 70px 0px 0px 0px;
+        }
+      }
+
+      .text {
+        margin: 0px 0px 0px 0px;
+        @include font(16px, 24px, 400);
+        padding: 19px calc(25% + 20px) 19px 20px;
+  
+        &:nth-child(1) {
+          border-top: none;
+        }
+      }
+  
+      .options {
+        margin: 0px 0px 0px 0px;
+        padding: 17px 0px 17px 20px;
+      }
+
+      .image-icon {
+        width: 70px;
+        height: 70px;
+        margin: 0px 15px 15px 0px;
+      }
+  
+      .text-icon {
+        width: 70px;
+        height: 70px;
+        margin: 0px 15px 15px 0px;
+      }
+    }
   }
 
   footer {

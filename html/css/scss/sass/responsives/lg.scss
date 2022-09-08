@@ -1687,6 +1687,38 @@
         @include font(18px, 26px, 400);
       }
     }
+
+    .content-definition-list {
+      padding: 45px 0px 60px 0px;
+
+      .inner-container {
+        padding: 0px 50px 0px 50px;
+      }
+
+      .inner-content {
+        @include font(20px, 28px, 400);
+      }
+
+      .items {
+        margin: 130px 0px 0px 0px;
+      }
+
+      .image {
+        img {
+          max-width: 415px;
+        }
+      }
+
+      .image-icon {
+        width: 80px;
+        height: 80px;
+      }
+  
+      .text-icon {
+        width: 80px;
+        height: 80px;
+      }
+    }
   }
   
   footer {

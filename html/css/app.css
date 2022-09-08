@@ -6062,6 +6062,104 @@ main {
       line-height: 22px;
       font-weight: 400;
       font-family: "GT-America-Standard-Regular-Trial"; }
+  main .content-definition-list {
+    padding: 30px 0px 60px 0px; }
+    main .content-definition-list .content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin: 25px 0px 0px 0px; }
+    main .content-definition-list .inner-content {
+      max-width: 1000px;
+      text-align: center;
+      letter-spacing: 0.05em;
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 400;
+      font-family: "GT-America-Standard-Regular-Trial"; }
+    main .content-definition-list .buttons {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin: 40px 0px 0px 0px; }
+      main .content-definition-list .buttons + .content {
+        margin: 40px 0px 0px 0px; }
+      main .content-definition-list .buttons + .gallery-content {
+        margin: 40px 0px 0px 0px; }
+    main .content-definition-list .items {
+      margin: 60px 0px 0px 0px; }
+    main .content-definition-list .item {
+      padding: 0px 25px 0px 25px;
+      margin: 0px -25px 0px -25px; }
+      main .content-definition-list .item + .item {
+        border-top: 1px solid #4E4E4E;
+        padding: 40px 25px 0px 25px;
+        margin: 40px -25px 0px -25px; }
+    main .content-definition-list .image {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding: 0px 0px 15px 0px; }
+      main .content-definition-list .image img {
+        width: 100%;
+        max-width: 275px; }
+    main .content-definition-list .text {
+      letter-spacing: 0.05em;
+      margin: 0px -15px 0px -15px;
+      font-size: 14px;
+      line-height: 18px;
+      font-weight: 400;
+      border-top: 1px solid #4E4E4E;
+      font-family: "GT-America-Standard-Regular-Trial";
+      padding: 17px calc(25% + 15px) 17px 15px; }
+      main .content-definition-list .text:nth-child(1) {
+        text-transform: uppercase; }
+    main .content-definition-list .options {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin: 0px -15px 0px -15px;
+      padding: 17px 15px 17px 15px;
+      border-top: 1px solid #4E4E4E; }
+    main .content-definition-list .image-icon {
+      width: 60px;
+      height: 60px;
+      overflow: hidden;
+      position: relative;
+      border-radius: 50%;
+      margin: 0px 5px 5px 0px;
+      border: 2px solid #FFFFFF; }
+    main .content-definition-list .text-icon {
+      width: 60px;
+      height: 60px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      border-radius: 50%;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin: 0px 5px 5px 0px;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      letter-spacing: 0.05em;
+      font-size: 14px;
+      line-height: 14px;
+      font-weight: 400;
+      border: 2px solid #FFFFFF;
+      font-family: "GT-America-Standard-Regular-Trial"; }
 
 footer {
   z-index: 999;
@@ -8236,6 +8334,70 @@ footer {
       font-size: 16px;
       line-height: 24px;
       font-weight: 400; }
+  main .content-definition-list .inner-content {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400; }
+  main .content-definition-list .buttons {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 65px 0px 0px 0px; }
+    main .content-definition-list .buttons + .content {
+      margin: 90px 0px 0px 0px; }
+    main .content-definition-list .buttons + .gallery-content {
+      margin: 90px 0px 0px 0px; }
+    main .content-definition-list .buttons a + a {
+      margin: 20px 0px 0px 0px; }
+  main .content-definition-list .items {
+    margin: 75px 0px 0px 0px; }
+  main .content-definition-list .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  main .content-definition-list .column {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    width: calc((100% - 70px) / 2); }
+    main .content-definition-list .column + .column {
+      -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+      order: 1;
+      margin: 0px 70px 0px 0px; }
+  main .content-definition-list .image {
+    margin: 60px 0px 0px 0px; }
+    main .content-definition-list .image img {
+      max-width: 325px; }
+  main .content-definition-list .item {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px; }
+    main .content-definition-list .item + .item {
+      margin: 70px 0px 0px 0px;
+      padding: 70px 0px 0px 0px; }
+  main .content-definition-list .text {
+    margin: 0px 0px 0px 0px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 19px calc(25% + 20px) 19px 20px; }
+    main .content-definition-list .text:nth-child(1) {
+      border-top: none; }
+  main .content-definition-list .options {
+    margin: 0px 0px 0px 0px;
+    padding: 17px 0px 17px 20px; }
+  main .content-definition-list .image-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0px 15px 15px 0px; }
+  main .content-definition-list .text-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0px 15px 15px 0px; }
   footer {
     padding: 45px 0px 0px 0px; }
     footer .row {
@@ -9558,6 +9720,24 @@ footer {
       font-size: 18px;
       line-height: 26px;
       font-weight: 400; }
+  main .content-definition-list {
+    padding: 45px 0px 60px 0px; }
+    main .content-definition-list .inner-container {
+      padding: 0px 50px 0px 50px; }
+    main .content-definition-list .inner-content {
+      font-size: 20px;
+      line-height: 28px;
+      font-weight: 400; }
+    main .content-definition-list .items {
+      margin: 130px 0px 0px 0px; }
+    main .content-definition-list .image img {
+      max-width: 415px; }
+    main .content-definition-list .image-icon {
+      width: 80px;
+      height: 80px; }
+    main .content-definition-list .text-icon {
+      width: 80px;
+      height: 80px; }
   footer {
     padding: 60px 0px 0px 0px; }
     footer .row:nth-child(1) .logo img {
@@ -10124,6 +10304,10 @@ footer {
     font-size: 20px;
     line-height: 28px;
     font-weight: 400; }
+  main .content-definition-list {
+    padding: 60px 0px 70px 0px; }
+    main .content-definition-list .inner-container {
+      padding: 0px 115px 0px 115px; }
   footer .row:nth-child(2) .info {
     font-size: 28px;
     line-height: 36px;
