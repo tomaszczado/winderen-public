@@ -1,0 +1,221 @@
+.form-fields {
+    display: flex;
+    flex-direction: column;
+
+    @media(min-width: $breakpoint-med) {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+.form-fields.hidden {
+    display: none;
+}
+
+.form-field-details.hidden {
+    display: none;
+}
+
+.form-field {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @media(min-width: $breakpoint-med) {
+        width: 50%;
+        display: block;
+    }
+}
+
+.form-field-30 {
+    width: 50%;
+
+    @media(min-width: $breakpoint-med) {
+        width: 30%;
+    }
+}
+
+.form-field-70 {
+    @media(min-width: $breakpoint-med) {
+        width: 70%;
+    }
+}
+
+
+.form-field.form-field-fill,
+.form-notes-field.form-field-fill {
+    @media(min-width: $breakpoint-med) {
+        width: 100%;
+    }
+}
+
+.form-field.form-field-error,
+.form-notes-field.form-field-error {
+
+    input[type=text],
+    input[type=password] {
+        border: $red 1px solid;
+    }
+
+    .form-field-error-message {
+        display: block;
+    }
+}
+
+.form-field label,
+.form-notes-field label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: $text;
+    text-transform: uppercase;
+}
+
+.form-field.form-option-field {
+    display: flex;
+}
+
+.form-option-field label {
+    font-size: 14px;
+    color: $text;
+    text-transform: uppercase;
+    display: block;
+    text-align: left;
+    cursor: pointer;
+
+    a {
+        color: $blue;
+    }
+}
+
+.form-option-field input[type=checkbox],
+.form-option-field input[type=radio] {
+    opacity: 0;
+}
+
+.form-option-field input[type=checkbox]+label::after,
+.form-option-field input[type=radio]+label::after {
+    content: none;
+}
+
+.form-option-field input[type=checkbox]:checked+label::after,
+.form-option-field input[type=radio]:checked+label::after {
+    content: '';
+}
+
+.form-option-field input[type=checkbox]:checked+label::before,
+.form-option-field input[type=radio]:checked+label::before {
+    background-color: $blue;
+}
+
+.form-option-field label {
+    position: relative;
+
+    padding-left: 30px;
+}
+
+.form-option-field label::before {
+    display: inline-block;
+    content: '';
+
+    position: absolute;
+    top: -2px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+
+    background-color: $separator;
+    border: 1px solid $text;
+}
+
+.form-option-field label::after {
+    display: inline-block;
+
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    height: 6px;
+    width: 9px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+
+    transform: rotate(-45deg);
+}
+
+.form-field input[type=text],
+.form-field input[type=email],
+.form-field input[type=number],
+.form-field input[type=password],
+.form-field select,
+.form-notes-field textarea {
+    display: block;
+
+    width: 100%;
+    padding: 10px;
+
+    background-color: $productBackground;
+    border: 1px solid $productBackground;
+    color: $text;
+    font-size: 16px;
+}
+
+.form-field input[type=text]:focus,
+.form-field input[type=email]:focus,
+.form-field input[type=password]:focus,
+.form-field select:focus,
+.form-notes-field textarea:focus {
+    border: $blue 1px solid;
+}
+
+.form-field select {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+
+.form-notes-field {
+    padding: 5px;
+}
+
+.form-notes-field textarea {
+    height: 100px;
+}
+
+.form-field-error-message {
+    display: none;
+
+    color: $red;
+    font-weight: 600;
+}
+
+.form-field-info-message {
+    font-size: 12px;
+    color: #007ba8;
+    padding-top: 3px;
+}
+
+.form-field-success-message {
+    color: $green;
+    font-weight: 600;
+}
+
+.formreturn .form-option-field {
+    padding: 10px;
+}
+
+.form-field-details {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.form-field-details-heading {
+    color: $text;
+    text-transform: uppercase;
+}
+
+.form-field-details-text {
+    margin-bottom: 10px;
+    font-weight: 300;
+}

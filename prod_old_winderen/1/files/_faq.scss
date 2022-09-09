@@ -1,0 +1,110 @@
+.questions-wrapper {
+    margin: 0 20px 0 0;
+
+    @media only screen and (min-width: $breakpoint-med) {
+        margin: 0 60px 60px;
+    }
+}
+
+.faq-accordion {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.faq-accordion+.faq-accordion {
+    margin-top: 10px;
+}
+
+.faq-accordion-item.active+.faq-accordion-subitems>.faq-accordion-subitem {
+    max-height: 800px;
+}
+
+.faq-accordion-item.active>div>.fa:not(.fa-chevron-right) {
+    transform: rotate(90deg);
+    transition: transform .3s ease-in;
+}
+
+.faq-accordion .fa {
+    float: right;
+    color: white;
+    line-height: 60px;
+    margin: 0 20px;
+    transform: rotate(0deg);
+    transition: transform .3s ease-in;
+    width: 12px;
+}
+
+.faq-accordion-item {
+    border-top: 2px solid #292929;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    height: 100%;
+    padding: 10px 0;
+
+    &-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    label {
+        display: block;
+        font-size: 24px;
+        line-height: 35px;
+        color: #999;
+        width: 100%;
+        cursor: pointer;
+
+        @media only screen and (max-width: $breakpoint-med) {
+            font-size: 20px;
+            line-height: 26px;
+        }
+    }
+}
+
+.faq-accordion-item:hover {
+    label {
+        color: $blue;
+    }
+}
+
+.faq-accordion-separator {
+    height: auto;
+    border-top: 2px solid #292929;
+    margin-left: 52px;
+}
+
+.faq-accordion-subitems {
+    padding-left: 0;
+}
+
+@-moz-document url-prefix() {
+    .faq-accordion-subitem {
+        scrollbar-width: none;
+    }
+}
+
+.faq-accordion-subitem {
+    max-height: 0;
+    padding: 0 0 0 52px;
+    background-color: #1E1E1E;
+    line-height: 2;
+    font-weight: 300;
+    color: white;
+    transition: max-height 0.3s ease-in;
+    overflow: scroll;
+
+    &::-webkit-scrollbar {
+        width: 0px !important;
+        height: 0px;
+    }
+
+    img {
+        height: 40px;
+        width: auto;
+        margin: 10px;
+    }
+}

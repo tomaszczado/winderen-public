@@ -1,0 +1,191 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    overflow: auto;
+    z-index: 2000;
+    width: 460px;
+    max-width: 100%;
+    background-color: #191919;
+}
+
+.menu-container.hidden,
+.menu-overlay.hidden {
+    display: none;
+}
+
+.menu-overlay {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1500;
+}
+
+.menu-logo {
+    margin-top: 20px;
+
+    @media only screen and (min-width: $breakpoint-med) {
+        margin-top: 60px;
+    }
+}
+
+.menu-logo,
+.menu-logo object {
+    width: 105px;
+    height: 75px;
+}
+
+.menu-items {
+    flex-grow: 1;
+    font-family: $mainFont;
+    font-size: 18px;
+    font-weight: 300;
+    color: $text;
+    width: 100%;
+}
+
+.menu-item {
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+// ---
+
+.menu-accordion {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    font-family: $mainFont;
+
+    label.active {
+        text-decoration: $blue;
+    }
+}
+
+.menu-accordion + .menu-accordion {
+    margin-top: 10px;
+}
+
+.menu-accordion-item.active + .menu-accordion-subitems > .menu-accordion-subitem {
+    max-height: 200px;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+
+.menu-accordion-item.active > div > .fa:not(.fa-chevron-right) {
+    transform: rotate(180deg);
+    transition: transform .3s ease-in;
+}
+
+.menu-accordion .fa {
+    float: right;
+    color: white;
+    line-height: 60px;
+    margin: 0 20px;
+    transform: rotate(0deg);
+    transition: transform .3s ease-in;
+}
+
+.menu-accordion-item {
+    display: flex;
+    border-top: 2px solid #292929;
+
+    &.active {
+        border-bottom: 2px solid #292929;
+    }
+
+    label {
+        display: block;
+        padding: 1em 2em;
+        color: white;
+        width: 100%;
+        cursor: pointer;
+    }
+}
+
+.menu-accordion-separator {
+    height: 60px;
+    border-top: 2px solid #292929;
+}
+
+.menu-accordion-item-static {
+    display: flex;
+    height: 60px;
+    border-top: 2px solid #292929;
+
+    &.orders label {
+        color: #02A8DD;
+    }
+
+    &.partners label {
+        color: #FFBF75;
+    }
+
+    label {
+        display: block;
+        padding: 1em 2em;
+        color: white;
+        width: 100%;
+        cursor: pointer;
+    }
+}
+
+.menu-accordion-subitems {
+    padding-left: 0;
+}
+
+.menu-accordion-subitem {
+    max-height: 0;
+    padding: 0 10px;
+    background-color: #1C1C1C;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    line-height: 2;
+    font-weight: 300;
+    color: white;
+    transition-property: max-height, -webkit-transform;
+    transition-property: transform, max-height;
+    transition-property: transform, max-height, -webkit-transform;
+    transition-duration: 0.3s;
+    overflow: hidden;
+
+    img {
+        height: 40px;
+        width: auto;
+        margin: 10px;
+        align-self: center
+    }
+}
+
+.menu-accordion-subitem a {
+    display: flex;
+    justify-content: center;
+    color: inherit;
+    text-decoration: none;
+}
+
+.navbar-submenu-option-part {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.3;
+
+    &:first-of-type {
+        flex: 1;
+    }
+}
+
+// ---

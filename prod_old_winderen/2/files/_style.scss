@@ -1,0 +1,155 @@
+$black: #000;
+$background: #252525;
+$contentBackground: #1e1e1e;
+
+$productBackground: #555555;
+$footerBackground: #2a2a2a;
+
+$footerCopy: #888;
+
+$red: #f00;
+$blue: #02739c;
+$blueLight: #009dd3;
+$orange: #e09d00;
+$lightGreen: #6abd00;
+$green: #07bc07;
+$text: #eee;
+$textLight: #c2c2c2;
+$textDark: #222;
+$separator: #444;
+
+$mainFont: 'Open Sans',
+sans-serif;
+$priceFont: 'Montserrat',
+sans-serif;
+
+$welcomeProductsBackground: #333;
+$welcomeDetailsLight: #252525;
+$welcomeDetailsDark: #1e1e1e;
+
+$shop-sidebar-background: #646464;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: $background;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.font-light {
+    font-weight: 100;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.highlight-blue {
+    color: $blue;
+    font-weight: 600;
+}
+
+h1 {
+    font-family: $mainFont;
+    font-size: 31px;
+    font-weight: 300;
+    line-height: 31px;
+
+
+    @media only screen and (min-width: $breakpoint-med) {
+        font-size: 50px;
+        line-height: 52px;
+    }
+}
+h1:not(.shop-item-name) {
+    text-transform: uppercase;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+.h7 {
+    font-family: $mainFont;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+.h7 {
+    font-size: 14px;
+}
+
+p {
+    font-family: $mainFont;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+
+    @media only screen and (min-width: $breakpoint-med) {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    &.desktop-justified {
+        @media only screen and (min-width: $breakpoint-med) {
+            text-align: justify;
+        }
+    }
+}
+
+.svg-link {
+    position: relative;
+    display: inline-block;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+a:link,
+a:hover,
+a:visited {
+    color: $text;
+    text-decoration: none;
+}
+
+.color-blue {
+    color: $blueLight;
+    margin: 0rem !important;
+    padding: 0rem;
+}
+
+.fb_dialog,
+.fb_customer_chat_bounce_in {
+    z-index: 999 !important;
+}

@@ -1,0 +1,115 @@
+.credit-card-data-container {
+    border: 2px solid $separator;
+    border-radius: 20px;
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.offform-ideal {
+    width: 100%;
+}
+
+.date-cvv-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: row;
+
+    @media only screen and (max-width: $breakpoint-med) {
+        display: block;
+    }
+
+    .form-field-fill {
+        display: flex;
+        max-width: 60%;
+
+        @media only screen and (max-width: $breakpoint-med) {
+            max-width: 100%;
+        }
+
+        .form-field-double {
+            display: flex;
+            align-items: center;
+
+            >input {
+                max-width: 50%;
+                margin-right: 10px;
+            }
+
+            >select {
+                max-width: 40%;
+                margin-right: 10px;
+
+                @media only screen and (max-width: $breakpoint-med) {
+                    max-width: 47%;
+                }
+            }
+
+            .form-field-backslash {
+                color: #424344;
+                padding-right: 0.5rem;
+                font-size: 130%;
+            }
+        }
+    }
+
+
+    .form-field-cvv {
+        width: 30%;
+
+        /* Chrome, Safari, Edge, Opera */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Firefox */
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+
+        @media only screen and (max-width: $breakpoint-med) {
+            width: 46%;
+        }
+    }
+}
+
+.credit-card-submit-container {
+    text-align: right;
+    max-width: 500px;
+    max-width: 500px;
+    padding: 10px;
+    padding-right: 0px;
+    margin: 10px;
+}
+
+.credit-card-image img {
+    @media only screen and (max-width: $breakpoint-med) {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+.form-field-icon {
+
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    /* Firefox */
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+
+    i {
+        position: absolute;
+        right: 20px;
+        bottom: 23px;
+    }
+}

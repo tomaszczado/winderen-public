@@ -1,0 +1,10 @@
+/* Wersja dla NZ i AU */
+#item_dostepnosc_value {
+    display: none;
+}
+.footer-icons-logos1 {
+    display: none;
+}
+.footer-icons-logos2 {
+    content:url("../img/footer/footer_logos2_11.png");
+}
