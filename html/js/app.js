@@ -1263,6 +1263,32 @@ var App = {
       _button.addEventListener('click', handleClick, false);
     }
   },
+  privacyPolicyBar: function privacyPolicyBar() {
+    var section = document.querySelector('#privacy-policy-info');
+
+    if (!!section) {
+      var _button = section.querySelector('.options span');
+
+      var handleAcceptClick = function handleAcceptClick() {
+        var _tmp = new Date().getTime() + 1000 * 60 * 60 * 24 * 365;
+
+        var _expires = new Date(_tmp);
+
+        document.cookie = 'cookies_accepted=T;expires=' + _expires.toGMTString() + ';path=/';
+        section.classList.remove('active');
+      };
+
+      var initialize = function initialize() {
+        if (document.cookie.indexOf('cookies_accepted') === -1) {
+          section.classList.add('active');
+
+          _button.addEventListener('click', handleAcceptClick, false);
+        }
+      };
+
+      initialize();
+    }
+  },
   lazyPictures: function lazyPictures() {
     var imgs = document.querySelectorAll('img.lazy-image');
     var pictures = document.querySelectorAll('picture.lazy-picture');
@@ -1369,4 +1395,5 @@ window.onload = function () {
   App.highlightedContentWithGallery();
   App.reviewsFilters();
   App.reviews();
+  App.privacyPolicyBar();
 };

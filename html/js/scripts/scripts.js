@@ -907,6 +907,28 @@ var App = {
       _button.addEventListener('click', handleClick, false);
     }
   },
+  privacyPolicyBar: function () {
+    let section = document.querySelector('#privacy-policy-info');
+    if (!!section) {
+      let _button = section.querySelector('.options span');
+
+      let handleAcceptClick =  () => {
+        var _tmp = (new Date()).getTime() + (1000 * 60 * 60 * 24 * 365);
+        var _expires = new Date(_tmp);
+        document.cookie = 'cookies_accepted=T;expires=' + _expires.toGMTString() + ';path=/';
+        section.classList.remove('active');
+      };
+      
+      let initialize =  () => {
+        if (document.cookie.indexOf('cookies_accepted') === -1) {
+          section.classList.add('active');
+          _button.addEventListener('click', handleAcceptClick, false);
+        }
+      };
+
+      initialize();
+    }
+  },
   lazyPictures: () => {
     let imgs = document.querySelectorAll('img.lazy-image');
     let pictures = document.querySelectorAll('picture.lazy-picture');
@@ -1008,4 +1030,5 @@ window.onload = () => {
   App.highlightedContentWithGallery();
   App.reviewsFilters();
   App.reviews();
+  App.privacyPolicyBar();
 };

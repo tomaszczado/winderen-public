@@ -1,2 +1,14 @@
 @media all and (min-width: $width-small) {
+  #privacy-policy-info {
+    .descriptiom {
+      width: 50%;
+    }
+	
+    .options {
+      width: 50%;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
 }

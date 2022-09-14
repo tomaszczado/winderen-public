@@ -186,4 +186,30 @@
       }
     } */
   }
+  
+	#privacy-policy-info {
+    .inner-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+		.descriptiom {
+      text-align: left;
+      @include font(16px, 22px, 400);
+		}
+	
+		.options {
+      text-align: right;
+      margin: 0px 0px 0px 0px;
+      
+      > * {
+        height: 49px;
+        min-width: 155px;
+        text-align: center;
+        padding: 14px 20px 0px 20px;
+        @include font(18px, 18px, 400);
+      }
+		}
+  }
 }

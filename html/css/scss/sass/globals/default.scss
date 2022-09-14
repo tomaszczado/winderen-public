@@ -1225,3 +1225,60 @@ a {
     }
   } */
 }
+
+#privacy-policy-info {
+  bottom: 0px;
+  width: 100%;
+  display: none;
+  z-index: 99999;
+  position: fixed;
+  color: $color-white;
+  box-sizing: border-box;
+  background: $color-black;
+  padding: 25px 0px 25px 0px;
+  border-top: 1px solid $color-tundora;
+
+  &.active {
+    display: block;
+  }
+
+  .inner-container {
+    display: flex;
+  }
+  
+  .descriptiom {
+    width: 60%;
+    @include letterSpacing(0);
+    @include font(12px, 24px, 400);
+    font-family: $font-gt-america-regular;
+  }
+
+  .options {
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+
+    > * {
+      height: 28px;
+      /* color: $color-white; */
+      display: inline-block;
+      box-sizing: border-box;
+      text-transform: uppercase;
+      @include letterSpacing(0);
+      padding: 5px 0px 0px 20px;
+      /* padding: 5px 20px 0px 20px; */
+      @include font(14px, 14px, 400);
+      font-family: $font-gt-america-regular;
+      /* font-family: $font-mikro-medium; */
+
+      /* + {
+        margin-left: 20px;
+      } */
+    }
+
+    span {
+      cursor: pointer;
+    }
+  }
+}
