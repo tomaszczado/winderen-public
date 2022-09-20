@@ -1,0 +1,1 @@
+<span>{str_footer_copyright}</span>

@@ -1,0 +1,1 @@
+<a href="{page_domain}{page_lang_name_short}/legal/" target="_blank" title="{str_regulaminy}">{str_regulaminy}</a>
