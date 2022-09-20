@@ -17,10 +17,24 @@
           }
         
           > .inner-navigation {
-            > ul {
-              > li {
-                .name {
-                  @include font(14px, 19px, 400);
+            &.inner-navigation-icons {
+              > ul {
+                > li {
+                  .name {
+                    @include font(14px, 19px, 400);
+                  }
+                }
+              }
+            }
+
+            &.inner-navigation-columns {
+              .link {
+                + .link {
+                  margin: 25px 0px 0px 0px;
+                }
+
+                a {
+                  @include font(18px, 18px, 400);
                 }
               }
             }

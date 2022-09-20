@@ -2,8 +2,8 @@
   body {
     padding: 165px 0px 0px 0px;
   }
-
-  header {
+  
+  /* header {
     height: 156px;
     border-top-width: 8px;
 
@@ -145,26 +145,43 @@
               background: rgba($color-black, 0.3);
             }
             
-            > ul {
-              padding: 0px 0px 0px 0px;
-    
-              > li {
-                width: calc(100% / 4);
-                background: $color-cod-gray-2;
-                padding: 0px 0px calc(100% / 4) 0px;
-                
-                &:before {
-                  top: 30px;
-                  bottom: 30px;
-                  height: auto;
-                  background: $color-tundora;
+            &.inner-navigation-icons {
+              > ul {
+                padding: 0px 0px 0px 0px;
+      
+                > li {
+                  width: calc(100% / 4);
+                  background: $color-cod-gray-2;
+                  padding: 0px 0px calc(100% / 4) 0px;
+                  
+                  &:before {
+                    top: 30px;
+                    bottom: 30px;
+                    height: auto;
+                    background: $color-tundora;
+                  }
+      
+                  .name {
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: center;
+                    padding: 0px 20px 30px 20px;
+                  }
                 }
-    
-                .name {
-                  display: flex;
-                  align-items: flex-end;
-                  justify-content: center;
-                  padding: 0px 20px 30px 20px;
+              }
+            }
+
+            &.inner-navigation-columns {
+              display: flex;
+              flex-wrap: wrap;
+              background: $color-cod-gray-2;
+              padding: 35px $space-medium 125px $space-medium;
+
+              .column {
+                width: calc(100% / 5);
+
+                &:nth-child(6) {
+                  width: 100%;
                 }
               }
             }
@@ -396,7 +413,7 @@
     .socials {
       display: none;
     }
-  }
+  } */
 
   main {
     #banner {

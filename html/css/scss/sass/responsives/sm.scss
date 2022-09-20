@@ -4,10 +4,12 @@
       > ul {
         > li {
           > .inner-navigation {
-            > ul {
-              > li {
-                width: 25%;
-                padding: 0px 0px 25% 0px;
+            &.inner-navigation-icons {
+              > ul {
+                > li {
+                  width: 25%;
+                  padding: 0px 0px 25% 0px;
+                }
               }
             }
           }

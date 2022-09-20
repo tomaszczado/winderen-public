@@ -4,10 +4,12 @@
       > ul {
         > li {
           > .inner-navigation {
-            > ul {
-              > li {
-                width: calc(100% / 3);
-                padding: 0px 0px calc(100% / 3) 0px;
+            &.inner-navigation-icons {
+              > ul {
+                > li {
+                  width: calc(100% / 3);
+                  padding: 0px 0px calc(100% / 3) 0px;
+                }
               }
             }
           }

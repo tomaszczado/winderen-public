@@ -27,10 +27,24 @@
           }
         
           > .inner-navigation {
-            > ul {
-              > li {
-                width: calc(100% / 8);
-                padding: 0px 0px calc(100% / 8) 0px;
+            &.inner-navigation-icons {
+              > ul {
+                > li {
+                  width: calc(100% / 8);
+                  padding: 0px 0px calc(100% / 8) 0px;
+                }
+              }
+            }
+
+            &.inner-navigation-columns {
+              .link {
+                + .link {
+                  margin: 15px 0px 0px 0px;
+                }
+
+                a {
+                  @include font(16px, 16px, 400);
+                }
               }
             }
           }
