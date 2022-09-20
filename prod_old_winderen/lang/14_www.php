@@ -433,3 +433,30 @@ $lang_word['str_techniczny_pokrowce'] = 'Dette produktet er ikke en komplett hal
 $lang_word['str_techniczny_kocyki'] = 'Selges i sett med 2.';
 $lang_word['str_techniczny_owijki'] = 'Selges i sett med 4. Pakket i en praktisk meshpose.';
 $lang_word['str_wklady_filcowe'] = 'Korrigerende filtinnlegg er inkludert.';
+
+
+$lang_word['str_header_select_language'] = 'Select language';
+$lang_word['str_header_select_currency'] = 'Select currency';
+$lang_word['str_header_ship_to_label'] = 'Ship to';
+$lang_word['str_header_ship_to_country_of_delivery'] = 'Country of delivery';
+$lang_word['str_header_ship_to_change'] = 'Change';
+$lang_word['str_header_ship_to_content'] = 'If this is wrong, please pick your country<br>below to get the best Winderen experience';
+
+$lang_word['str_footer_can_we_help_you_header'] = 'Can we help you?';
+$lang_word['str_footer_can_we_help_you_text'] = 'We answer all questions from our customers right away';
+$lang_word['str_footer_can_we_help_you_contact_info'] = 'Kundestøtte';
+$lang_word['str_footer_keep_in_touch_header'] = 'Keep in touch';
+$lang_word['str_footer_keep_in_touch_text'] = 'Follow us on our social media networks';
+$lang_word['str_footer_online_shop_header'] = 'Winderen nettbutikk';
+$lang_word['str_footer_online_shop_text'] = 'Rask shopping direkte fra produsenten';
+$lang_word['str_footer_online_shop_button_label'] = 'Kjøp nå';
+
+$lang_word['str_privacy_policy_content'] = 'Denne nettsiden bruker cookies. Bruk av cookies og informasjonsteknologi kommer fra oss og våre samarbeidsartnere. Du kan lese mer om dem i våre personvernregler.
+Ved å bruke vår nettside med dine nettleserinnstillinger for å tillate lagring av cookies, samtykker du til behandling av dine personopplysninger i samsvar med de regler som er presentert i våre <a href="https://www.winderen.com/en/page/165">Personvernregler</a>.""';
+$lang_word['str_privacy_policy_url'] = 'https://www.winderen.com/en/page/165';
+$lang_word['str_privacy_policy_accept'] = 'Jeg forstår';
+$lang_word['str_privacy_policy_read_more'] = 'Les mer';
+
+$lang_word['str_my_account_label'] = 'My account';
+$lang_word['str_my_account_client'] = 'Client';
+

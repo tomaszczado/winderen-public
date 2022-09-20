@@ -433,6 +433,32 @@ $lang_word['str_techniczny_owijki'] = 'Sold in a set of 4. Packaged in a practic
 $lang_word['str_wklady_filcowe'] = 'Correction felt inserts are included.';
 
 
+$lang_word['str_header_select_language'] = 'Select language';
+$lang_word['str_header_select_currency'] = 'Select currency';
+$lang_word['str_header_ship_to_label'] = 'Ship to';
+$lang_word['str_header_ship_to_country_of_delivery'] = 'Country of delivery';
+$lang_word['str_header_ship_to_change'] = 'Change';
+$lang_word['str_header_ship_to_content'] = 'If this is wrong, please pick your country<br>below to get the best Winderen experience';
+
+$lang_word['str_footer_can_we_help_you_header'] = 'Can we help you?';
+$lang_word['str_footer_can_we_help_you_text'] = 'We answer all questions from our customers right away';
+$lang_word['str_footer_can_we_help_you_contact_info'] = 'Customer support';
+$lang_word['str_footer_keep_in_touch_header'] = 'Keep in touch';
+$lang_word['str_footer_keep_in_touch_text'] = 'Follow us on our social media networks';
+$lang_word['str_footer_online_shop_header'] = 'Winderen Online Shop';
+$lang_word['str_footer_online_shop_text'] = 'Quick shopping directly from the manufacturer';
+$lang_word['str_footer_online_shop_button_label'] = 'Buy now';
+
+$lang_word['str_privacy_policy_content'] = 'This site uses cookies. Cookies and information technologies using them come from us and our partners. You can read about them in our Privacy Policy.
+By using our website with your web browser settings allowing for storing cookies, you grant your consent to the processing of your personal data in accordance with the rules set out in our <a href="https://www.winderen.com/en/page/165">Privacy Policy</a>."';
+$lang_word['str_privacy_policy_url'] = 'https://www.winderen.com/en/page/165';
+$lang_word['str_privacy_policy_accept'] = 'I understand';
+$lang_word['str_privacy_policy_read_more'] = 'Read more';
+
+$lang_word['str_my_account_label'] = 'My account';
+$lang_word['str_my_account_client'] = 'Client';
+
+
 //$pytanie1 = 'Z jaką dyscypliną jeździectwa jesteś związany – można zaznaczyć więcej niż 1.';
 $pytanie1re[] = 'Jumping';
 $pytanie1re[] = 'Dressage';

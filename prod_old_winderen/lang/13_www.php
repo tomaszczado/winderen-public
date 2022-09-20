@@ -433,3 +433,30 @@ $lang_word['str_techniczny_pokrowce'] = 'Dette produkt er ikke en komplet halvpa
 $lang_word['str_techniczny_kocyki'] = 'Sælges i sæt med 2.';
 $lang_word['str_techniczny_owijki'] = 'Sælges i sæt med 4. Leveres i praktisk netpose.';
 $lang_word['str_wklady_filcowe'] = 'Filtkorrektionsindlæg medfølger.';
+
+
+$lang_word['str_header_select_language'] = 'Select language';
+$lang_word['str_header_select_currency'] = 'Select currency';
+$lang_word['str_header_ship_to_label'] = 'Ship to';
+$lang_word['str_header_ship_to_country_of_delivery'] = 'Country of delivery';
+$lang_word['str_header_ship_to_change'] = 'Change';
+$lang_word['str_header_ship_to_content'] = 'If this is wrong, please pick your country<br>below to get the best Winderen experience';
+
+$lang_word['str_footer_can_we_help_you_header'] = 'Can we help you?';
+$lang_word['str_footer_can_we_help_you_text'] = 'We answer all questions from our customers right away';
+$lang_word['str_footer_can_we_help_you_contact_info'] = 'Kundeservice';
+$lang_word['str_footer_keep_in_touch_header'] = 'Keep in touch';
+$lang_word['str_footer_keep_in_touch_text'] = 'Follow us on our social media networks';
+$lang_word['str_footer_online_shop_header'] = 'Winderen onlineshop';
+$lang_word['str_footer_online_shop_text'] = 'Hurtigt indkøb direkte fra producenten';
+$lang_word['str_footer_online_shop_button_label'] = 'Køb nu';
+
+$lang_word['str_privacy_policy_content'] = 'Der anvendes cookies på dette site. De anvendte cookies og informationsteknologier stammer fra os og vores partnere. Du kan læse mere om dem i vores datapolitik.
+Når du bruger vores website, mens din internetbrowser er indstillet til at gemme cookies, giver du dit samtykke til, at dine personoplysninger behandles i overensstemmelse med de retningslinjer, der er angivet i vores <a href=\https://www.winderen.com/en/page/165\">Datapolitik</a>."""';
+$lang_word['str_privacy_policy_url'] = 'https://www.winderen.com/en/page/165';
+$lang_word['str_privacy_policy_accept'] = 'Jeg forstår';
+$lang_word['str_privacy_policy_read_more'] = 'Læs mere';
+
+$lang_word['str_my_account_label'] = 'My account';
+$lang_word['str_my_account_client'] = 'Client';
+

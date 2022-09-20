@@ -431,3 +431,29 @@ $lang_word['str_techniczny_pokrowce'] = 'Этот продукт не являе
 $lang_word['str_techniczny_kocyki'] = 'Продаются в наборе по 2 шт.';
 $lang_word['str_techniczny_owijki'] = 'Продаются в наборе по 4 шт. Упакованы в практичную сетчатую сумку.';
 $lang_word['str_wklady_filcowe'] = 'Корректирующие вкладки из войлока в комплекте.';
+
+
+$lang_word['str_header_select_language'] = 'Select language';
+$lang_word['str_header_select_currency'] = 'Select currency';
+$lang_word['str_header_ship_to_label'] = 'Ship to';
+$lang_word['str_header_ship_to_country_of_delivery'] = 'Country of delivery';
+$lang_word['str_header_ship_to_change'] = 'Change';
+$lang_word['str_header_ship_to_content'] = 'If this is wrong, please pick your country<br>below to get the best Winderen experience';
+
+$lang_word['str_footer_can_we_help_you_header'] = 'Can we help you?';
+$lang_word['str_footer_can_we_help_you_text'] = 'We answer all questions from our customers right away';
+$lang_word['str_footer_can_we_help_you_contact_info'] = 'Помощь клиентам';
+$lang_word['str_footer_keep_in_touch_header'] = 'Keep in touch';
+$lang_word['str_footer_keep_in_touch_text'] = 'Follow us on our social media networks';
+$lang_word['str_footer_online_shop_header'] = 'Интернет-магазин Winderen';
+$lang_word['str_footer_online_shop_text'] = 'Быстрые покупки напрямую от производителя';
+$lang_word['str_footer_online_shop_button_label'] = 'КУПИТЬ';
+
+$lang_word['str_privacy_policy_content'] = 'Этот сайт использует файлы cookie. Файлы cookie и информационные технологии, которые их используют, принадлежат нам и нашим партнерам. Вы можете прочитать о них в нашей Политике конфиденциальности. Используя наш веб-сайт с настройками веб-браузера, которые позволяют вам сохранять файлы cookie, - вы соглашаетесь на обработку ваших персональных данных в соответствии с принципами, описанными в нашей <a href="https://www.winderen.com/ru/page/232">Политике конфиденциальности</a>."';
+$lang_word['str_privacy_policy_url'] = 'https://www.winderen.com/ru/page/232';
+$lang_word['str_privacy_policy_accept'] = 'Я понимаю';
+$lang_word['str_privacy_policy_read_more'] = 'Читать далее';
+
+$lang_word['str_my_account_label'] = 'My account';
+$lang_word['str_my_account_client'] = 'Client';
+

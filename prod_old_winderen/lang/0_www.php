@@ -439,6 +439,31 @@ $lang_word['str_techniczny_owijki'] = 'Sprzedawane w komplecie 4 sztuk. Zapakowa
 $lang_word['str_wklady_filcowe'] = 'Korekcyjne wkłady filcowe w zestawie.';
 
 
+$lang_word['str_header_select_language'] = 'Select language';
+$lang_word['str_header_select_currency'] = 'Select currency';
+$lang_word['str_header_ship_to_label'] = 'Ship to';
+$lang_word['str_header_ship_to_country_of_delivery'] = 'Country of delivery';
+$lang_word['str_header_ship_to_change'] = 'Change';
+$lang_word['str_header_ship_to_content'] = 'If this is wrong, please pick your country<br>below to get the best Winderen experience';
+
+$lang_word['str_footer_can_we_help_you_header'] = 'Can we help you?';
+$lang_word['str_footer_can_we_help_you_text'] = 'We answer all questions from our customers right away';
+$lang_word['str_footer_can_we_help_you_contact_info'] = 'Pomoc dla klientów';
+$lang_word['str_footer_keep_in_touch_header'] = 'Keep in touch';
+$lang_word['str_footer_keep_in_touch_text'] = 'Follow us on our social media networks';
+$lang_word['str_footer_online_shop_header'] = 'Winderen Online Shop';
+$lang_word['str_footer_online_shop_text'] = 'Szybkie zakupy bezpośrednio od producenta';
+$lang_word['str_footer_online_shop_button_label'] = 'Kup teraz';
+
+$lang_word['str_privacy_policy_content'] = 'Ta strona używa plików „cookie". Ciasteczka i używające ich technologie informatyczne pochodzą od nas i od naszych partnerów. Przeczytasz o nich w naszej Polityce Prywatności. Korzystając z naszej strony z ustawieniami przeglądarki internetowej pozwalającymi na zapisywanie ciasteczek - wyrażasz zgodę na przetwarzanie Twoich danych osobowych zgodnie z zasadami opisanymi w naszej <a href="https://www.winderen.com/pl/page/231">Polityce Prywatności.</a>.';
+$lang_word['str_privacy_policy_url'] = 'https://www.winderen.com/pl/page/231';
+$lang_word['str_privacy_policy_accept'] = 'Rozumiem';
+$lang_word['str_privacy_policy_read_more'] = 'Czytaj więcej';
+
+$lang_word['str_my_account_label'] = 'My account';
+$lang_word['str_my_account_client'] = 'Client';
+
+
 //$pytanie1 = 'Z jaką dyscypliną jeździectwa jesteś związany – można zaznaczyć więcej niż 1.';
 $pytanie1re[] = 'Skoki';
 $pytanie1re[] = 'Ujeżdżenie';

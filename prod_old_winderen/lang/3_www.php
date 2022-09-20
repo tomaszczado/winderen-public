@@ -434,3 +434,30 @@ $lang_word['str_techniczny_pokrowce'] = 'Bei diesem Produkt handelt es sich nich
 $lang_word['str_techniczny_kocyki'] = 'Verkauft als Set mit 2 Stück.';
 $lang_word['str_techniczny_owijki'] = 'Verkauft als Set mit 4 Stück. Verpackt in einer praktischen Netztasche.';
 $lang_word['str_wklady_filcowe'] = 'Inklusive Korrektureinsätze aus Filz.';
+
+
+$lang_word['str_header_select_language'] = 'Select language';
+$lang_word['str_header_select_currency'] = 'Select currency';
+$lang_word['str_header_ship_to_label'] = 'Ship to';
+$lang_word['str_header_ship_to_country_of_delivery'] = 'Country of delivery';
+$lang_word['str_header_ship_to_change'] = 'Change';
+$lang_word['str_header_ship_to_content'] = 'If this is wrong, please pick your country<br>below to get the best Winderen experience';
+
+$lang_word['str_footer_can_we_help_you_header'] = 'Can we help you?';
+$lang_word['str_footer_can_we_help_you_text'] = 'We answer all questions from our customers right away';
+$lang_word['str_footer_can_we_help_you_contact_info'] = 'Hilfe für Kunden';
+$lang_word['str_footer_keep_in_touch_header'] = 'Keep in touch';
+$lang_word['str_footer_keep_in_touch_text'] = 'Follow us on our social media networks';
+$lang_word['str_footer_online_shop_header'] = 'Winderen Online-Shop';
+$lang_word['str_footer_online_shop_text'] = 'Schneller Einkauf, direkt beim Hersteller';
+$lang_word['str_footer_online_shop_button_label'] = 'Jetz kaufen';
+
+$lang_word['str_privacy_policy_content'] = 'Diese Seite verwendet „Cookies“. Cookies und die sie einsetzenden Informationstechnologien stammen von uns und unseren Partnern. Sie erfahren mehr dazu in unseren Datenschutzbestimmungen.
+Wenn Sie unsere Website mit den Einstellungen des Browser nutzen, die die Speicherung von Cookies erlauben - erklären Sie sich mit der Verarbeitung Ihrer personenbezogenen Daten gemäß den in unseren Datenschutzbestimmungen beschriebenen <a href="https://www.winderen.com/de/page/233">Richtlinien einverstanden.</a>."';
+$lang_word['str_privacy_policy_url'] = 'https://www.winderen.com/de/page/233';
+$lang_word['str_privacy_policy_accept'] = 'Ich habe verstanden';
+$lang_word['str_privacy_policy_read_more'] = 'Weiterlesen';
+
+$lang_word['str_my_account_label'] = 'My account';
+$lang_word['str_my_account_client'] = 'Client';
+

@@ -432,3 +432,29 @@ $lang_word['str_techniczny_pokrowce'] = 'Denna produkt är inte en hel halvpad, 
 $lang_word['str_techniczny_kocyki'] = 'Säljs i set med 2 st.';
 $lang_word['str_techniczny_owijki'] = 'Säljs i set med 4 st. Förpackade i en praktisk meshväska.';
 $lang_word['str_wklady_filcowe'] = 'Filtkorrigeringsinlägg ingår.';
+
+
+$lang_word['str_header_select_language'] = 'Select language';
+$lang_word['str_header_select_currency'] = 'Select currency';
+$lang_word['str_header_ship_to_label'] = 'Ship to';
+$lang_word['str_header_ship_to_country_of_delivery'] = 'Country of delivery';
+$lang_word['str_header_ship_to_change'] = 'Change';
+$lang_word['str_header_ship_to_content'] = 'If this is wrong, please pick your country<br>below to get the best Winderen experience';
+
+$lang_word['str_footer_can_we_help_you_header'] = 'Can we help you?';
+$lang_word['str_footer_can_we_help_you_text'] = 'We answer all questions from our customers right away';
+$lang_word['str_footer_can_we_help_you_contact_info'] = 'Hjälp för kunder';
+$lang_word['str_footer_keep_in_touch_header'] = 'Keep in touch';
+$lang_word['str_footer_keep_in_touch_text'] = 'Follow us on our social media networks';
+$lang_word['str_footer_online_shop_header'] = 'Winderen nätbutik';
+$lang_word['str_footer_online_shop_text'] = 'Snabb shopping direkt från tillverkaren';
+$lang_word['str_footer_online_shop_button_label'] = 'Köp nu';
+
+$lang_word['str_privacy_policy_content'] = 'Den här webbplatsen använder "cookie". Kakor och informationsteknologi som använder dem kommer från oss och våra partners. Du kan läsa om dem i vår Sekretesspolicy. Genom att använda vår webbplats med webbläsarinställningar som låter dig spara kakor - samtycker du till behandlingen av dina personuppgifter i enlighet med principerna som beskrivs i vår <a href="https://www.winderen.com/se/page/723">Sekretesspolicy</a>."';
+$lang_word['str_privacy_policy_url'] = 'https://www.winderen.com/se/page/723';
+$lang_word['str_privacy_policy_accept'] = 'Jag förstår';
+$lang_word['str_privacy_policy_read_more'] = 'Läs mer';
+
+$lang_word['str_my_account_label'] = 'My account';
+$lang_word['str_my_account_client'] = 'Client';
+

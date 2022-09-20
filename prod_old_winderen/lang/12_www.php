@@ -434,3 +434,30 @@ $lang_word['str_techniczny_pokrowce'] = 'This product is not a complete half pad
 $lang_word['str_techniczny_kocyki'] = '2個セットで販売しています。';
 $lang_word['str_techniczny_owijki'] = '肢巻は4個セットで販売しています。';
 $lang_word['str_wklady_filcowe'] = 'Correction felt inserts are included.';
+
+
+$lang_word['str_header_select_language'] = 'Select language';
+$lang_word['str_header_select_currency'] = 'Select currency';
+$lang_word['str_header_ship_to_label'] = 'Ship to';
+$lang_word['str_header_ship_to_country_of_delivery'] = 'Country of delivery';
+$lang_word['str_header_ship_to_change'] = 'Change';
+$lang_word['str_header_ship_to_content'] = 'If this is wrong, please pick your country<br>below to get the best Winderen experience';
+
+$lang_word['str_footer_can_we_help_you_header'] = 'Can we help you?';
+$lang_word['str_footer_can_we_help_you_text'] = 'We answer all questions from our customers right away';
+$lang_word['str_footer_can_we_help_you_contact_info'] = 'カスタマーサポート';
+$lang_word['str_footer_keep_in_touch_header'] = 'Keep in touch';
+$lang_word['str_footer_keep_in_touch_text'] = 'Follow us on our social media networks';
+$lang_word['str_footer_online_shop_header'] = 'Winderenオンラインショップ';
+$lang_word['str_footer_online_shop_text'] = '製造元から直接購入可能';
+$lang_word['str_footer_online_shop_button_label'] = '購入する';
+
+$lang_word['str_privacy_policy_content'] = '本サイトではクッキーを使用しています。 クッキーやクッキーを使用した情報技術は当社および当社のパートナーが提供しています。 クッキーについては、当社のプライバシーポリシーをご覧ください。
+Cookieの保存を許可するWebブラウザ設定で当社ウェブサイトを使用することにより、当社のプライバシーポリシー<a href="https://www.winderen.com/en/page/165">に定められた規則に従い、個人データの処理に同意したことになります。</a>."';
+$lang_word['str_privacy_policy_url'] = 'https://www.winderen.com/en/page/165';
+$lang_word['str_privacy_policy_accept'] = 'わかりました';
+$lang_word['str_privacy_policy_read_more'] = '詳細を確認';
+
+$lang_word['str_my_account_label'] = 'My account';
+$lang_word['str_my_account_client'] = 'Client';
+

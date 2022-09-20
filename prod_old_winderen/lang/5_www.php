@@ -434,3 +434,30 @@ $lang_word['str_techniczny_pokrowce'] = 'Questo prodotto non è un salvagarrese 
 $lang_word['str_techniczny_kocyki'] = 'Vendute in set da 2 unità.';
 $lang_word['str_techniczny_owijki'] = 'Vendute in set da 4 unità. In una pratica confezione a rete.';
 $lang_word['str_wklady_filcowe'] = 'Sono inclusi inserti correttivi in feltro.';
+
+
+$lang_word['str_header_select_language'] = 'Select language';
+$lang_word['str_header_select_currency'] = 'Select currency';
+$lang_word['str_header_ship_to_label'] = 'Ship to';
+$lang_word['str_header_ship_to_country_of_delivery'] = 'Country of delivery';
+$lang_word['str_header_ship_to_change'] = 'Change';
+$lang_word['str_header_ship_to_content'] = 'If this is wrong, please pick your country<br>below to get the best Winderen experience';
+
+$lang_word['str_footer_can_we_help_you_header'] = 'Can we help you?';
+$lang_word['str_footer_can_we_help_you_text'] = 'We answer all questions from our customers right away';
+$lang_word['str_footer_can_we_help_you_contact_info'] = 'Supporto ai clienti';
+$lang_word['str_footer_keep_in_touch_header'] = 'Keep in touch';
+$lang_word['str_footer_keep_in_touch_text'] = 'Follow us on our social media networks';
+$lang_word['str_footer_online_shop_header'] = 'Shop Online Winderen';
+$lang_word['str_footer_online_shop_text'] = 'Shopping veloce direttamente dal produttore';
+$lang_word['str_footer_online_shop_button_label'] = 'Acquista ora';
+
+$lang_word['str_privacy_policy_content'] = 'Questa pagina utilizza i file “cookie”. I cookie e le tecnologie informatiche che li usano provengono da noi e dai nostri partner. Puoi leggerne di più nella nostra Politica della privacy.
+Utilizzando il nostro sito web con le impostazioni del browser che consentono il salvataggio dei cookies, acconsentite al trattamento dei vostri dati personali in conformità con i principi descritti nella nostra <a href="https://www.winderen.com/it/page/235">Politica della privacy.</a>."';
+$lang_word['str_privacy_policy_url'] = 'https://www.winderen.com/it/page/235';
+$lang_word['str_privacy_policy_accept'] = 'Ho capito';
+$lang_word['str_privacy_policy_read_more'] = 'Per saperne di più';
+
+$lang_word['str_my_account_label'] = 'My account';
+$lang_word['str_my_account_client'] = 'Client';
+

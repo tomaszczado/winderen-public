@@ -433,3 +433,30 @@ $lang_word['str_techniczny_pokrowce'] = 'Ce produit n\'est pas un amortisseur co
 $lang_word['str_techniczny_kocyki'] = 'Vendu en lot de 2.';
 $lang_word['str_techniczny_owijki'] = 'Vendues en lot de 4. Emballées dans un sac en filet pratique.';
 $lang_word['str_wklady_filcowe'] = 'Des inserts de correction en feutre sont inclus.';
+
+
+$lang_word['str_header_select_language'] = 'Select language';
+$lang_word['str_header_select_currency'] = 'Select currency';
+$lang_word['str_header_ship_to_label'] = 'Ship to';
+$lang_word['str_header_ship_to_country_of_delivery'] = 'Country of delivery';
+$lang_word['str_header_ship_to_change'] = 'Change';
+$lang_word['str_header_ship_to_content'] = 'If this is wrong, please pick your country<br>below to get the best Winderen experience';
+
+$lang_word['str_footer_can_we_help_you_header'] = 'Can we help you?';
+$lang_word['str_footer_can_we_help_you_text'] = 'We answer all questions from our customers right away';
+$lang_word['str_footer_can_we_help_you_contact_info'] = 'Assistance à la clientèle';
+$lang_word['str_footer_keep_in_touch_header'] = 'Keep in touch';
+$lang_word['str_footer_keep_in_touch_text'] = 'Follow us on our social media networks';
+$lang_word['str_footer_online_shop_header'] = 'Boutique en ligne Winderen';
+$lang_word['str_footer_online_shop_text'] = 'Achats rapides directement chez le fabriquant';
+$lang_word['str_footer_online_shop_button_label'] = 'Acheter';
+
+$lang_word['str_privacy_policy_content'] = 'Ce site utilise des cookies. Les cookies et les technologies de l\'information qui les utilisent proviennent de nous et de nos partenaires. Pour en savoir plus, consultez notre Politique de confidentialité.
+En utilisant notre site web avec des paramètres de navigateur web qui vous permettent d\'enregistrer des cookies, vous consentez au traitement de vos données personnelles conformément aux principes décrits dans notre <a href="https://www.winderen.com/fr/page/234">Politique de confidentialité.</a>."';
+$lang_word['str_privacy_policy_url'] = 'https://www.winderen.com/fr/page/234';
+$lang_word['str_privacy_policy_accept'] = 'J’ai compris';
+$lang_word['str_privacy_policy_read_more'] = 'Lire la suite';
+
+$lang_word['str_my_account_label'] = 'My account';
+$lang_word['str_my_account_client'] = 'Client';
+

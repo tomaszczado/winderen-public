@@ -442,3 +442,30 @@ $lang_word['str_techniczny_pokrowce'] = 'Dit product is geen complete zadelonder
 $lang_word['str_techniczny_kocyki'] = 'Wordt verkocht per set van 2.';
 $lang_word['str_techniczny_owijki'] = 'Wordt verkocht per set van 4. Verpakt in een praktisch netzakje.';
 $lang_word['str_wklady_filcowe'] = 'Vilten correctiepads zijn inbegrepen.';
+
+
+$lang_word['str_header_select_language'] = 'Select language';
+$lang_word['str_header_select_currency'] = 'Select currency';
+$lang_word['str_header_ship_to_label'] = 'Ship to';
+$lang_word['str_header_ship_to_country_of_delivery'] = 'Country of delivery';
+$lang_word['str_header_ship_to_change'] = 'Change';
+$lang_word['str_header_ship_to_content'] = 'If this is wrong, please pick your country<br>below to get the best Winderen experience';
+
+$lang_word['str_footer_can_we_help_you_header'] = 'Can we help you?';
+$lang_word['str_footer_can_we_help_you_text'] = 'We answer all questions from our customers right away';
+$lang_word['str_footer_can_we_help_you_contact_info'] = 'Ondersteuning voor klanten';
+$lang_word['str_footer_keep_in_touch_header'] = 'Keep in touch';
+$lang_word['str_footer_keep_in_touch_text'] = 'Follow us on our social media networks';
+$lang_word['str_footer_online_shop_header'] = 'Winderen Online Shop';
+$lang_word['str_footer_online_shop_text'] = 'Snel winkelen direct bij de fabrikant';
+$lang_word['str_footer_online_shop_button_label'] = 'Nu bestellen';
+
+$lang_word['str_privacy_policy_content'] = 'Deze pagina gebruikt cookies. Cookies en de IT technologieën die van hun gebruik maken komen van ons en van onze partners. U kunt over hun lezen in ons privacy beleid.
+Door gebruik te maken van de instellingen van de Internet browser die het opslaan van cookies toelaten geeft u uw toestemming om uw persoonsgegevens te verwerken in overeenstemming met de regels zoals beschreven in ons <a href="https://www.winderen.com/nl/page/316">Privacy Beleid</a>."';
+$lang_word['str_privacy_policy_url'] = 'https://www.winderen.com/nl/page/316';
+$lang_word['str_privacy_policy_accept'] = 'Ik begrijp het';
+$lang_word['str_privacy_policy_read_more'] = 'Lees meer';
+
+$lang_word['str_my_account_label'] = 'My account';
+$lang_word['str_my_account_client'] = 'Client';
+

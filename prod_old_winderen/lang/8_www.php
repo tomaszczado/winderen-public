@@ -437,3 +437,29 @@ $lang_word['str_techniczny_pokrowce'] = 'Tento produkt není kompletní podložk
 $lang_word['str_techniczny_kocyki'] = 'Dostupné v sadě dvou kusů.';
 $lang_word['str_techniczny_owijki'] = 'Dostupné v sadě 4 kusů. Zabalené do praktické síťové tašky.';
 $lang_word['str_wklady_filcowe'] = 'Součástí jsou korekční filcové vložky.';
+
+
+$lang_word['str_header_select_language'] = 'Select language';
+$lang_word['str_header_select_currency'] = 'Select currency';
+$lang_word['str_header_ship_to_label'] = 'Ship to';
+$lang_word['str_header_ship_to_country_of_delivery'] = 'Country of delivery';
+$lang_word['str_header_ship_to_change'] = 'Change';
+$lang_word['str_header_ship_to_content'] = 'If this is wrong, please pick your country<br>below to get the best Winderen experience';
+
+$lang_word['str_footer_can_we_help_you_header'] = 'Can we help you?';
+$lang_word['str_footer_can_we_help_you_text'] = 'We answer all questions from our customers right away';
+$lang_word['str_footer_can_we_help_you_contact_info'] = 'Zákaznická podpora';
+$lang_word['str_footer_keep_in_touch_header'] = 'Keep in touch';
+$lang_word['str_footer_keep_in_touch_text'] = 'Follow us on our social media networks';
+$lang_word['str_footer_online_shop_header'] = 'Winderen Online Shop';
+$lang_word['str_footer_online_shop_text'] = 'Rychlé nákupy přímo u výrobce';
+$lang_word['str_footer_online_shop_button_label'] = 'Kupte nyní';
+
+$lang_word['str_privacy_policy_content'] = 'Tato stránka využívá soubory cookies. Soubory cookies a informační technologie, které je využívají, pocházejí z našich a partnerských zdrojů. Více informací na toto téma naleznete v sekci Zásady soukromí. Používáním této stránky ve webovém prohlížeči umožňujícím ukládání souborů cookies souhlasíte se zpracováním Vašich osobních údajů v souladu s pravidly uvedenými v sekci <a href="https://www.winderen.com/cz/page/359">Zásady soukromí</a>."';
+$lang_word['str_privacy_policy_url'] = 'https://www.winderen.com/cz/page/359';
+$lang_word['str_privacy_policy_accept'] = 'Rozumím a souhlasím';
+$lang_word['str_privacy_policy_read_more'] = 'Čtěte více';
+
+$lang_word['str_my_account_label'] = 'My account';
+$lang_word['str_my_account_client'] = 'Client';
+
