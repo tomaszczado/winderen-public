@@ -1,0 +1,529 @@
+.wd-line {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: #5c5c5c;
+    height: 1px;
+    text-align: center;
+
+    .wd-line-logo {
+        background: #252525;
+        padding: 20px;
+        position: relative;
+        top: -20px;
+        left: 0px;
+
+        img {
+            width: 30px;
+            height: auto;
+            opacity: 0.7;
+        }
+    }
+}
+
+.video-welcome {
+    height: auto;
+    max-height: 85vh;
+    overflow: hidden;
+
+    @media only screen and (max-width: $breakpoint-med) {
+        width: 100%;
+    }
+
+    .video-header {
+        width: 100%;
+        overflow: hidden;
+        padding-top: 60px;
+
+        @media only screen and (max-width: $breakpoint-med) {
+            height: auto;
+        }
+    }
+}
+
+.welcome2 {
+
+    .welcome-container {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 10px;
+
+        @media only screen and (min-width: $breakpoint-small) {
+            width: 100%;
+        }
+
+        @media only screen and (min-width: $breakpoint-med) {
+            margin-bottom: 20px;
+            margin-top: 0px;
+            max-width: $max-width-large;
+            width: 100%;
+        }
+    }
+
+    .welcome-offer {
+
+        .welcome-logo {
+            display: none;
+
+            @media only screen and (max-width: $breakpoint-med) {
+                display: block;
+
+                img {
+                    max-width: 200px;
+                    height: auto;
+                    padding-top: 10px;
+                    margin-bottom: -15px;
+                }
+            }
+        }
+
+        h1 {
+            padding: 1rem;
+            font-weight: 300;
+            line-height: 22px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-size: 20px;
+
+            i {
+                padding-left: 1rem;
+                font-size: 120%;
+                font-weight: 600;
+            }
+
+            @media only screen and (max-width: $breakpoint-med) {
+                font-size: 16px;
+            }
+        }
+
+        h4 {
+            padding: 1rem;
+            font-weight: 300;
+            line-height: 22px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-size: 20px;
+
+            i {
+                padding-left: 1rem;
+                font-size: 120%;
+                font-weight: 600;
+            }
+
+            @media only screen and (max-width: $breakpoint-med) {
+                font-size: 16px;
+            }
+        }
+
+        ul {
+
+            li {
+                width: 49.8%;
+                display: block;
+                float: left;
+                position: relative;
+                margin-bottom: -8px;
+
+                @media only screen and (max-width: $breakpoint-med) {
+                    width: 100%;
+                    max-height: 350px;
+                    overflow: hidden;
+                }
+
+                .welcome-details-product-image {
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                        min-height: 390px;
+                    }
+                }
+
+                .welcome-details-product-info {
+                    text-align: left;
+                    position: absolute;
+                    bottom: 3rem;
+                    left: 2rem;
+
+                    h3 {
+                        font-size: 30px;
+                        margin-bottom: 1rem;
+                        font-weight: 300;
+                        line-height: 32px;
+                    }
+                }
+
+                .welcome-details-product-button {
+                    text-transform: uppercase;
+                    display: inline;
+                    border: 1px solid #b7b7b7;
+                    padding: 0.5rem;
+                    padding-left: 2rem;
+                    padding-right: 2rem;
+                    transition: all 0.3s linear;
+                    font-size: 16px;
+                }
+
+                a:hover {
+                    .welcome-details-product-button {
+                        background-color: $blue;
+                        color: #fff;
+                        transition: all 0.3s linear;
+                    }
+                }
+
+                .welcome-details-product-price {
+                    display: none;
+                    color: #6A6B6C;
+                }
+            }
+        }
+    }
+
+
+    .col-12-sm {
+        @media only screen and (max-width: $breakpoint-med) {
+            width: 100% !important;
+        }
+    }
+
+    .col-r {
+        @media only screen and (max-width: $breakpoint-med) {
+            margin: 0px;
+            min-height: 0px;
+        }
+    }
+
+
+    .welcome-details-name {
+        font-weight: 500;
+        font-size: 32px;
+        margin-bottom: 10px;
+
+        @media only screen and (max-width: $breakpoint-med) {
+            font-size: 34px;
+            font-weight: 500;
+        }
+    }
+
+    .welcome-details-description {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 20px;
+
+        @media only screen and (max-width: $breakpoint-med) {
+            font-size: 16px;
+            line-height: 22px;
+            font-weight: 300;
+            margin-bottom: 15px;
+        }
+    }
+
+    .welcome-details-img {
+        max-height: 140px;
+        width: auto;
+
+        @media only screen and (max-width: $breakpoint-med) {
+            height: 100px;
+            width: auto;
+        }
+    }
+
+    a:hover {
+        color: #fff;
+    }
+
+    .welcome-sklep {
+        margin-top: 1rem;
+        background-color: #101618;
+        background-image: url('../img/welcome2/home_9.jpg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        height: 400px;
+
+        .col-l {
+            margin: 0px;
+            padding: 2rem;
+            background-color: rgba($color: #000000, $alpha: 0.5);
+            width: 50%;
+            height: 400px;
+        }
+
+        .col-r {
+            margin: 0px;
+            padding: 0px;
+            width: 50%;
+        }
+
+        @media only screen and (max-width: $breakpoint-med) {
+            background-image: url('../img/welcome2/home_9.mobi.jpg');
+            object-fit: cover;
+            background-size: cover;
+        }
+    }
+
+    .welcome-wiedza {
+        margin-top: 1rem;
+        background-color: #101618;
+        background-image: url('../img/welcome2/home_5.jpg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        height: 400px;
+
+        .col-l {
+            margin: 0px;
+            padding: 2rem;
+            background-color: rgba($color: #000000, $alpha: 0.5);
+            width: 50%;
+            height: 400px;
+        }
+
+        .col-r {
+            margin: 0px;
+            padding: 0px;
+            width: 50%;
+        }
+
+        @media only screen and (max-width: $breakpoint-med) {
+            background-image: url('../img/welcome2/home_5.mobi.jpg');
+            object-fit: cover;
+            background-size: cover;
+        }
+    }
+
+    .welcome-cel {
+        margin-top: 1rem;
+        background-color: #101618;
+        background-image: url('../img/welcome2/home_6.jpg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        height: 400px;
+
+        .col-l {
+            margin: 0px;
+            padding: 2rem;
+            background-color: rgba($color: #000000, $alpha: 0.5);
+            width: 50%;
+            height: 400px;
+        }
+
+        .col-r {
+            margin: 0px;
+            padding: 0px;
+            width: 50%;
+        }
+
+        @media only screen and (max-width: $breakpoint-med) {
+            background-image: url('../img/welcome2/home_6.mobi.jpg');
+            object-fit: cover;
+            background-size: cover;
+        }
+    }
+
+    .welcome-filmy {
+        margin-top: 1rem;
+        background-color: #101618;
+        background-image: url('../img/welcome2/home_7.jpg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        height: 400px;
+
+        .col-l {
+            margin: 0px;
+            padding: 2rem;
+            background-color: rgba($color: #000000, $alpha: 0.5);
+            width: 50%;
+            height: 400px;
+        }
+
+        .col-r {
+            margin: 0px;
+            padding: 0px;
+            width: 50%;
+        }
+
+        @media only screen and (max-width: $breakpoint-med) {
+            background-image: url('../img/welcome2/home_7.mobi.jpg');
+            object-fit: cover;
+            background-size: cover;
+        }
+    }
+
+
+    .welcome-opinions {
+        padding-top: 2rem;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .col-6 {
+            width: 50%;
+            margin: 0px;
+        }
+
+        .welcome-opinions-info {
+            position: absolute;
+            bottom: 60px;
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    /*
+    .welcome-wd {
+        .col-6 {
+            width: 50%;
+            margin: 0rem;
+
+            @media only screen and (max-width: $breakpoint-med) {
+                width: 100%;
+            }
+        }
+    }
+
+
+
+    .welcome-slider-description {
+        padding: 2rem;
+    }
+
+
+    .fa-ellipsis-h {
+        color: $blue;
+        padding-right: 0.5rem;
+    }
+
+    .welcome-wd1 {
+        padding-top: 17rem;
+        padding-bottom: 3rem;
+        background-color: #101618;
+        background-image: url('../img/welcome2/wd1_bd.jpg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        min-height: 40rem;
+    }
+
+    .welcome-wd2 {
+        background-color: #101618;
+        background-image: url('../img/welcome2/wd2_bd.jpg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        min-height: 40rem;
+    }
+
+
+
+
+    .welcome-wiedza {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        background-color: #101618;
+        background-image: url('../img/welcome2/knowledge.jpg');
+        background-position: top center;
+        background-repeat: no-repeat;
+
+        @media only screen and (max-width: $breakpoint-med) {
+            background-image: url('../img/welcome2/knowledge.mobi.jpg');
+        }
+    }
+
+    .help-box-container {
+        display: block;
+        background-color: #222324;
+
+
+        .help-box-container-links {
+            text-align: center;
+
+            li {
+                display: inline-block;
+                background-color: #333435;
+                margin: 0.25rem;
+                width: 40%;
+                overflow: hidden;
+
+                a {
+                    text-align: center;
+                    display: block;
+                    padding: 0.25rem;
+
+                    img {
+                        padding: 0.25rem;
+                    }
+
+                    p {
+                        min-height: 2rem;
+                        line-height: 110%;
+                        font-size: 80%;
+                    }
+                }
+            }
+        }
+
+        .help-box-social {
+            text-align: right;
+            color: #646566;
+            text-transform: uppercase;
+
+            i {
+                color: #eee;
+                margin-left: 0.25rem;
+            }
+        }
+
+
+    }
+    */
+
+    @media only screen and (max-width: $breakpoint-med) {}
+
+}
+
+
+
+.welcome-menu {
+    /*
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    */
+    text-align: center;
+    font-size: 16px;
+
+    li {
+        padding: 1rem;
+        display: inline-block;
+        text-align: center;
+        min-width: 9rem;
+
+        @media only screen and (max-width: $breakpoint-med) {
+            width: 49%;
+        }
+
+        a {
+            display: block;
+            color: #9e9e9e;
+            transition: all 0.3s linear;
+
+            img {
+                max-width: 60px;
+                height: auto;
+                opacity: 0.7;
+                transition: all 0.3s linear;
+            }
+        }
+
+        a:hover {
+            color: #fff;
+            transition: all 0.3s linear;
+
+            img {
+                opacity: 1;
+                transition: all 0.3s linear;
+            }
+        }
+
+
+    }
+}

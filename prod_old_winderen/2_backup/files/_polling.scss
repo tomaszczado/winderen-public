@@ -1,0 +1,129 @@
+.polling-form {
+    padding-top: 2rem;
+
+    .polling-box {
+        min-width: 100%;
+        border-radius: 1rem;
+        background-color: #252525;
+        margin-bottom: 2rem;
+
+        .polling-box-title {
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+            padding: 1rem;
+            color: #fff;
+            background-color: #2E2E2E;
+            font-weight: 600;
+        }
+
+        .polling-box-text {
+            padding: 1rem;
+
+            textarea {
+                max-width: 100%;
+                color: #fff;
+                padding: 0.25rem;
+                border: 1px solid #373737;
+                background-color: #2E2E2E;
+            }
+        }
+    }
+
+    .item-rate-poll {
+
+        border-bottom: 1px solid #3A3A3A;
+
+        div {
+            padding-top: 0px !important;
+        }
+
+        .item-rate-poll-stars {
+            text-align: center;
+            font-size: 140%;
+
+            @media only screen and (min-width: $breakpoint-med) {}
+
+            .rate-base-layer {
+                color: #aaa;
+            }
+
+            .rate-hover-layer {
+                color: #F0B209;
+            }
+        }
+    }
+
+    .polling-box {
+		input[type='radio'] {
+			margin-right: 10px;
+			margin-top: -3px;
+		}
+
+		input[type='radio']:after {
+			width: 18px;
+			height: 18px;
+			border-radius: 50px;
+			top: -2px;
+			left: -1px;
+			position: relative;
+			background-color: #252525;
+			content: '';
+			display: inline-block;
+			visibility: visible;
+			border: 2px solid #fff;
+			transition: all 0.3s linear;
+		}
+
+		input[type='radio']:checked:after {
+			width: 18px;
+			height: 18px;
+			border-radius: 50px;
+			top: -2px;
+			left: -1px;
+			position: relative;
+			background-color: #4994EC;
+			content: '';
+			display: inline-block;
+			visibility: visible;
+			border: 2px solid #4994EC;
+			transition: all 0.3s linear;
+		}
+
+		input[type='checkbox'] {
+			margin-right: 10px;
+			margin-top: -5px;
+			vertical-align: middle;
+		}
+
+		input[type='checkbox']:after {
+			width: 16px;
+			height: 16px;
+			border-radius: 3px;
+			top: -2px;
+			left: -1px;
+			position: relative;
+			background-color: #fff;
+			content: '';
+			display: inline-block;
+			visibility: visible;
+			border: 2px solid #4994EC;
+			transition: all 0.3s linear;
+		}
+
+		input[type='checkbox']:checked:after {
+			width: 16px;
+			height: 16px;
+			border-radius: 3px;
+			top: -2px;
+			left: -1px;
+			position: relative;
+			background-color: #4994EC;
+			content: '';
+			display: inline-block;
+			visibility: visible;
+			border: 2px solid #4994EC;
+			transition: all 0.3s linear;
+		}
+	}
+
+}

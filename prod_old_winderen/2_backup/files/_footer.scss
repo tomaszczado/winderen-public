@@ -1,0 +1,396 @@
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: 100%;
+
+    background-color: #2a2a2a;
+    color: $text;
+}
+
+.footer {
+    padding-top: 45px;
+    width: 100%;
+    max-width: 1030px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links a:link,
+.footer-links a:visited {
+    color: $text;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: $blue;
+    text-decoration: none;
+}
+
+.footer-link {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer-link-icon {
+    margin-left: 5px;
+}
+
+.footer-links {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+
+    font-family: $mainFont;
+    font-size: 16px;
+    color: $text;
+
+    @media only screen and (min-width: $breakpoint-med) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .dropdown-button:hover {
+        color: #0290c1;
+    }
+}
+
+.footer-links li {
+    margin-bottom: 20px;
+
+    @media only screen and (min-width: $breakpoint-med) {
+        margin-bottom: 0;
+    }
+}
+
+.footer-links li.footer-icons-container {
+    margin-bottom: 0;
+}
+
+.footer-links li.footer-tos-container {
+    margin-bottom: 40px;
+
+    @media only screen and (min-width: $breakpoint-med) {
+        margin-bottom: 0;
+    }
+}
+
+.footer-links .phoca-flag {
+    height: auto;
+    width: 20px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+
+.footer-icons-container {
+    width: 100%;
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-icons i {
+    font-size: 24px;
+}
+
+.footer-icons-social {
+    padding-bottom: 10px;
+}
+
+.footer-icons-logos {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+@media(min-width: $breakpoint-small) {
+    .footer-link {
+        width: auto;
+        margin-bottom: 0;
+    }
+}
+
+@media(min-width: $breakpoint-med) {
+    .footer-links {
+        justify-content: space-between;
+    }
+
+    .footer-icons-container {
+        width: auto;
+    }
+
+    .footer-icons {
+        justify-content: flex-start;
+    }
+}
+
+.footer-icons li {
+    margin-right: 10px;
+}
+
+.footer-icons img {
+    max-width: 100%;
+}
+
+.footer .footer-currencies {
+    color: $productBackground;
+    display: flex;
+
+    @media only screen and (max-width: $breakpoint-med) {
+        font-size: 20px;
+    }
+
+    a:link,
+    a:visited {
+        color: $productBackground;
+    }
+
+    a:link.active,
+    a:visited.active {
+        color: $text;
+    }
+
+    a:hover {
+        color: $blue;
+    }
+
+    li {
+        margin-left: 0;
+
+        @media only screen and (max-width: $breakpoint-med) {
+            margin-bottom: 0;
+        }
+    }
+
+    li:not(:last-child)::after {
+        margin: 0 3px;
+        content: "/";
+    }
+}
+
+.footer-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+    font-family: $mainFont;
+    font-size: 16px;
+    font-weight: 600;
+    color: $text;
+}
+
+.footer-button:hover {
+    color: $blue;
+}
+
+.footer-dropdown-language {
+    text-transform: uppercase;
+
+    @media only screen and (max-width: $breakpoint-med) {
+        font-size: 20px;
+    }
+}
+
+.footer-dropdown-language img {
+    height: auto;
+    width: 22px;
+    margin-right: 10px;
+}
+
+.footer-language {
+    display: flex;
+    align-items: center;
+
+    @media only screen and (max-width: $breakpoint-med) {
+        font-size: 20px;
+    }
+
+    @media(min-width: $breakpoint-med) {
+        margin-top: -3px;
+    }
+}
+
+.footer-language span {
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.footer-language object {
+    height: 25px;
+}
+
+.footer-separator {
+    align-self: stretch;
+    margin: 30px 0;
+
+    border: 1px $separator solid;
+}
+
+.footer-copyright {
+    margin: 30px 0;
+
+    font-family: $mainFont;
+    font-size: 12px;
+    color: #ddd;
+    text-align: center;
+}
+
+.footer-copyright a:link,
+.footer-copyright a:visited {
+    color: $footerCopy;
+}
+
+.footer-copyright a:hover {
+    color: $text;
+    text-decoration: underline;
+}
+
+
+.countrysplash {
+    z-index: 999999;
+    position: absolute;
+    top: 0rem;
+    left: 0%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 2%;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 100rem;
+
+    @media only screen and (max-width: $breakpoint-med) {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .countrysplashselected {
+        font-size: 120%;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+
+        strong {
+            text-transform: uppercase;
+        }
+    }
+
+    p {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .button {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        margin-top: 4rem;
+    }
+
+    h3.countryregion0 {
+        margin-top: 2rem;
+    }
+
+
+    ul {
+
+        /*
+        columns: 3;
+        -webkit-columns: 3;
+        -moz-columns: 3;
+
+        @media only screen and (max-width: $breakpoint-med) {
+            columns: 2;
+            -webkit-columns: 2;
+            -moz-columns: 2;
+        }
+        */
+        li {
+            a {
+                display: block;
+                padding: 0.75rem;
+            }
+
+            a:hover {
+                background: #444;
+            }
+        }
+    }
+
+    .lang-item .fa {
+        float: right;
+        color: #505050;
+        line-height: 30px;
+        margin: 0 20px;
+        transform: rotate(0deg);
+        transition: transform .3s ease-in;
+        cursor: pointer;
+    }
+
+    .lang-item {
+        height: 100%;
+        border-bottom: 2px solid #292929;
+
+        &.active {
+            border-bottom: 2px solid #292929;
+        }
+
+        label {
+            display: block;
+            line-height: 20px;
+            width: 100%;
+            cursor: pointer;
+            min-height: 40px;
+        }
+    }
+
+    .lang-subitem {
+        display: none;
+        transition: transform .3s linear;
+    }
+
+    .active {
+        .fa {
+            transform: rotate(180deg);
+            transition: transform .3s ease-in;
+        }
+
+        .lang-subitem {
+            display: block;
+            transition: transform .3s linear;
+        }
+    }
+}
+
+
+.footer-totop {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 150%;
+    line-height: 27px;
+    text-align: center;
+    color: $blue;
+    background-color: #fff;
+    border-radius: 1rem;
+    display: none;
+
+    @media only screen and (max-width: $breakpoint-med) {
+        display: none;
+    }
+}
