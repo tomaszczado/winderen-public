@@ -450,6 +450,25 @@ $lang_word['str_footer_keep_in_touch_text'] = 'Follow us on our social media net
 $lang_word['str_footer_online_shop_header'] = 'Tienda virtual Winderen';
 $lang_word['str_footer_online_shop_text'] = 'Compra rápida directamente del fabricante';
 $lang_word['str_footer_online_shop_button_label'] = 'Comprar';
+$lang_word['str_footer_navigation_about_winderen_label'] = 'About Winderen';
+$lang_word['str_footer_navigation_our_mission_label'] = 'Our Mission';
+$lang_word['str_footer_navigation_our_friends_label'] = 'Nuestros Amigos';
+$lang_word['str_footer_navigation_testimonials_label'] = 'Testimonios';
+$lang_word['str_footer_navigation_our_products_label'] = 'Our Products';
+$lang_word['str_footer_navigation_learn_more_label'] = 'Más información';
+$lang_word['str_footer_navigation_knowledge_zone_label'] = 'Zona de conocimientos';
+$lang_word['str_footer_navigation_instructions_label'] = 'Instrucciones';
+$lang_word['str_footer_navigation_faq_label'] = 'FAQ';
+$lang_word['str_footer_navigation_reviews_label'] = 'Reseñas de producto';
+$lang_word['str_footer_navigation_videos_label'] = 'Vídeos';
+$lang_word['str_footer_navigation_shop_now_label'] = 'Shop now';
+$lang_word['str_footer_navigation_online_shop_label'] = 'Online shop';
+$lang_word['str_footer_navigation_terms_and_conditions_label'] = 'Condiciones de venta';
+$lang_word['str_footer_navigation_refunds_policy_label'] = 'Refunds Policy';
+$lang_word['str_footer_navigation_payments_and_delivery_label'] = 'Payments and Delivery';
+$lang_word['str_footer_navigation_partner_zone_label'] = 'Partner zone';
+$lang_word['str_footer_navigation_become_a_partner_label'] = 'Become a Partner';
+$lang_word['str_footer_navigation_account_label'] = 'Account';
 
 $lang_word['str_privacy_policy_content'] = 'Este página web utiliza “cookies”. Las “cookies” y la tecnología de la información que las utiliza provienen de nosotros y de nuestros socios. Puedes leer sobre ellos en nuestra Política de Privacidad. Al utilizar nuestro sitio web con una configuración de navegador que permite almacenar “cookies”, das tu consentimiento para el procesamiento de tus datos personales de acuerdo con los principios descritos en nuestra <a href="https://www.winderen.com/es/page/278">Política de Privacidad.</a>"';
 $lang_word['str_privacy_policy_url'] = 'https://www.winderen.com/es/page/278';

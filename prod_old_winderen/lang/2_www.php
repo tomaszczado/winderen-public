@@ -448,6 +448,25 @@ $lang_word['str_footer_keep_in_touch_text'] = 'Follow us on our social media net
 $lang_word['str_footer_online_shop_header'] = 'Интернет-магазин Winderen';
 $lang_word['str_footer_online_shop_text'] = 'Быстрые покупки напрямую от производителя';
 $lang_word['str_footer_online_shop_button_label'] = 'КУПИТЬ';
+$lang_word['str_footer_navigation_about_winderen_label'] = 'About Winderen';
+$lang_word['str_footer_navigation_our_mission_label'] = 'Our Mission';
+$lang_word['str_footer_navigation_our_friends_label'] = 'Наши Друзья';
+$lang_word['str_footer_navigation_testimonials_label'] = 'Написали о нас';
+$lang_word['str_footer_navigation_our_products_label'] = 'Our Products';
+$lang_word['str_footer_navigation_learn_more_label'] = 'Узнать больше';
+$lang_word['str_footer_navigation_knowledge_zone_label'] = 'Зона знаний';
+$lang_word['str_footer_navigation_instructions_label'] = 'Инструкции';
+$lang_word['str_footer_navigation_faq_label'] = 'FAQ';
+$lang_word['str_footer_navigation_reviews_label'] = 'Отзывы о товаре';
+$lang_word['str_footer_navigation_videos_label'] = 'Фильмы';
+$lang_word['str_footer_navigation_shop_now_label'] = 'Shop now';
+$lang_word['str_footer_navigation_online_shop_label'] = 'Online shop';
+$lang_word['str_footer_navigation_terms_and_conditions_label'] = 'Условия соглашения';
+$lang_word['str_footer_navigation_refunds_policy_label'] = 'Refunds Policy';
+$lang_word['str_footer_navigation_payments_and_delivery_label'] = 'Payments and Delivery';
+$lang_word['str_footer_navigation_partner_zone_label'] = 'Partner zone';
+$lang_word['str_footer_navigation_become_a_partner_label'] = 'Become a Partner';
+$lang_word['str_footer_navigation_account_label'] = 'Account';
 
 $lang_word['str_privacy_policy_content'] = 'Этот сайт использует файлы cookie. Файлы cookie и информационные технологии, которые их используют, принадлежат нам и нашим партнерам. Вы можете прочитать о них в нашей Политике конфиденциальности. Используя наш веб-сайт с настройками веб-браузера, которые позволяют вам сохранять файлы cookie, - вы соглашаетесь на обработку ваших персональных данных в соответствии с принципами, описанными в нашей <a href="https://www.winderen.com/ru/page/232">Политике конфиденциальности</a>."';
 $lang_word['str_privacy_policy_url'] = 'https://www.winderen.com/ru/page/232';

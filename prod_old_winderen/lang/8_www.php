@@ -454,6 +454,25 @@ $lang_word['str_footer_keep_in_touch_text'] = 'Follow us on our social media net
 $lang_word['str_footer_online_shop_header'] = 'Winderen Online Shop';
 $lang_word['str_footer_online_shop_text'] = 'Rychlé nákupy přímo u výrobce';
 $lang_word['str_footer_online_shop_button_label'] = 'Kupte nyní';
+$lang_word['str_footer_navigation_about_winderen_label'] = 'About Winderen';
+$lang_word['str_footer_navigation_our_mission_label'] = 'Our Mission';
+$lang_word['str_footer_navigation_our_friends_label'] = 'Naší Přátelé';
+$lang_word['str_footer_navigation_testimonials_label'] = 'Napsali o nás';
+$lang_word['str_footer_navigation_our_products_label'] = 'Our Products';
+$lang_word['str_footer_navigation_learn_more_label'] = 'Zjistěte více';
+$lang_word['str_footer_navigation_knowledge_zone_label'] = 'Zóna vědomostí';
+$lang_word['str_footer_navigation_instructions_label'] = 'Návody k použítí';
+$lang_word['str_footer_navigation_faq_label'] = 'FAQ';
+$lang_word['str_footer_navigation_reviews_label'] = 'Recenze';
+$lang_word['str_footer_navigation_videos_label'] = 'Filmy';
+$lang_word['str_footer_navigation_shop_now_label'] = 'Shop now';
+$lang_word['str_footer_navigation_online_shop_label'] = 'Online shop';
+$lang_word['str_footer_navigation_terms_and_conditions_label'] = 'Obchodní podmínky';
+$lang_word['str_footer_navigation_refunds_policy_label'] = 'Refunds Policy';
+$lang_word['str_footer_navigation_payments_and_delivery_label'] = 'Payments and Delivery';
+$lang_word['str_footer_navigation_partner_zone_label'] = 'Zóna partnera';
+$lang_word['str_footer_navigation_become_a_partner_label'] = 'Become a Partner';
+$lang_word['str_footer_navigation_account_label'] = 'Account';
 
 $lang_word['str_privacy_policy_content'] = 'Tato stránka využívá soubory cookies. Soubory cookies a informační technologie, které je využívají, pocházejí z našich a partnerských zdrojů. Více informací na toto téma naleznete v sekci Zásady soukromí. Používáním této stránky ve webovém prohlížeči umožňujícím ukládání souborů cookies souhlasíte se zpracováním Vašich osobních údajů v souladu s pravidly uvedenými v sekci <a href="https://www.winderen.com/cz/page/359">Zásady soukromí</a>."';
 $lang_word['str_privacy_policy_url'] = 'https://www.winderen.com/cz/page/359';

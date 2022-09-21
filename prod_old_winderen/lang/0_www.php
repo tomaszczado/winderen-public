@@ -454,6 +454,25 @@ $lang_word['str_footer_keep_in_touch_text'] = 'Follow us on our social media net
 $lang_word['str_footer_online_shop_header'] = 'Winderen Online Shop';
 $lang_word['str_footer_online_shop_text'] = 'Szybkie zakupy bezpośrednio od producenta';
 $lang_word['str_footer_online_shop_button_label'] = 'Kup teraz';
+$lang_word['str_footer_navigation_about_winderen_label'] = 'About Winderen';
+$lang_word['str_footer_navigation_our_mission_label'] = 'Our Mission';
+$lang_word['str_footer_navigation_our_friends_label'] = 'Nasi Przyjaciele';
+$lang_word['str_footer_navigation_testimonials_label'] = 'Napisali o nas';
+$lang_word['str_footer_navigation_our_products_label'] = 'Our Products';
+$lang_word['str_footer_navigation_learn_more_label'] = 'Dowiedz się więcej';
+$lang_word['str_footer_navigation_knowledge_zone_label'] = 'Strefa Wiedzy';
+$lang_word['str_footer_navigation_instructions_label'] = 'Instrukcje';
+$lang_word['str_footer_navigation_faq_label'] = 'FAQ';
+$lang_word['str_footer_navigation_reviews_label'] = 'Recenzje';
+$lang_word['str_footer_navigation_videos_label'] = 'Filmy';
+$lang_word['str_footer_navigation_shop_now_label'] = 'Shop now';
+$lang_word['str_footer_navigation_online_shop_label'] = 'Online shop';
+$lang_word['str_footer_navigation_terms_and_conditions_label'] = 'Regulamin';
+$lang_word['str_footer_navigation_refunds_policy_label'] = 'Refunds Policy';
+$lang_word['str_footer_navigation_payments_and_delivery_label'] = 'Payments and Delivery';
+$lang_word['str_footer_navigation_partner_zone_label'] = 'Strefa partnera';
+$lang_word['str_footer_navigation_become_a_partner_label'] = 'Become a Partner';
+$lang_word['str_footer_navigation_account_label'] = 'Account';
 
 $lang_word['str_privacy_policy_content'] = 'Ta strona używa plików „cookie". Ciasteczka i używające ich technologie informatyczne pochodzą od nas i od naszych partnerów. Przeczytasz o nich w naszej Polityce Prywatności. Korzystając z naszej strony z ustawieniami przeglądarki internetowej pozwalającymi na zapisywanie ciasteczek - wyrażasz zgodę na przetwarzanie Twoich danych osobowych zgodnie z zasadami opisanymi w naszej <a href="https://www.winderen.com/pl/page/231">Polityce Prywatności.</a>.';
 $lang_word['str_privacy_policy_url'] = 'https://www.winderen.com/pl/page/231';

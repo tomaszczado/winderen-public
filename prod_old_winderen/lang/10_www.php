@@ -449,6 +449,25 @@ $lang_word['str_footer_keep_in_touch_text'] = 'Follow us on our social media net
 $lang_word['str_footer_online_shop_header'] = 'Winderen nätbutik';
 $lang_word['str_footer_online_shop_text'] = 'Snabb shopping direkt från tillverkaren';
 $lang_word['str_footer_online_shop_button_label'] = 'Köp nu';
+$lang_word['str_footer_navigation_about_winderen_label'] = 'About Winderen';
+$lang_word['str_footer_navigation_our_mission_label'] = 'Our Mission';
+$lang_word['str_footer_navigation_our_friends_label'] = 'Våra Vänner';
+$lang_word['str_footer_navigation_testimonials_label'] = 'Omdömen';
+$lang_word['str_footer_navigation_our_products_label'] = 'Our Products';
+$lang_word['str_footer_navigation_learn_more_label'] = 'Läs mer';
+$lang_word['str_footer_navigation_knowledge_zone_label'] = 'Knowledge Zone';
+$lang_word['str_footer_navigation_instructions_label'] = 'Bruksanvisningar';
+$lang_word['str_footer_navigation_faq_label'] = 'Vanliga frågor';
+$lang_word['str_footer_navigation_reviews_label'] = 'Recensioner';
+$lang_word['str_footer_navigation_videos_label'] = 'Filmer';
+$lang_word['str_footer_navigation_shop_now_label'] = 'Shop now';
+$lang_word['str_footer_navigation_online_shop_label'] = 'Online shop';
+$lang_word['str_footer_navigation_terms_and_conditions_label'] = 'Villkor';
+$lang_word['str_footer_navigation_refunds_policy_label'] = 'Refunds Policy';
+$lang_word['str_footer_navigation_payments_and_delivery_label'] = 'Payments and Delivery';
+$lang_word['str_footer_navigation_partner_zone_label'] = 'Partner zone';
+$lang_word['str_footer_navigation_become_a_partner_label'] = 'Become a Partner';
+$lang_word['str_footer_navigation_account_label'] = 'Account';
 
 $lang_word['str_privacy_policy_content'] = 'Den här webbplatsen använder "cookie". Kakor och informationsteknologi som använder dem kommer från oss och våra partners. Du kan läsa om dem i vår Sekretesspolicy. Genom att använda vår webbplats med webbläsarinställningar som låter dig spara kakor - samtycker du till behandlingen av dina personuppgifter i enlighet med principerna som beskrivs i vår <a href="https://www.winderen.com/se/page/723">Sekretesspolicy</a>."';
 $lang_word['str_privacy_policy_url'] = 'https://www.winderen.com/se/page/723';
