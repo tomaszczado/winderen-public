@@ -1,0 +1,147 @@
+@media all and (min-width: $width-extra-wide) {
+  header {
+    .content {
+      width: calc(100% - 400px);
+      margin: 0px 0px 0px 400px;
+    }
+
+    .navigation {
+      > ul {
+        > li {
+          +li {
+            margin: 0px 0px 0px 40px;
+          }
+  
+          > a {
+            @include font(35px, 35px, 400);
+          }
+        
+          > .inner-navigation {
+            &.inner-navigation-icons {
+              > ul {
+                > li {
+                  .name {
+                    @include font(14px, 19px, 400);
+                  }
+                }
+              }
+            }
+
+            &.inner-navigation-columns {
+              .link {
+                + .link {
+                  margin: 25px 0px 0px 0px;
+                }
+
+                a {
+                  @include font(18px, 18px, 400);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .logo {
+      width: 400px;
+      
+      img {
+        height: 88px;
+      }
+    }
+  }
+
+  main {
+    #reviews-filters {
+      .inner-container {
+        padding: 0px 115px 0px 115px;
+      }
+
+      .filter {
+        a {
+          @include font(14px, 19px, 400);
+        }
+      }
+    }
+
+    #our-mission-and-goals {
+      .additional-content-about-our-mission {
+        .items {
+          .item {
+            padding: 80px 0px 80px 0px;
+
+            &:nth-child(2n + 2) {
+              .column {
+                padding: 40px 75px 40px 0px;
+        
+                +.column {
+                  padding: 0px 100px 0px 100px;
+                }
+              }
+            }
+          }
+  
+          .column {
+            padding: 40px 0px 40px 100px;
+
+            +.column {
+              padding: 0px 100px 0px 100px;
+            }
+          }
+        }
+
+        .promo-item {
+          .column {
+            width: calc(50% - 100px);
+            padding: 0px 100px 0px 100px;
+
+            +.column {
+              width: calc(50% + 100px);
+              padding: 0px 100px 0px 100px;
+            }
+          }
+        }
+      }
+
+      .global-innovation-made-locally {
+        .content {
+          .column {
+            padding: 0px 100px 0px 100px;
+
+            +.column {
+              padding: 0px 100px 0px 100px;
+            }
+          }
+        }
+      }
+    }
+
+    #shop-products {
+      .help {
+        .avatar {
+          width: 184px;
+          height: 184px;
+        }
+    
+        .text {
+          @include font(24px, 32px, 400);
+        }
+
+        .button {
+          padding: 0px 10px 0px 10px;
+        }
+      }
+    }
+
+    .benefits-list-with-image {
+      .item {
+        padding: 0px 55px 0px 55px;
+      }
+    }
+  }
+
+	.container {
+		padding: 0px $space-extra-wide 0px $space-extra-wide;
+	}
+}

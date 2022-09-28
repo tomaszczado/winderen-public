@@ -1,0 +1,17 @@
+extends layouts/_layout
+
+block vars
+  //- set the page title
+  - var pageTitle = "www.winderen.com | Shop | Group";
+  
+block head
+  //- put any <head> content specific to this page here
+
+block content
+  //- put any page content specific to this page here
+  
+  include ./includes/components/content-shop-navigation.pug
+  include ./includes/components/content-shop-products.pug
+  include ./includes/components/content-shop-shipping.pug
+  include ./includes/components/content-simple-banner-2.pug
+  //- include ./includes/components/content-shop-products-banner.pug

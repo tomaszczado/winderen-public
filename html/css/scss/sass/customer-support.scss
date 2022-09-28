@@ -1,0 +1,1325 @@
+.header {
+    .text-36 {
+        @include letterSpacing(100);
+        @media screen and (min-width: $width-small){
+            @include font(36px, 48px,400);
+        }
+        @media screen and (max-width: $width-small){
+            @include font(20px, 24px,400);
+        }
+    }
+}
+
+
+#banner.customer-support {
+    font-family:$font-gt-america-regular;
+        .content {
+            bottom: 0px;
+        }
+    @media screen and (max-width: $width-small){
+        height: calc(100vh - 370px);
+        picture {
+            padding: 10px 10px 0 10px;
+        }
+        .content {
+            top: 10px;
+            bottom: 0px;
+            padding: 0;
+        }
+    }
+    .hero.contact {
+        h1 {
+            @include font(36px, 34px, 400);
+            @include letterSpacing(100);
+            margin-bottom: 15px;
+            @media screen and (min-width: $width-small){
+                @include font(60px, 48px, 400);
+                margin-bottom: 30px;
+            }
+        }
+        p {
+            text-align: center;
+            text-transform: uppercase;
+            @include font(16px, 22px, 400);
+            @include letterSpacing(55);
+            @media screen and (min-width: $width-small) {
+                white-space:unset ;
+                @include font(22px, 28px, 400);
+                @include letterSpacing(50);
+                &.mobile {
+                    display: none;
+                }
+            }
+            @media screen and (max-width: $width-small) {
+                &.desktop {
+                    display: none;
+                }
+            }
+        }
+    }
+    .hero.contact-2 {
+        div.icon {
+            margin:0 0 20px;
+        }
+        h1 {
+            @include font(36px, 34px, 400);
+            @include letterSpacing(100);
+            margin-bottom: 15px;
+            @media screen and (min-width: $width-small){
+                @include font(60px, 48px, 400);
+                margin-bottom: 30px;
+            }
+        }
+        p {
+            text-align: center;
+            text-transform: uppercase;
+            @media screen and (min-width: $width-small) {
+                white-space:unset ;
+                @include font(36px, 48px, 400);
+                @include letterSpacing(100);
+            }
+            @media screen and (max-width: $width-small) {
+                display: none;
+            }
+        }
+    }
+    .hero.product {
+        h1 {
+            @include font(36px, 34px, 400);
+            margin-bottom: 15px;
+            @media screen and (min-width: $width-small){
+                @include font(60px, 48px, 400);
+            }
+        }
+        p {
+            text-align: center;
+            text-transform: uppercase;
+            @include letterSpacing(75);
+            @include font(16px, 22px, 400);
+            @media screen and (min-width: $width-small) {
+                white-space:unset ;
+                @include font(36px, 48px, 400);
+                @include letterSpacing(100);
+            }
+        }
+    }
+}
+
+
+#customer-support-contact-form {
+    font-family:$font-gt-america-regular;
+    .container {
+        margin: 40px 0 60px 0;
+        @media screen and (min-width: $width-small){
+            margin: 80px 0 80px 0;
+        }
+        .wrapper {
+            @media screen and (min-width: $width-small){
+                display: flex;
+            }
+            .team {
+                border-bottom: 1px solid rgba(67, 67, 67,1);
+                @media screen and(min-width:$width-small) {
+                    width: 35%;
+                    border-right: 1px solid rgba(67, 67, 67,1);
+                    border-bottom: unset;
+                    padding: 0 100px 0 20px;
+                }
+                @media screen and (max-width:$width-small) {
+                    margin: 0 0 30px 0;
+                }
+                .support-team {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 30px;
+                    position: relative;
+                    @include font(16px, 22px, 400);
+                    @media screen and (min-width: $width-small){
+                        margin-bottom: 50px;
+                        @include font(22px, 28px, 400);
+                    }
+                    img {
+                        width: 8px;
+                        margin: 0 10px 0 0;
+                        @media screen and (min-width:$width-small) {
+                            width: 10px;
+                            position: absolute;
+                            left: -20px;
+                        }
+                    }
+                    p {
+                        text-transform: uppercase;
+                        @include letterSpacing(75);
+                    }
+                }
+                .circle-images {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 35px;
+                    @media screen and (min-width: $width-small){
+                        margin-left: -8px;
+                    }
+                    @media screen and (max-width: $width-small){
+                        justify-content: space-between;
+                        margin-bottom: 40px;
+                    }
+                    .img {
+                        border-radius: 50%;
+                        border: 8px solid rgba(255, 255, 255, 0.1);
+                        overflow: hidden;
+                        @media screen and (max-width: $width-small){
+                            max-width: 88px;
+                            border-width: 4px;
+                        }
+                        @media screen and (min-width: $width-small) {
+                            &:nth-child(2){
+                                margin:0 10px;
+                            }
+                        }
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+                .support-contact {
+                    &:last-of-type{
+                        @media screen and (max-width: $width-small){
+                            margin-bottom: 30px;
+                        }
+                    }
+                    &:not(:last-of-type){
+                        margin-bottom: 20px;
+                        @media screen and (min-width: $width-small) {
+                            margin-bottom: 30px;
+                        }
+                    }
+                    p {
+                        @include font(12px, 22px, 400);
+                        @include letterSpacing(75);
+                        margin-bottom: 10px;
+                        text-transform: uppercase;
+                        @media screen and (min-width: $width-small){
+                            @include font(14px, 22px, 400);
+                            margin-bottom: 10px;
+                        }
+                    }
+                    a {
+                        @include font(18px, 28px, 400);
+                        @include letterSpacing(25);
+                        margin: 0 0 0 15px;
+                        @media screen and (min-width: $width-small){
+                            @include font(22px, 28px, 400);
+                            margin: 0 0 0 35px;
+                        }
+                    }
+                }
+            }
+            .all-company {
+                text-transform: uppercase;
+                border-bottom: 1px solid rgba(67, 67, 67,1);
+                margin:0 0 40px;
+                @media screen and(min-width:$width-small) {
+                    width: 35%;
+                    padding: 0 50px 0 0;
+                    border-right: 1px solid rgba(67, 67, 67,1);
+                    border-bottom: unset;
+                    margin:0;
+                }
+                @media screen and(min-width:$width-wide) {
+                    padding: 0 100px 0 0;
+                }
+                .company {
+                    &:first-of-type {
+                        margin:0 0 40px;
+                        @media screen and (min-width: $width-small){
+                            margin:0 0 70px;
+                        }
+                    }
+                    .header {
+                        display: flex;
+                        align-items: center;
+                        position: relative;
+                        @include font(16px, 22px, 400);
+                        text-transform: uppercase;
+                        @include letterSpacing(75);
+                        @media screen and (min-width: $width-small){
+                            margin:0 0 50px;
+                            @include font(22px, 28px, 400);
+                            padding:0 0 0 20px;
+                        }
+                        img {
+                            width: 8px;
+                            margin: 0 10px 0 0;
+                            @media screen and (min-width:$width-small) {
+                                width: 10px;
+                                position: absolute;
+                                left: 0;
+                            }
+                        }
+                    }
+                    .item {
+                        padding:10px 0;
+                        @media screen and (min-width: $width-small){
+                            padding:15px 20px;
+                        }
+                        &:not(:last-of-type){
+                            border-bottom: 1px solid rgba(67, 67, 67,1);
+                        }
+                        p:first-of-type {
+                            @include font(12px, 22px, 400);
+                            @include letterSpacing(75);
+                            @media screen and (min-width: $width-small){
+                                @include font(14px, 22px, 400);
+                            }
+                        }
+                        p:not(:first-of-type), a {
+                            @include font(18px, 28px, 400);
+                            @include letterSpacing(25);
+                            @media screen and (min-width: $width-small){
+                                @include font(22px, 28px, 400);
+                            }
+                        }
+                    }
+                }
+            }
+            .form {
+                @media screen and(min-width:$width-small) {
+                    width: 65%;
+                    padding: 0 0 0 100px;
+                }
+                .header {
+                    display: flex;
+                    align-items: center;
+                    @include letterSpacing(55);
+                    @include font(16px, 22px, 400);
+                    margin: 0 0 20px 0;
+                    @media screen and (min-width: $width-small){
+                        @include font(22px, 28px, 400);
+                        margin: 0 0 50px 0;
+                    }
+                    img {
+                        width: 8px;
+                        margin: 0 10px 0 0;
+                        @media screen and (min-width:$width-small) {
+                            width: 10px;
+                        }
+                    }
+                }
+                form {
+                    @include letterSpacing(75);
+                    text-transform: uppercase;
+                    @media screen and (min-width: $width-small){
+                        @include font(14px, 22px, 400);
+                    }
+                    @media screen and (max-width: $width-small) {
+                        label {
+                            display: none;
+                        }
+                    }
+                    input::placeholder, textarea::placeholder {
+                        text-transform: uppercase;
+                        color:white;
+                        @include font(12px, 22px, 400);
+                        @include letterSpacing(75);
+                        @media screen and (min-width: $width-small) {
+                            color:transparent;
+                        }
+                    }
+                    .label {
+                        @media screen and (min-width: $width-small){
+                            margin:0 0 20px 20px;
+                        }
+                        label {
+                            @include letterSpacing(75);
+                            @media screen and (max-width: $width-small){
+                                display: none;
+                            }
+                        }
+                    }
+                    input, textarea {
+                        background-color: rgba(72,73,73,1);
+                        color:white;
+                        padding: 15px 20px;
+                    }
+                    .data-wrapper {
+                        @media screen and (min-width: $width-small){
+                            display: flex;
+                        }
+                        .data {
+                            width: 100%;
+                            @media screen and (min-width: $width-small) {
+                                width: 50%;
+                                &:first-child {
+                                    padding: 0 10px 0 0;
+                                }
+                                &:last-child {
+                                    padding: 0 0 0 10px;
+                                }
+                            }
+                            input {
+                                width: 100%;
+                                min-height: 40px;
+                                margin: 0 0 10px 0;
+                                @media screen and (min-width: $width-small){
+                                    min-height: 60px;
+                                    margin: 0 0 40px 0;
+                                }
+                            }
+                            &.required {
+                                position: relative;
+                                @media screen and (max-width: $width-small){
+                                    &::before {
+                                        content: '*';
+                                        position: absolute;
+                                        right: -12px;
+                                        color:#4A94B7;
+                                    }
+                                }
+                                .label label{
+                                    position: relative;
+                                    &::before {
+                                        content: '*';
+                                        position: absolute;
+                                        right: -12px;
+                                        color:#4A94B7;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .message {
+                        textarea {
+                            width: 100%;
+                            min-height: 120px;
+                            margin: 0 0 30px 0;
+                            @media screen and (min-width: $width-small) {
+                                min-height: 200px;
+                                margin: 0 0 40px 0;
+                            }
+                        }
+                    }
+                    .button {
+                        color:#fff;
+                        margin:auto;
+                        @media screen and (min-width: $width-small){
+                            width: 252px;
+                            height: 48px;
+                        }
+                        .button-label {
+                            @media screen and (min-width: $width-small){
+                                @include font(16px, 21px, 400);
+                            }
+                        }
+                        .button-icon img{
+                            height: 16px;
+                            width: 24px;
+                        }
+                        @media screen and (max-width: $width-small){
+                            display:flex;
+                            margin:auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#customer-support-contact-help {
+    font-family:$font-gt-america-regular;
+    background: linear-gradient(to bottom, rgba(0,0,0,1), transparent 300px);
+    @media screen and (min-width: $width-small){
+        background: linear-gradient(to bottom, rgba(0,0,0,1), transparent 400px);
+    }
+    .header {
+        padding-top: 30px;
+        @media screen and (min-width: $width-small){
+            padding-top: 90px;
+        }
+        h2 {
+            @include letterSpacing(100);
+            @media screen and (min-width: $width-small){
+                margin-bottom: 25px;
+            }
+        }
+        p {
+            @include letterSpacing(55);
+            @include font(16px, 22px, 400);
+            text-align: center;
+            @media screen and (min-width: $width-small){
+                @include font(22px, 28px, 400);
+                margin-bottom: 90px;
+            }
+        }
+    }
+    .box-wrapper {
+        display: flex;
+        @media screen and (max-width: $width-small){
+            flex-direction: column;
+        }
+        .box {
+            flex:1 1 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px 0 20px 0;
+            &:not(:last-of-type) {
+                border-bottom: 1px solid rgba(67, 67, 67,1);
+                @media screen and (min-width: $width-small){
+                    border-right: 1px solid rgba(67, 67, 67,1);
+                    border-bottom: unset;
+                }
+            }
+            @media screen and (min-width: $width-small){
+                padding: 0 0 0 0;
+            }
+            img {
+                margin-bottom: 30px;
+                @media screen and (max-width: $width-small){
+                    margin-bottom: 25px;
+                    width: 103px;
+                }
+            }
+            p {
+                text-align: center;
+                @include font(22px, 28px, 400);
+                @media screen and (max-width: $width-small){
+                    @include font(16px, 22px, 400);
+                }
+            }
+        }
+    }
+    a.button {
+        display: block;
+        max-width: 322px;
+        margin:70px auto 80px auto;
+        @include font(14px, 19px, 400);
+        @media screen and (min-width: $width-small){
+            max-width: 427px;
+            @include font(16px, 21px, 400);
+            margin:80px auto 120px auto;
+        }
+        @media screen and (max-width: $width-small){
+            .button-icon {
+                display: none;
+            }
+            .button-label {
+                padding: 0 20px;
+            }
+        }
+    }
+}
+
+#customer-support-product-about {
+    font-family:$font-gt-america-regular;
+    @media screen and (max-width: $width-small){
+        background-color:rgb(30, 30, 30);
+    }
+    .wrapper {
+        max-width: 900px;
+        margin: auto;
+        padding: 30px 0;
+        @media screen and (min-width: $width-small){
+            padding: 80px 0 160px;
+        }
+        p {
+            text-align: center;
+            margin: 25px 0;
+            @include font(14px, 22px, 400);
+            @media screen and (min-width: $width-small){
+                @include font(20px, 28px, 400);
+                margin: 40px 0;
+            }
+        }
+        p.narrow {
+            max-width: 600px;
+            margin: auto;
+            border: 2px solid #fff;
+            border-top: none;
+            border-bottom: none;
+            @media screen and (min-width: $width-small){
+                padding: 0 50px;
+            }
+            @media screen and (max-width: $width-small){
+                color:rgb(96, 190, 242)
+            }
+        }
+    }
+}
+
+#customer-support-product-benefits {
+    font-family:$font-gt-america-regular;
+    background-color:rgb(30, 30, 30);
+    padding: 0 0 50px;
+    @media screen and (min-width: $width-small){
+        padding: 0 0 200px;
+        background: linear-gradient(to bottom, rgba(0,0,0,1), transparent 400px);  
+    }
+    .wrapper-boxes {
+        padding: 30px 0;
+        background-color: rgb(106, 122, 131);
+        border-bottom: 8px solid rgba(0,0,0,1);
+        @media screen and (min-width: $width-small){
+            padding: 50px 0 100px;
+            transform: translateY(-80px);
+        }
+        .boxes {
+            @media screen and (min-width: $width-small){
+                display: flex;
+            }
+            .box {
+                flex:1 1 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 35px 0 0;
+                @media screen and (min-width: $width-small){
+                    margin: 75px 0 0;
+                }
+                img {
+                    margin: 0 0 20px;
+                    @media screen and (min-width: $width-small){
+                        margin: 0 0 55px;
+                    }
+                }
+                .description {
+                    text-align: center;
+                    padding: 0 10px;
+                    @media screen and (min-width: $width-small){
+                        padding: 0 20px;
+                    }
+                    @media screen and (min-width: $width-wide){
+                        padding: 0 40px;
+                    }
+                    h3 {
+                        @include font(16px, 22px, 400);
+                        @include letterSpacing(100);
+                        margin: 0 0 10px;
+                        @media screen and (min-width: $width-small){
+                            @include font(20px, 28px,400);
+                        }
+                    }
+                    p {
+                        @include font(14px, 22px, 400);
+                        @media screen and (min-width: $width-small){
+                            @include font(18px,24px, 400);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .wrapper-text {
+        max-width: 900px;
+        text-align: center;
+        margin: 30px 0 0;
+        @media screen and (min-width: $width-small){
+            margin: auto;
+        }
+        p {
+            @include font(14px,20px, 400);
+            margin: 30px 0 0;
+            @media screen and (min-width: $width-small){
+                @include font(20px, 28px, 400);
+                margin: 50px 0 0;
+            }
+        }
+    }
+}
+
+#customer-support-product-partner {
+    font-family:$font-gt-america-regular;
+    background-color:rgb(30, 30, 30);
+    @media screen and (min-width: $width-small){
+        background: linear-gradient(to bottom, rgba(0,0,0,1), transparent 400px);  
+    }
+    .wrapper-boxes {
+        padding: 25px 17px;
+        background-color: rgb(13, 87, 61);
+        border-bottom: 8px solid rgba(0,0,0,1);
+        @media screen and (min-width: $width-small){
+            padding: 80px 180px 110px 90px;
+            transform: translateY(-80px);
+        }
+        @media screen and (min-width: $width-small) and (max-width: $width-large){
+            padding: 80px;
+            .box-left {
+                width: 35%!important;
+            }
+            .box-right {
+                width: 65%!important;
+            }
+        }
+        .boxes {
+            @media screen and (min-width: $width-small){
+                display: flex;
+            }
+            .box-left {
+                @media screen and (max-width: $width-small){
+                    display: flex;
+                    align-items: center;
+                    margin: 0 0 20px;
+                    .caption {
+                        padding: 0 0 0 20px;
+                    }
+                }
+                .image {
+                    border-radius: 50%;
+                    overflow: hidden;
+                    border:4px solid rgba(255,255,255,0.1);
+                    width: 35%;
+                    @media screen and (min-width: $width-small){
+                        border-width: 8px;
+                        width: 100%;
+                        display: block;
+                    }
+                    img {
+                        width: 100%;
+                    }
+                }
+                @media screen and (min-width: $width-small){
+                    width: 25%;
+                    padding:0 7% 0 0;
+                }
+            }
+            .box-right {
+                font-family: $font-spectral;
+                @include font(18px, 24px, 400);
+                @include letterSpacing(5);
+                @media screen and (min-width: $width-small){
+                    width: 75%;
+                    @include font(24px, 32px, 400);
+                    @include letterSpacing(25);
+                    padding: 0 0 0 20px;
+                    position: relative;
+                    border-left: 1px solid #fff;
+                    &::before {
+                        content:'';
+                        position: absolute;
+                        left: -6px;
+                        background-color: rgb(13, 87, 61);
+                        top: 25%;
+                        transform: rotate(-45deg);
+                        width: 10px;
+                        height: 10px;
+                        border: 1px solid #fff;
+                        border-right: none;
+                        border-bottom: none;
+                    }
+                }
+            }
+            .caption {
+                font-family:$font-gt-america-regular;
+                @media screen and (min-width: $width-small){
+                    margin:50px 0 0;
+                    &.mobile {
+                        display: none
+                    }
+                }
+                @media screen and (max-width: $width-small){
+                    &.desktop {
+                        display: none
+                    }
+                }
+                .name {
+                    @include font(16px, 18px, 400);
+                    @include letterSpacing(75);
+                    text-transform: uppercase;
+                    @media screen and (min-width: $width-small){
+                        @include font(18px, 24px, 400);
+                        @include letterSpacing(100);
+                    }
+                }
+                .partner {
+                    @include font(12px, 16px, 400);
+                    @include letterSpacing(55);
+                    @media screen and (min-width: $width-small){
+                        @include font(16px, 24px, 400);
+                        @include letterSpacing(50);
+                    }
+                }
+            }
+        }
+    }
+    .wrapper-text {
+        max-width: 900px;
+        text-align: center;
+        margin: 30px 0 0;
+        @media screen and (min-width: $width-small){
+            margin: auto;
+        }
+        p {
+            @include font(14px,20px, 400);
+            margin: 30px 0 60px;
+            @media screen and (min-width: $width-small){
+                @include font(20px, 28px, 400);
+                margin:40px 0 60px;
+            }
+        }
+        .button {
+            margin: 0 0 60px;
+            @media screen and (min-width: $width-small){
+                margin: 0 0 120px;
+                min-width: 252px;
+                height: 48px;
+                .button-label {
+                    @include font(16px, 21px, 400);
+                }
+                img {
+                    width: 29px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+#customer-support-product-contact-form {
+    max-height: 0px;
+    overflow: hidden;
+    background: linear-gradient(to bottom, rgba(0,0,0,1), transparent 400px); 
+    .wrapper {
+        font-family:$font-gt-america-regular;
+        padding: 25px 0 60px 0;
+        @media screen and (min-width: $width-small){
+            padding: 70px 0 120px 0;
+        }
+    }
+    .header {
+        h2 {
+            margin:0 0 25px;
+            @media screen and (min-width: $width-small){
+                margin:0 0 50px;
+            }
+        }
+    }
+    form {
+        .inner-wrapper {
+            &:first-of-type {
+                border: 1px solid rgb(67, 67, 67);
+                border-left: none;
+                border-right: none;
+                .box:first-of-type {
+                    border-bottom:1px solid rgb(67, 67, 67);
+                    @media screen and (min-width: $width-small){
+                        border-right:1px solid rgb(67, 67, 67);
+                        border-bottom: none;
+                    }
+                }
+            }
+            @media screen and (min-width: $width-small){
+                padding:40px 0;
+                display: flex;
+            }
+            .box {
+                @media screen and (max-width: $width-small){
+                    padding: 0 15px 15px 15px;
+                }
+                @media screen and (min-width: $width-small){
+                    padding:0 30px;
+                    flex:1 1 0;
+                }
+                @media screen and (min-width: $width-wide){
+                    padding:0 100px;
+                }
+                p {
+                    text-align: center;
+                    @include font(14px, 22px, 400);
+                    margin: 30px 0 50px;
+                    @media screen and (min-width: $width-small){
+                        @include font(20px, 28px, 400);
+                        margin: 0 0 60px;
+                    }
+                }
+                .inputs {
+                    display: flex;
+                    flex-wrap: wrap;
+                    .input {
+                        width: 50%;
+                        margin: 0 0 20px 0;
+                        display: flex;
+                        align-items: center;
+                        input {
+                            appearance: none;
+                            min-width: 30px;
+                            min-height: 30px;
+                            border-radius: 50%;
+                            background-color: rgb(67, 67, 67);
+                            position: relative;
+                            cursor: pointer;
+                            @media screen and (min-width: $width-small){
+                            }
+                            &::before {
+                                content: '';
+                                width: 20px;
+                                height: 20px;
+                                position: absolute;
+                                left: 50%;
+                                top: 50%;
+                                background-color:rgb(100, 191, 240);
+                                transform: translate(-50%, -50%);
+                                border-radius: 50%;
+                                opacity: 0;
+                                @include transitionAdvanced(opacity, 0.25s, 0s);
+                            }
+                            &:checked::before {
+                                opacity: 1;
+                            }
+                        }
+                        label {
+                            @include font(12px, 16px, 400);
+                            @include letterSpacing(75);
+                            padding: 0 0 0 20px;
+                            cursor: pointer;
+                            @media screen and (min-width: $width-small){
+                                @include font(14px, 16px, 400);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .inner-wrapper:nth-child(2){
+            flex-wrap: wrap;
+            @media screen and (max-width: $width-small){
+                padding:30px 15px;
+            }
+            .data {
+                width: 100%;
+                @media screen and (min-width: $width-small){
+                    width: 50%;
+                    padding: 35px 30px;
+                    &:first-of-type {
+                        border-right:1px solid rgb(67, 67, 67);
+                        border-bottom: none;
+                    }
+                    div + div {
+                        margin:25px 0 0;
+                    }
+                }
+                @media screen and (max-width: $width-small){
+                    div + div {
+                        padding:10px 0;
+                    }
+                }
+                @media screen and (min-width: $width-wide){
+                    padding: 35px 100px;
+                }
+                input, textarea, select {
+                    width: 100%;
+                    padding: 15px 20px;
+                    background-color: rgb(67, 67, 67);
+                    color:#fff;
+                    &::placeholder {
+                        @media screen and (min-width: $width-small){
+                            opacity: 0;
+                        }
+                    }
+                }
+                input, select {
+                    min-height: 40px;
+                    @media screen and (min-width: $width-small){
+                        min-height: 60px;
+                    }
+                }
+                .message {
+                    height: 100%;
+                    textarea {
+                        min-height: 80px;
+                        @media screen and (min-width: $width-small){
+                            min-height:calc(100% - 31px);
+                        }
+                    }
+                }
+                .label {
+                    margin: 0 0 15px 20px;
+                    text-transform: uppercase;
+                    @media screen and (max-width: $width-small){
+                        display: none;
+                    }
+                }
+                .required {
+                    @media screen and (min-width: $width-small){
+                        label {
+                            position: relative;
+                            &::after {
+                                content: '*';
+                                position: absolute;
+                                right: -12px;
+                                color:#4A94B7;
+                            }
+                        }
+                    }
+                    @media screen and (max-width: $width-small){
+                        &::after {
+                            content: '*';
+                            position: absolute;
+                            right: 15px;
+                            color:#4A94B7;
+                        }
+                    }
+                }
+            }
+        }
+        .button {
+            color:#fff;
+            margin:auto;
+            display: flex;
+            @media screen and (min-width: $width-small){
+                width: 252px;
+                height: 48px;
+            }
+            .button-label {
+                width: 100%;
+                @media screen and (min-width: $width-small){
+                    @include font(16px, 21px, 400);
+                }
+            }
+            .button-icon img{
+                height: 16px;
+                width: 24px;
+            }
+        }
+    }
+}
+
+#customer-support-product-points {
+    font-family:$font-gt-america-regular;
+    .wrapper {
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding:40px 0;
+            a {
+                margin: 0 20px 20px;
+                @media screen and (min-width: $width-small) {
+                    &:first-of-type {
+                        margin: 0 20px 0;
+                    }
+                }
+            }
+            .button + .button {
+                margin: 0;
+            }
+        }
+        .boxes {
+            @media screen and (min-width: $width-small){
+                display: flex;
+            }
+            .box {
+                flex:1 1 0;
+                background-color: rgb(106, 122, 131);
+                padding: 30px 70px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                &:not(:last-of-type){
+                    border-bottom: 1px solid rgb(21, 21, 21);
+                }
+                @media screen and (min-width: $width-small){
+                    padding: 70px 20px;
+                    &:not(:last-of-type){
+                        border-right: 1px solid rgb(21, 21, 21);
+                        border-bottom: none;
+                    }
+                }
+                @media screen and (min-width: $width-wide){
+                    padding: 70px 40px;
+                }
+                @media screen and (min-width: $width-wide){
+                    padding: 70px 100px;
+                }
+                .top {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    p.header {
+                        text-transform: uppercase;
+                        text-align: center;
+                        @include font(16px, 22px, 400);
+                        @include letterSpacing(100);
+                        margin: 0 0 20px;
+                        @media screen and (min-width: $width-small){
+                            @include font(20px, 28px, 400);
+                            margin: 0 0 40px;
+                        }
+                    }
+                    .circle {
+                        width: 120px;
+                        height: 120px;
+                        margin: 0 auto 30px;
+                        background-color: rgb(96, 190, 242);
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        @media screen and (min-width: $width-small){
+                            width: 140px;
+                            height: 140px;
+                        }
+                        p {
+                            @include font(36px, 64px, 400);
+                            @include letterSpacing(100);
+                        }
+                    }
+                    .icon {
+                        margin: 0 0 30px;
+                        @media screen and (min-width: $width-small){
+                            margin:0 0 40px;
+                        }
+                    }
+                    p.description {
+                        text-align: center;
+                        @include font(16px, 22px, 400);
+                        @include letterSpacing(0);
+                        margin: 0 0 20px;
+                        @media screen and (min-width: $width-small){
+                            margin:0 0 30px;
+                            @include font(20px, 28px, 400);
+                            @include letterSpacing(55);
+                        }
+                    }
+                }
+                .bottom {
+                    .code {
+                        @include font(16px, 28px, 400);
+                        @include letterSpacing(55);
+                        border-bottom:1px solid #fff;
+                        padding: 0 70px 5px;
+                        position: relative;
+                        &::before {
+                            content:'';
+                            position: absolute;
+                            width:calc(100% - 2px);
+                            height: 19px;
+                            left: 0px;
+                            bottom: 0px;
+                            border-left:1px solid #fff;
+                            border-right:1px solid #fff;
+                            pointer-events: none;
+                        }
+                        @media screen and (min-width: $width-small){
+                            @include font(20px, 28px, 400);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.customer-support-product-center {
+    margin:-70px 0 -100px;
+    background: linear-gradient(to bottom, rgba(0,0,0,1), transparent 800px),
+                linear-gradient(to top, rgba(0,0,0,1), transparent 800px);
+    @media screen and (min-width: $width-small){
+        margin:-100px 0 -80px;
+    }
+}
+
+#customer-support-product-special-prices {
+    font-family:$font-gt-america-regular;
+    .wrapper {
+        box-shadow:0 8px rgba(0, 0, 0, 0.1);
+        position: relative;
+        z-index: 1;
+        background-color: rgb(106, 122, 131);
+        padding:30px 30px 60px;
+        .inner-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 650px;
+        margin: auto;
+            .header {
+                margin:0 0 30px;
+                @media screen and (min-width: $width-small){
+                    margin:0 0 50px;
+                }
+            }
+            .description {
+                margin:0 0 20px;
+                text-align: center;
+                @include font(16px, 22px, 400);
+                @include letterSpacing(50);
+                @media screen and (min-width: $width-small){
+                    margin:0 0 40px;
+                    @include font(20px, 28px, 400);
+                    @include letterSpacing(50);
+                }
+            }
+        }
+        @media screen and (min-width: $width-small){
+            padding:60px 0 100px;
+        }
+    }
+}
+
+
+#customer-support-product-selling {
+    font-family:$font-gt-america-regular;
+    .wrapper {
+        padding:110px 0 0;
+        @media screen and (min-width: $width-small){
+            padding: 180px 0 0;
+        }
+        & .header {
+            margin: 0 auto 40px;
+            max-width: 230px;
+            @media screen and (min-width: $width-small){
+                margin:0 auto 60px;
+                max-width: unset;
+            }
+        }
+        .description {
+            max-width: 230px;
+            text-align: center;
+            margin: 0 auto 50px;
+            @include font(16px, 22px, 400);
+            @include letterSpacing(50);
+            @media screen and (min-width: $width-small){
+                margin:0 auto 90px;
+                @include font(20px, 28px, 400);
+                @include letterSpacing(55);
+                max-width: 470px;
+            }
+            span {
+                color:rgb(96, 190, 242);
+            }
+        }
+        .boxes {
+            display: flex;
+            flex-wrap: wrap;
+            .box {
+                margin:0 0 20px;
+                width: 100%;
+                &:last-of-type {
+                    margin:0 0 60px;
+                }
+                @media screen and (min-width: $width-small) {
+                    padding:0 20px;
+                    width: 33.333%;
+                    margin:0 0 40px;
+                    &:last-of-type {
+                        margin:0 0 80px;
+                    }
+                }
+                @media screen and (min-width: $width-wide) {
+                    width: 25%;
+                }
+                .inner-box {
+                    border-left: 1px solid rgb(82, 82, 82);
+                    .top {
+                        .image {
+                            display: flex;
+                            align-items: center;
+                            aspect-ratio: 1.22;
+                            img {
+                                width:80%;
+                                margin: auto;
+                            }
+                        }
+                        .header {
+                            padding:15px 0 15px 15px;
+                            margin: 0;
+                            @media screen and (min-width: $width-small) {
+                                padding:15px 0 15px 20px;
+                                min-height: 85px;
+                                border-top:1px solid rgb(82, 82, 82);
+                                border-bottom: 1px solid rgb(82, 82, 82);
+                            }
+                            p:first-of-type {
+                                @include font(16px, 20px, 400);
+                                @include letterSpacing(50);
+                                @media screen and (min-width: $width-small){
+                                    @include font(24px, 25px, 400);
+                                    @include letterSpacing(100);
+                                }
+                            }
+                            p:not(:first-of-type) {
+                                @media screen and (min-width: $width-small){
+                                    display: block;
+                                    @include font(20px, 28px, 400);
+                                    @include letterSpacing(50);
+                                }
+                            }
+                        }
+                    }
+                    .border {
+                        padding:15px 40% 15px 15px;
+                        @media screen and (min-width: $width-small) {
+                            padding:15px 30% 15px 20px;
+                            border-bottom:1px solid rgb(82, 82, 82);
+                        }
+                        p {
+                            @include font(14px, 18px, 400);
+                            @include letterSpacing(50);
+                            @media screen and (min-width: $width-small){
+                                @include font(20px, 28px, 400);
+                            }
+                        }
+                        p:not(:first-of-type) {
+                            color:rgb(96, 190, 242);
+                        }
+                    }
+                    @media screen and (max-width: $width-small){
+                        .top {
+                            border-top:1px solid rgb(82, 82, 82);
+                            display: flex;
+                            flex-direction: row-reverse;
+                            .image {
+                                width: 50%;
+                                aspect-ratio: 1.7;
+                                position: relative;
+                                &::before {
+                                    content:'';
+                                    position: absolute;
+                                    left: 0px;
+                                    top: 0px;
+                                    height: 21px;
+                                    width: 1px;
+                                    background-color:rgb(82, 82, 82);
+                                }
+                            }
+                            .header {
+                                width: 50%;
+                                padding: 15px 15% 15px 15px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-between;
+                            }
+                        }
+                        .center .border {
+                            border-bottom: 1px solid rgb(82, 82, 82);
+                            &:not(:last-of-type){
+                                border-top:1px solid rgb(82, 82, 82);
+                            }
+                        }
+                        .bottom {
+                            display: flex;
+                            .border {
+                                width: 50%;
+                                padding:15px 0 15px 15px;
+                                & + .border {
+                                    padding:15px 0 15px 35px;
+                                    position: relative;
+                                    &::before {
+                                        content:'';
+                                        position: absolute;
+                                        left: 0px;
+                                        top: 0px;
+                                        height: 21px;
+                                        width: 1px;
+                                        background-color:rgb(82, 82, 82);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

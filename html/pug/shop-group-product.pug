@@ -1,0 +1,23 @@
+extends layouts/_layout
+
+block vars
+  //- set the page title
+  - var pageTitle = "www.winderen.com | Shop | Group | Product";
+  
+block head
+  //- put any <head> content specific to this page here
+
+block content
+  //- put any page content specific to this page here
+  
+  include ./includes/components/content-product.pug
+  include ./includes/components/content-shop-shipping.pug
+  include ./discover-the-products-gel-bits-system.pug
+//-
+  include ./includes/components/content-product-reviews-and-support.pug
+  include ./includes/components/content-product-advantages-with-video.pug
+  include ./includes/components/content-simple-banner-3.pug
+  include ./includes/components/content-product-benefits-horse.pug
+  include ./includes/components/content-simple-banner-4.pug
+  include ./includes/components/content-product-benefits-rider.pug
+  include ./includes/components/content-product-structure.pug

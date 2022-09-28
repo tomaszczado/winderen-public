@@ -1,0 +1,109 @@
+extends layouts/_layout
+
+block vars
+  //- set the page title
+  - var pageTitle = "www.winderen.com | Discover The Products";
+  
+block head
+  //- put any <head> content specific to this page here
+
+block content
+  //- put any page content specific to this page here
+  section(id='banner' class='simple customer-support')
+    div(class='background')
+      div(class='inner-background')
+        picture(class='rwd-background rwd-background-overlay lazy-picture')
+          source(srcset='images/1px.gif' data-srcset='images/customer-support-contact-bg-desktop.jpg' media='(min-width: 1200px)')
+          source(srcset='images/1px.gif' data-srcset='images/customer-support-contact-bg-desktop.jpg' media='(min-width: 768px)')
+          img(src='images/1px.gif' data-src='images/customer-support-contact-bg2-sm.jpg' alt='TODO')
+    div(class='content logo-icon-with-label')
+        div(class='hero contact')
+          div(class='icon')
+            span(class='icon circular-icon') 
+              img(src='images/1px.gif' data-src='images/icons-customer-support.svg' alt='TODO' width='48' height='48' class='lazy-image')
+          h1 CUSTOMER SUPPORT
+          p(class="mobile") We answer 
+            br 
+            | all questions from our 
+            br 
+            | customers right away
+          p(class="desktop") We answer all questions 
+            br
+            | from our customers right away
+  
+  section(id="customer-support-contact-form")
+    div(class='container')
+      div(class='inner-xl-container')
+        div(class="wrapper")
+          div(class="team")
+            div(class="support-team")
+              img(src='images/1px.gif' data-src='images/icons-customer-support-arrow.svg' alt='TODO' class='lazy-image')
+              p Our Support Team
+            div(class="circle-images")
+              div(class="img")
+                img(src='images/1px.gif' data-src='images/customer-support-contact-circle-img-1.png' alt='TODO' class='lazy-image')
+              div(class="img")
+                img(src='images/1px.gif' data-src='images/customer-support-contact-circle-img-2.png' alt='TODO' class='lazy-image')
+              div(class="img")
+                img(src='images/1px.gif' data-src='images/customer-support-contact-circle-img-3.png' alt='TODO' class='lazy-image')
+            div(class="support-contact")
+              p E-mail:
+              a(href='mailto:support@winderen.com' title='TODO') support@winderen.com
+            div(class="support-contact")
+              p Mobile:
+              a(href='tel:666111266' title='TODO') +48 666 111 266
+          div(class="form")
+            div(class="header")
+              img(src='images/1px.gif' data-src='images/icons-customer-support-arrow.svg' alt='TODO' class='lazy-image')
+              p We are here to help. Ask away!
+            form
+              div(class="data-wrapper")
+                div(class="data required")
+                  div(class="label")
+                    <label for="name">YOUR NAME</label>
+                  <input type="text" id="name" name="name" placeholder="YOUR NAME" required>
+                div(class="data required")
+                  div(class="label")
+                    <label for="mail">YOUR E-MAIL</label>
+                  <input type="text" id="mail" name="mail" placeholder="YOUR E-MAIL" required>
+              div(class="message")
+                div(class="label")
+                  <label for="subject">How can we help you?</label>
+                <textarea id="subject" name="subject" placeholder="How can we help you?"></textarea>
+              button(class='button button-with-icon button-with-background-hover' type="submit")
+                span(class='button-icon')
+                  img(src='images/1px.gif' data-src='images/icons-send-white.svg' alt='TODO' width='1' height='1' class='lazy-image')
+                span(class='button-icon')
+                  img(src='images/1px.gif' data-src='images/icons-send-black.svg' alt='TODO' width='1' height='1' class='lazy-image')
+                span(class='button-label') SEND NOW
+
+  section(id="customer-support-contact-help")
+    div(class='container container-10px-lg')
+      div(class='inner-xl-container')
+        div(class='header logo-icon-with-label')
+          div(class='icon')
+            img(src='images/1px.gif' data-src='images/icons-customer.svg' alt='TODO' width='48' height='48' class='lazy-image')
+          h2 NEED HELP?
+          p(class="caption") Have a look here
+        div(class="box-wrapper")
+          div(class="box")
+            img(src='images/1px.gif' data-src='images/customer-support-contact-icon-1.png' alt='TODO' class='lazy-image')
+            p INSTRUCTIONS
+          div(class="box")
+            img(src='images/1px.gif' data-src='images/customer-support-contact-icon-2.png' alt='TODO' class='lazy-image')
+            p FAQ
+          div(class="box")
+            img(src='images/1px.gif' data-src='images/customer-support-contact-icon-3.png' alt='TODO' class='lazy-image')
+            p
+              | KNOWLEDGE
+              br
+              | ZONE
+          div(class="box")
+            img(src='images/1px.gif' data-src='images/customer-support-contact-icon-4.png' alt='TODO' class='lazy-image')
+            p REFUND POLICY
+        a(href='#TODO' title='TODO' class='button button-with-icon button-with-background-hover')
+          span(class='button-icon')
+            img(src='images/1px.gif' data-src='images/icons-customer-support.svg' alt='TODO' width='1' height='1' class='lazy-image')
+          span(class='button-icon')
+            img(src='images/1px.gif' data-src='images/icons-customer-support-black.svg' alt='TODO' width='1' height='1' class='lazy-image')
+          span(class='button-label') CONTACT WITH WINDEREN HQ

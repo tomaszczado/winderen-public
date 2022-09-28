@@ -1,0 +1,83 @@
+.resellers-country-select {
+    .resellers-country-select-label {
+        text-transform: uppercase;
+        text-align: right;
+        padding: 10px 0px;
+        color: #E4E4E4;
+    }
+
+    .country-select-menu {
+        .dropdown-button {
+            text-align: left;
+            min-width: 40%;
+            background-color: #555555;
+        }
+
+        .dropdown-content {
+            a {
+                color: #eee;
+            }
+        }
+    }
+}
+
+
+.resellers-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    .resellers-country {
+        font-size: 120%;
+        color: #E4E4E4;
+        padding: 10px;
+        padding-left: 0px;
+        border-bottom: 1px solid #474747;
+        margin-bottom: 1rem;
+    }
+
+    .resellers-list {
+
+        li {
+            vertical-align: top;
+            display: inline-block;
+            width: 22.5%;
+            border: 1px solid #474747;
+            padding: 1rem;
+            margin: 1%;
+
+            @media only screen and (max-width: $breakpoint-med) {
+                width: 100%;
+            }
+
+            h3 {
+                font-size: 100%;
+                margin-bottom: 1rem;
+                margin-top: 0px;
+                word-break: break-all;
+            }
+
+            p {
+                line-height: 24px;
+                font-size: 16px;
+                margin-bottom: 1rem;
+            }
+
+            a {
+                color: #aaa;
+                text-transform: uppercase;
+
+                .fa {
+                    font-size: 100%;
+                    margin-right: 0.5rem;
+                }
+            }
+
+            a:hover {
+                text-decoration: none;
+                color: $blue;
+            }
+        }
+    }
+
+
+}

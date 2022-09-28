@@ -1,0 +1,120 @@
+extends layouts/_layout
+
+block vars
+  //- set the page title
+  - var pageTitle = "www.winderen.com | Discover The Products";
+  
+block head
+  //- put any <head> content specific to this page here
+
+block content
+  //- put any page content specific to this page here
+  section(id='banner' class='simple customer-support')
+    div(class='background')
+      div(class='inner-background')
+        picture(class='rwd-background rwd-background-overlay lazy-picture')
+          source(srcset='images/1px.gif' data-srcset='images/customer-support-contact-bg-desktop.jpg' media='(min-width: 768px)')
+          img(src='images/1px.gif' data-src='images/customer-support-contact-bg2-sm.jpg' alt='TODO')
+    div(class='content logo-icon-with-label')
+        div(class='hero contact-2')
+          div(class='icon')
+            span(class='icon circular-icon') 
+              img(src='images/1px.gif' data-src='images/icons-customer-support.svg' alt='TODO' width='48' height='48' class='lazy-image')
+          p winderen
+          h1 company headquaters
+
+  
+  section(id="customer-support-contact-form")
+    div(class='container')
+      div(class='inner-xl-container')
+        div(class="wrapper")
+          div(class="all-company")
+            div(class="company")
+              div(class="header")
+                img(src='images/1px.gif' data-src='images/icons-customer-support-arrow.svg' alt='TODO' class='lazy-image')
+                p Our Support Team
+              div(class="item")
+                p address:
+                p 
+                  | Winderen
+                  br
+                  | Młyńska 27
+                  br
+                  | 22-400 Zamość
+                  br
+                  | Poland
+              div(class="item")
+                p VAT NUMBER:
+                p 5272550527
+              div(class="item")
+                p E-mail:
+                a(href='mailto:support@winderen.com' title='TODO') contact@winderen.com
+              div(class="item")
+                p Mobile:
+                a(href='tel:845387584' title='TODO') +48 845 387 584
+            div(class="company")
+              div(class="header")
+                img(src='images/1px.gif' data-src='images/icons-customer-support-arrow.svg' alt='TODO' class='lazy-image')
+                p Our Support Team
+              div(class="item")
+                p E-mail:
+                a(href='mailto:support@winderen.com' title='TODO') support@winderen.com
+              div(class="item")
+                p Mobile:
+                a(href='tel:666111266' title='TODO') +48 666 111 266
+
+          div(class="form")
+            div(class="header")
+              img(src='images/1px.gif' data-src='images/icons-customer-support-arrow.svg' alt='TODO' class='lazy-image')
+              p CONTACT US
+            form
+              div(class="data-wrapper")
+                div(class="data required")
+                  div(class="label")
+                    <label for="name">YOUR NAME</label>
+                  <input type="text" id="name" name="name" placeholder="YOUR NAME" required>
+                div(class="data required")
+                  div(class="label")
+                    <label for="mail">YOUR E-MAIL</label>
+                  <input type="text" id="mail" name="mail" placeholder="YOUR E-MAIL" required>
+              div(class="message")
+                div(class="label")
+                  <label for="subject">Leave us a message</label>
+                <textarea id="subject" name="subject" placeholder="How can we help you?"></textarea>
+              button(title='TODO' class='button button-with-icon button-with-background-hover' type="submit")
+                span(class='button-icon')
+                  img(src='images/1px.gif' data-src='images/icons-send-white.svg' alt='TODO' width='1' height='1' class='lazy-image')
+                span(class='button-icon')
+                  img(src='images/1px.gif' data-src='images/icons-send-black.svg' alt='TODO' width='1' height='1' class='lazy-image')
+                span(class='button-label') SEND NOW
+
+  section(id="customer-support-contact-help")
+    div(class='container container-10px-lg')
+      div(class='inner-xl-container')
+        div(class='header logo-icon-with-label')
+          div(class='icon')
+            img(src='images/1px.gif' data-src='images/icons-customer.svg' alt='TODO' width='48' height='48' class='lazy-image')
+          h2 NEED HELP?
+          p(class="caption") Have a look here
+        div(class="box-wrapper")
+          div(class="box")
+            img(src='images/1px.gif' data-src='images/customer-support-contact-icon-1.png' alt='TODO' class='lazy-image')
+            p INSTRUCTIONS
+          div(class="box")
+            img(src='images/1px.gif' data-src='images/customer-support-contact-icon-2.png' alt='TODO' class='lazy-image')
+            p FAQ
+          div(class="box")
+            img(src='images/1px.gif' data-src='images/customer-support-contact-icon-3.png' alt='TODO' class='lazy-image')
+            p
+              | KNOWLEDGE
+              br
+              | ZONE
+          div(class="box")
+            img(src='images/1px.gif' data-src='images/customer-support-contact-icon-4.png' alt='TODO' class='lazy-image')
+            p REFUND POLICY
+        a(href='#TODO' title='TODO' class='button button-with-icon button-with-background-hover')
+          span(class='button-icon')
+            img(src='images/1px.gif' data-src='images/icons-customer-support.svg' alt='TODO' width='1' height='1' class='lazy-image')
+          span(class='button-icon')
+            img(src='images/1px.gif' data-src='images/icons-customer-support-black.svg' alt='TODO' width='1' height='1' class='lazy-image')
+          span(class='button-label') CUSTOMER SUPPORT TEAM

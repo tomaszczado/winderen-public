@@ -1,0 +1,106 @@
+@media all and (min-width: $width-wide) {
+  .button {
+    height: 48px;
+    min-width: 250px;
+    
+    +.button {
+      margin: 0px 0px 0px 40px;
+    }
+  
+    &.button-with-icon {
+      .button-label {
+        padding: 0px 20px 0px 60px;
+      }
+    }
+  
+    .button-icon {
+      left: 28px;
+  
+      img {
+        width: 25px;
+        height: 20px;
+      }
+    }
+
+    .button-flag {
+      width: 20px;
+      height: 20px;
+    }
+  
+    .button-label {
+      @include font(18px, 18px, 400);
+  
+      &:before {
+        top: 10px;
+        height: calc(100% - 20px);
+      }
+  
+      &:after {
+        top: 10px;
+        height: calc(100% - 20px);
+      }
+    }
+  }
+
+  .support {
+    .avatar {
+      width: 72px;
+      height: 72px;
+    }
+
+    .text {
+      margin: 20px 0px 0px 0px;
+      @include font(20px, 28px, 400);
+    }
+
+    .icon {
+      margin: 75px 0px 0px 0px;
+    }
+
+    .contact {
+      @include font(20px, 28px, 400);
+    }
+  }
+
+  .logo-icon-with-label {
+    h1 {
+      @include font(32px, 36px, 400);
+
+      +h2 {
+        margin: 10px 0px 0px 0px;
+        @include font(24px, 36px, 400);
+      }
+
+      +h3 {
+        margin: 10px 0px 0px 0px;
+        @include font(24px, 36px, 400);
+      }
+    }
+
+    h2 {
+      @include font(32px, 36px, 400);
+
+      +h3 {
+        margin: 10px 0px 0px 0px;
+        @include font(24px, 36px, 400);
+      }
+    }
+
+    h3 {
+      @include font(32px, 36px, 400);
+    }
+
+    .quotation {
+      @include font(22px, 28px, 400);
+    }
+  }
+
+  .form {
+    .field-select {
+      select {
+        height: 48px;
+        @include font(18px, 18px, 400);
+      }
+    }
+  }
+}

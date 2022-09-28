@@ -1,0 +1,59 @@
+extends layouts/_layout
+
+block vars
+  //- set the page title
+  - var pageTitle = "www.winderen.com | Discover The Products | Saddle Half Pads";
+  
+block head
+  //- put any <head> content specific to this page here
+
+block content
+  //- put any page content specific to this page here
+  
+  section(id='banner')
+    div(class='background')
+      div(class='inner-background')
+        picture(class='rwd-background rwd-background-overlay lazy-picture')
+          source(srcset='images/1px.gif' data-srcset='images/banner-discover-the-products-saddle-half-pads-desktop.jpg' media='(min-width: 1200px)')
+          source(srcset='images/1px.gif' data-srcset='images/banner-discover-the-products-saddle-half-pads-tablet.jpg' media='(min-width: 768px)')
+          img(src='images/1px.gif' data-src='images/banner-discover-the-products-saddle-half-pads-mobile.jpg' alt='TODO')
+    div(class='content logo-icon-with-label')
+      div(class='logo') 
+        img(src='images/1px.gif' data-src='images/logo-only-icon.svg' alt='TODO' width='34' height='48' class='lazy-image')
+      h1 Back Protect Solution
+      h2 Saddle Half Pads
+    //- div(class='scroll-down')
+      div(class='text') Scroll To Discover More
+      div(class='icon') 
+        img(src='images/1px.gif' data-src='images/icons-scroll-down.svg' alt='TODO' width='20' height='20' class='lazy-image')
+
+  include ./includes/components/saddle-half-pads/advantages.pug
+  include ./includes/components/saddle-half-pads/video.pug
+  include ./includes/components/saddle-half-pads/banner-1.pug
+  include ./includes/components/saddle-half-pads/benefits-horse.pug
+  include ./includes/components/saddle-half-pads/banner-2.pug
+  include ./includes/components/saddle-half-pads/benefits-rider.pug
+  include ./includes/components/saddle-half-pads/structure.pug
+  include ./includes/components/saddle-half-pads/additional-video.pug
+  include ./includes/components/saddle-half-pads/significant-parts.pug
+  include ./includes/components/saddle-half-pads/available-in-two-thicknesses.pug
+  include ./includes/components/saddle-half-pads/banner-3.pug
+  include ./includes/components/saddle-half-pads/technology-gallery-with-content-only.pug
+  include ./includes/components/saddle-half-pads/selection-of-sizes.pug
+  include ./includes/components/saddle-half-pads/dimensions.pug
+  include ./includes/components/saddle-half-pads/banner-4.pug
+  include ./includes/components/saddle-half-pads/technology-gallery-with-content-and-video.pug
+  include ./includes/components/saddle-half-pads/opinions.pug
+  include ./includes/components/saddle-half-pads/banner-5.pug
+
+  //-include ./includes/components/content-simple-banner-5.pug
+  //-include ./includes/components/content-technology-important-info.pug
+  //-include ./includes/components/content-technology-list-info-with-image-1.pug
+  //-include ./includes/components/content-simple-banner-6.pug
+  //-include ./includes/components/content-technology-list-info-with-image-2.pug
+  //-include ./includes/components/content-technology-designed-especially-for.pug
+  //-include ./includes/components/content-technology-tested-by-professionals.pug
+  //-include ./includes/components/content-simple-banner-7.pug
+  //-include ./includes/components/content-technology-description.pug
+  //-include ./includes/components/content-knowledge-zone.pug
+  //-include ./includes/components/content-simple-banner-8.pug

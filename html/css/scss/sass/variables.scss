@@ -1,0 +1,207 @@
+
+
+/*------------------------------------------------------------------
+[Variables]
+------------------------------------------------------------------*/
+$space-extra: 25px;
+$space-small: 25px;
+$space-medium: 30px;
+$space-large: 40px;
+$space-wide: 40px;
+$space-extra-wide: 40px;
+
+$width-extra: 576px;
+$width-small: 768px;
+$width-medium: 992px;
+$width-large: 1200px;
+$width-wide: 1500px;
+$width-extra-wide: 1800px;
+
+$width-maximum: none;
+
+// Colors
+$color-neon-carrot: #FC9439;
+$color-malibu: #60BEF2;
+$color-green-pea: #174A34;
+$color-tarawera: #083950;
+$color-concrete: #F2F2F2;
+$color-cod-gray: #1E1E1E;
+$color-black: #000000;
+$color-tundora: #4E4E4E;
+$color-silver: #BCBCBC;
+$color-white: #FFFFFF;
+$color-alizarin-crimson: #DA242F;
+
+$color-cod-gray-2: #121212;
+$color-gray: #838383;
+$color-bottle-green: #0B4A34;
+$color-bush: #133C2A;
+/* $color-tarawera: #083950; */
+$color-blumine: #216586;
+/* $color-blumine: #4A94B7; */
+$color-regent-gray: #7D8F9A;
+$color-mine-shaft: #373737;
+/* $color-red: #FF0000; */
+
+// Fonts
+$font-spectral: 'Spectral';
+$font-gt-america-regular: 'GT-America-Standard-Regular-Trial';
+$font-gt-america-medium: 'GT-America-Standard-Medium-Trial';
+$font-gt-america-compressed-regular: 'GT-America-Compressed-Regular-Trial';
+$font-gt-america-compressed-medium: 'GT-America-Compressed-Medium-Trial';
+$font-gt-america-compressed-bold: 'GT-America-Compressed-Bold-Trial';
+$font-gt-america-condensed-medium: 'GT-America-Condensed-Medium-Trial';
+$font-gt-america-extended-regular: 'GT-America-Extended-Regular-Trial';
+$font-gt-america-extended-medium: 'GT-America-Extended-Medium-Trial';
+/* $font-gt-america-compressed-bold: 'GT-America-Compressed-Bold-Trial';
+$font-gt-america-extended-regular: 'GT-America-Extended-Regular-Trial';
+$font-simplon-norm-light: 'SimplonNorm-Light';
+$font-simplon-norm-medium: 'SimplonNorm-Medium';
+$font-simplon-norm-bold: 'SimplonNorm-Bold'; */
+
+/*------------------------------------------------------------------
+[Methods]
+------------------------------------------------------------------*/
+@mixin clearfix() {
+	clear: both;
+}
+
+@mixin default() {
+	width: 100%;
+	display: table;
+	margin: 0px auto;
+	box-sizing: border-box;
+}
+
+@mixin font($size, $height, $weight) {
+	font-size: $size;
+	line-height: $height;
+	font-weight: $weight;
+}
+
+@mixin letterSpacing($size) {
+	// letter-spacing: ($size / 100) * 1px;
+  letter-spacing: ($size / 1000) * 1em;
+}
+
+@mixin placeholder($font, $style, $color) {
+  &::-webkit-input-placeholder {
+    opacity: 0.5;
+    color: $color;
+    font-style: $style;
+    font-family: $font;
+  }
+
+  &:-moz-placeholder {
+    opacity: 0.5;
+    color: $color;
+    font-style: $style;
+    font-family: $font;
+  }
+  
+  &::-moz-placeholder {
+    opacity: 0.5;
+    color: $color;
+    font-style: $style;
+    font-family: $font;
+  }
+  
+  &:-ms-input-placeholder {
+    opacity: 0.5;
+    color: $color;
+    font-style: $style;
+    font-family: $font;
+  }
+}
+
+@mixin noSelect() {
+	webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently */
+}
+
+@mixin noEvent() {
+  pointer-events: none;
+}
+
+@mixin noAppearance() {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+@mixin noOutline() {
+  outline: none;
+}
+
+@mixin resetList() {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+@mixin transition() {
+	transition-property: all;
+	transition-duration: 0.25s;
+	transition-timing-function: Cubic-bezier(0.3, 0, 0.3, 1);
+}
+
+@mixin transitionAdvanced($property, $duration, $delay) {
+	transition-delay: $delay;
+	transition-duration: $duration;
+	transition-property: unquote($property);
+	transition-timing-function: Cubic-bezier(0.3, 0, 0.3, 1);
+}
+
+@mixin scrollbar($color, $hover, $trak) {
+  scrollbar-width: thin;
+  scrollbar-color: $color $trak;
+  
+  &::-webkit-scrollbar {
+    width: 1px;
+    height: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $trak;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $color;
+    height: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: $hover;
+  }
+}
+
+@mixin imageRatioStylingForLayer($width, $height) {
+	picture {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    padding: ($height * 100% / $width) 0px 0px 0px;
+  }
+
+  img {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    position: absolute;
+  }
+}
+
+@mixin imageRatio($width, $height) {
+  padding: ($height * 100% / $width) 0px 0px 0px;
+}
+
+@mixin videoRatio($width, $height) {
+  padding: ($height * 100% / $width) 0px 0px 0px;
+}

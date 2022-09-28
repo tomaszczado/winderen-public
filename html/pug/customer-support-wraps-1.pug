@@ -1,0 +1,384 @@
+extends layouts/_layout
+
+block vars
+  //- set the page title
+  - var pageTitle = "www.winderen.com | Discover The Products";
+  
+block head
+  //- put any <head> content specific to this page here
+
+block content
+  //- put any page content specific to this page here
+  section(id='banner' class='simple customer-support')
+    div(class='background')
+      div(class='inner-background')
+        picture(class='rwd-background rwd-background-overlay lazy-picture')
+          source(srcset='images/1px.gif' data-srcset='images/customer-support-instruction-bg2-desktop.jpg' media='(min-width: 768px)')
+          img(src='images/1px.gif' data-src='images/customer-support-instruction-bg2-mobile.jpg' alt='TODO')
+    div(class='content logo-icon-with-label')
+        div(class='hero product')
+          div(class='logo')
+            img(src='images/1px.gif' data-src='images/logo-only-icon.svg' alt='TODO' width='34' height='48' class='lazy-image')
+          h1 WINDEREN PARTNER ZONE
+          p terms
+  
+  section(id='customer-support-product-points')
+    div(class='container container-10px-lg')
+      div(class='inner-xl-container')
+        div(class="wrapper")
+          div(class="buttons")
+            a(href='#TODO' title='TODO' class='button button-with-icon button-with-background-hover')
+              span(class='button-icon')
+                img(src='images/1px.gif' data-src='images/icons-book.svg' alt='TODO' width='1' height='1' class='lazy-image')
+              span(class='button-icon')
+                img(src='images/1px.gif' data-src='images/icons-book-black.svg' alt='TODO' width='1' height='1' class='lazy-image')
+              span(class='button-label') HOW IT WORKS? / FAQ
+            a(href='#TODO' title='TODO' class='button button-with-icon button-with-background-hover')
+              span(class='button-icon')
+                img(src='images/1px.gif' data-src='images/icons-book.svg' alt='TODO' width='1' height='1' class='lazy-image')
+              span(class='button-icon')
+                img(src='images/1px.gif' data-src='images/icons-book-black.svg' alt='TODO' width='1' height='1' class='lazy-image')
+              span(class='button-label') TERMS & CONDITIONS
+          div(class="boxes")
+            div(class="box")
+              div(class="top")
+                p(class="header")
+                  | your promo code 
+                  br
+                  | for new clients
+                div(class="circle")
+                  p -5%
+                p(class="description")
+                  | When the client uses your „Partner Code”
+              div(class="bottom")
+                div(class="code")
+                  | 02efw1
+            div(class="box")
+              div(class="top")
+                p(class="header")
+                  | ACCTUAL points 
+                  br
+                  | you GAIN
+                div(class="circle")
+                  p 0
+                p(class="description")
+                  | Every purchase made by your clients gains you points
+              div(class="bottom")
+                a(href='#TODO' title='TODO' class='button button-with-icon button-with-background-hover')
+                  span(class='button-icon')
+                    img(src='images/1px.gif' data-src='images/icons-customer-support-money.svg' alt='TODO' width='1' height='1' class='lazy-image')
+                  span(class='button-icon')
+                    img(src='images/1px.gif' data-src='images/icons-customer-support-money-black.svg' alt='TODO' width='1' height='1' class='lazy-image')
+                  span(class='button-label') SEE DETAILS
+            div(class="box")
+              div(class="top")
+                p(class="header")
+                  | SEND register LINK 
+                  br
+                  | TO your clients
+                div(class='icon')
+                  div(class='circular-icon')
+                    img(src='images/1px.gif' data-src='images/icons-customer-support-attachment.svg' alt='TODO' width='48' height='48' class='lazy-image')
+                p(class="description")
+                  | When a customer visits our site via this link and creates an account, it will be automatically assigned as your clients
+              div(class="bottom")
+                a(href='#TODO' title='TODO' class='button button-with-icon button-with-background-hover')
+                  span(class='button-icon')
+                    img(src='images/1px.gif' data-src='images/icons-customer-support-attachment.svg' alt='TODO' width='1' height='1' class='lazy-image')
+                  span(class='button-icon')
+                    img(src='images/1px.gif' data-src='images/icons-customer-support-attachment-black.svg' alt='TODO' width='1' height='1' class='lazy-image')
+                  span(class='button-label') COPY A LINK
+
+  section(class="customer-support-product-center")
+    div(id="customer-support-product-selling")
+      div(class='container container-10px-lg')
+        div(class='inner-xl-container')
+          div(class="wrapper")
+            div(class='header logo-icon-with-label')
+              div(class='icon')
+                div(class='circular-icon')
+                  img(src='images/1px.gif' data-src='images/icons-customer-support-money.svg' alt='TODO' width='48' height='48' class='lazy-image')
+              h2(class="text-36")
+                | How many points do I get 
+                br
+                | from selling the products?
+            p(class="description")
+              | Every purchase made by your clients gains you points. You can use them to pay for orders and exchange for discounts.
+              br
+              br
+              | Every 
+              span 1 point 
+              span values 
+              | 1 euro.
+            div(class="boxes")
+              div(class="box")
+                div(class="inner-box")
+                  div(class="top")
+                    div(class="image")
+                      img(src='images/1px.gif' data-src='images/customer-support-instruction-product-img-1.png' alt='TODO' class='lazy-image')
+                    div(class="header")
+                      p STIRRUPS
+                  div(class="center")
+                    div(class="border")
+                      p Your client’s purchase:
+                      p 30 points
+                    div(class="border")
+                      p Purchase made with your client’s referral:
+                      p 8 points
+                  div(class="bottom")
+                    div(class="border")
+                      p Regular price: 
+                      p 235 Euro
+                    div(class="border")
+                      p Your price: 
+                      p 205 Euro
+              div(class="box")
+                div(class="inner-box")
+                  div(class="top")
+                    div(class="image")
+                      img(src='images/1px.gif' data-src='images/customer-support-instruction-product-img-2.png' alt='TODO' class='lazy-image')
+                    div(class="header")
+                      p SADDLE HALF PAD
+                  div(class="center")
+                    div(class="border")
+                      p Your client’s purchase:
+                      p 30 points
+                    div(class="border")
+                      p Purchase made with your client’s referral:
+                      p 8 points
+                  div(class="bottom")
+                    div(class="border")
+                      p Regular price: 
+                      p 229 Euro
+                    div(class="border")
+                      p Your price: 
+                      p 199 Euro
+              div(class="box")
+                div(class="inner-box")
+                  div(class="top")
+                    div(class="image")
+                      img(src='images/1px.gif' data-src='images/customer-support-instruction-product-img-3.png' alt='TODO' class='lazy-image')
+                    div(class="header")
+                      p SADDLE HALF PAD
+                      p Correction
+                  div(class="center")
+                    div(class="border")
+                      p Your client’s purchase:
+                      p 30 points
+                    div(class="border")
+                      p Purchase made with your client’s referral:
+                      p 8 points
+                  div(class="bottom")
+                    div(class="border")
+                      p Regular price: 
+                      p 259 Euro
+                    div(class="border")
+                      p Your price: 
+                      p 229 Euro
+              div(class="box")
+                div(class="inner-box")
+                  div(class="top")
+                    div(class="image")
+                      img(src='images/1px.gif' data-src='images/customer-support-instruction-product-img-4.png' alt='TODO' class='lazy-image')
+                    div(class="header")
+                      p SADDLE HALF PAD
+                      p Cover
+                  div(class="center")
+                    div(class="border")
+                      p Your client’s purchase:
+                      p 5 points
+                    div(class="border")
+                      p Purchase made with your client’s referral:
+                      p 2 points
+                  div(class="bottom")
+                    div(class="border")
+                      p Regular price: 
+                      p 69 Euro
+                    div(class="border")
+                      p Your price: 
+                      p 64 Euro
+              div(class="box")
+                div(class="inner-box")
+                  div(class="top")
+                    div(class="image")
+                      img(src='images/1px.gif' data-src='images/customer-support-instruction-product-img-5.png' alt='TODO' class='lazy-image')
+                    div(class="header")
+                      p SADDLE PADS
+                      p Cover
+                  div(class="center")
+                    div(class="border")
+                      p Your client’s purchase:
+                      p 30 points
+                    div(class="border")
+                      p Purchase made with your client’s referral:
+                      p 8 points
+                  div(class="bottom")
+                    div(class="border")
+                      p Regular price: 
+                      p 235 Euro
+                    div(class="border")
+                      p Your price: 
+                      p 205 Euro
+              div(class="box")
+                div(class="inner-box")
+                  div(class="top")
+                    div(class="image")
+                      img(src='images/1px.gif' data-src='images/customer-support-instruction-product-img-6.png' alt='TODO' class='lazy-image')
+                    div(class="header")
+                      p STABLE / TRAINING
+                      p Bandages
+                  div(class="center")
+                    div(class="border")
+                      p Your client’s purchase:
+                      p 30 points
+                    div(class="border")
+                      p Purchase made with your client’s referral:
+                      p 8 points
+                  div(class="bottom")
+                    div(class="border")
+                      p Regular price: 
+                      p 229 Euro
+                    div(class="border")
+                      p Your price: 
+                      p 199 Euro
+              div(class="box")
+                div(class="inner-box")
+                  div(class="top")
+                    div(class="image")
+                      img(src='images/1px.gif' data-src='images/customer-support-instruction-product-img-7.png' alt='TODO' class='lazy-image')
+                    div(class="header")
+                      p STABLE / TRAINING
+                      p Wraps
+                  div(class="center")
+                    div(class="border")
+                      p Your client’s purchase:
+                      p 30 points
+                    div(class="border")
+                      p Purchase made with your client’s referral:
+                      p 8 points
+                  div(class="bottom")
+                    div(class="border")
+                      p Regular price: 
+                      p 259 Euro
+                    div(class="border")
+                      p Your price: 
+                      p 229 Euro
+              div(class="box")
+                div(class="inner-box")
+                  div(class="top")
+                    div(class="image")
+                      img(src='images/1px.gif' data-src='images/customer-support-instruction-product-img-8.png' alt='TODO' class='lazy-image')
+                    div(class="header")
+                      p MOUTHPIECES
+                      p 
+                        | (any kind)
+                  div(class="center")
+                    div(class="border")
+                      p Your client’s purchase:
+                      p 8 points
+                    div(class="border")
+                      p Purchase made with your client’s referral:
+                      p 2 points
+                  div(class="bottom")
+                    div(class="border")
+                      p Regular price: 
+                      p -
+                    div(class="border")
+                      p Your price: 
+                      p 10% OFF
+              div(class="box")
+                div(class="inner-box")
+                  div(class="top")
+                    div(class="image")
+                      img(src='images/1px.gif' data-src='images/customer-support-instruction-product-img-9.png' alt='TODO' class='lazy-image')
+                    div(class="header")
+                      p MOUTHPIECES
+                      p 
+                        | (any kind)
+                  div(class="center")
+                    div(class="border")
+                      p Your client’s purchase:
+                      p 4 points
+                    div(class="border")
+                      p Purchase made with your client’s referral:
+                      p 1 points
+                  div(class="bottom")
+                    div(class="border")
+                      p Regular price: 
+                      p -
+                    div(class="border")
+                      p Your price: 
+                      p 10% OFF
+              div(class="box")
+                div(class="inner-box")
+                  div(class="top")
+                    div(class="image")
+                      img(src='images/1px.gif' data-src='images/customer-support-instruction-product-img-10.png' alt='TODO' class='lazy-image')
+                    div(class="header")
+                      p COMPLETE BIT
+                      p 
+                        | (any kind)
+                  div(class="center")
+                    div(class="border")
+                      p Your client’s purchase:
+                      p 12 points
+                    div(class="border")
+                      p Purchase made with your client’s referral:
+                      p 3 points
+                  div(class="bottom")
+                    div(class="border")
+                      p Regular price: 
+                      p -
+                    div(class="border")
+                      p Your price: 
+                      p 10% OFF
+              div(class="box")
+                div(class="inner-box")
+                  div(class="top")
+                    div(class="image")
+                      img(src='images/1px.gif' data-src='images/customer-support-instruction-product-img-11.png' alt='TODO' class='lazy-image')
+                    div(class="header")
+                      p OVERREACH BOOTS
+                  div(class="center")
+                    div(class="border")
+                      p Your client’s purchase:
+                      p 4 points
+                    div(class="border")
+                      p Purchase made with your client’s referral:
+                      p 1 points
+                  div(class="bottom")
+                    div(class="border")
+                      p Regular price: 
+                      p 259 Euro
+                    div(class="border")
+                      p Your price: 
+                      p 10% OFF
+
+    div(id="customer-support-product-special-prices")
+      div(class='container container-10px-lg')
+        div(class='inner-xl-container')
+          div(class="wrapper")
+            div(class="inner-wrapper")
+              div(class='header logo-icon-with-label')
+                div(class='icon')
+                  div(class='circular-icon')
+                    img(src='images/1px.gif' data-src='images/icons-customer-support-money-coron.svg' alt='TODO' width='48' height='48' class='lazy-image')
+                h2(class="text-36")
+                  | Special prices
+                  br
+                  | for Winderen Partners
+              p(class="description")
+                | Every Partner gets a special discount on all products available on the website. Visit online store once you’re log in to discover your new prices.
+              a(href='#TODO' title='TODO' class='button button-with-icon button-with-background-hover')
+                      span(class='button-icon')
+                        img(src='images/1px.gif' data-src='images/icons-bag.svg' alt='TODO' width='1' height='1' class='lazy-image')
+                      span(class='button-icon')
+                        img(src='images/1px.gif' data-src='images/icons-bag-black.svg' alt='TODO' width='1' height='1' class='lazy-image')
+                      span(class='button-label') TO THE SHOP
+
+  section(class='content-simple-banner')
+    div(class='background')
+      div(class='inner-background')
+        picture(class='rwd-background rwd-background-overlay lazy-picture')
+          source(srcset='images/1px.gif' data-srcset='images/customer-support-product-bg2-desktop.jpg' media='(min-width: 768px)')
+          img(src='images/1px.gif' data-src='images/customer-support-product-bg2-mobile.jpg' alt='TODO')

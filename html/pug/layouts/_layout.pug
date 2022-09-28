@@ -1,0 +1,17 @@
+doctype
+html(lang="pl")
+  block vars
+  head
+    include ../includes/_head.pug
+    title #{pageTitle}
+    block head
+
+  body
+    include ../includes/components/_scripts-body-begin.pug
+    include ../includes/header.pug
+    main
+      block content
+    include ../includes/footer.pug
+    include ../includes/components/_privacy-policy-info.pug
+    //- include ../includes/components/_photo-lightbox.pug
+    include ../includes/components/_scripts-body-end.pug

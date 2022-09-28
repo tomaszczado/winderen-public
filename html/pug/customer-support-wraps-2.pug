@@ -1,0 +1,148 @@
+extends layouts/_layout
+
+block vars
+  //- set the page title
+  - var pageTitle = "www.winderen.com | Discover The Products";
+  
+block head
+  //- put any <head> content specific to this page here
+
+block content
+  //- put any page content specific to this page here
+  section(id='banner' class='simple customer-support')
+    div(class='background')
+      div(class='inner-background')
+        picture(class='rwd-background rwd-background-overlay lazy-picture')
+          source(srcset='images/1px.gif' data-srcset='images/customer-support-instruction-bg-desktop.jpg' media='(min-width: 1200px)')
+          source(srcset='images/1px.gif' data-srcset='images/customer-support-instruction-bg-desktop.jpg' media='(min-width: 768px)')
+          img(src='images/1px.gif' data-src='images/customer-support-instruction-bg-mobile.jpg' alt='TODO')
+    div(class='content logo-icon-with-label')
+        div(class='hero product')
+          div(class='logo')
+            img(src='images/1px.gif' data-src='images/logo-only-icon.svg' alt='TODO' width='34' height='48' class='lazy-image')
+          h1 WINDEREN PARTNER ZONE
+          p APPLY NOW
+
+  section(id="customer-support-product-about")
+    div(class='container')
+      div(class='inner-xl-container')
+        div(class="wrapper")
+          div(class='header logo-icon-with-label')
+            div(class='icon')
+              div(class='circular-icon')
+                img(src='images/1px.gif' data-src='images/icons-customer-support-people.svg' alt='TODO' width='48' height='48' class='lazy-image')
+            h2(class="text-36")
+              | Join winderen
+              br
+              | Partnership Program
+          p 
+            | Winderen was created with passion for horse riding and innovative technologies.  As a result, our products gain new customers within riders of all skill levels every month. Now we open up for collaborations! 
+            br
+            | You can join people who trusted Winderen and decided to work with us.
+            br
+            br
+            | We present our Partnership Program that enables you to enter the sales network, gather your own group of clients, and take the advantage of benefits available exclusively for active Partners
+          p(class="narrow")
+            | Joining the Partnership Program is free. 
+            br
+            | You gain every single time a product is bought via your referral.
+
+  section(id="customer-support-product-benefits")
+    div(class='container container-10px-lg')
+      div(class='inner-xl-container')
+        div(class="wrapper-boxes")
+          div(class='header logo-icon-with-label')
+            h2(class="text-36")
+              | Benefits of 
+              br
+              | Partnership Program
+          div(class="boxes")
+            div(class="box")
+              img(src='images/1px.gif' data-src='images/customer-support-instruction-icon-1.png' alt='TODO' class='lazy-image')
+              div(class="description")
+                h3 PERMANENT
+                p Once a client is assigned to you, they remain your client. That lets you grow your network
+            div(class="box")
+              img(src='images/1px.gif' data-src='images/customer-support-instruction-icon-2.png' alt='TODO' class='lazy-image')
+              div(class="description")
+                h3 TWO-LEVEL
+                p Once your client decides to join the Partnership Program too, you gain additional benefits from their clients’ transactions. That enables you to create a network of clients and Partners.
+            div(class="box")
+              img(src='images/1px.gif' data-src='images/customer-support-instruction-icon-3.png' alt='TODO' class='lazy-image')
+              div(class="description")
+                h3 ATTRACTIVE
+                p Every order made by clients from your network gains you points you can exchange for discounts on our products.
+            div(class="box")
+              img(src='images/1px.gif' data-src='images/customer-support-instruction-icon-4.png' alt='TODO' class='lazy-image')
+              div(class="description")
+                h3 TRANSPARENT
+                p Joining the Partnership program is free of charge. You gain every single time a product is bought through your referral.
+        div(class="wrapper-text")
+          div(class='header logo-icon-with-label')
+            div(class='icon')
+              div(class='circular-icon')
+                img(src='images/1px.gif' data-src='images/icons-customer-support-people.svg' alt='TODO' width='48' height='48' class='lazy-image')
+            h2(class="text-36")
+              | Who we ARE
+              br
+              | looking for?
+            p 
+              | We are looking for people with a broad network in riding communities. People who treat riding both as a hobby but also as a professional job - riders, trainers, vets, physiotherapists, or osteopaths.
+              br 
+              br
+              | We are open to collaborate with influencers, bloggers, people active on social media, and competition organizers.
+              br
+              br
+              | If you like the Winderen brand and you wish to see it in your country, contact us. We are interested in international market development as well!
+
+  section(id="customer-support-product-partner")
+    div(class='container container-10px-lg')
+      div(class='inner-xl-container')
+        div(class="wrapper-boxes")
+          div(class="boxes")
+            div(class="box-left")
+              div(class="image")
+                img(src='images/1px.gif' data-src='images/customer-support-instruction-circle-partner.png' alt='TODO' class='lazy-image')
+              div(class="caption mobile")
+                p(class="name") PETRA
+                p(class="partner") Winderen Partner 
+                  br
+                  |Hungary
+            div(class="box-right")
+              p
+                | We are really happy to have met this fantastic brand, Winderen and we also have managed to launch this innovative saddle half pad in Hungary.
+                br
+                br
+                | The best feeling is when we listen to horse riders’ positive feedbacks about achievement improvements and how their horses’ or riders’ back pain stopped due to the Winderen saddle half pad.  The best is to know that you are working with a premium brand which is trustworthy and the best choice for the riders and horses too.  All these features are true for the team Winderen, they are the best!
+              div(class="caption desktop")
+                p(class="name") PETRA
+                p(class="partner") Winderen Partner Hungary
+
+        div(class="wrapper-text")
+          div(class='header logo-icon-with-label')
+            div(class='icon')
+              div(class='circular-icon')
+                img(src='images/1px.gif' data-src='images/icons-customer-support-people2.svg' alt='TODO' width='48' height='48' class='lazy-image')
+            h2(class="text-36")
+              | Become 
+              br
+              | Winderen Partner
+            p 
+              | Fill in the questionnaire - write a few words about yourself 
+              br
+              |and the reasons why you would like to join the Partnership Program. 
+              br
+              | We will consider your candidacy and will get back to you.
+          span(class='button button-with-icon button-blue button-with-hover button-with-background')
+            span(class='button-icon')
+              img(src='images/1px.gif' data-src='images/icons-customer-support-people-black.svg' alt='TODO' width='1' height='1' class='lazy-image')
+            span(class='button-icon')
+              img(src='images/1px.gif' data-src='images/icons-customer-support-people.svg' alt='TODO' width='1' height='1' class='lazy-image')
+            span(class='button-label') APPLY NOW
+
+  section(class='content-simple-banner')
+    div(class='background')
+      div(class='inner-background')
+        picture(class='rwd-background rwd-background-overlay lazy-picture')
+          source(srcset='images/1px.gif' data-srcset='images/customer-support-product-bg-desktop.jpg' media='(min-width: 768px)')
+          img(src='images/1px.gif' data-src='images/customer-support-product-bg-mobile.jpg' alt='TODO')
