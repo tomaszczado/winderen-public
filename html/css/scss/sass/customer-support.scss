@@ -984,6 +984,8 @@
 }
 
 #customer-support-product-points {
+    z-index: 1;
+    position: relative;
     font-family:$font-gt-america-regular;
     .wrapper {
         .buttons {

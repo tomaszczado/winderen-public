@@ -12964,6 +12964,8 @@ footer {
       width: 24px; }
 
 #customer-support-product-points {
+  z-index: 1;
+  position: relative;
   font-family: "GT-America-Standard-Regular-Trial"; }
   #customer-support-product-points .wrapper .buttons {
     display: -webkit-box;
