@@ -196,12 +196,9 @@ $lang_word['str_kupbezkonta'] = 'Koupit bez založení účtu';
 $lang_word['str_instructions'] = 'Návody k použítí';
 $lang_word['str_blog'] = 'Blog';
 $lang_word['str_friends'] = 'NAŠÍ PŘÁTELÉ';
-$lang_word['str_friends_info'] = '„Přítel – někdo, před kým je možné myslet nahlas” – R. Emmerson
-<br /><br />
-Přátelé naší značky jsou výjimeční lidé, kteří svůj profesionální život spojili s koňmi.
-Právě s nimi řešíme problémy, se kterými se jezdci a koně setkávají, s nimi vytváříme nové koncepty a testujeme naše produkty. Jejich vědomosti, dovednosti a zkušenosti s prací s koni jsou pro nás neocenitelnou podporou během tvoření našich inovativních produktů. Jsme opravdu rádi, že zrovna s Vámi můžeme nahlas myslet, diskutovat, konverzovat a ptat se.
-<br /><br />
-Díky, že jste s námi.';
+$lang_word['str_friends_info'] = '<p>Přátelé naší značky jsou výjimeční lidé, kteří svůj profesionální život spojili s koňmi. Právě s nimi řešíme problémy, se kterými se jezdci a koně setkávají, s nimi vytváříme nové koncepty a testujeme naše produkty. Jejich vědomosti, dovednosti a zkušenosti s prací s koni jsou pro nás neocenitelnou podporou během tvoření našich inovativních produktů. Jsme opravdu rádi, že zrovna s Vámi můžeme nahlas myslet, diskutovat, konverzovat a ptat se.</p><p>Díky, že jste s námi.</p>';
+$lang_word['str_friends_quote'] = 'Přítel – někdo, před kým je možné myslet nahlas';
+$lang_word['str_friends_quote_author'] = 'R. Emmerson';
 $lang_word['str_return_policy'] = 'Podmínky pro vrácení zboží ';
 $lang_word['str_shipment_info'] = 'Informace o zásilce';
 $lang_word['str_dimensions'] = 'Rozměry';
