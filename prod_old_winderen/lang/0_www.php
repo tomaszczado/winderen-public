@@ -196,11 +196,9 @@ $lang_word['str_kupbezkonta'] = 'Kup bez zakładania konta';
 $lang_word['str_instructions'] = 'Instrukcje';
 $lang_word['str_blog'] = 'Blog';
 $lang_word['str_friends'] = 'Nasi Przyjaciele';
-$lang_word['str_friends_info'] = '"Przyjaciel to ktoś przy, kim można głośno myśleć" - R. Emmerson
-<br/><br/>
-Przyjaciele naszej marki to wyjątkowi ludzie zawodowo związani z końmi. To właśnie z nimi przyglądamy się problemom, z którymi spotykają się jeźdźcy i ich konie, tworzymy nowe koncepcje i testujemy nasze rozwiązania. Ich wiedza, umiejętności i doświadczenie w pracy z końmi są dla nas nieocenionym wsparciem w procesie kreowania innowacyjnych produktów. Cieszymy się, że to właśnie z Wami możemy głośno myśleć, rozmawiać, dyskutować, pytać.
-<br/><br/>
-Dziękujemy że jesteście z nami. ';
+$lang_word['str_friends_info'] = '<p>Przyjaciele naszej marki to wyjątkowi ludzie zawodowo związani z końmi. To właśnie z nimi przyglądamy się problemom, z którymi spotykają się jeźdźcy i ich konie, tworzymy nowe koncepcje i testujemy nasze rozwiązania. Ich wiedza, umiejętności i doświadczenie w pracy z końmi są dla nas nieocenionym wsparciem w procesie kreowania innowacyjnych produktów. Cieszymy się, że to właśnie z Wami możemy głośno myśleć, rozmawiać, dyskutować, pytać.</p><p>Dziękujemy że jesteście z nami.</p>';
+$lang_word['str_friends_quote'] = 'Przyjaciel to ktoś przy, kim można głośno myśleć';
+$lang_word['str_friends_quote_author'] = 'R. Emmerson';
 $lang_word['str_return_policy'] = 'Polityka zwrotów';
 $lang_word['str_shipment_info'] = 'Informacje wysyłkowe';
 $lang_word['str_dimensions'] = 'Wymiary';
