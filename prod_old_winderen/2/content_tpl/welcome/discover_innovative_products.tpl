@@ -1,3 +1,4 @@
+
 <section id="discover-innovative-products">
   <div class="header logo-icon-with-label">
     <div class="container">
@@ -22,7 +23,7 @@
             <div class="buttons"><a class="button button-with-orange-hover" href="#" title="TODO"><span class="button-label">Learn more</span></a><a class="button button-with-blue-background-hover button-with-icon" href="shop-group.html" title="TODO"><span class="button-icon"><img class="lazy-image" src="images/1px.gif" data-src="images/icons-bag.svg" alt="TODO" width="1" height="1"></span><span class="button-icon"><img class="lazy-image" src="images/1px.gif" data-src="images/icons-bag-black.svg" alt="TODO" width="1" height="1"></span><span class="button-label">Buy now</span></a></div>
           </div>
         </div>
-        <div class="item">
+        <!--<div class="item">
           <div class="image">
             <picture class="rwd-background lazy-picture"><img src="images/1px.gif" data-src="images/tmp-discover-innovative-products-image-2.jpg" alt="TODO"></picture>
           </div>
@@ -68,11 +69,11 @@
             <h4>Half pads with 5 technologically advanced layers</h4>
             <div class="buttons"><a class="button button-with-orange-hover" href="discover-the-products-saddle-pads.html" title="TODO"><span class="button-label">Learn more</span></a><a class="button button-with-blue-background-hover button-with-icon" href="shop-group.html" title="TODO"><span class="button-icon"><img class="lazy-image" src="images/1px.gif" data-src="images/icons-bag.svg" alt="TODO" width="1" height="1"></span><span class="button-icon"><img class="lazy-image" src="images/1px.gif" data-src="images/icons-bag-black.svg" alt="TODO" width="1" height="1"></span><span class="button-label">Buy now</span></a></div>
           </div>
-        </div>
+        </div>-->
       </div>
     </div>
   </div>
-  <div class="footer">
+  <!--<div class="footer">
     <div class="container">
       <div class="inner-container">
         <div class="banner">
@@ -84,5 +85,5 @@
         </div>
       </div>
     </div>
-  </div>
+  </div>-->
 </section>

@@ -443,6 +443,8 @@ $lang_word['str_header_ship_to_country_of_delivery'] = 'Country of delivery';
 $lang_word['str_header_ship_to_change'] = 'Change';
 $lang_word['str_header_ship_to_content'] = 'If this is wrong, please pick your country<br>below to get the best Winderen experience';
 
+$lang_word['str_general_scroll_to_discover_more'] = 'Scroll To Discover More';
+
 $lang_word['str_footer_can_we_help_you_header'] = 'Can we help you?';
 $lang_word['str_footer_can_we_help_you_text'] = 'We answer all questions from our customers right away';
 $lang_word['str_footer_can_we_help_you_contact_info'] = 'Zákaznická podpora';
