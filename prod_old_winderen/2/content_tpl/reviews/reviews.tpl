@@ -4,11 +4,11 @@
       <div class="reviews">
 
         <!-- BEGIN reviews -->
-          <div class="review">
+          <div class="review <!-- IF reviews.I > 5 -->hidden<!-- ENDIF -->">
             <div class="image">
               <div class="inner-image">
                 <picture class="rwd-background lazy-picture">
-                  <img src="{page_domain}{template_path}images/1px.gif" data-src="" alt="{reviews.author}">
+                  <img src="{page_domain}{template_path}images/1px.gif" data-src="{reviews.image_src}" alt="{reviews.author}">
                 </picture>
               </div>
             </div>
@@ -22,31 +22,31 @@
                 </div>
                 <div class="stars">
                   
-                  <!-- IF reviews.procent == 100 -->
+                  <!-- IF reviews.PROCENT == 100 -->
                     <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-star-orange.svg" alt="{reviews.author}" width="1" height="1">
                     <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-star-orange.svg" alt="{reviews.author}" width="1" height="1">
                     <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-star-orange.svg" alt="{reviews.author}" width="1" height="1">
                     <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-star-orange.svg" alt="{reviews.author}" width="1" height="1">
                     <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-star-orange.svg" alt="{reviews.author}" width="1" height="1">
-                  <!-- ELSEIF reviews.procent == 80 -->
+                  <!-- ELSEIF reviews.PROCENT == 80 -->
                     <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-star-orange.svg" alt="{reviews.author}" width="1" height="1">
                     <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-star-orange.svg" alt="{reviews.author}" width="1" height="1">
                     <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-star-orange.svg" alt="{reviews.author}" width="1" height="1">
                     <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-star-orange.svg" alt="{reviews.author}" width="1" height="1">
                     <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-star-orange-empty.svg" alt="{reviews.author}" width="1" height="1">
-                  <!-- ELSEIF reviews.procent == 60 -->
+                  <!-- ELSEIF reviews.PROCENT == 60 -->
                     <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-star-orange.svg" alt="{reviews.author}" width="1" height="1">
                     <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-star-orange.svg" alt="{reviews.author}" width="1" height="1">
                     <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-star-orange.svg" alt="{reviews.author}" width="1" height="1">
                     <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-star-orange-empty.svg" alt="{reviews.author}" width="1" height="1">
                     <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-star-orange-empty.svg" alt="{reviews.author}" width="1" height="1">
-                  <!-- ELSEIF reviews.procent == 40 -->
+                  <!-- ELSEIF reviews.PROCENT == 40 -->
                     <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-star-orange.svg" alt="{reviews.author}" width="1" height="1">
                     <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-star-orange.svg" alt="{reviews.author}" width="1" height="1">
                     <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-star-orange-empty.svg" alt="{reviews.author}" width="1" height="1">
                     <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-star-orange-empty.svg" alt="{reviews.author}" width="1" height="1">
                     <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-star-orange-empty.svg" alt="{reviews.author}" width="1" height="1">
-                  <!-- ELSEIF reviews.procent == 20 -->
+                  <!-- ELSEIF reviews.PROCENT == 20 -->
                     <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-star-orange.svg" alt="{reviews.author}" width="1" height="1">
                     <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-star-orange-empty.svg" alt="{reviews.author}" width="1" height="1">
                     <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-star-orange-empty.svg" alt="{reviews.author}" width="1" height="1">
@@ -82,17 +82,22 @@
           </div>
         </div>-->
       </div>
-      <div class="buttons">
-        <span class="button button-with-background-hover button-with-icon">
-          <span class="button-icon">
-            <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-book-star.svg" alt="{str_pokaz_wiecej}" width="1" height="1">
+
+      <!-- IF REVIEWS_COUNT > 5 -->
+        <div class="buttons">
+          <span class="button button-with-background-hover button-with-icon">
+            <span class="button-icon">
+              <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-book-star.svg" alt="{str_pokaz_wiecej}" width="1" height="1">
+            </span>
+            <span class="button-icon">
+              <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-book-star-black.svg" alt="{str_pokaz_wiecej}" width="1" height="1">
+            </span>
+            <span class="button-label">{str_pokaz_wiecej}</span>
           </span>
-          <span class="button-icon">
-            <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-book-star-black.svg" alt="{str_pokaz_wiecej}" width="1" height="1">
-          </span>
-          <span class="button-label">{str_pokaz_wiecej}</span>
-        </span>
-      </div>
+        </div>
+      <!-- ENDIF -->
+
+      
     </div>
   </div>
 </section>
