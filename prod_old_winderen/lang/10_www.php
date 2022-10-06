@@ -444,6 +444,12 @@ $lang_word['str_header_ship_to_change'] = 'Change';
 $lang_word['str_header_ship_to_content'] = 'If this is wrong, please pick your country<br>below to get the best Winderen experience';
 
 $lang_word['str_general_scroll_to_discover_more'] = 'Scroll To Discover More';
+$lang_word['str_general_buy_now'] = 'Köp nu';
+
+$lang_word['str_homepage_discover_the_world_of_our_innovative_products'] = 'Discover the world of<br>our innovative products';
+$lang_word['str_homepage_discover_the_world_of_our_innovative_products_alt'] = 'Discover the world of our innovative products';
+$lang_word['str_homepage_discover_now'] = 'Discover now';
+$lang_word['str_homepage_see_all_our_innovative_products'] = 'See all our innovative products';
 
 $lang_word['str_footer_can_we_help_you_header'] = 'Can we help you?';
 $lang_word['str_footer_can_we_help_you_text'] = 'We answer all questions from our customers right away';
