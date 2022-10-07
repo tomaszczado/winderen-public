@@ -179,7 +179,7 @@
           <div class="banner-content text-with-button">
             <h2>{str_homepage_see_all_our_innovative_products}</h2>
             <div class="buttons">
-              <a class="button button-with-blue-background-hover button-with-icon" href="#" title="{str_homepage_see_all_our_innovative_products}">
+              <a class="button button-with-blue-background-hover button-with-icon" href="{page_link_products}" title="{str_homepage_see_all_our_innovative_products}">
                 <span class="button-icon">
                   <img class="lazy-image" src="{page_domain}{template_pathW}images/1px.gif" data-src="{page_domain}{template_path}images/icons-bag.svg" alt="{str_homepage_see_all_our_innovative_products}" width="1" height="1">
                 </span>
