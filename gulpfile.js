@@ -5,11 +5,66 @@
 // --------------------------------------------------------------->>>
 
 // get gulp parameter
-const argv = require('yargs').argv
+/* import yargs from 'yargs'; */
+/* const argv = require('yargs').argv */
+/* import _yargs from 'yargs';
+import { hideBin } from 'yargs/helpers'; */
+/* const argv = yargs
+        .option('filename', {
+            alias: 'f',
+            demandOption: true,
+            describe: 'Nome do arquivo',
+            type: 'string'
+        })
+        .option('content', {
+            alias: 'c',
+            demandOption: true,
+            describe: 'Conteudo',
+            type: 'string'
+        })
+        .argv; */
+/* import yargs from 'yargs/yargs'
+const argv = yargs/* .count('verbose') * /
+.alias('prod', 'verbose')
+.argv; */
+
+import yargs from 'yargs';
+
+const argv = {
+  prod: process.argv.includes('--prod')
+};
+
+/* import { hideBin } from 'yargs/helpers'
+
+yargs(hideBin(process.argv))
+  .command({
+    command: "area",
+    describe: "Calculates area of a rectangle\nUsage: ./calc.js area -w [num] -h [num]",
+    builder: (yargs) => {
+        yargs
+            .option("prod", {
+                demandOption: true
+            })/* 
+            .option("h", {
+                demandOption: true
+            }) * /
+    },
+    handler: (argv) => console.log("The area is:", argv.prod)
+  }); */
+
+/* import yargs from 'yargs'
+import { hideBin } from 'yargs/helpers'
+
+const argvaaa = yargs(hideBin(process.argv))
+  .command('curl <url>', 'fetch the contents of the URL', () => {}, (argv) => {
+    console.info(argv)
+  })
+  .demandCommand(1)
+  .parse().argv; */
 
 // project directory
 const FEDDEV = 'html';
-const BEDDEV = 'prod';
+const BEDDEV = 'prod/wp-content/themes/pikantneopowiesci2022';
 
 // project configuration
 const CONFIG = {
@@ -202,37 +257,77 @@ const CONFIG = {
 // --------------------------------------------------------------->>>
 // Dependencies
 // --------------------------------------------------------------->>>
-const autoprefix = require('gulp-autoprefixer');
-const babel = require('gulp-babel');
-const browsersync = require('browser-sync').create();
-const chalk = require('chalk');
-const changed = require('gulp-changed');
-const concat = require('gulp-concat');
-const del = require('del');
-const ext = require('gulp-util').replaceExtension;
-const fs = require('fs');
+/* let fetch = require('node-fetch') */
+/* const autoprefix = require('gulp-autoprefixer'); */
+import autoprefix from 'gulp-autoprefixer';
+/* const babel = require('gulp-babel'); */
+import babel from 'gulp-babel';
+/* const browsersync = require('browser-sync').create(); */
+import browsersync from 'browser-sync';
+/* const chalk = require('chalk'); */
+import chalk from 'chalk';
+/* const changed = require('gulp-changed'); */
+import changed from 'gulp-changed';
+/* const concat = require('gulp-concat'); */
+import concat from 'gulp-concat';
+/* const del = require('del'); */
+import { deleteAsync } from 'del';
+/* const ext = require('gulp-util').replaceExtension; */
+/* import ext from 'gulp-util'; */
+/* const fs = require('fs'); */
+import fs from 'fs';
 // const gulp = require('gulp');
+import gulp from 'gulp';
 // const help = require('gulp-help');
-const gulp = require('gulp-help')(require('gulp'));
-const imagemin = require('gulp-imagemin');
-const imageminJpg = require('imagemin-jpeg-recompress');
-const imageminPngquant = require('imagemin-pngquant');
-const imageminSvgo = require('imagemin-svgo');
-const include = require('gulp-include');
-const log = require('gulp-util').log;
-const merge = require('merge-stream');
-const notify = require('gulp-notify');
-const path = require('path');
-const pluginerror = require('gulp-util').PluginError;
-const plumber = require('gulp-plumber');
-const pug = require('pug');
-const rename = require('gulp-rename');
-const replace = require('gulp-replace');
-const sass = require('gulp-sass');
-const sourcemaps = require('gulp-sourcemaps');
-const through = require('through2');
-const uglify = require('gulp-uglify');
-const watch = require('gulp-watch');
+/* const gulp = require('gulp-help')(require('gulp')); */
+/* import gulp from 'gulp-help'; */
+/* const imagemin = require('gulp-imagemin'); */
+import imagemin, { gifsicle/* , svgo */ } from 'gulp-imagemin';
+/* import imageminGifsicle from 'imagemin-gifsicle'; */
+/* const imageminJpg = require('imagemin-jpeg-recompress'); */
+import imageminJpg from 'imagemin-jpeg-recompress';
+/* const imageminPngquant = require('imagemin-pngquant'); */
+import imageminPngquant from 'imagemin-pngquant';
+/* const imageminSvgo = require('imagemin-svgo'); */
+import imageminSvgo from 'imagemin-svgo';
+/* const include = require('gulp-include'); */
+import include from 'gulp-include';
+/* const merge = require('merge-stream'); */
+import merge from 'merge-stream';
+/* const notify = require('gulp-notify'); */
+import notify from 'gulp-notify';
+/* const path = require('path'); */
+import path from 'path';
+/* const pluginerror = require('gulp-util').PluginError; */
+/* import pluginerror from 'gulp-util'; */
+/* const plumber = require('gulp-plumber'); */
+import plumber from 'gulp-plumber';
+/* const pug = require('pug'); */
+import pug from 'pug';
+/* const rename = require('gulp-rename'); */
+import rename from 'gulp-rename';
+/* const replace = require('gulp-replace'); */
+import replace from 'gulp-replace';
+/* const sass = require('gulp-sass'); */
+/* import sass from 'gulp-sass'; */
+
+import dartSass from 'sass'
+import gulpSass from 'gulp-sass'
+const sass = gulpSass(dartSass)
+
+
+/* const sourcemaps = require('gulp-sourcemaps'); */
+import sourcemaps from 'gulp-sourcemaps';
+/* const through = require('through2'); */
+import through from 'through2';
+/* const uglify = require('gulp-uglify'); */
+import uglify from 'gulp-uglify';
+/* const log = require('gulp-util').log; */
+/* import logutil from 'gulp-util'; */
+import util/* , { PluginError } */ from 'gulp-util'; 
+/* const watch = require('gulp-watch'); */
+import watch from 'gulp-watch';
+/* import { PluginError } from 'gulp-util'; */
 
 // --------------------------------------------------------------->>>
 // Helpers
@@ -307,13 +402,13 @@ var imgInternal = function(files, replaceFrom, replaceTo){
           .src(files)
           .pipe(
             imagemin([
-              imagemin.gifsicle({ interlaced: true }),
+              gifsicle({ interlaced: true }),
               imageminJpg({ quality: 75 }),
-              imageminPngquant(),
-              imageminSvgo({ plugins: [{ removeViewBox: true }, { cleanupIDs: false }, { prefixIds: false }] })
+              imageminPngquant()/* ,
+              imageminSvgo({ plugins: [{ removeViewBox: false }, { cleanupIDs: false }, { prefixIds: false }, { removeDimensions: false }] }) */
             ], { verbose: true })
           )
-          .on('error', function(error) { log(error); })
+          .on('error', function(error) { console.log(error); })
           .pipe(gulp.dest((file) => { return file.base.replace(replaceFrom, replaceTo); }));
 };
 
@@ -356,14 +451,15 @@ var imgSeriesTask = function() {
 // CLEAN ---------------------------------------------------------
 var cleanTask = function() {
   var forEach = function(f) {
-    log(chalk.red.bold('Deleting File:') + ' ' + f);
+    console.log(chalk.red.bold('Deleting File:') + ' ' + f);
+    /* log(chalk.red.bold('Deleting File:') + ' ' + f); */
   };
 
   var paths = function(paths) {
     paths.forEach(forEach);
   };
 
-  return del(CONFIG.CLEAN.paths()).then(paths);
+  return deleteAsync(CONFIG.CLEAN.paths()).then(paths);
 };
 cleanTask.description = 'Delete all compiled files';
 
@@ -375,6 +471,10 @@ var fontTask = async function() {
     fonts.push(CONFIG.FONTS.input);
   }
   
+  if(!fonts.length) {
+    return gulp;
+  }
+
   return gulp.src(fonts).pipe(gulp.dest(CONFIG.FONTS.output.prod));
 };
 fontTask.description = 'Copy font assets to output folder';
@@ -385,7 +485,7 @@ var cssInternal = function(options) {
   var sassStream = gulp
                     .src(CONFIG.SASS.input + 'scss/style.scss')
                     .pipe(plumber(CONFIG.PLUMBER.options()))
-                    .pipe(sass(options))
+                    .pipe(sass(options)/* .sync().on('error', sass.logError) */)
                     .pipe(autoprefix(CONFIG.SASS.prefixer()))
                     .pipe(plumber.stop());
 
@@ -502,19 +602,21 @@ var pugInternal = function(output) {
             // store pug file path
             options.filename = file.path;
             // change file extension to .html
-            file.path = ext(file.path, CONFIG.PUG.extension);
+            file.path = util.replaceExtension(file.path, CONFIG.PUG.extension);
             // compile the file contents
             if (file.isBuffer()) {
               try {
                 if (options.verbose === true) {
-                  log(chalk.green.bold('Compiling File:') + ' ' + options.filename);
+                  /* console.log(chalk.green.bold('Compiling File:') + ' ' + options.filename); */
+                  console.log(chalk.green.bold('Compiling File:') + ' ' + options.filename);
                 }
                 let contents = String(file.contents); // convert buffer to string
                 let compiled = pug.compile(contents, options)(data);
                 
                 file.contents = Buffer.from(compiled, 'utf8');
               } catch (e) {
-                return cb(new pluginerror('pug', e));
+                console.error(e);
+                return cb(null, file);
               }
               return cb(null, file);
             }
@@ -551,11 +653,11 @@ var watchFiles = async function() {
     var replaceFrom = processPath(srcUrl);
     var replaceToDev = processPath(CONFIG.IMG.output.dev);
     
-    del(event.replace(replaceFrom, replaceToDev));
+    deleteAsync(event.replace(replaceFrom, replaceToDev));
 
     if(argv.prod) {
       var replaceToProd = processPath(CONFIG.IMG.output.prod);
-      del(event.replace(replaceFrom, replaceToProd));
+      deleteAsync(event.replace(replaceFrom, replaceToProd));
     }
 
     browserReload();
