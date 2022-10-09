@@ -18,7 +18,7 @@
               </div>
               <div class="content">
                 <h2>Pressure relief TODO</h2>
-                <h3>{subpages.tytul} ({subpages.LABEL})</h3>
+                <h3>{subpages.tytul}</h3>
                 <div class="icon">
                   <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/discover-innovative-products-{subpages.LABEL}-icon.png" alt="{subpages.tytul}">
                 </div>
