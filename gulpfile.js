@@ -64,7 +64,7 @@ const argvaaa = yargs(hideBin(process.argv))
 
 // project directory
 const FEDDEV = 'html';
-const BEDDEV = 'prod/wp-content/themes/pikantneopowiesci2022';
+const BEDDEV = 'prod';
 
 // project configuration
 const CONFIG = {
