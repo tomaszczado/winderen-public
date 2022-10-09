@@ -81,7 +81,7 @@ $font-simplon-norm-bold: 'SimplonNorm-Bold'; */
 
 @mixin letterSpacing($size) {
 	// letter-spacing: ($size / 100) * 1px;
-  letter-spacing: ($size / 1000) * 1em;
+  letter-spacing: calc(($size / 1000) * 1em);
 }
 
 @mixin placeholder($font, $style, $color) {
@@ -184,7 +184,7 @@ $font-simplon-norm-bold: 'SimplonNorm-Bold'; */
     display: block;
     overflow: hidden;
     position: relative;
-    padding: ($height * 100% / $width) 0px 0px 0px;
+    padding: calc($height * 100% / $width) 0px 0px 0px;
   }
 
   img {
@@ -199,9 +199,9 @@ $font-simplon-norm-bold: 'SimplonNorm-Bold'; */
 }
 
 @mixin imageRatio($width, $height) {
-  padding: ($height * 100% / $width) 0px 0px 0px;
+  padding: calc($height * 100% / $width) 0px 0px 0px;
 }
 
 @mixin videoRatio($width, $height) {
-  padding: ($height * 100% / $width) 0px 0px 0px;
+  padding: calc($height * 100% / $width) 0px 0px 0px;
 }

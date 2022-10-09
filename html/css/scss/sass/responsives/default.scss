@@ -222,7 +222,7 @@ header {
               display: flex;
               flex-wrap: wrap;
               background: $color-black;
-              padding: ($space-extra / 2) ($space-extra / 2) ($space-extra / 2) ($space-extra / 2);
+              padding: calc($space-extra / 2) calc($space-extra / 2) calc($space-extra / 2) calc($space-extra / 2);
     
               > li {
                 width: 50%;

@@ -1,15 +1,11 @@
 /* @font-face {
   font-family: 'KlarheitGrotesk-SemiBold';
-  /* src: url('../fonts/KlarheitGrotesk/KlarheitGrotesk-SemiBold.eot');*/
-/* IE9 Compat Modes*--/
-  src: /* url('../fonts/KlarheitGrotesk/KlarheitGrotesk-SemiBold.eot?#iefix') format('embedded-opentype'),*/
-/* IE6-IE8*--/
-       url('../fonts/KlarheitGrotesk/KlarheitGrotesk-SemiBold.woff2') format('woff2'), /* Super Modern Browsers*--/
-       url('../fonts/KlarheitGrotesk/KlarheitGrotesk-SemiBold.woff') format('woff'), /* Pretty Modern Browsers*--/
-       url('../fonts/KlarheitGrotesk/KlarheitGrotesk-SemiBold.ttf')  format('truetype')/* ,*/
-/* Safari, Android, iOS*--/
-       /* url('../fonts/KlarheitGrotesk/KlarheitGrotesk-SemiBold.svg#svgFontName') format('svg')*/
-/* Legacy iOS*--/
+  /* src: url('../fonts/KlarheitGrotesk/KlarheitGrotesk-SemiBold.eot');*/ /* IE9 Compat Modes*--/
+src: /* url('../fonts/KlarheitGrotesk/KlarheitGrotesk-SemiBold.eot?#iefix') format('embedded-opentype'),*/ /* IE6-IE8*--/
+url('../fonts/KlarheitGrotesk/KlarheitGrotesk-SemiBold.woff2') format('woff2'), /* Super Modern Browsers*--/
+url('../fonts/KlarheitGrotesk/KlarheitGrotesk-SemiBold.woff') format('woff'), /* Pretty Modern Browsers*--/
+url('../fonts/KlarheitGrotesk/KlarheitGrotesk-SemiBold.ttf')  format('truetype')/* ,*/ /* Safari, Android, iOS*--/
+/* url('../fonts/KlarheitGrotesk/KlarheitGrotesk-SemiBold.svg#svgFontName') format('svg')*/ /* Legacy iOS*--/
   font-stretch: normal;
   font-weight: normal;
   font-style: normal;
@@ -119,5 +115,4 @@
   font-weight: normal; 
   font-style: normal; 
 } */
-
 /*# sourceMappingURL=fonts.css.map */

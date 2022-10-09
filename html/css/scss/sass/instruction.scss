@@ -627,7 +627,7 @@
                     h3 {
                         background: unset;
                         padding: unset;
-                        @include font(24px, 22px, 400)
+                        @include font(24px, 22px, 400);
                         @media screen and (max-width: $width-small){
                             margin: 10px 0 0;
                         }
@@ -635,7 +635,7 @@
                     p {
                         text-transform: uppercase;
                         margin: 5px 0 30px;
-                        @include font(16px, 22px, 400)
+                        @include font(16px, 22px, 400);
                         @media screen and (min-width: $width-small) {
                             @include font(22px, 28px, 400)
                         }

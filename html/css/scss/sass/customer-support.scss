@@ -119,7 +119,7 @@
             }
             .team {
                 border-bottom: 1px solid rgba(67, 67, 67,1);
-                @media screen and(min-width:$width-small) {
+                @media screen and (min-width:$width-small) {
                     width: 35%;
                     border-right: 1px solid rgba(67, 67, 67,1);
                     border-bottom: unset;
@@ -218,14 +218,14 @@
                 text-transform: uppercase;
                 border-bottom: 1px solid rgba(67, 67, 67,1);
                 margin:0 0 40px;
-                @media screen and(min-width:$width-small) {
+                @media screen and (min-width:$width-small) {
                     width: 35%;
                     padding: 0 50px 0 0;
                     border-right: 1px solid rgba(67, 67, 67,1);
                     border-bottom: unset;
                     margin:0;
                 }
-                @media screen and(min-width:$width-wide) {
+                @media screen and (min-width:$width-wide) {
                     padding: 0 100px 0 0;
                 }
                 .company {
@@ -283,7 +283,7 @@
                 }
             }
             .form {
-                @media screen and(min-width:$width-small) {
+                @media screen and (min-width:$width-small) {
                     width: 65%;
                     padding: 0 0 0 100px;
                 }
