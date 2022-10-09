@@ -480,6 +480,10 @@ $lang_word['str_homepage_knowledge_zone_text'] = 'How our technologies support h
 
 $lang_word['str_videos_header'] = 'Check out our<br>latest productions';
 
+$lang_word['str_discover_the_products_discover_the_world_of_our_innovative_products'] = 'Discover the world of<br>our innovative products';
+$lang_word['str_discover_the_products_the_world_of_our_innovative_products_alt'] = 'Discover the world of our innovative products';
+$lang_word['str_discover_the_products_quick_shopping_directly_from_the_manufacturer'] = 'Rychlé nákupy<br>přímo u výrobce';
+
 $lang_word['str_footer_can_we_help_you_header'] = 'Can we help you?';
 $lang_word['str_footer_can_we_help_you_text'] = 'We answer all questions from our customers right away';
 $lang_word['str_footer_can_we_help_you_contact_info'] = 'Zákaznická podpora';
