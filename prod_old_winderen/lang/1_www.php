@@ -445,6 +445,10 @@ $lang_word['str_header_ship_to_content'] = 'If this is wrong, please pick your c
 $lang_word['str_general_scroll_to_discover_more'] = 'Scroll To Discover More';
 $lang_word['str_general_buy_now'] = 'Buy now';
 $lang_word['str_general_close'] = 'Close';
+$lang_word['str_general_read_now'] = 'Read now';
+$lang_word['str_general_more_articles'] = 'More articles';
+$lang_word['str_general_previous'] = 'Previous';
+$lang_word['str_general_next'] = 'Next';
 
 $lang_word['str_homepage_discover_the_world_of_our_innovative_products'] = 'Discover the world of<br>our innovative products';
 $lang_word['str_homepage_discover_the_world_of_our_innovative_products_alt'] = 'Discover the world of our innovative products';
@@ -467,6 +471,13 @@ $lang_word['str_homepage_what_drives_us_title'] = 'What drives us';
 $lang_word['str_homepage_what_drives_us_text'] = 'A huge motivation for us in our work is your positive feedback. We are happy to see how our products solve a lot of, often unusual, problems. Their effectiveness in both predicted and unexpected situations gives us great satisfaction and reassurance that we have chosen the right path.';
 $lang_word['str_homepage_global_innovation_made_locally_title'] = 'Global innovation<br>made locally';
 $lang_word['str_homepage_global_innovation_made_locally_text'] = 'We believe that a global approach is ideal when it comes to finding innovative solutions and materials with the most suitable parameters. However, in order to maintain total control over every stage of the process and a consistently high quality we choose to manufacture our products locally, in Poland. All this is aimed at ensuring that you are equally satisfied with your Winderen experience each and every time.';
+$lang_word['str_homepage_our_friends_promo_text'] = 'Friends of our brand are exceptional people who are connected with horses on a professional basis.';
+$lang_word['str_homepage_our_friends_promo_thank_you_text'] = 'Thank you for being with us!';
+$lang_word['str_homepage_our_friends_meet_them_all_text'] = 'Meet them all';
+$lang_word['str_homepage_our_videos_watch_more_text'] = 'Watch more';
+$lang_word['str_homepage_knowledge_zone_text'] = 'How our technologies support horses and riders';
+
+$lang_word['str_videos_header'] = 'Check out our<br>latest productions';
 
 $lang_word['str_footer_can_we_help_you_header'] = 'Can we help you?';
 $lang_word['str_footer_can_we_help_you_text'] = 'We answer all questions from our customers right away';
