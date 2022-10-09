@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="33.578" height="47.369"><g id="Group_1061" data-name="Group 1061" transform="translate(-970 -1098.686)" fill="#fff"><path id="Path_1821" data-name="Path 1821" d="M149.821 113.545l1.215 4.936h31.148l1.215-4.936z" transform="translate(820.179 985.141)"/><path id="Path_1822" data-name="Path 1822" d="M179.861 116.264l1.215-2.011h-6.184V133.8l-6.907 8.007v-25.54l1.215-2.011h-7.4l1.215 2.011V141.8l-6.906-8.007v-19.541h-6.184l1.213 2.011V135.7l14.362 17.46 14.361-17.46z" transform="translate(821.29 992.895)"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="33.578" height="47.369" viewBox="0 0 33.578 47.369">
+  <g id="Group_1061" data-name="Group 1061" transform="translate(-970 -1098.686)">
+    <path id="Path_1821" data-name="Path 1821" d="M149.821,113.545l1.215,4.936h31.148l1.215-4.936Z" transform="translate(820.179 985.141)" fill="#fff"/>
+    <path id="Path_1822" data-name="Path 1822" d="M179.861,116.264l1.215-2.011h-6.184V133.8l-6.907,8.007v-25.54l1.215-2.011h-7.4l1.215,2.011V141.8l-6.906-8.007V114.252h-6.184l1.213,2.011V135.7L165.5,153.16,179.861,135.7Z" transform="translate(821.29 992.895)" fill="#fff"/>
+  </g>
+</svg>

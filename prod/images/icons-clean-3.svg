@@ -1,1 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="59.296" height="59.296"><g id="Group_2387" data-name="Group 2387" transform="translate(-515 -1288)"><g id="Group_2373" data-name="Group 2373" transform="translate(-148.57 933.875)"><g id="Group_2347" data-name="Group 2347"><path id="Rectangle_474" data-name="Rectangle 474" transform="rotate(-45 827 -596.704)" fill="#fff" d="M0 0h78.201v4H0z"/></g><g id="Group_2348" data-name="Group 2348"><path id="Rectangle_475" data-name="Rectangle 475" transform="rotate(-45 763.666 -622.938)" fill="#fff" d="M0 0h4v78.201H0z"/></g><g id="Group_2349" data-name="Group 2349"><path id="Path_3006" data-name="Path 3006" d="M722.866 413.421h-59.3v-59.3h59.3zm-55.3-4h51.3v-51.3h-51.3z" fill="#fff"/></g><g id="Ellipse_144" data-name="Ellipse 144" transform="translate(667.218 357.773)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="4"><circle cx="26" cy="26" r="26" stroke="none"/><circle cx="26" cy="26" r="24"/></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="59.296" height="59.296" viewBox="0 0 59.296 59.296">
+  <g id="Group_2387" data-name="Group 2387" transform="translate(-515 -1288)">
+    <g id="Group_2373" data-name="Group 2373" transform="translate(-148.57 933.875)">
+      <g id="Group_2347" data-name="Group 2347">
+        <rect id="Rectangle_474" data-name="Rectangle 474" width="78.201" height="4" transform="translate(664.156 410.007) rotate(-45)" fill="#fff"/>
+      </g>
+      <g id="Group_2348" data-name="Group 2348">
+        <rect id="Rectangle_475" data-name="Rectangle 475" width="4" height="78.201" transform="translate(664.156 357.539) rotate(-45)" fill="#fff"/>
+      </g>
+      <g id="Group_2349" data-name="Group 2349">
+        <path id="Path_3006" data-name="Path 3006" d="M722.866,413.421h-59.3v-59.3h59.3Zm-55.3-4h51.3v-51.3h-51.3Z" fill="#fff"/>
+      </g>
+      <g id="Ellipse_144" data-name="Ellipse 144" transform="translate(667.218 357.773)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="4">
+        <circle cx="26" cy="26" r="26" stroke="none"/>
+        <circle cx="26" cy="26" r="24" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

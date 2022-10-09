@@ -1,1 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32.101" height="22.228"><g id="Group_1800" data-name="Group 1800" transform="translate(-13 -12)"><g id="Group_1079" data-name="Group 1079" transform="translate(25 12)"><path id="Path_1791" data-name="Path 1791" d="M237.32 144.852h-6.443l-2.828 2.828v5h2v-4.172l1.657-1.657h4.786l1.657 1.657v4.172h2v-5z" transform="translate(-224.048 -144.852)"/><path id="Path_1793" data-name="Path 1793" d="M224.048 151.68v11.4l4 4h12.1l4-4v-11.4zm5 4a1 1 0 111-1 1 1 0 01-1 1zm10.1 0a1 1 0 111-1 1 1 0 01-1 1z" transform="translate(-224.048 -144.852)"/></g><g id="Group_1408" data-name="Group 1408" transform="rotate(90 234 16)"><g id="Group_1056" data-name="Group 1056" transform="rotate(90 .999 231.001)"><path id="Rectangle_274" data-name="Rectangle 274" transform="rotate(-90 -3 -5.999)" d="M0 0h2v4H0z"/></g><path id="Path_1924" data-name="Path 1924" d="M1061.97 269.884l5 6 5-6z" transform="rotate(180 654.485 251.443)"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="32.101" height="22.228" viewBox="0 0 32.101 22.228">
+  <g id="Group_1800" data-name="Group 1800" transform="translate(-13 -12)">
+    <g id="Group_1079" data-name="Group 1079" transform="translate(25 12)">
+      <path id="Path_1791" data-name="Path 1791" d="M237.32,144.852h-6.443l-2.828,2.828v5h2v-4.172l1.657-1.657h4.786l1.657,1.657v4.172h2v-5Z" transform="translate(-224.048 -144.852)"/>
+      <path id="Path_1792" data-name="Path 1792" d="M227.583,155.965" transform="translate(-224.048 -144.852)"/>
+      <path id="Path_1793" data-name="Path 1793" d="M224.048,151.68v11.4l4,4h12.1l4-4v-11.4Zm5,4a1,1,0,1,1,1-1A1,1,0,0,1,229.048,155.68Zm10.1,0a1,1,0,1,1,1-1A1,1,0,0,1,239.148,155.68Z" transform="translate(-224.048 -144.852)"/>
+    </g>
+    <g id="Group_1408" data-name="Group 1408" transform="translate(250 -218) rotate(90)">
+      <g id="Group_1056" data-name="Group 1056" transform="translate(232 230.002) rotate(90)">
+        <rect id="Rectangle_274" data-name="Rectangle 274" width="2" height="4" transform="translate(2.998 -8.999) rotate(-90)"/>
+      </g>
+      <path id="Path_1924" data-name="Path 1924" d="M1061.97,269.884l5,6,5-6Z" transform="translate(1308.97 502.885) rotate(180)"/>
+    </g>
+  </g>
+</svg>

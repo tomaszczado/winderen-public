@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="19.999" height="20"><g id="Group_1058" data-name="Group 1058" transform="rotate(90 777.521 -187.142)"><path id="Path_1795" data-name="Path 1795" d="M964.663 574.379l10 12 10-12z" transform="translate(0 4)" fill="#000"/><g id="Group_1056" data-name="Group 1056" transform="translate(973.663 570.379)"><path id="Rectangle_274" data-name="Rectangle 274" fill="#000" d="M0 0h2v9H0z"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="19.999" height="20" viewBox="0 0 19.999 20">
+  <g id="Group_1058" data-name="Group 1058" transform="translate(590.379 -964.663) rotate(90)">
+    <path id="Path_1795" data-name="Path 1795" d="M964.663,574.379l10,12,10-12Z" transform="translate(0 4)" fill="#000000"/>
+    <g id="Group_1056" data-name="Group 1056" transform="translate(973.663 570.379)">
+      <rect id="Rectangle_274" data-name="Rectangle 274" width="2" height="9" transform="translate(0)" fill="#000000"/>
+    </g>
+  </g>
+</svg>
