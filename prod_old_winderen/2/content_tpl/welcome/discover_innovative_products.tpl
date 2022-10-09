@@ -19,14 +19,14 @@
         <div class="item">
           <div class="image">
             <picture class="rwd-background lazy-picture">
-              <img src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/discover-innovative-products-image-1.jpg" alt="{page_title_sattelgurt}">
+              <img src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/discover-innovative-products-sattelgurt-image.jpg" alt="{page_title_sattelgurt}">
             </picture>
           </div>
           <div class="content">
             <h2>Pressure relief TODO</h2>
             <h3>{page_title_sattelgurt}</h3>
             <div class="icon">
-              <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/discover-innovative-products-icon-1.png" alt="{page_title_sattelgurt}">
+              <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/discover-innovative-products-sattelgurt-icon.png" alt="{page_title_sattelgurt}">
             </div>
             <h4>Girths padded with innovative materials TODO</h4>
             <div class="buttons">
@@ -49,14 +49,14 @@
         <div class="item">
           <div class="image">
             <picture class="rwd-background lazy-picture">
-              <img src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/discover-innovative-products-image-2.jpg" alt="{page_title_saddlepad}">
+              <img src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/discover-innovative-products-saddlepad-image.jpg" alt="{page_title_saddlepad}">
             </picture>
           </div>
           <div class="content">
             <h2>Back protect solution TODO</h2>
             <h3>{page_title_saddlepad}</h3>
             <div class="icon">
-              <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/discover-innovative-products-icon-2.png" alt="{page_title_saddlepad}">
+              <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/discover-innovative-products-saddlepad-icon.png" alt="{page_title_saddlepad}">
             </div>
             <h4>Half pads with 5 technologically advanced layers TODO</h4>
             <div class="buttons">
@@ -79,14 +79,14 @@
         <div class="item">
           <div class="image">
             <picture class="rwd-background lazy-picture">
-              <img src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/discover-innovative-products-image-3.jpg" alt="{page_title_stirrups}">
+              <img src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/discover-innovative-products-stirrups-image.jpg" alt="{page_title_stirrups}">
             </picture>
           </div>
           <div class="content">
             <h2>Knee protect solution TODO</h2>
             <h3>{page_title_stirrups}</h3>
             <div class="icon">
-              <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/discover-innovative-products-icon-3.png" alt="{page_title_stirrups}">
+              <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/discover-innovative-products-stirrups-icon.png" alt="{page_title_stirrups}">
             </div>
             <h4>Stirrups with double shock abvsorbers TODO</h4>
             <div class="buttons">
@@ -109,13 +109,13 @@
         <div class="item">
           <div class="image">
             <picture class="rwd-background lazy-picture">
-              <img src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/discover-innovative-products-image-4.jpg" alt="{page_title_bit}">
+              <img src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/discover-innovative-products-bit-image.jpg" alt="{page_title_bit}">
             </picture>
           </div>
           <div class="content">
             <h2>Gel bits system TODO</h2>
             <div class="icon">
-              <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/discover-innovative-products-icon-4.png" alt="{page_title_bit}">
+              <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/discover-innovative-products-stirrups-icon.png" alt="{page_title_bit}">
             </div>
             <h4>Horse-friendly gel bits with intzerchangeable cheek pieces TODO</h4>
             <div class="buttons">
@@ -138,14 +138,14 @@
         <div class="item">
           <div class="image">
             <picture class="rwd-background lazy-picture">
-              <img src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/discover-innovative-products-image-5.jpg" alt="TODO">
+              <img src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/discover-innovative-products-anatomic_top_line-image.jpg" alt="TODO">
             </picture>
           </div>
           <div class="content">
             <h2>Anatomic top line TODO</h2>
             <h3>Saddle Pads TODO</h3>
             <div class="icon">
-              <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/discover-innovative-products-icon-5.png" alt="TODO">
+              <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/discover-innovative-products-anatomic_top_line-icon.png" alt="TODO">
             </div>
             <h4>Half pads with 5 technologically advanced layers TODO</h4>
             <div class="buttons">
