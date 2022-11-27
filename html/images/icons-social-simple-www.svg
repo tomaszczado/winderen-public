@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Warstwa_1" data-name="Warstwa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_2857" data-name="Group 2857">
+    <g id="Group_2858" data-name="Group 2858">
+      <g id="Group_2854" data-name="Group 2854">
+        <g id="Group_2848" data-name="Group 2848">
+          <g id="Group_2847" data-name="Group 2847">
+            <path id="Path_3533" data-name="Path 3533" class="cls-1" d="M9.18,13.31l-.84,.84v1.34s-2.84,2.84-2.84,2.84h-1.96s-1.39-1.39-1.39-1.39v-1.96s2.84-2.84,2.84-2.84h1.39l.81-.81-.87-.87h-2.04S.47,14.28,.47,14.28v3.35l2.37,2.37h3.35s3.82-3.82,3.82-3.82v-2.04l-.84-.83Z"/>
+            <path id="Path_3534" data-name="Path 3534" class="cls-1" d="M8.4,10.06l.84-.84v-1.34s2.84-2.84,2.84-2.84h1.96s1.39,1.39,1.39,1.39v1.96s-2.84,2.84-2.84,2.84h-1.39l-.81,.81,.86,.86h2.04s3.82-3.82,3.82-3.82v-3.35l-2.37-2.37h-3.35s-3.82,3.82-3.82,3.82v2.04l.84,.84Z"/>
+            <rect id="Rectangle_516" data-name="Rectangle 516" class="cls-1" x="3.72" y="10.66" width="10.49" height="1.72" transform="translate(-5.52 9.71) rotate(-45)"/>
+          </g>
+        </g>
+      </g>
+      <polygon class="cls-1" points="24.47 17.56 19.44 13.36 19.44 16.72 16.08 16.72 16.08 18.39 19.44 18.39 19.44 21.75 24.47 17.56"/>
+    </g>
+  </g>
+</svg>
