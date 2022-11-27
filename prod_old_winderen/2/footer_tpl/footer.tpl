@@ -1,6 +1,6 @@
 <footer>
   <div class="container">
-    <div class="inner-container">
+    <div class="inner-container no-max-width">
       <div class="row">
   
         <!-- INCLUDE 2/footer_tpl/sections/logo.tpl -->

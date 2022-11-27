@@ -13,7 +13,7 @@
 				<a href="{page_domain}{friends_link}" title="{str_footer_navigation_our_friends_label}">{str_footer_navigation_our_friends_label}</a>
 			</li>
 			<li>
-				<a href="#" title="{str_footer_navigation_testimonials_label}">{str_footer_navigation_testimonials_label}</a>
+				<a href="{page_domain}{page_lang_name_short}/news/0/3/" title="{str_footer_navigation_testimonials_label}">{str_footer_navigation_testimonials_label}</a>
 			</li>
 		</ul>
 	</div>
@@ -25,19 +25,17 @@
 	</div>
 	<div class="label">{str_footer_navigation_our_products_label}</div>
 	<div class="links">
-		<ul>
-			<!-- BEGIN menu1 -->
-        <!-- IF menu1.MENU2 && menu1.LABEL == 'products' -->
-          <!-- BEGIN menu2 -->
-            <li>
-              <a href="{menu1.menu2.link}">
-                {menu1.menu2.tytul}
-              </a>
-            </li>
-          <!-- END menu2 -->
-        <!-- ENDIF -->
-			<!-- END menu1 -->
-		</ul>
+
+    <ul>
+      <!-- BEGIN menuprodukty -->
+      <li>
+        <a href="{menuprodukty.link}" title="{menuprodukty.tytul}">
+          {menuprodukty.tytul}
+        </a>
+      </li>
+      <!-- END menuprodukty -->
+    </ul>
+    
 	</div>
 </div>
 <div class="column">

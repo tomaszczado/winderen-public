@@ -3,20 +3,20 @@
     <div class="inner-navigation inner-navigation-columns">
       <div class="inner-navigation-wrapper">
         <div class="column">
-          <div class="icon"><img class="lazy-image" src="images/1px.gif" data-src="images/icons-magnifier.svg" alt="TODO" width="29" height="30"></div>
+          <div class="icon"><img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-magnifier.svg" alt="TODO" width="29" height="30"></div>
           <div class="links">
             <div class="link"><a href="#" title="TODO">Our Mission</a></div>
           </div>
         </div>
         <div class="column">
-          <div class="icon"><img class="lazy-image" src="images/1px.gif" data-src="images/icons-heart.svg" alt="TODO" width="18" height="17"></div>
+          <div class="icon"><img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-heart.svg" alt="TODO" width="18" height="17"></div>
           <div class="links">
             <div class="link menu-item-current"><a href="friends.html" title="TODO">Our Friends</a></div>
             <div class="link"><a href="testimonials.html" title="TODO">Testimonials</a></div>
           </div>
         </div>
         <div class="column">
-          <div class="icon"><img class="lazy-image" src="images/1px.gif" data-src="images/icons-book-star.svg" alt="TODO" width="34" height="25"></div>
+          <div class="icon"><img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-book-star.svg" alt="TODO" width="34" height="25"></div>
           <div class="links">
             <div class="link"><a href="#" title="TODO">Instructions</a></div>
             <div class="link"><a href="friends.html" title="TODO">FAQ</a></div>
@@ -24,24 +24,37 @@
           </div>
         </div>
         <div class="column">
-          <div class="icon"><img class="lazy-image" src="images/1px.gif" data-src="images/icons-eye-white.svg" alt="TODO" width="24" height="16"></div>
+          <div class="icon"><img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-eye-white.svg" alt="TODO" width="24" height="16"></div>
           <div class="links">
             <div class="link"><a href="videos.html" title="TODO">Videos</a></div>
           </div>
         </div>
         <div class="column">
-          <div class="icon"><img class="lazy-image" src="images/1px.gif" data-src="images/icons-group-of-people.svg" alt="TODO" width="29" height="31"></div>
+          <div class="icon"><img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-group-of-people.svg" alt="TODO" width="29" height="31"></div>
           <div class="links">
             <div class="link"><a href="#" title="TODO">Partner zone</a></div>
           </div>
         </div>
         <div class="column">
-          <div class="icon"><img class="lazy-image" src="images/1px.gif" data-src="images/icons-customer-support.svg" alt="TODO" width="20" height="20"></div>
+          <div class="icon"><img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-customer-support.svg" alt="TODO" width="20" height="20"></div>
           <div class="links">
             <div class="link"><a href="#" title="TODO">Customer Support</a></div>
             <div class="link"><a href="#" title="TODO">Contact</a></div>
           </div>
-          <div class="social-links"><a href="https://www.facebook.com/" title="TODO" target="_blank"><img class="lazy-image" src="images/1px.gif" data-src="images/icons-social-facebook.svg" alt="TODO" width="48" height="48"><img class="lazy-image" src="images/1px.gif" data-src="images/icons-social-facebook-gray.svg" alt="TODO" width="48" height="48"></a><a href="https://www.instagram.com/" title="TODO" target="_blank"><img class="lazy-image" src="images/1px.gif" data-src="images/icons-social-instagram.svg" alt="TODO" width="48" height="48"><img class="lazy-image" src="images/1px.gif" data-src="images/icons-social-instagram-gray.svg" alt="TODO" width="48" height="48"></a><a href="https://www.youtube.com/" title="TODO" target="_blank"><img class="lazy-image" src="images/1px.gif" data-src="images/icons-social-youtube.svg" alt="TODO" width="48" height="48"><img class="lazy-image" src="images/1px.gif" data-src="images/icons-social-youtube-gray.svg" alt="TODO" width="48" height="48"></a></div>
+          <div class="social-links">
+            <a href="https://www.facebook.com/" title="TODO" target="_blank">
+              <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-social-facebook.svg" alt="TODO" width="48" height="48">
+              <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-social-facebook-gray.svg" alt="TODO" width="48" height="48">
+            </a>
+            <a href="https://www.instagram.com/" title="TODO" target="_blank">
+              <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-social-instagram.svg" alt="TODO" width="48" height="48">
+              <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-social-instagram-gray.svg" alt="TODO" width="48" height="48">
+            </a>
+            <a href="https://www.youtube.com/" title="TODO" target="_blank">
+              <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-social-youtube.svg" alt="TODO" width="48" height="48">
+              <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-social-youtube-gray.svg" alt="TODO" width="48" height="48">
+            </a>
+          </div>
         </div>
       </div>
     </div>

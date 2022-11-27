@@ -39,7 +39,12 @@
                 <!-- ENDIF -->
                 <!-- IF friends.WWW -->
                   <a rel="nofollow" href={friends.www} target="_blank" rel="noreferrer">
-                    <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-social-youtube.svg" width="1" height="1" alt="Website">
+                    <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-social-simple-youtube.svg" width="1" height="1" alt="Website">
+                  </a>
+                <!-- ENDIF -->
+                <!-- IF friends.WWW -->
+                  <a rel="nofollow" href={friends.www} target="_blank" rel="noreferrer">
+                    <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-social-simple-www.svg" width="1" height="1" alt="Website">
                   </a>
                 <!-- ENDIF -->
               </div>

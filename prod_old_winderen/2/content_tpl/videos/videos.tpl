@@ -23,7 +23,7 @@
             <div class="details">
               <h3>{news.tytul}</h3>
 
-              <!-- IF news.info -->
+              <!-- IF news.INFO -->
                 <div class="info">{news.info}</div>
               <!-- ENDIF -->
 

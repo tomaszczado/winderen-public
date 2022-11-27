@@ -1,4 +1,10 @@
 <div class="text">
-  <div class="label">We offer complimentary returns for online orders TODO</div>
-  <div class="link"><a href="#" title="TODO">Read more TODO</a></div>
+
+  <!-- IF STR_HEADER_INFO -->
+    <div class="label">{str_header_info}</div>
+    <div class="link">
+      <a href="{str_header_url}" title="{str_header_info}">{str_general_read_more}</a>
+    </div>
+  <!-- ENDIF -->
+
 </div>

@@ -186,7 +186,7 @@
                 <span class="button-icon">
                   <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-bag-black.svg" alt="{str_homepage_see_all_our_innovative_products}" width="1" height="1">
                 </span>
-                <span class="button-label">{str_homepage_discover_now} TODO</span>
+                <span class="button-label">{str_homepage_discover_now}</span>
               </a>
             </div>
           </div>

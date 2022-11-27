@@ -1,6 +1,6 @@
 <header>
   <div class="container">
-    <div class="inner-container">
+    <div class="inner-container no-max-width">
       <div class="content">
       
         <!-- INCLUDE 2/header_tpl/sections/promo.tpl -->
@@ -30,6 +30,8 @@
       <!-- INCLUDE 2/header_tpl/sections/logo.tpl -->
       <!-- INCLUDE 2/header_tpl/sections/button_menu.tpl -->
       <!-- INCLUDE 2/header_tpl/sections/socials.tpl -->
+      <!-- INCLUDE 2/header_tpl/sections/language_detection.tpl -->
+
       <!-- INCLUDE 2/header_tpl/sections/ship_to_overlay.tpl -->
 
     </div>

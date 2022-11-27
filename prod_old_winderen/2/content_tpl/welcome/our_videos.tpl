@@ -1,4 +1,3 @@
-<!-- IF wvideo -->
 <section id="our-videos">
   <div class="container">
     <div class="inner-container">
@@ -17,7 +16,7 @@
                 <picture class="rwd-background rwd-background-overlay lazy-picture">
                   <img src="{page_domain}{template_path}images/1px.gif" data-src="{wvideo.image_src}" alt="{wvideo.tytul}">
                 </picture>
-                <span class="new-label">New TODO</span>
+                <span class="new-label">{str_general_new}</span>
                 <span class="play circular-icon">
                   <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-play.svg" alt="{wvideo.tytul}" width="1" height="1">
                 </span>
@@ -46,4 +45,3 @@
     </div>
   </div>
 </section>
-<!-- ENDIF -->

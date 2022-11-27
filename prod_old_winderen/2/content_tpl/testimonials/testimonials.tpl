@@ -35,13 +35,35 @@
             <div class="details">
               <div class="name-and-link"> 
                 <div class="name">{news.tytul}</div>
-                <div class="link">
-                  <a href="#" title="Instagram" target="_blank">
-                    <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-instagram.svg" alt="{news.tytul}" width="48" height="48">@riderreviews TODO
-                  </a>
-                </div>
+
+                <!-- IF news.REDIRECT_ICO == 'instagram' -->
+                  <div class="link">
+                    <a href="{news.redirect_http}" title="{news.redirect_label}" target="_blank">
+                      <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-instagram.svg" alt="{news.redirect_label}" width="48" height="48">{news.redirect_label}
+                    </a>
+                  </div>
+                <!-- ELSEIF news.REDIRECT_ICO == 'facebook' -->
+                  <div class="link">
+                    <a href="{news.redirect_http}" title="{news.redirect_label}" target="_blank">
+                      <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-facebook.svg" alt="{news.redirect_label}" width="48" height="48">{news.redirect_label}
+                    </a>
+                  </div>
+                <!-- ELSEIF news.REDIRECT_ICO == 'youtube' -->
+                  <div class="link">
+                    <a href="{news.redirect_http}" title="{news.redirect_label}" target="_blank">
+                      <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-youtube.svg" alt="{news.redirect_label}" width="48" height="48">{news.redirect_label}
+                    </a>
+                  </div>
+                <!-- ELSE -->
+                  <div class="link">
+                    <a href="{news.redirect_http}" title="{news.redirect_label}" target="_blank">
+                      <img class="lazy-image" src="{page_domain}{template_path}images/1px.gif" data-src="{page_domain}{template_path}images/icons-link.svg" alt="{news.redirect_label}" width="48" height="48">{news.redirect_label}
+                    </a>
+                  </div>
+                <!-- ENDIF -->
+
               </div>
-              <div class="quotation">{news.tresc}.</div>
+              <div class="quotation">{news.tresc}</div>
             </div>
           </div>
 
