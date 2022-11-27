@@ -238,7 +238,6 @@
               .link {
                 + .link {
                   margin: 10px 0px 0px 0px;
-                  /* margin: 25px 0px 0px 0px; */
                 }
   
                 &.menu-item-current {
@@ -251,7 +250,6 @@
                   text-transform: uppercase;
                   @include letterSpacing(50);
                   @include font(14px, 14px, 400);
-                  /* @include font(18px, 18px, 400); */
                   font-family: $font-gt-america-regular;
                   @include transitionAdvanced('color', 0.5s, 0s);
 
