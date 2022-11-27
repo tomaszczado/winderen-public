@@ -441,6 +441,7 @@ $lang_word['str_header_ship_to_label'] = 'Ship to';
 $lang_word['str_header_ship_to_country_of_delivery'] = 'Country of delivery';
 $lang_word['str_header_ship_to_change'] = 'Change';
 $lang_word['str_header_ship_to_content'] = 'If this is wrong, please pick your country<br>below to get the best Winderen experience';
+$lang_word['str_header_language_detection'] = 'Zauważyliśmy, że język Twojej przeglądaki jest inny niż język strony. Zmień język na:';
 
 $lang_word['str_general_scroll_to_discover_more'] = 'Scroll To Discover More';
 $lang_word['str_general_buy_now'] = 'Купить';
