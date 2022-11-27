@@ -947,6 +947,41 @@ header {
     }
   }
 
+  .language-detection {
+    top: 100%;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+    display: none;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    background: rgba($color-black, 0.5);
+    margin: 0px -1 * $space-extra 0px -1 * $space-extra;
+    padding: 15px calc($space-extra + 75px) 15px calc($space-extra + 75px);
+
+    &.active {
+      display: flex;
+    }
+
+    .details {
+      text-align: center;
+      @include letterSpacing(55);
+      @include font(14px, 20px, 400);
+      font-family: $font-gt-america-regular;
+    }
+
+    .buttons {
+      margin: 15px 0px 0px 0px;
+    }
+
+    .circular-icon {
+      cursor: pointer;
+      position: absolute;
+      right: $space-extra;
+    }
+  }
+
   .ship-to-overlay {
     top: 0px;
     z-index: 2;
@@ -2392,6 +2427,7 @@ main {
       cursor: pointer;
       position: absolute;
       align-items: center;
+      justify-content: flex-end;
     }
 
     .reviews-inner {
@@ -5183,6 +5219,11 @@ footer {
   .inner-container {
     margin: 0px auto;
     position: relative;
+    max-width: $width-maximum;
     @include transitionAdvanced('max-width', 0.5s, 0s);
+
+    &.no-max-width {
+      max-width: none;
+    }
   }
 }

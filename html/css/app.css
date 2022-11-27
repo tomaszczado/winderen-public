@@ -3315,6 +3315,45 @@ header .socials img {
 header .socials img + img {
   opacity: 0;
 }
+header .language-detection {
+  top: 100%;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+  display: none;
+  position: absolute;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 0px -25px 0px -25px;
+  padding: 15px 100px 15px 100px;
+}
+header .language-detection.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header .language-detection .details {
+  text-align: center;
+  letter-spacing: 0.055em;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: "GT-America-Standard-Regular-Trial";
+}
+header .language-detection .buttons {
+  margin: 15px 0px 0px 0px;
+}
+header .language-detection .circular-icon {
+  cursor: pointer;
+  position: absolute;
+  right: 25px;
+}
 header .ship-to-overlay {
   top: 0px;
   z-index: 2;
@@ -4799,6 +4838,9 @@ main #our-reviews .next {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 main #our-reviews .reviews-inner {
   display: -webkit-box;
@@ -7694,6 +7736,7 @@ footer .row:nth-child(4) .copyrights-and-links span + span {
 .container .inner-container {
   margin: 0px auto;
   position: relative;
+  max-width: 1800px;
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
   -webkit-transition-duration: 0.5s;
@@ -7702,6 +7745,9 @@ footer .row:nth-child(4) .copyrights-and-links span + span {
   transition-property: max-width;
   -webkit-transition-timing-function: Cubic-bezier(0.3, 0, 0.3, 1);
   transition-timing-function: Cubic-bezier(0.3, 0, 0.3, 1);
+}
+.container .inner-container.no-max-width {
+  max-width: none;
 }
 
 @media all and (min-width: 576px) {
@@ -8150,11 +8196,11 @@ footer .row:nth-child(4) .copyrights-and-links span + span {
   }
 }
 @media all and (min-width: 992px) {
-  body {
+  /* body {
     padding: 165px 0px 0px 0px;
-  }
-  /* header {
-    height: 156px;
+  } */
+  header {
+    /* height: 156px;
     border-top-width: 8px;
 
     &:after {
@@ -8562,8 +8608,30 @@ footer .row:nth-child(4) .copyrights-and-links span + span {
 
     .socials {
       display: none;
-    }
-  } */
+    } */
+  }
+  header .language-detection {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0px -30px 0px -30px;
+    padding: 15px 155px 15px 155px;
+  }
+  header .language-detection .details {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+  }
+  header .language-detection .buttons {
+    margin: 0px 0px 0px 15px;
+  }
+  header .language-detection .circular-icon {
+    right: 30px;
+  }
   main #banner {
     background: #000000;
     padding: 30px 30px 0px 30px;
@@ -11127,6 +11195,21 @@ footer .row:nth-child(4) .copyrights-and-links span + span {
   }
   header .socials {
     display: none;
+  }
+  header .language-detection {
+    margin: 0px -40px 0px -40px;
+    padding: 15px 240px 15px 240px;
+  }
+  header .language-detection .details {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  header .language-detection .buttons {
+    margin: 0px 0px 0px 30px;
+  }
+  header .language-detection .circular-icon {
+    right: 40px;
   }
   header .ship-to-overlay .label {
     font-size: 20px;

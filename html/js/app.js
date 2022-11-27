@@ -492,6 +492,32 @@ var App = {
       section.addEventListener('click', handleClick, false);
     }
   },
+  headerLanguageDetection: function headerLanguageDetection() {
+    var section = document.querySelector('.language-detection');
+
+    if (!!section) {
+      var _button = section.querySelector('.circular-icon');
+
+      var handleButtonClick = function handleButtonClick() {
+        var _tmp = new Date().getTime() + 1000 * 60 * 60 * 24 * 365;
+
+        var _expires = new Date(_tmp);
+
+        document.cookie = 'language_detection=T;expires=' + _expires.toGMTString() + ';path=/';
+        section.classList.remove('active');
+      };
+
+      var initialize = function initialize() {
+        if (document.cookie.indexOf('language_detection') === -1) {
+          section.classList.add('active');
+
+          _button.addEventListener('click', handleButtonClick, false);
+        }
+      };
+
+      initialize();
+    }
+  },
   ourMissionAndGoals: function ourMissionAndGoals() {
     var section = document.querySelector('#our-mission-and-goals');
 
@@ -1398,6 +1424,7 @@ window.onload = function () {
   App.headerShipTo();
   App.headerCurrency();
   App.headerLanguage();
+  App.headerLanguageDetection();
   App.ourMissionAndGoals();
   App.ourReviews();
   App.shopNavigation();

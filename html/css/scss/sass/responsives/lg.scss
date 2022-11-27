@@ -731,6 +731,23 @@
       display: none;
     }
 
+    .language-detection {
+      margin: 0px -1 * $space-large 0px -1 * $space-large;
+      padding: 15px calc($space-large + 200px) 15px calc($space-large + 200px);
+
+      .details {
+        @include font(18px, 24px, 400);
+      }
+
+      .buttons {
+        margin: 0px 0px 0px 30px;
+      }
+
+      .circular-icon {
+        right: $space-large;
+      }
+    }
+
     .ship-to-overlay {
       .label {
         @include font(20px, 20px, 400);
